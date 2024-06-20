@@ -1,0 +1,282 @@
+{
+  // móveis
+  "drawer-trigger#moveis": {
+    "children": ["rich-text#submenu-moveis"],
+    "title": "Drawer Trigger - Submenu moveis"
+  },
+  "rich-text#submenu-moveis": {
+    "props": {
+      "blockClass": "submenu-mobile-moveis",
+      "text": "Móveis"
+    },
+    "title": "Titulo - Submenu moveis"
+  },
+  "disclosure-content#drawer-moveis": {
+    "children": [
+      "disclosure-layout#submenu-moveis-quarto",
+      "disclosure-layout#submenu-moveis-sala-de-jantar",
+      "disclosure-layout#submenu-moveis-sala-de-estar",
+      "disclosure-layout#submenu-moveis-cozinha",
+      "disclosure-layout#submenu-moveis-escritorio"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-moveis",
+      "orientation": "vertical"
+    },
+    "title": "Drawer Container moveis"
+  },
+
+  // eletroportáteis
+  "drawer-trigger#eletroportateis": {
+    "children": ["rich-text#submenu-eletroportateis"],
+    "title": "Drawer Trigger - Submenu eletroportateis"
+  },
+  "rich-text#submenu-eletroportateis": {
+    "props": {
+      "blockClass": "submenu-mobile-eletroportateis",
+      "text": "Eletroportáteis"
+    },
+    "title": "Titulo - Submenu eletroportateis"
+  },
+  "disclosure-content#drawer-eletroportateis": {
+    "children": [
+      "disclosure-layout#submenu-eletroportateis-casa",
+      "disclosure-layout#submenu-eletroportateis-ferramentas",
+      "disclosure-layout#submenu-eletroportateis-portateis-de-beleza",
+      "disclosure-layout#submenu-eletroportateis-saude-e-cuidados"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-eletroportateis",
+      "orientation": "vertical"
+    },
+    "title": "Drawer Container eletroportateis"
+  },
+
+  // eletrodomésticos
+  "drawer-trigger#eletrodomesticos": {
+    "children": ["rich-text#submenu-eletrodomesticos"],
+    "title": "Drawer Trigger - Submenu eletrodomesticos"
+  },
+  "rich-text#submenu-eletrodomesticos": {
+    "props": {
+      "blockClass": "submenu-mobile-eletrodomesticos",
+      "text": "Eletrodomésticos"
+    },
+    "title": "Titulo - Submenu eletrodomesticos"
+  },
+  "disclosure-content#drawer-eletrodomesticos": {
+    "children": [
+      "disclosure-layout#submenu-eletrodomesticos-cozinha",
+      "disclosure-layout#submenu-eletrodomesticos-lavanderia"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-eletrodomesticos",
+      "orientation": "vertical"
+    },
+    "title": "Drawer Container eletrodomesticos"
+  },
+
+  // telefonia
+  "drawer-trigger#telefonia": {
+    "children": ["rich-text#submenu-telefonia"],
+    "title": "Drawer Trigger - Submenu telefonia"
+  },
+  "rich-text#submenu-telefonia": {
+    "props": {
+      "blockClass": "submenu-mobile-telefonia",
+      "text": "Telefonia"
+    },
+    "title": "Titulo - Submenu telefonia"
+  },
+  "disclosure-content#drawer-telefonia": {
+    "children": [
+      "disclosure-layout#submenu-telefonia-smartphones",
+      "disclosure-layout#submenu-telefonia-celulares",
+      "disclosure-layout#submenu-telefonia-fixa"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-telefonia",
+      "orientation": "vertical"
+    },
+    "title": "Drawer Container telefonia"
+  },
+
+  // áudio e vídeo
+  "drawer-trigger#audio-e-video": {
+    "children": ["rich-text#submenu-audio-e-video"],
+    "title": "Drawer Trigger - Submenu audio-e-video"
+  },
+  "rich-text#submenu-audio-e-video": {
+    "props": {
+      "blockClass": "submenu-mobile-audio-e-video",
+      "text": "Áudio e Vídeo"
+    },
+    "title": "Titulo - Submenu audio-e-video"
+  },
+  "disclosure-content#drawer-audio-e-video": {
+    "children": [
+      "disclosure-layout#submenu-audio-e-video-audio",
+      "disclosure-layout#submenu-audio-e-video-televisores"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-audio-e-video",
+      "orientation": "vertical"
+    },
+    "title": "Drawer Container Áudio e Vídeo"
+  },
+
+  // informática
+  "drawer-trigger#informatica": {
+    "children": ["rich-text#submenu-informatica"],
+    "title": "Drawer Trigger - Submenu informatica"
+  },
+  "rich-text#submenu-informatica": {
+    "props": {
+      "blockClass": "submenu-mobile-informatica",
+      "text": "Informática"
+    },
+    "title": "Titulo - Submenu informatica"
+  },
+  "disclosure-content#drawer-informatica": {
+    "children": [
+      "disclosure-layout#submenu-informatica-notebooks",
+      "disclosure-layout#submenu-informatica-impressoras",
+      "disclosure-layout#submenu-informatica-fone-de-ouvido",
+      "disclosure-layout#submenu-informatica-perifericos",
+      "disclosure-layout#submenu-informatica-dispositivos-de-rede",
+      "disclosure-layout#submenu-informatica-tablets",
+      "disclosure-layout#submenu-informatica-desktops",
+      "disclosure-layout#submenu-informatica-casa-inteligente"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-informatica",
+      "orientation": "vertical"
+    },
+    "title": "Drawer Container Informática"
+  },
+
+  // ar e ventilação
+  "drawer-trigger#ar-e-ventilacao": {
+    "children": ["rich-text#submenu-ar-e-ventilacao"],
+    "title": "Drawer Trigger - Submenu ar-e-ventilacao"
+  },
+  "rich-text#submenu-ar-e-ventilacao": {
+    "props": {
+      "blockClass": "submenu-mobile-ar-e-ventilacao",
+      "text": "Ar e Ventilação"
+    },
+    "title": "Titulo - Submenu ar-e-ventilacao"
+  },
+  "disclosure-content#drawer-ar-e-ventilacao": {
+    "children": [
+      "disclosure-layout#submenu-ar-e-ventilacao-ar-condicionado",
+      "disclosure-layout#submenu-ar-e-ventilacao-ventiladores",
+      "disclosure-layout#submenu-ar-e-ventilacao-aquecedores",
+      "disclosure-layout#submenu-ar-e-ventilacao-climatizadores"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-ar-e-ventilacao",
+      "orientation": "vertical"
+    },
+    "title": "Drawer Container Ar e Ventilação"
+  },
+
+  // brinquedos
+  "drawer-trigger#brinquedos": {
+    "children": ["rich-text#submenu-brinquedos"],
+    "title": "Drawer Trigger - Submenu brinquedos"
+  },
+  "rich-text#submenu-brinquedos": {
+    "props": {
+      "blockClass": "submenu-mobile-brinquedos",
+      "text": "Brinquedos"
+    },
+    "title": "Titulo - Submenu brinquedos"
+  },
+  "disclosure-content#drawer-brinquedos": {
+    "children": [
+      "disclosure-layout#submenu-brinquedos-blocos-de-montar",
+      "disclosure-layout#submenu-brinquedos-bonecas",
+      "disclosure-layout#submenu-brinquedos-carrinho",
+      "disclosure-layout#submenu-brinquedos-faz-de-conta",
+      "disclosure-layout#submenu-brinquedos-jogos",
+      "disclosure-layout#submenu-brinquedos-sobre-rodas"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-brinquedos",
+      "orientation": "vertical"
+    },
+    "title": "Drawer Container Brinquedos"
+  },
+
+  // outros departamentos
+  "drawer-trigger#outros-departamentos": {
+    "children": ["rich-text#submenu-outros-departamentos"],
+    "title": "Drawer Trigger - Submenu outros-departamentos"
+  },
+  "rich-text#submenu-outros-departamentos": {
+    "props": {
+      "blockClass": "submenu-mobile-outros-departamentos",
+      "text": "outros-departamentos"
+    },
+    "title": "Titulo - Submenu Outros Departamentos"
+  },
+  "disclosure-content#drawer-outros-departamentos": {
+    "children": [
+      "rich-text#subcategoria-outros-departamentos-audio",
+      "rich-text#subcategoria-outros-departamentos-automotivo",
+      "rich-text#subcategoria-outros-departamentos-bicicletas",
+      "rich-text#subcategoria-outros-departamentos-casa-e-construcao",
+      "rich-text#subcategoria-outros-departamentos-esporte-e-lazer",
+      "rich-text#subcategoria-outros-departamentos-informatica",
+      "rich-text#subcategoria-outros-departamentos-saude-e-cuidados-pessoais",
+      "rich-text#subcategoria-outros-departamentos-tv-e-video",
+      "rich-text#subcategoria-outros-departamentos-papelaria",
+      "rich-text#subcategoria-outros-departamentos-decoracao",
+      "rich-text#subcategoria-outros-departamentos-cama-mesa-e-banho",
+      "rich-text#subcategoria-outros-departamentos-bebes",
+      "rich-text#subcategoria-outros-departamentos-pet-shop"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-outros-departamentos",
+      "orientation": "vertical"
+    },
+    "title": "Drawer Container Outros Departamentos"
+  },
+  // Utilidades Domésticas
+  "drawer-trigger#utilidades-domesticas": {
+    "children": ["rich-text#submenu-utilidades-domesticas"],
+    "title": "Drawer Trigger - Submenu utilidades-domesticas"
+  },
+  "rich-text#submenu-utilidades-domesticas": {
+    "props": {
+      "blockClass": "submenu-mobile-utilidades-domesticas",
+      "text": "Utilidades Domésticas"
+    },
+    "title": "Titulo - Submenu utilidades-domesticas"
+  },
+  "disclosure-content#drawer-utilidades-domesticas": {
+    "children": [
+      "disclosure-layout#submenu-utilidades-domesticas-cha-e-cafe",
+      "disclosure-layout#submenu-utilidades-domesticas-material-limpeza",
+      "disclosure-layout#submenu-utilidades-domesticas-panelas",
+      "disclosure-layout#submenu-utilidades-domesticas-passa-roupa",
+      "disclosure-layout#submenu-utilidades-domesticas-mesa-cozinha",
+      "disclosure-layout#submenu-utilidades-domesticas-bar",
+      "disclosure-layout#submenu-utilidades-domesticas-lavanderia",
+      "disclosure-layout#submenu-utilidades-domesticas-quarto"
+    ],
+    "props": {
+      "blockClass": "drawer-submenu-utilidades-domesticas",
+      "orientation": "vertical"
+    },
+    "title": "Drawer Container Utilidades Domésticas"
+  },
+  // VER TUDO
+  "rich-text#subcategoria-utilidades-domesticas-ver-tudo": {
+    "props": {
+      "text": "[+ ver tudo](#)",
+      "blockClass": "subcategory-text-ver-tudo"
+    }
+  }
+}

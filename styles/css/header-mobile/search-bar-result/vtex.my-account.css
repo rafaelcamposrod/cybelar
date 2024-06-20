@@ -1,0 +1,18 @@
+@media screen and (max-width: 1024px) {
+  :global(.vtex-search-1-x-biggy-autocomplete-wrapper
+      .vtex-search-1-x-itemListItem
+      .b) {
+    margin-right: 4px !important;
+    font-weight: 700 !important;
+  }
+
+  :global(.vtex-search-1-x-biggy-autocomplete-wrapper
+      .vtex-search-1-x-tileList
+      > ul
+      > .vtex-search-1-x-tileListItem
+      > div
+      > a) {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "store.custom#institutional-policy": {
+    "blocks": [
+      "responsive-layout.desktop#policy",
+      "responsive-layout.mobile#policy"
+    ]
+  },
+  "responsive-layout.desktop#policy": {
+    "children": [
+      "flex-layout.row#desktop-policy"
+    ]
+  },
+  "flex-layout.row#desktop-policy": {
+    "children": [
+      "flex-layout.col#instituional-col-1-policy",
+      "flex-layout.col#instituional-col-2-policy"
+    ],
+    "props": {
+      "blockClass": "institutional-content"
+    }
+  },
+  "responsive-layout.mobile#policy": {
+    "children": [
+      "flex-layout.row#mobile-policy"
+    ]
+  },
+  "flex-layout.row#mobile-policy": {
+    "children": [
+      "menu-item#policy",
+      "flex-layout.col#mobile-content-policy"
+    ],
+    "props": {
+      "blockClass": "mobile-policy"
+    }
+  },
+  "flex-layout.col#mobile-content-policy": {
+    "children": [
+      "rich-text#title-policy",
+      "image#policy",
+      "rich-text#paragraph-policy-text"
+    ],
+    "props": {
+      "blockClass": "mobile-content-policy"
+    }
+  },
+  "menu-item#policy": {
+    "props": {
+      "blockClass": "policy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Not Found",
+        "text": "Politica de Privacidade"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#sub-menu-mobile-policy"
+    ]
+  },
+  "submenu.accordion#sub-menu-mobile-policy": {
+    "children": [
+      "menu-item#fale-conosco-mobile",
+      "menu-item#about-us-mobile",
+      "menu-item#our-store-mobile",
+      "menu-item#new-sale-on-cybelar-mobile",
+      "menu-item#exchanges-and-return-mobile",
+      "menu-item#safe-buy-mobile",
+      "menu-item#shipping-and-delivery-mobile",
+      "menu-item#browsing-and-buying-mobile"
+    ],
+    "props": {
+      "blockClass": "institutional-sub-menu-mobile"
+    }
+  },
+  "image#policy": {
+    "props": {
+      "src": "/arquivos/policy-cybelar.jpg"
+    },
+    "title": "Politica - Imagem"
+  },
+  "flex-layout.col#instituional-col-1-policy": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional-policy"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container-menu-insitutional"
+    }
+  },
+  "flex-layout.col#instituional-col-2-policy": {
+    "children": [
+      "flex-layout.col#content-policy"
+    ],
+    "props": {
+      "blockClass": "container-institutional"
+    }
+  },
+  "flex-layout.col#content-policy": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#title-policy",
+      "image#policy",
+      "rich-text#paragraph-policy-text"
+    ]
+  },
+  "rich-text#title-policy": {
+    "props": {
+      "text": "### Política de Privacidade",
+      "blockClass": "text-intitutional-title"
+    }
+  },
+  "rich-text#paragraph-policy-text": {
+    "props": {
+      "text": "#### Entenda sobre nossa Política de Privacidade \nNossa loja respeita o sigilo de suas informações e garante que seus dados não serão disponibilizados, cedidos ou comercializados para terceiros.\n\nTodas as informações fornecidas em nosso site são de uso exclusivo para o procedimento de compra, personalização, facilitação e não são disponibilizadas a terceiros. Os dados fornecidos são registrados em nosso banco de dados de forma automatizada e armazenados com total segurança sem a intervenção humana.\n\nOs e-mails e tele\nfones disponibilizados são utilizados apenas para contatos referentes às compras realizadas em nosso site. Com prévia autorização dos clientes, enviamos e-mails informando as promoções vigentes em nossa loja, porém nossos clientes podem solicitar o não recebimento das ofertas.\n\nNão há o armazenamento de informações que não sejam necessárias para a efetivação da compra. O uso do CPF é exigido por lei para a emissão de notas fiscais e para o envio de mercadorias.\n\nAs senhas fornecidas em nosso banco de dados são arquivadas de maneira criptografada, permitindo que apenas o dono do cadastro tenha conhecimento.\n\nOs números de cartões de crédito fornecidos são registrados diretamente no banco de dados das administradoras de cartão, não permitindo o acesso a essas informações por parte do lojista. Ao informar os dados para a administradora, essa realiza a verificação da transação on-line e retorna apenas se a compra está liberada ou não.\n\nA nossa loja é munida com o Certificado de Segurança Astropay Brasil Ltda(Godaddy), um dos certificados digitais mais modernos. Através dele, todas as informações transitadas pela internet são criptografadas.\n\n### Cookies\nEsta é uma loja 100% segura e utiliza a tecnologia de Cookies apenas para proporcionar mais facilidade no momento de sua compra. O objetivo do Cookie é customizar ao máximo sua navegação no site, permitindo maior facilidade e agilidade no processo de compras.",
+      "blockClass": "text-intitutional-privacy"
+    },
+    "title": "Politica de Privacidade - Texto"
+  },
+  "vtex.menu@2.x:menu#institutional-policy": {
+    "children": [
+      "menu-item#fale-conosco-policy",
+      "menu-item#about-us-policy",
+      "menu-item#our-store-policy",
+      "menu-item#policy-policy",
+      "menu-item#new-sale-on-cybelar-policy",
+      "menu-item#work-with-us-policy",
+      "menu-item#exchanges-and-returns-policy",
+      "menu-item#safe-buy-policy",
+      "menu-item#shipping-and-delivery-policy",
+      "menu-item#browsing-and-buying-policy"
+    ],
+    "props": {
+      "blockClass": "menu-insitucional",
+        "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#fale-conosco-policy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#about-us-policy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "about-us-policy",
+        "text": "Quem Somos"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#our-store-policy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store-policy",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#policy-policy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "policy-policy",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "select"
+    }
+  },
+  "menu-item#work-with-us-policy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "work-with-us",
+        "text": "Trabalhe Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-policy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#exchanges-and-returns-policy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-returns",
+        "text": "Trocas e Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#safe-buy-policy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#shipping-and-delivery-policy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#browsing-and-buying-policy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e comprando"
+      },
+      "blockClass": "not-select"
+    }
+  }
+}

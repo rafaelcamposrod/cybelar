@@ -1,0 +1,369 @@
+{
+  "store.custom#lp-black-friday-2021": {
+    "blocks": [
+      "flex-layout.row#banner-bf",
+      "flex-layout.row#newsletter-bf",
+      "flex-layout.row#content-1",
+      "flex-layout.row#content-2",
+      "rich-text#super-ofertas",
+      "search-result-layout.customQuery",
+      "flex-layout.row#saber-mais"
+    ]
+  },
+  "flex-layout.row#banner-bf":{
+    "children": [
+        "flex-layout.col#banner-bf"
+    ],
+    "props": {
+      "blockClass": "bf-banner-principal"
+  }
+  },
+  "flex-layout.col#banner-bf":{
+      "children": [
+        "responsive-layout.desktop#banner-bf",
+        "responsive-layout.tablet#banner-bf",
+        "responsive-layout.phone#banner-bf",
+        "countdown-blackfriday" 
+      ],
+      "props": {
+        "blockClass": "bf-banner-principal-count"
+      }
+  },
+  "responsive-layout.desktop#banner-bf":{
+      "children": [
+          "image#banner-bf-desktop"
+      ]
+  },
+  "responsive-layout.tablet#banner-bf":{
+      "children": [
+          "image#banner-bf-desktop"
+      ]
+  },
+  "responsive-layout.phone#banner-bf":{
+      "children": [
+          "image#banner-bf-mobile"
+      ]
+  },
+  "image#banner-bf-desktop":{
+      "props" :{
+          "src": "https://cybelar.vteximg.com.br/arquivos/CYB_0123_21%20Black%20Friday_Cybelar_02.png",
+          "height": "auto",
+          "width": 1120
+      }
+  },
+  "image#banner-bf-mobile":{
+      "props" :{
+          "src": "https://cybelar.vteximg.com.br/arquivos/CYB_0123_21%20Black%20Friday_Cybelar_02.png",
+          "height": "auto",
+          "width": 1120
+      }
+  },
+
+  "flex-layout.row#newsletter-bf": {
+    "props": {
+      "blockClass": "bf-newsletter-container"
+    },
+    "children": ["newsletter-bf"]
+  },
+  
+  "flex-layout.row#content-1":{
+    "children": [
+      "flex-layout.col#content-1",
+      "image#image-content-1"
+    ],
+    "props": {
+      "blockClass": "bf-content-1",
+      "marginBottom": 8,
+      "marginTop": 6
+    }
+  },
+  "flex-layout.col#content-1":{
+    "children": [
+      "rich-text#content-1",
+      "image#image-bf-content-1"
+    ],
+    "props": {
+      "blockClass": "bf-rev-content-1"
+    }
+  },
+  "image#image-bf-content-1":{
+    "props" :{
+        "src": "https://cybelar.vteximg.com.br/arquivos/bf-letter.png",
+        "height": 100,
+        "width": 450,
+        "blockClass": "bf-image-content-1"
+    }
+  },
+  "rich-text#content-1": {
+    "props": {
+      "text": "\n\n\n\nConsiderado o maior evento de descontos do ano, a **Black Friday** conquistou seu espaço entre lojistas e consumidores em pouco tempo. Por isso, é uma data tão importante para quem quer comprar o que deseja com preços menores e também garantir um fim de ano com itens que estava esperando.\n\nA Cybelar não fica de fora e fará uma mega promoção de móveis, eletrodomésticos e demais categorias para você deixar a sua casa ainda mais completa.\n\nFique por dentro das ofertas da **Black Friday Cybelar 2021** realizando o cadastro em nosso site!",
+      "blockClass": "bf-rich-content-1"
+    }
+  },
+  "image#image-content-1":{
+    "props" :{
+        "src": "https://cybelar.vteximg.com.br/arquivos/BlackFridayCybelar.png",
+        "height": 300,
+        "width": "auto",
+        "blockClass": "bf-image-calendar-content-1"
+    }
+  },
+  "flex-layout.row#content-2":{
+    "children": [
+      "flex-layout.col#content-2",
+      "image#image-content-2"
+    ],
+    "props": {
+      "blockClass": "bf-content-2",
+      "marginBottom": 6
+    }
+  },
+  "flex-layout.col#content-2":{
+    "children": [
+      "image#image-bf-content-2",
+      "rich-text#content-2"
+    ]
+  },
+  "image#image-bf-content-2":{
+    "props" :{
+        "src": "https://cybelar.vteximg.com.br/arquivos/bf-letter.png",
+        "height": 100,
+        "width": 450,
+        "blockClass": "bf-image-content-2"
+    }
+  },
+  "rich-text#content-2": {
+    "props": {
+      "text": "Para que sua **Black Friday 2021** seja um grande sucesso, acesse nosso site ou visite uma de nossas lojas para escolher os melhores móveis, eletrodomésticos, eletroportáteis e demais categorias que vão fazer parte da sua casa. Aqui na Cybelar você pode escolher a melhor forma de pagamento para suas compras! compre com crediário próprio, boleto, pix, parcelar sem juros no cartão de crédito ou através do cartão Cybelar!\n\nVenha adquirir os melhores artigos para o lar com preços imperdíveis na Black Friday da Cybelar!",
+      "blockClass": "bf-rich-content-2"
+    }
+  },
+  "image#image-content-2":{
+    "props" :{
+        "src": "https://cybelar.vteximg.com.br/arquivos/bf-calendar.png",
+        "height": 202,
+        "width": 200,
+        "blockClass": "bf-image-calendar-content-2"
+    }
+  },
+  "rich-text#super-ofertas": {
+    "props": {
+      "text": "SUPER OFERTAS",
+      "blockClass":"bf-ofertas-title"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+        "querySchema": {
+            "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "queryField": "222",
+            "mapField": "productClusterIds"
+        }
+    },
+     "blocks": [
+          "search-result-layout.desktop#lp-black"
+      ]
+  },
+  "search-result-layout.desktop#lp-black": {
+    "children": [
+      "flex-layout.row#results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "mobileLayout":{
+        "mode1": "small"
+      }
+    }
+  },
+  "flex-layout.row#results": {
+    "children": ["flex-layout.col#search"]
+  },
+  "flex-layout.col#search": {
+    "children": ["search-content"]
+  },
+
+  "flex-layout.row#saber-mais":{
+    "children": ["flex-layout.col#saber-mais"],
+    "props": {
+      "horizontalAlign": "center",
+      "marginTop": 9,
+      "marginBottom": 10
+    }
+  },
+  "flex-layout.col#saber-mais":{
+    "children": [
+      "rich-text#saber-mais-title",
+      "rich-text#saber-mais-subtitle",
+      "disclosure-layout-group#group"
+    ],
+    "props":{
+      "width": "70%"
+    }
+  },
+  "rich-text#saber-mais-title": {
+    "props": {
+      "text": "deseja saber mais?",
+      "blockClass":"bf-saber-mais-title"
+    }
+  },
+  "rich-text#saber-mais-subtitle": {
+    "props": {
+      "text": "Confira outras informações abaixo",
+      "blockClass":"bf-saber-mais-subtitle"
+    }
+  },
+
+
+
+
+  "disclosure-layout-group#group": {
+    "children": [
+      "disclosure-layout#primeiro",
+      "disclosure-layout#segundo",
+      "disclosure-layout#terceiro",
+      "disclosure-layout#quarto"
+    ]
+  },
+
+
+  "disclosure-layout#primeiro": {
+    "children": ["disclosure-trigger#primeiro", "disclosure-content#primeiro"]
+  },
+  "disclosure-trigger#primeiro": {
+    "children": [
+      "rich-text#pergunta1",
+      "disclosure-state-indicator#b"
+    ],
+    "props": {
+      "as": "div",
+      "blockClass":"bf-saber-mais-pergunta-cont"  
+    }
+  },
+  "disclosure-content#primeiro": {
+    "children": ["rich-text#resposta1"]
+  },
+  "rich-text#pergunta1": {
+    "props": {
+      "text": "O que é a Black Friday Cybelar",
+      "blockClass":"bf-saber-mais-pergunta"
+    }
+  },
+  "rich-text#resposta1": {
+    "props": {
+      "text": "Aqui a **Black Friday 2021** trará diversos produtos com descontos de até 70%. É o momento de comprar móveis, eletrodomésticos, eletrônicos e smartphones com preços mais acessíveis, sejam nas lojas físicas ou online."
+    }
+  },
+
+  "disclosure-layout#segundo": {
+    "children": ["disclosure-trigger#segundo", "disclosure-content#segundo"]
+  },
+  "disclosure-trigger#segundo": {
+    "children": [
+      "rich-text#pergunta2",
+      "disclosure-state-indicator#b"
+    ],
+    "props": {
+      "as": "div",
+      "blockClass":"bf-saber-mais-pergunta-cont"    
+    }
+  },
+  "disclosure-content#segundo": {
+    "children": ["rich-text#resposta2"]
+  },
+  "rich-text#pergunta2": {
+    "props": {
+      "text": "Quando é a Black Friday Cybelar?",
+      "blockClass":"bf-saber-mais-pergunta"
+    }
+  },
+  "rich-text#resposta2": {
+    "props": {
+      "text": "Agendada sempre para a última sexta-feira de novembro, a **Black Friday** deste ano acontecerá no dia 26/11. Portanto, deixe anotado no calendário para você aproveitar as melhores promoções em todos os departamentos da nossa loja."
+    }
+  },
+
+
+  "disclosure-layout#terceiro": {
+    "children": ["disclosure-trigger#terceiro", "disclosure-content#terceiro"]
+  },
+  "disclosure-trigger#terceiro": {
+    "children": [
+      "rich-text#pergunta3",
+      "disclosure-state-indicator#b"
+    ],
+    "props": {
+      "as": "div",
+      "blockClass":"bf-saber-mais-pergunta-cont"  
+    }
+  },
+  "disclosure-content#terceiro": {
+    "children": ["rich-text#resposta3"]
+  },
+  "rich-text#pergunta3": {
+    "props": {
+      "text": "Quais os descontos da Black Friday Cybelar?",
+      "blockClass":"bf-saber-mais-pergunta"
+    }
+  },
+  "rich-text#resposta3": {
+    "props": {
+      "text": "Para que você tenha as melhores promoções da **Black Friday Cybelar** confira nossa página especial. Nela você encontra mercadorias e descontos para comprar aquilo que tanto deseja com preços imperdíveis. "
+    }
+  },
+
+  "disclosure-layout#quarto": {
+    "children": ["disclosure-trigger#quarto", "disclosure-content#quarto"]
+  },
+  "disclosure-trigger#quarto": {
+    "children": [
+      "rich-text#pergunta4",
+      "disclosure-state-indicator#b"
+    ],
+    "props": {
+      "as": "div",
+      "blockClass":"bf-saber-mais-pergunta-cont"  
+    }
+  },
+  "disclosure-content#quarto": {
+    "children": ["rich-text#resposta4"]
+  },
+  "rich-text#pergunta4": {
+    "props": {
+      "text": "Quais produtos podem ser encontrados no site?",
+      "blockClass":"bf-saber-mais-pergunta"
+    }
+  },
+  "rich-text#resposta4": {
+    "props": {
+      "text": "Se você está procurando por Smart TVs, sofás, geladeiras, smartphones e muito mais, a **Black Friday Cybelar 2021** é o momento perfeito para adquirir cada item e ainda economizar.\n\nNossa loja conta com diversas categorias para você aproveitar. Entre os destaques estão:\n\n- Móveis: Sofá, sofá-cama, poltronas, armários, mesas, colchões.\n\n- Eletrônicos: Smart TV, TV LED, TV LCD, home theater, mini System, som automotivo.\n\n- Eletrodomésticos: Geladeiras, freezer, fogões, climatizador, micro-onda, lavadora de roupas.\n\n- Eletroportáteis: Pipoqueira, cafeteira, sanduicheira, panela elétrica, grill, ferro a vapor.\n\n- Telefonia: Telefone sem fio, telefone fixo, smartphones desbloqueados, celulares dual chip.\n\nMas não para por aí! Em nossas lojas e em nosso site você encontra uma maior variedade de produtos para seu lar."
+    }
+  },
+
+
+
+
+  "disclosure-state-indicator#b": {
+    "props": {
+      "Show": "image#show-res",
+      "Hide": "image#hide-res"
+    }
+  },
+  "image#show-res": {
+    "props": {
+      "src": "https://cybelar.vteximg.com.br/arquivos/arrow-drop-down-black.png",
+      "blockClass": "disclosure-image",
+      "width": 15,
+      "height": "auto"
+    }
+  },
+  "image#hide-res": {
+    "props": {
+      "src": "https://cybelar.vteximg.com.br/arquivos/arrow-drop-up-black.png",
+      "blockClass": "disclosure-image",
+      "width": 15,
+      "height": "auto"
+    }
+  }
+}

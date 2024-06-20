@@ -1,0 +1,316 @@
+{
+  "vtex.menu@2.x:submenu#eletrodomesticos-sub-menu": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#eletrodomesticos-sub-menu"],
+    "title": "Submenu Eletrodomesticos"
+  },
+  "flex-layout.row#eletrodomesticos-sub-menu": {
+    "children": [
+      "flex-layout.col#eletrodomesticos-sub-menu-col",
+      "flex-layout.col#eletrodomesticos-sub-menu-col-2",
+      "flex-layout.col#eletrodomesticos-sub-menu-col-3",
+      "info-card#eletrodomesticos-sub-menu-card"
+    ],
+    "props": {
+      "blockClass": "row-submenu"
+    },
+    "title": "Submenu Eletrodomesticos"
+  },
+
+  // Colunas
+  "flex-layout.col#eletrodomesticos-sub-menu-col": {
+    "children": [
+      "flex-layout.row#titleSubmenu-eletrodomesticos-cozinha",
+      "menu-item#eletrodomesticos-coifa",
+      "menu-item#eletrodomesticos-fogao",
+      "menu-item#eletrodomesticos-cooktop",
+      "menu-item#eletrodomesticos-freezer",
+      "menu-item#eletrodomesticos-geladeira",
+      "menu-item#eletrodomesticos-microondas",
+      "menu-item#eletrodomesticos-lava-loucas",
+      "menu-item#eletrodomesticos-adega-e-frigobar"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#eletrodomesticos-sub-menu-col-2": {
+    "children": [
+      "flex-layout.row#titleSubmenu-eletrodomesticos-lavanderia",
+      "menu-item#eletrodomesticos-maquina-de-lavar",
+      "menu-item#eletrodomesticos-tanquinho",
+      "menu-item#eletrodomesticos-centrifuga",
+      "menu-item#eletrodomesticos-lavadora-de-alta-pressao"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#eletrodomesticos-sub-menu-col-3": {
+    "children": [],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "info-card#eletrodomesticos-sub-menu-card": {
+    "props": {
+      "id": "eletrodomesticos-sub-menu-card",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/eletrodomesticos.jpg",
+      "headline": "",
+      "callToActionMode": "none",
+      "blockClass": "sub-menu-card",
+      "textPosition": "center",
+      "textAlignment": "center"
+    }
+  },
+
+  // Coluna 1
+  "flex-layout.row#titleSubmenu-eletrodomesticos-cozinha": {
+    "children": [
+      "rich-text#titleSubmenu-eletrodomesticos-cozinha",
+      "rich-text#titleSubmenu-eletrodomesticos-cozinha-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-eletrodomesticos-cozinha": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Cozinha",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-eletrodomesticos-cozinha-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },  
+
+  // Coluna 2
+  "flex-layout.row#titleSubmenu-eletrodomesticos-lavanderia": {
+    "children": [
+      "rich-text#titleSubmenu-eletrodomesticos-lavanderia",
+      "rich-text#titleSubmenu-eletrodomesticos-lavanderia-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-eletrodomesticos-lavanderia": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Lavanderia",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-eletrodomesticos-lavanderia-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  }, 
+
+  // --------- menu items ----------
+  // departamentos > cozinha
+  "menu-item#eletrodomesticos-coifa": {
+    "props": {
+      "id": "eletrodomesticos-coifa",
+      "blockClass": "eletrodomesticos-coifa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/coifa",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Coifa"
+      }
+    }
+  },
+  "menu-item#eletrodomesticos-fogao": {
+    "props": {
+      "id": "eletrodomesticos-fogao",
+      "blockClass": "eletrodomesticos-fogao",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fogao",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Fogão"
+      }
+    }
+  },
+  "menu-item#eletrodomesticos-cooktop": {
+    "props": {
+      "id": "eletrodomesticos-cooktop",
+      "blockClass": "eletrodomesticos-cooktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cooktop",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Cooktop"
+      }
+    }
+  },
+  "menu-item#eletrodomesticos-freezer": {
+    "props": {
+      "id": "eletrodomesticos-freezer",
+      "blockClass": "eletrodomesticos-freezer",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/freezer",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Freezer"
+      }
+    }
+  },
+  "menu-item#eletrodomesticos-geladeira": {
+    "props": {
+      "id": "eletrodomesticos-geladeira",
+      "blockClass": "eletrodomesticos-geladeira",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/geladeira",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Geladeira"
+      }
+    }
+  },
+  "menu-item#eletrodomesticos-microondas": {
+    "props": {
+      "id": "eletrodomesticos-microondas",
+      "blockClass": "eletrodomesticos-microondas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microondas",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Microondas"
+      }
+    }
+  },
+  "menu-item#eletrodomesticos-lava-loucas": {
+    "props": {
+      "id": "eletrodomesticos-lava-loucas",
+      "blockClass": "eletrodomesticos-lava-loucas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lava-loucas",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Lava Louças"
+      }
+    }
+  },
+  "menu-item#eletrodomesticos-adega-e-frigobar": {
+    "props": {
+      "id": "eletrodomesticos-adega-e-frigobar",
+      "blockClass": "eletrodomesticos-adega-e-frigobar",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/adega-e-frigobar",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Adega e Frigobar"
+      }
+    }
+  },
+  // departamentos > lavanderia
+  "menu-item#eletrodomesticos-maquina-de-lavar": {
+    "props": {
+      "id": "eletrodomesticos-maquina-de-lavar",
+      "blockClass": "eletrodomesticos-maquina-de-lavar",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquina-de-lavar",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Máquina de Lavar"
+      }
+    }
+  },
+  "menu-item#eletrodomesticos-tanquinho": {
+    "props": {
+      "id": "eletrodomesticos-tanquinho",
+      "blockClass": "eletrodomesticos-tanquinho",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tanquinho",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Tanquinho"
+      }
+    }
+  },
+  "menu-item#eletrodomesticos-centrifuga": {
+    "props": {
+      "id": "eletrodomesticos-centrifuga",
+      "blockClass": "eletrodomesticos-centrifuga",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/centrifuga",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Centrífuga"
+      }
+    }
+  },
+  "menu-item#eletrodomesticos-lavadora-de-alta-pressao": {
+    "props": {
+      "id": "eletrodomesticos-lavadora-de-alta-pressao",
+      "blockClass": "eletrodomesticos-lavadora-de-alta-pressao",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lavadora-de-alta-pressao",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Lavadora de Alta Pressão"
+      }
+    }
+  }
+}

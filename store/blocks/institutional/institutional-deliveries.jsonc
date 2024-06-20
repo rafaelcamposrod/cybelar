@@ -1,0 +1,345 @@
+{
+  "store.custom#institutional-deliveries": {
+    "blocks": [
+      "responsive-layout.desktop#deliveries"
+    ]
+  },
+  "responsive-layout.desktop#deliveries": {
+    "children": [
+      "flex-layout.row#desktop-deliveries"
+    ]
+  },
+  "flex-layout.row#desktop-deliveries": {
+    "children": [
+      "flex-layout.col#instituional-col-1-deliveries",
+      "flex-layout.col#instituional-col-2-deliveries"
+    ]
+  },
+  "flex-layout.col#instituional-col-1-deliveries": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional-deliveries"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container-menu-insitutional"
+    }
+  },
+  "flex-layout.col#instituional-col-2-deliveries": {
+    "children": [
+      "flex-layout.col#content-deliveries"
+    ],
+    "props": {
+      "blockClass": "container-institutional"
+    }
+  },
+  "flex-layout.col#content-deliveries": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#paragrahp-deliveries"
+    ]
+  },
+  "rich-text#paragrahp-deliveries": {
+    "props": {
+      "text": "Entregas"
+    }
+  },
+  "vtex.menu@2.x:menu#institutional-deliveries": {
+    "children": [
+      "menu-item#fale-conosco-deliveries",
+      "menu-item#about-us-deliveries",
+      "menu-item#policy-deliveries"
+
+    ],
+    "props": {
+      "blockClass": "menu-insitucional   ",
+        "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#fale-conosco-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#about-us-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "about-us-deliveries",
+        "text": "Quem Somos"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#our-store-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store-deliveries",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#policy-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/entregas",
+        "noFollow": false,
+        "tagTitle": "policy-deliveries",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#affiliates-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/afiliados",
+        "noFollow": false,
+        "tagTitle": "affiliates",
+        "text": "Afiliados"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#help-store-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/duvidas-sobre-a-loja",
+        "noFollow": false,
+        "tagTitle": "help-store",
+        "text": "Duvidas sobre a loja?"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#work-with-us-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "work-with-us",
+        "text": "Trabalhe Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#deliveries-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/entregas",
+        "noFollow": false,
+        "tagTitle": "deliveries",
+        "text": "Entregas"
+      },
+      "blockClass": "select"
+    }
+  },
+  "menu-item#devolution-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/devolucao",
+        "noFollow": false,
+        "tagTitle": "devolution",
+        "text": "Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#payment-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pagamento",
+        "noFollow": false,
+        "tagTitle": "payment",
+        "text": "Pagamento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#security-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seguranca",
+        "noFollow": false,
+        "tagTitle": "security",
+        "text": "Segurança"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#call-center-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/central-de-atendimento",
+        "noFollow": false,
+        "tagTitle": "call-center",
+        "text": "Central de Atendimento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#exchanges-and-returns-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-returns",
+        "text": "Trocas e Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#safe-buy-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#shipping-and-delivery-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#browsing-and-buying-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e comprando"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#contact-us-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "contact-us",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#site-map-deliveries": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mapa-do-site",
+        "noFollow": false,
+        "tagTitle": "site-map",
+        "text": "Mapa do Site"
+      },
+      "blockClass": "not-select"
+    }
+  }
+}

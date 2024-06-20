@@ -1,0 +1,123 @@
+/* Prodct Page */
+.paper {
+  max-width: 1019px;
+}
+
+.triggerContainer--pdp-payment,
+.triggerContainer--pdp-devolution,
+.triggerContainer--pdp-warranty {
+  align-items: center;
+  background: #ffffff;
+  border: 2px solid #e3e4e6;
+  display: flex;
+  max-height: 50px;
+  margin-bottom: 8px;
+  padding: 15px 10px;
+}
+
+.headerContainer {
+  align-items: center;
+  background: #e31f1a;
+  display: flex;
+  height: 32px;
+  padding: 0 12px;
+}
+
+.headerContent {
+  width: 100%;
+}
+
+.closeButton {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='9' viewBox='0 0 9 9' fill='none'%3E%3Cpath d='M3.50304 4.28221L0.677335 1.23818C0.599608 1.15438 0.55672 1.04259 0.556597 0.923384C0.556597 0.804111 0.599485 0.692186 0.677335 0.608523L0.924956 0.341848C1.00281 0.257854 1.10659 0.211853 1.21737 0.211853C1.32797 0.211853 1.43175 0.257854 1.5096 0.341848L4.3353 3.38568L7.16113 0.341848C7.23886 0.257854 7.3427 0.211853 7.45342 0.211853C7.56402 0.211853 7.66786 0.257854 7.74559 0.341848L7.99334 0.608523C8.15457 0.782203 8.15457 1.0647 7.99334 1.23818L5.16757 4.28221L7.99334 7.3261C8.07112 7.41003 8.11395 7.52182 8.11395 7.64103C8.11395 7.76024 8.07112 7.87203 7.99334 7.95589L7.74565 8.22257C7.66793 8.30649 7.56402 8.35256 7.45348 8.35256C7.34276 8.35256 7.23892 8.30649 7.16119 8.22257L4.33537 5.17867L1.50966 8.22257C1.43181 8.30649 1.32803 8.35256 1.21743 8.35256H1.21731C1.10665 8.35256 1.00287 8.30649 0.925018 8.22257L0.677397 7.95589C0.599669 7.8721 0.556781 7.76024 0.556781 7.64103C0.556781 7.52182 0.599669 7.41003 0.677397 7.32617L3.50304 4.28221Z' fill='white'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px;
+  outline: none;
+}
+
+.closeButtonContainer {
+  display: flex;
+}
+
+.closeIcon {
+  display: none;
+}
+
+.contentContainer--modal-shipping-content,
+.contentContainer--modal-warranty-content,
+.contentContainer--modal-payment-content,
+.contentContainer--modal-devolution-content {
+  background: #ffffff;
+  padding: 12px;
+}
+
+.triggerContainer--pdp-stores {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 35px;
+  width: 100%;
+}
+
+/* Prodct Page  - END*/
+
+/* Product share */
+.paperScrollContent {
+  border-radius: 0;
+  max-width: 600px;
+  width: 100%;
+  background-color: white;
+}
+.paperScrollContent :global(.vtex-rich-text-0-x-wrapper--shareTitle),
+.paperScrollContent :global(.vtex-rich-text-0-x-wrapper--shareText) {
+  width: 100%;
+}
+.paperScrollContent
+  :global(.vtex-modal-layout-0-x-headerContainer--shareHeader) {
+  background-color: #e31f1a;
+  border-radius: 0;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  height: 40px;
+  line-height: 16px;
+  margin: 0;
+  padding: 13px 10px 11px;
+  text-align: center;
+}
+.paperScrollContent :global(.vtex-rich-text-0-x-paragraph--shareTitle) {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.paperScrollContent :global(.vtex-rich-text-0-x-paragraph--shareText) {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  padding: 63px 10px 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* Product share - END */
+/*Produtc Page*/
+.hiddenContainer :global(.vtex-sticky-layout-0-x-container--stuck) {
+  left: 0;
+}
+.hiddenContainer
+  :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck)
+  :global(.vtex-sticky-layout-0-x-container--sticky-header) {
+  left: -17px;
+}
+
+.backdrop--modalProduct-o-90{
+  opacity: 0.9;
+}

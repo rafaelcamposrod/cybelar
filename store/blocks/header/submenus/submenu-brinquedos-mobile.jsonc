@@ -1,0 +1,350 @@
+{
+  // BLOCOS DE MONTAR
+  "disclosure-layout#submenu-brinquedos-blocos-de-montar": {
+    "children": [
+      "disclosure-trigger#submenu-brinquedos-blocos-de-montar",
+      "disclosure-content#submenu-brinquedos-blocos-de-montar"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-brinquedos-blocos-de-montar": {
+    "children": [
+      "rich-text#submenu-brinquedos-blocos-de-montar",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-brinquedos-blocos-de-montar": {
+    "props": {
+      "text": "Blocos de Montar",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-brinquedos-blocos-de-montar": {
+    "children": [
+      "rich-text#subcategoria-cenarios",
+      "rich-text#subcategoria-infantil"
+    ]
+  },
+  "rich-text#subcategoria-cenarios": {
+    "props": {
+      "text": "[Cenários](/cenarios)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-infantil": {
+    "props": {
+      "text": "[Infantil](/infantil)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // FAZ DE CONTA
+  "disclosure-layout#submenu-brinquedos-faz-de-conta": {
+    "children": [
+      "disclosure-trigger#submenu-brinquedos-faz-de-conta",
+      "disclosure-content#submenu-brinquedos-faz-de-conta"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-brinquedos-faz-de-conta": {
+    "children": [
+      "rich-text#submenu-brinquedos-faz-de-conta",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-brinquedos-faz-de-conta": {
+    "props": {
+      "text": "Faz de Conta",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-brinquedos-faz-de-conta": {
+    "children": [
+      "rich-text#subcategoria-comidinha",
+      "rich-text#subcategoria-mercadinho",
+      "rich-text#subcategoria-casinha",
+      "rich-text#subcategoria-brinquedos-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-comidinha": {
+    "props": {
+      "text": "[Comidinha](/comidinha)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-mercadinho": {
+    "props": {
+      "text": "[Mercadinho](/mercadinho)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-casinha": {
+    "props": {
+      "text": "[Casinha](/casinha)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // BONECAS
+  "disclosure-layout#submenu-brinquedos-bonecas": {
+    "children": [
+      "disclosure-trigger#submenu-brinquedos-bonecas",
+      "disclosure-content#submenu-brinquedos-bonecas"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-brinquedos-bonecas": {
+    "children": [
+      "rich-text#submenu-brinquedos-bonecas",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-brinquedos-bonecas": {
+    "props": {
+      "text": "Bonecas",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-brinquedos-bonecas": {
+    "children": [
+      "rich-text#subcategoria-mini-boneca",
+      "rich-text#subcategoria-bebe-e-reborn",
+      "rich-text#subcategoria-pelucias"
+    ]
+  },
+  "rich-text#subcategoria-mini-boneca": {
+    "props": {
+      "text": "[Mini Boneca](/mini-boneca)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-bebe-e-reborn": {
+    "props": {
+      "text": "[Bebê e Reborn](/bebe-e-reborn)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-pelucias": {
+    "props": {
+      "text": "[Pelúcias](/Brinquedos/Pelucia)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // JOGOS
+  "disclosure-layout#submenu-brinquedos-jogos": {
+    "children": [
+      "disclosure-trigger#submenu-brinquedos-jogos",
+      "disclosure-content#submenu-brinquedos-jogos"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-brinquedos-jogos": {
+    "children": [
+      "rich-text#submenu-brinquedos-jogos",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-brinquedos-jogos": {
+    "props": {
+      "text": "Jogos",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-brinquedos-jogos": {
+    "children": [
+      "rich-text#subcategoria-quebra-cabeca",
+      "rich-text#subcategoria-estrategia",
+      "rich-text#subcategoria-diversos"
+    ]
+  },
+  "rich-text#subcategoria-quebra-cabeca": {
+    "props": {
+      "text": "[Quebra Cabeça](/quebra-cabeca)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-estrategia": {
+    "props": {
+      "text": "[Estratégia](/estrategia)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-diversos": {
+    "props": {
+      "text": "[Diversos](/diversos)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // CARRINHO
+  "disclosure-layout#submenu-brinquedos-carrinho": {
+    "children": [
+      "disclosure-trigger#submenu-brinquedos-carrinho",
+      "disclosure-content#submenu-brinquedos-carrinho"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-brinquedos-carrinho": {
+    "children": [
+      "rich-text#submenu-brinquedos-carrinho",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-brinquedos-carrinho": {
+    "props": {
+      "text": "Carrinho",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-brinquedos-carrinho": {
+    "children": [
+      "rich-text#subcategoria-pista-e-acessorios",
+      "rich-text#subcategoria-play-machine",
+      "rich-text#subcategoria-diversos",
+
+      "rich-text#subcategoria-brinquedos-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-pista-e-acessorios": {
+    "props": {
+      "text": "[Pista e Acessórios](/pista-e-acessorios)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-play-machine": {
+    "props": {
+      "text": "[Play Machine](/play-machine)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // PELÚCIAS
+  "disclosure-layout#submenu-brinquedos-pelucias": {
+    "children": [
+      "disclosure-trigger#submenu-brinquedos-pelucias",
+      "disclosure-content#submenu-brinquedos-pelucias"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-brinquedos-pelucias": {
+    "children": [
+      "rich-text#submenu-brinquedos-pelucias",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-brinquedos-pelucias": {
+    "props": {
+      "text": "Pelúcias",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-brinquedos-pelucias": {
+    "children": [
+      "rich-text#subcategoria-personagens",
+      "rich-text#subcategoria-fantoches"
+    ]
+  },
+  "rich-text#subcategoria-personagens": {
+    "props": {
+      "text": "[Personagens](/personagens)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-fantoches": {
+    "props": {
+      "text": "[Fantoches](/fantoches)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // SOBRE RODAS
+  "disclosure-layout#submenu-brinquedos-sobre-rodas": {
+    "children": [
+      "disclosure-trigger#submenu-brinquedos-sobre-rodas",
+      "disclosure-content#submenu-brinquedos-sobre-rodas"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-brinquedos-sobre-rodas": {
+    "children": [
+      "rich-text#submenu-brinquedos-sobre-rodas",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-brinquedos-sobre-rodas": {
+    "props": {
+      "text": "Sobre Rodas",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-brinquedos-sobre-rodas": {
+    "children": [
+      "rich-text#subcategoria-carros",
+      "rich-text#subcategoria-moto-eletrica",
+      "rich-text#subcategoria-patinete-e-patins",
+      "rich-text#subcategoria-brinquedos-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-carros": {
+    "props": {
+      "text": "[Carros](/carros)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-moto-eletrica": {
+    "props": {
+      "text": "[Moto Elétrica](/moto-eletrica)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-patinete-e-patins": {
+    "props": {
+      "text": "[Patinete e Patins](/patinete-e-patins)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // VER TUDO
+  "rich-text#subcategoria-brinquedos-ver-tudo": {
+    "props": {
+      "text": "[+ ver tudo](#)",
+      "blockClass": "subcategory-text-ver-tudo"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "rich-text#subcategoria-outros-departamentos-audio": {
+    "props": {
+      "text": "[Áudio](/audio)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-outros-departamentos-automotivo": {
+    "props": {
+      "text": "[Automotivo](/automotivo)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-outros-departamentos-bicicletas": {
+    "props": {
+      "text": "[Bicicletas](/bicicletas)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-outros-departamentos-casa-e-construcao": {
+    "props": {
+      "text": "[Casa e Construção](/casa-e-construcao)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-outros-departamentos-esporte-e-lazer": {
+    "props": {
+      "text": "[Esporte e Lazer](/esporte-e-lazer)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-outros-departamentos-informatica": {
+    "props": {
+      "text": "[Informática](/informatica)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-outros-departamentos-saude-e-cuidados-pessoais": {
+    "props": {
+      "text": "[Saúde e Cuidados Pessoais](/saude-e-cuidados-pessoais)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-outros-departamentos-tv-e-video": {
+    "props": {
+      "text": "[TV e Vídeo](/tv-e-video)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-outros-departamentos-papelaria": {
+    "props": {
+      "text": "[Papelaria](/papelaria)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-outros-departamentos-decoracao": {
+    "props": {
+      "text": "[Decorção](/decoracao)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-outros-departamentos-cama-mesa-e-banho": {
+    "props": {
+      "text": "[Cama Mesa e Banho](/cama-mesa-e-banho)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-outros-departamentos-bebes": {
+    "props": {
+      "text": "[Bebês](/bebes)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-outros-departamentos-pet-shop": {
+    "props": {
+      "text": "[Pet Shop](/pet-shop)",
+      "blockClass": "subcategory-text"
+    }
+  }
+}

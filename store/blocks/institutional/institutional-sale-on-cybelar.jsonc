@@ -1,0 +1,841 @@
+{
+  "store.custom#institutional-sale-on-cybelar": {
+    "blocks": [
+      "responsive-layout.desktop#sale-on-cybelar",
+      "responsive-layout.mobile#sale-on-cybelar"
+    ]
+  },
+  "responsive-layout.desktop#sale-on-cybelar": {
+    "children": [
+      "flex-layout.row#desktop-sale-on-cybelar"
+    ]
+  },
+  "responsive-layout.mobile#sale-on-cybelar": {
+    "children": [
+      "flex-layout.row#mobile-sale-on-cybelar"
+    ],
+    "props": {
+      "blockClass": "mobile-container"
+    }
+  },
+  "flex-layout.row#desktop-sale-on-cybelar": {
+    "children": [
+      "flex-layout.col#instituional-col-1-sale-on-cybelar",
+      "flex-layout.col#instituional-col-2-sale-on-cybelar"
+    ]
+  },
+  "flex-layout.col#instituional-col-1-sale-on-cybelar": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional-sale-on-cybelar"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container-menu-insitutional"
+    }
+  },
+  "flex-layout.col#instituional-col-2-sale-on-cybelar": {
+    "children": [
+      "flex-layout.col#content-sale-on-cybelar"
+    ],
+    "props": {
+      "blockClass": "container-institutional"
+    }
+  },
+  "flex-layout.row#mobile-sale-on-cybelar": {
+    "children": [
+      "menu-item#new-sale-on-cybelar-2",
+      "flex-layout.col#content-sale-on-cybelar-mobile"
+    ],
+    "props": {
+      "blockClass": "sale-on-mobile-container"
+    }
+  },
+  "flex-layout.col#content-sale-on-cybelar-mobile": {
+    "children": [
+      "image#sale-on-cybelar-banner-mobile-new",
+      "rich-text#paragrahp-sale-on-cybelar",
+      "flex-layout.row#saller-1-mobile",
+      "flex-layout.row#saller-2-mobile",
+      "flex-layout.row#saller-3-mobile",
+      "flex-layout.col#voce-encontra-tambem",
+      "flex-layout.col#quem-pode-vender",
+      "flex-layout.col#como-se-tornar",
+      "flex-layout.row#cadastrar-sale"
+    ],
+    "props": {
+      "blockClass": "container-mobile"
+    }
+  },
+  "flex-layout.row#saller-1-mobile": {
+    "children": [
+      "image#motive-1",
+      "image#motive-2"
+    ],
+    "props": {
+      "blockClass": "saller-mobile"
+    }
+  },
+  "flex-layout.row#saller-2-mobile": {
+    "children": [
+      "image#motive-3",
+      "image#motive-4"
+    ],
+    "props": {
+      "blockClass": "saller-mobile"
+    }
+  },
+  "flex-layout.row#saller-3-mobile": {
+    "children": [
+      "image#motive-5"
+    ],
+    "props": {
+      "blockClass": "saller-mobile-5"
+    }
+  },
+  "flex-layout.col#voce-encontra-tambem": {
+    "children": [
+      "rich-text#title-voce-encontra",
+      "rich-text#item-voce-encontra-1",
+      "rich-text#item-voce-encontra-2",
+      "rich-text#item-voce-encontra-3",
+      "rich-text#item-voce-encontra-4",
+      "rich-text#item-voce-encontra-5"
+    ],
+    "props": {
+      "blockClass": "voce-encontra-container"
+    }
+  },
+  "rich-text#title-voce-encontra": {
+    "props": {
+      "text": "Você encontra também",
+      "blockClass": "title-voce-encontra"
+    }
+  },
+  "rich-text#item-voce-encontra-1": {
+    "props": {
+      "text": "Treinamento especializado",
+      "blockClass": "item-voce-encontra"
+    }
+  },
+  "rich-text#item-voce-encontra-2": {
+    "props": {
+      "text": "Base sólida de clientes",
+      "blockClass": "item-voce-encontra"
+    }
+  },
+  "rich-text#item-voce-encontra-3": {
+    "props": {
+      "text": "Plataforma responsiva",
+      "blockClass": "item-voce-encontra"
+    }
+  },
+  "rich-text#item-voce-encontra-4": {
+    "props": {
+      "text": "Foco em UX, UI e CRO",
+      "blockClass": "item-voce-encontra"
+    }
+  },
+  "rich-text#item-voce-encontra-5": {
+    "props": {
+      "text": "Sistema de antifraude",
+      "blockClass": "item-voce-encontra"
+    }
+  },
+  "flex-layout.col#quem-pode-vender": {
+    "children": [
+      "rich-text#quem-pode-vender",
+      "flex-layout.row#sale-1",
+      "flex-layout.row#sale-2",
+      "flex-layout.row#sale-3"
+    ]
+  },
+  "flex-layout.row#sale-1": {
+    "children": [
+      "image#sale-1",
+      "image#sale-2"
+    ],
+    "props": {
+      "blockClass": "sale-container"
+    }
+  },
+  "flex-layout.row#sale-2": {
+    "children": [
+      "image#sale-3",
+      "image#sale-4"
+    ],
+    "props": {
+      "blockClass": "sale-container"
+    }
+  },
+  "flex-layout.row#sale-3": {
+    "children": [
+      "image#sale-5"
+    ]
+  },
+  "flex-layout.col#como-se-tornar": {
+    "children": [
+      "rich-text#parceiro",
+      "flex-layout.row#parceiro-1",
+      "flex-layout.row#parceiro-2",
+      "flex-layout.row#parceiro-3"
+    ]
+  },
+  "flex-layout.row#parceiro-1": {
+    "children": [
+      "flex-layout.col#sale-1",
+      "flex-layout.col#sale-2"
+    ],
+    "props": {
+      "blockClass": "parceiro-container-1"
+    }
+  },
+  "flex-layout.row#parceiro-2": {
+    "children": [
+      "flex-layout.col#sale-3",
+      "flex-layout.col#sale-4"
+    ],
+    "props": {
+      "blockClass": "parceiro-container"
+    }
+  },
+  "flex-layout.row#parceiro-3": {
+    "children": [
+      "flex-layout.col#sale-5"
+    ],
+    "props": {
+      "blockClass": "parceiro-mobile-5"
+    }
+  },
+  "flex-layout.col#content-sale-on-cybelar": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "image#sale-on-cybelar-banner",
+      "rich-text#paragrahp-sale-on-cybelar",
+      "flex-layout.row#motives",
+      "flex-layout.row#voce-encontra-desk",
+      "rich-text#quem-pode-vender",
+      "flex-layout.row#pode-vender",
+      "rich-text#parceiro",
+      "flex-layout.row#parceiro",
+      "flex-layout.row#cadastrar-sale"
+    ]
+  },
+  "image#sale-on-cybelar-banner": {
+    "props": {
+      "src": "/arquivos/banner-sale-on-cybelar.jpg",
+      "blockClass": "venda-banner"
+    },
+    "title": "Venda na cybelar - Imagem"
+  },
+  "image#sale-on-cybelar-banner-mobile-new": {
+    "props": {
+      "src": "/arquivos/sale-on-cybelar-mobile.png",
+      "blockClass": "venda-banner"
+    },
+    "title": "Venda na cybelar - Imagem"
+  },
+  "rich-text#paragrahp-sale-on-cybelar": {
+    "props": {
+      "text": "## Confira os motivos para ser nosso seller\nConfira agora os motivos para ser nosso parceiro:",
+      "blockClass": "sale-on-cybelar-title"
+    }
+  },
+  "flex-layout.row#motives": {
+    "children": [
+      "image#motive-1",
+      "image#motive-2",
+      "image#motive-3",
+      "image#motive-4",
+      "image#motive-5"
+    ],
+    "props": {
+      "blockClass": "motives-container"
+    }
+  },
+  "image#motive-1": {
+    "props": {
+      "src": "assets/motive-1-new.svg",
+      "blockClass": "motive-img-icon"
+    },
+    "title": "Motivos - Imagem"
+  },
+  "image#motive-2": {
+    "props": {
+      "src": "assets/motive-2-new.svg",
+      "blockClass": "motive-img-icon"
+    },
+    "title": "Motivos - Imagem"
+  },
+  "image#motive-3": {
+    "props": {
+      "src": "assets/motive-3-new.svg",
+      "blockClass": "motive-img-icon"
+    },
+    "title": "Motivos - Imagem"
+  },
+  "image#motive-4": {
+    "props": {
+      "src": "assets/motive-4-new.svg",
+      "blockClass": "motive-img-icon"
+    },
+    "title": "Motivos - Imagem"
+  },
+  "image#motive-5": {
+    "props": {
+      "src": "assets/motive-5-new.svg",
+      "blockClass": "motive-img-icon"
+    },
+    "title": "Motivos - Imagem"
+  },
+  "flex-layout.row#voce-encontra-desk": {
+    "children": [
+      "image#voce-encontra-desk",
+      "flex-layout.col#voce-encontra-tambem"
+    ],
+    "props": {
+      "blockClass": "voce-encontra-desk"
+    }
+  },
+  "image#voce-encontra-desk": {
+    "props": {
+      "src": "/arquivos/voce-encontra-desk.jpg",
+      "blockClass": "voce-encontra-img"
+    },
+    "title": "Voce encontra - Desktop - Imagem"
+  },
+  "rich-text#quem-pode-vender": {
+    "props": {
+      "text": "## Quem pode vender na Cybelar?",
+      "blockClass": "quem-pode-vender-title"
+    }
+  },
+  "flex-layout.row#pode-vender": {
+    "children": [
+      "image#sale-1",
+      "image#sale-2",
+      "image#sale-3",
+      "image#sale-4",
+      "image#sale-5"
+    ],
+    "props": {
+      "blockClass": "sale-container"
+    }
+  },
+  "image#sale-1": {
+    "props": {
+      "src": "/arquivos/sale-1.jpg",
+      "blockClass": "sale-img"
+    },
+    "title": "Quem pode vender - Imagem"
+  },
+  "image#sale-2": {
+    "props": {
+      "src": "/arquivos/sale-2.jpg",
+      "blockClass": "sale-img"
+    },
+    "title": "Quem pode vender - Imagem"
+  },
+  "image#sale-3": {
+    "props": {
+      "src": "/arquivos/sale-3.jpg",
+      "blockClass": "sale-img"
+    },
+    "title": "Quem pode vender - Imagem"
+  },
+  "image#sale-4": {
+    "props": {
+      "src": "/arquivos/sale-4.jpg",
+      "blockClass": "sale-img"
+    },
+    "title": "Quem pode vender - Imagem"
+  },
+  "image#sale-5": {
+    "props": {
+      "src": "/arquivos/sale-5.jpg",
+      "blockClass": "sale-img"
+    },
+    "title": "Quem pode vender - Imagem"
+  },
+  "rich-text#parceiro": {
+    "props": {
+      "text": "## Como se tornar um parceiro na Cybelar?",
+      "blockClass": "parceiro-title"
+    }
+  },
+  "flex-layout.col#sale-1": {
+    "children": [
+      "rich-text#parceiro-1-number",
+      "rich-text#parceiro-1-text"
+    ],
+    "props": {
+      "blockClass": "parceiro-contaier"
+    }
+  },
+  "rich-text#parceiro-1-text": {
+    "props": {
+      "text": "## Cadastro \nInforme seus dados clicando no botão Cadastre-se",
+      "blockClass": "parceiro-text"
+    }
+  },
+  "rich-text#parceiro-1-number": {
+    "props": {
+      "text": "1",
+      "blockClass": "parceiro-number"
+    }
+  },
+  "flex-layout.col#sale-2": {
+    "children": [
+      "rich-text#parceiro-2-number",
+      "rich-text#parceiro-2-text"
+    ],
+    "props": {
+      "blockClass": "parceiro-contaier"
+    }
+  },
+  "rich-text#parceiro-2-text": {
+    "props": {
+      "text": "## Análise \nAnalisamos o cadastro e entramos em contato",
+      "blockClass": "parceiro-text"
+    }
+  },
+  "rich-text#parceiro-2-number": {
+    "props": {
+      "text": "2",
+      "blockClass": "parceiro-number"
+    }
+  },
+  "flex-layout.col#sale-3": {
+    "children": [
+      "rich-text#parceiro-3-number",
+      "rich-text#parceiro-3-text"
+    ],
+    "props": {
+      "blockClass": "parceiro-contaier"
+    }
+  },
+  "rich-text#parceiro-3-text": {
+    "props": {
+      "text": "## Contrato \nEnvio de documentos e assinatura de contrato",
+      "blockClass": "parceiro-text"
+    }
+  },
+  "rich-text#parceiro-3-number": {
+    "props": {
+      "text": "3",
+      "blockClass": "parceiro-number"
+    }
+  },
+  "flex-layout.col#sale-4": {
+    "children": [
+      "rich-text#parceiro-4-number",
+      "rich-text#parceiro-4-text"
+    ],
+    "props": {
+      "blockClass": "parceiro-contaier"
+    }
+  },
+  "rich-text#parceiro-4-text": {
+    "props": {
+      "text": "## Integração \nCatalogação dos produtos",
+      "blockClass": "parceiro-text"
+    }
+  },
+  "rich-text#parceiro-4-number": {
+    "props": {
+      "text": "4",
+      "blockClass": "parceiro-number"
+    }
+  },
+  "flex-layout.col#sale-5": {
+    "children": [
+      "rich-text#parceiro-5-number",
+      "rich-text#parceiro-5-text"
+    ],
+    "props": {
+      "blockClass": "parceiro-contaier"
+    }
+  },
+  "rich-text#parceiro-5-text": {
+    "props": {
+      "text": "## Pronto \nVocê já pode vender",
+      "blockClass": "parceiro-text-5"
+    }
+  },
+  "rich-text#parceiro-5-number": {
+    "props": {
+      "text": "5",
+      "blockClass": "parceiro-number-5"
+    }
+  },
+  "flex-layout.row#parceiro": {
+    "children": [
+      "flex-layout.col#sale-1",
+      "flex-layout.col#sale-2",
+      "flex-layout.col#sale-3",
+      "flex-layout.col#sale-4",
+      "flex-layout.col#sale-5"
+    ],
+    "props": {
+      "blockClass": "parceiros-container"
+    }
+  },
+  "flex-layout.row#cadastrar-sale": {
+    "children": [
+      "rich-text#cadastrar-sale",
+      "rich-text#cadastrar-btn-sale"
+    ],
+    "props": {
+      "blockClass": "cadastrar-container"
+    }
+  },
+  "rich-text#cadastrar-sale": {
+    "props": {
+      "text": "## Clique no botão abaixo para se cadastrar",
+      "blockClass": "cadastrar-title"
+    }
+  },
+  "rich-text#cadastrar-btn-sale": {
+    "props": {
+      "text": "<a href='https://forms.gle/Yk8sbN4KUocCBG636' target='_blank' class='vtex-rich-text-0-x-paragraph--cadastrar-link' style='color:white'> Cadastre-se </a>",
+      "blockClass": "cadastrar-btn"
+    }
+  },
+  "vtex.menu@2.x:menu#institutional-sale-on-cybelar": {
+    "children": [
+      "menu-item#fale-conosco-sale-on-cybelar",
+      "menu-item#about-us-sale-on-cybelar",
+      "menu-item#our-store-sale-on-cybelar",
+      "menu-item#policy-sale-on-cybelar",
+      "menu-item#new-sale-on-cybelar-sale-on-cybelar",
+      "menu-item#work-with-us-sale-on-cybelar",
+      "menu-item#exchanges-and-returns-sale-on-cybelar",
+      "menu-item#safe-buy-sale-on-cybelar",
+      "menu-item#shipping-and-delivery-sale-on-cybelar",
+      "menu-item#browsing-and-buying-sale-on-cybelar"
+    ],
+    "props": {
+      "blockClass": "menu-insitucional",
+        "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#fale-conosco-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#about-us-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "about-us-sale-on-cybelar",
+        "text": "Quem Somos"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#our-store-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store-sale-on-cybelar",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#policy-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "policy-sale-on-cybelar",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#affiliates-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/afiliados",
+        "noFollow": false,
+        "tagTitle": "affiliates",
+        "text": "Afiliados"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#help-store-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/duvidas-sobre-a-loja",
+        "noFollow": false,
+        "tagTitle": "help-store",
+        "text": "Duvidas sobre a loja?"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#work-with-us-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "work-with-us",
+        "text": "Trabalhe Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "select"
+    }
+  },
+  "menu-item#deliveries-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/entregas",
+        "noFollow": false,
+        "tagTitle": "deliveries",
+        "text": "Entregas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#devolution-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/devolucao",
+        "noFollow": false,
+        "tagTitle": "devolution",
+        "text": "Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#payment-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pagamento",
+        "noFollow": false,
+        "tagTitle": "payment",
+        "text": "Pagamento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#security-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seguranca",
+        "noFollow": false,
+        "tagTitle": "security",
+        "text": "Segurança"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#call-center-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/central-de-atendimento",
+        "noFollow": false,
+        "tagTitle": "call-center",
+        "text": "Central de Atendimento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#exchanges-and-returns-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-returns",
+        "text": "Trocas e Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#safe-buy-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#shipping-and-delivery-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#browsing-and-buying-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e Comprando"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#contact-us-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "contact-us",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#site-map-sale-on-cybelar": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mapa-do-site",
+        "noFollow": false,
+        "tagTitle": "site-map",
+        "text": "Mapa do Site"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  // =======================
+  "menu-item#new-sale-on-cybelar-2": {
+    "props": {
+      "blockClass": "about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Not Found",
+        "text": "Venda na Cybelar"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#sub-menu-mobile-sale-on-cybelar"
+    ]
+  },
+  "submenu.accordion#sub-menu-mobile-sale-on-cybelar": {
+    "children": [
+      "menu-item#fale-conosco-mobile",
+      "menu-item#our-store-mobile",
+      "menu-item#policy-mobile",
+      "menu-item#new-sale-on-cybelar-mobile",
+      "menu-item#safe-buy-mobile",
+      "menu-item#exchanges-and-return-mobile",
+      "menu-item#shipping-and-delivery-mobile",
+      "menu-item#browsing-and-buying-mobile"
+    ],
+    "props": {
+      "blockClass": "institutional-sub-menu-mobile"
+    }
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#menuDepartaments",
+      "menu-item#category-menu-moveis",
+      "menu-item#category-menu-eletroportateis",
+      "menu-item#category-menu-eletrodomesticos",
+      "menu-item#category-menu-telefonia",
+      "menu-item#category-menu-audio-e-video",
+      "menu-item#category-menu-informatica",
+      "menu-item#menuOutlet"
+    ]
+    // "props": {
+    //   "experimentalOptimizeRendering": true
+    // }
+  },
+
+
+  "menu-item#category-menu-moveis": {
+    "props": {
+      "id": "menu-item-moveis",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moveis",
+        "noFollow": false,
+        "tagTitle": "moveis",
+        "text": "Móveis"
+      },
+      "blockClass": "menu-item-moveis"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#moveis"]
+  },
+  "menu-item#category-menu-eletroportateis": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletroportateis",
+        "noFollow": false,
+        "tagTitle": "eletroportateis",
+        "text": "Eletroportáteis"
+      },
+      "blockClass": "menu-item-eletroportateis"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#eletroportateis"]
+  },
+  "menu-item#category-menu-eletrodomesticos": {
+    "props": {
+      "id": "menu-item-eletrodomesticos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletrodomesticos",
+        "noFollow": false,
+        "tagTitle": "eletrodomesticos",
+        "text": "Eletrodomésticos"
+      },
+      "blockClass": "menu-item-eletrodomesticos"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#eletrodomesticos"]
+  },
+  "menu-item#category-menu-telefonia": {
+    "props": {
+      "id": "menu-item-telefonia",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia",
+        "noFollow": false,
+        "tagTitle": "telefonia",
+        "text": "Telefonia"
+      },
+      "blockClass": "menu-item-telefonia"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#telefonia"]
+  },
+  "menu-item#category-menu-audio-e-video": {
+    "props": {
+      "id": "menu-item-audio-e-video",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-e-video",
+        "noFollow": false,
+        "tagTitle": "audio-e-video",
+        "text": "Áudio e Vídeo"
+      },
+      "blockClass": "menu-item-audio-e-video"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#audio-e-video"]
+  },
+  "menu-item#category-menu-informatica": {
+    "props": {
+      "id": "menu-item-informatica",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/informatica",
+        "noFollow": false,
+        "tagTitle": "informatica",
+        "text": "Informática"
+      },
+      "blockClass": "menu-item-informatica"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#informatica"]
+  },
+
+  // Remover?
+  "menu-item#category-menu-smartphones": {
+    "props": {
+      "blockClass": "menu-item-smartphones",
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/smartphones-celulares",
+        "noFollow": false,
+        "tagTitle": "Smartphones",
+        "text": "Smartphones"
+      }
+    }
+  },
+  "menu-item#category-menu-brinquedos": {
+    "props": {
+      "id": "menu-item-brinquedos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/menu-brinquedos",
+        "noFollow": false,
+        "tagTitle": "brinquedos",
+        "text": "Brinquedos"
+      },
+      "blockClass": "menu-item-brinquedos"
+    }
+  },
+  // Remover? ^
+
+  "menu-item#menuDepartaments": {
+    "props": {
+      "blockClass": "menu-item-departments",
+      "id": "menu-item-departments",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Compre por Departamento",
+        "text": "Compre por Departamento"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#menuDepartaments"]
+  },
+  "menu-item#menuDepartamentsFixed": {
+    "props": {
+      "blockClass": "menu-item-departments-fixed",
+      "id": "menu-item-departments-fixed",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Compre por Departamento",
+        "text": "Compre por Departamento"
+      },
+      "title": "Menu Item - Compre Por Departamento"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#menuDepartaments"]
+  },
+
+  "vtex.menu@2.x:submenu#menuDepartaments": {
+    "props": {
+      "orientation": "vertical",
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#category-menu1",
+      "menu-item#category-menu2",
+      "menu-item#category-menu3",
+      "menu-item#category-menu4",
+      "menu-item#category-menu5",
+      "menu-item#category-menu6",
+      "menu-item#category-menu7",
+      "menu-item#category-menu8",
+      "menu-item#menuUtilidades",
+      "menu-item#menuAllDepartments"
+      
+    ]
+  },
+
+  // --------
+  "vtex.menu@2.x:submenu#moveis": {
+    "props": {
+      "orientation": "vertical",
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#moveis-guarda-roupa",
+      "menu-item#moveis-colchao",
+      "menu-item#moveis-sofa",
+      "menu-item#moveis-cama-box",
+      "menu-item#moveis-cozinha",
+      "menu-item#moveis-cama",
+      "menu-item#moveis-mesa",
+      "menu-item#moveis-sapateira",
+      "menu-item#moveis-painel"
+    ]
+  },
+  "vtex.menu@2.x:submenu#eletroportateis": {
+    "props": {
+      "orientation": "vertical",
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#eletroportateis-liquidificador-e-mixer",
+      "menu-item#eletroportateis-fritadeira-sem-oleo",
+      "menu-item#eletroportateis-ferro-de-passar",
+      "menu-item#eletroportateis-batedeira",
+      "menu-item#eletroportateis-aspirador-de-po",
+      "menu-item#eletroportateis-grill-e-sanduicheira",
+      "menu-item#eletroportateis-panela-eletrica",
+      "menu-item#eletroportateis-cafeteira-e-chaleira",
+      "menu-item#eletroportateis-furadeira-e-parafusadeira"
+    ]
+  },
+  "vtex.menu@2.x:submenu#eletrodomesticos": {
+    "props": {
+      "orientation": "vertical",
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#eletrodomesticos-geladeira",
+      "menu-item#eletrodomesticos-fogao",
+      "menu-item#eletrodomesticos-maquina-de-lavar",
+      "menu-item#eletrodomesticos-microondas",
+      "menu-item#eletrodomesticos-freezer",
+      "menu-item#eletrodomesticos-cooktop",
+      "menu-item#eletrodomesticos-coifa",
+      "menu-item#eletrodomesticos-centrifuga",
+      "menu-item#eletrodomesticos-lavadora-de-alta-pressao"
+    ]
+  },
+  "vtex.menu@2.x:submenu#telefonia": {
+    "props": {
+      "orientation": "vertical",
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#telefonia-smartphone",
+      "menu-item#telefonia-celular",
+      "menu-item#telefonia-telefone-fixo"
+    ]
+  },
+  "vtex.menu@2.x:submenu#audio-e-video": {
+    "props": {
+      "orientation": "vertical",
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#audio-e-video-tv",
+      "menu-item#audio-e-video-caixa-de-som",
+      "menu-item#audio-e-video-radio-automotivo",
+      "menu-item#audio-e-video-suporte-para-tv",
+      "menu-item#audio-e-video-fone-de-ouvido"
+    ]
+  },
+  "vtex.menu@2.x:submenu#informatica": {
+    "props": {
+      "orientation": "vertical",
+      "width": "100%"
+    },
+    "children": [
+      "menu-item#informatica-notebook",
+      "menu-item#informatica-impressora",
+      "menu-item#informatica-fone-de-ouvido",
+      "menu-item#informatica-desktop",
+      "menu-item#informatica-mouse-teclado",
+      "menu-item#informatica-roteadores-switch",
+      "menu-item#informatica-tablet"
+    ]
+  },
+  // -------
+
+  "menu-item#menuOutlet": {
+    "props": {
+      "blockClass": "menu-item-outlet",
+      "id": "menu-item-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      },
+      "title": "Menu Item - Outlet"
+    }
+  },
+  "flex-layout.row#menuMobileFooter": {
+    "children": [
+      "rich-text#myOrdersMobile",
+      "rich-text#ourStoresMobile",
+      "rich-text#sacMobile"
+    ],
+    "props": {
+      "blockClass": "menuMobileFooter"
+    }
+  },
+  "rich-text#myOrdersMobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Meus Pedidos](/)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "myOrdersMobile"
+    }
+  },
+  "rich-text#ourStoresMobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Nossas Lojas](/)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "ourStoresMobile"
+    }
+  },
+  "rich-text#sacMobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[SAC](/)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "sacMobile"
+    }
+  },
+  "rich-text#linkSubmenu": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver todos](/)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "linkSubmenu"
+    }
+  },
+  "rich-text#linkSubmenu2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver todos](/)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "linkSubmenu"
+    }
+  },
+  "rich-text#linkSubmenu3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver todos](/)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "linkSubmenu"
+    }
+  },
+  "rich-text#linkSubmenu4": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver todos](/)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "linkSubmenu"
+    }
+  },
+  "rich-text#verTodos1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver todos](/)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "linkSubmenu"
+    }
+  },
+  "rich-text#verTodos2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver todos](/)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "linkSubmenu"
+    }
+  },
+  "rich-text#verTodos3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver todos](/)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "linkSubmenu"
+    }
+  }
+}

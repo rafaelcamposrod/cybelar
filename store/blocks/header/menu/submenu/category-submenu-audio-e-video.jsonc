@@ -1,0 +1,300 @@
+{
+  "vtex.menu@2.x:submenu#audio-e-video-sub-menu": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#audio-e-video-sub-menu"]
+  },
+  "flex-layout.row#audio-e-video-sub-menu": {
+    "children": [
+      "flex-layout.col#audio-e-video-sub-menu-col",
+      "flex-layout.col#audio-e-video-sub-menu-col-2",
+      "flex-layout.col#audio-e-video-sub-menu-col-3",
+      "info-card#audio-e-video-sub-menu-card"
+    ],
+    "props": {
+      "blockClass": "row-submenu"
+    },
+    "title": "Submenu Áudio e Vídeo"
+  },
+
+  // Colunas
+  "flex-layout.col#audio-e-video-sub-menu-col": {
+    "children": [
+      "flex-layout.row#titleSubmenu-audio-e-video-audio",
+      "menu-item#audio-e-video-caixa-de-som",
+      "menu-item#audio-e-video-radio-automotivo",
+      "menu-item#audio-e-video-fone-de-ouvido"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#audio-e-video-sub-menu-col-2": {
+    "children": [
+      "flex-layout.row#titleSubmenu-audio-e-video-televisores",
+      "menu-item#audio-e-video-multilaser",
+      "menu-item#audio-e-video-lg",
+      "menu-item#audio-e-video-samsung",
+      "menu-item#audio-e-video-toshiba",
+      "menu-item#audio-e-video-aiwa",
+      "menu-item#audio-e-video-suporte-para-tv"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#audio-e-video-sub-menu-col-3": {
+    "children": [
+      // ---
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "info-card#audio-e-video-sub-menu-card": {
+    "props": {
+      "id": "audio-e-video-sub-menu-card",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/audio-e-video.jpg",
+      "headline": "",
+      "callToActionMode": "none",
+      "blockClass": "sub-menu-card",
+      "textPosition": "center",
+      "textAlignment": "center"
+    }
+  },
+
+  // Coluna 1
+  "flex-layout.row#titleSubmenu-audio-e-video-audio": {
+    "children": [
+      "rich-text#titleSubmenu-audio-e-video-audio",
+      "rich-text#titleSubmenu-audio-e-video-audio-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-audio-e-video-audio": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Áudio",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-audio-e-video-audio-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // Coluna 2
+  "flex-layout.row#titleSubmenu-audio-e-video-televisores": {
+    "children": [
+      "rich-text#titleSubmenu-audio-e-video-televisores",
+      "rich-text#titleSubmenu-audio-e-video-televisores-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-audio-e-video-televisores": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Televisores",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-audio-e-video-televisores-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // --------- menu items ----------
+  "menu-item#audio-e-video-tv": {
+    "props": {
+      "id": "audio-e-video-tv",
+      "blockClass": "audio-e-video-tv",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tv",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "TV"
+      }
+    }
+  },
+  "menu-item#audio-e-video-suporte-para-tv": {
+    "props": {
+      "id": "audio-e-video-suporte-para-tv",
+      "blockClass": "audio-e-video-suporte-para-tv",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/suporte-para-tv",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Suporte para TV"
+      }
+    }
+  },
+
+  // departamentos > áudio
+  "menu-item#audio-e-video-caixa-de-som": {
+    "props": {
+      "id": "audio-e-video-caixa-de-som",
+      "blockClass": "audio-e-video-caixa-de-som",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/caixa-de-som",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Caixa de Som"
+      }
+    }
+  },
+  "menu-item#audio-e-video-radio-automotivo": {
+    "props": {
+      "id": "audio-e-video-radio-automotivo",
+      "blockClass": "audio-e-video-radio-automotivo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/radio-automotivo",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Rádio Automotivo"
+      }
+    }
+  },
+  "menu-item#audio-e-video-fone-de-ouvido": {
+    "props": {
+      "id": "audio-e-video-fone-de-ouvido",
+      "blockClass": "audio-e-video-fone-de-ouvido",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-de-ouvido",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Fone de Ouvido"
+      }
+    }
+  },
+  // departamentos > televisores
+  "menu-item#audio-e-video-multilaser": {
+    "props": {
+      "id": "audio-e-video-multilaser",
+      "blockClass": "audio-e-video-multilaser",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/multilaser",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Multilaser"
+      }
+    }
+  },
+  "menu-item#audio-e-video-lg": {
+    "props": {
+      "id": "audio-e-video-lg",
+      "blockClass": "audio-e-video-lg",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lg",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "LG"
+      }
+    }
+  },
+  "menu-item#audio-e-video-samsung": {
+    "props": {
+      "id": "audio-e-video-samsung",
+      "blockClass": "audio-e-video-samsung",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/samsung",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Samsung"
+      }
+    }
+  },
+  "menu-item#audio-e-video-toshiba": {
+    "props": {
+      "id": "audio-e-video-toshiba",
+      "blockClass": "audio-e-video-toshiba",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/toshiba",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Toshiba"
+      }
+    }
+  },
+  "menu-item#audio-e-video-aiwa": {
+    "props": {
+      "id": "audio-e-video-aiwa",
+      "blockClass": "audio-e-video-aiwa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aiwa",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Aiwa"
+      }
+    }
+  },
+  "menu-item#audio-e-video-suporte-de-tv": {
+    "props": {
+      "id": "audio-e-video-suporte-de-tv",
+      "blockClass": "audio-e-video-suporte-de-tv",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/suporte-de-tv",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Suporte de TV"
+      }
+    }
+  }
+}

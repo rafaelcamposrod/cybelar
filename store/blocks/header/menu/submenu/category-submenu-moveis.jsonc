@@ -1,0 +1,747 @@
+{
+  "vtex.menu@2.x:submenu#moveis-sub-menu": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#moveis-sub-menu"]
+  },
+  "flex-layout.row#moveis-sub-menu": {
+    "children": [
+      "flex-layout.col#moveis-sub-menu-col",
+      "flex-layout.col#moveis-sub-menu-col-2",
+      "flex-layout.col#moveis-sub-menu-col-3",
+      "info-card#moveis-sub-menu-card"
+    ],
+    "props": {
+      "blockClass": "row-submenu"
+    },
+    "title": "Submenu Moveis"
+  },
+
+  // Colunas
+  "flex-layout.col#moveis-sub-menu-col": {
+    "children": [
+      "flex-layout.row#titleSubmenu-moveis-quarto",
+      "menu-item#moveis-beliche",
+      "menu-item#moveis-berco",
+      "menu-item#moveis-bicama",
+      "menu-item#moveis-base-box",
+      "menu-item#moveis-cabeceira",
+      "menu-item#moveis-cama",
+      "menu-item#moveis-cama-box-conjugado",
+      "menu-item#moveis-colchao",
+      "menu-item#moveis-comoda",
+      "menu-item#moveis-guarda-roupa",
+      "menu-item#moveis-mesa-de-cabeceira",
+      "menu-item#moveis-penteadeira",
+      "menu-item#moveis-sapateira"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#moveis-sub-menu-col-2": {
+    "children": [
+      "flex-layout.row#titleSubmenu-sala-de-jantar",
+      "menu-item#moveis-buffet-e-aparador",
+      "menu-item#moveis-mesa",
+      "menu-item#moveis-cadeira",
+      "menu-item#moveis-cristaleira",
+      "flex-layout.row#titleSubmenu-sala-de-estar",
+      "menu-item#moveis-poltrona",
+      "menu-item#moveis-mesa",
+      "menu-item#moveis-estante",
+      "menu-item#moveis-mesa-de-centro",
+      "menu-item#moveis-painel",
+      "menu-item#moveis-rack",
+      "menu-item#moveis-sofa"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#moveis-sub-menu-col-3": {
+    "children": [
+      "flex-layout.row#titleSubmenu-cozinha",
+      "menu-item#moveis-armario",
+      "menu-item#moveis-paneleiro",
+      "menu-item#moveis-compacta",
+      "menu-item#moveis-completa",
+      "menu-item#moveis-modulada",
+      "flex-layout.row#titleSubmenu-escritorio",
+      "menu-item#moveis-gaveteiro",
+      "menu-item#moveis-escrivaninha",
+      "menu-item#moveis-cadeira",
+      "menu-item#moveis-armario",
+      "menu-item#moveis-estante-para-livros"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "info-card#moveis-sub-menu-card": {
+    "props": {
+      "id": "moveis-sub-menu-card",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/moveis.jpg",
+      "headline": "",
+      "callToActionMode": "none",
+      "blockClass": "sub-menu-card",
+      "textPosition": "center",
+      "textAlignment": "center"
+    }
+  },
+
+  // Coluna 1
+  "flex-layout.row#titleSubmenu-moveis-quarto": {
+    "children": [
+      "rich-text#titleSubmenu-moveis-quarto",
+      "rich-text#titleSubmenu-moveis-quarto-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-moveis-quarto": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Quarto",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-moveis-quarto-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // Coluna 2
+  "flex-layout.row#titleSubmenu-sala-de-jantar": {
+    "children": [
+      "rich-text#titleSubmenu-sala-de-jantar",
+      "rich-text#titleSubmenu-sala-de-jantar-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-sala-de-jantar": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Sala de Jantar",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-sala-de-jantar-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+  "flex-layout.row#titleSubmenu-sala-de-estar": {
+    "children": [
+      "rich-text#titleSubmenu-sala-de-estar",
+      "rich-text#titleSubmenu-sala-de-estar-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-sala-de-estar": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Sala de Estar",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-sala-de-estar-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // Coluna 3
+  "flex-layout.row#titleSubmenu-cozinha": {
+    "children": [
+      "rich-text#titleSubmenu-cozinha",
+      "rich-text#titleSubmenu-cozinha-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-cozinha": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Cozinha",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-cozinha-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+  "flex-layout.row#titleSubmenu-escritorio": {
+    "children": [
+      "rich-text#titleSubmenu-escritorio",
+      "rich-text#titleSubmenu-escritorio-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-escritorio": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Escritório",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-escritorio-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // --------- menu items ----------
+  "menu-item#moveis-colchao": {
+    "props": {
+      "id": "moveis-colchao",
+      "blockClass": "moveis-colchao",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchao",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Colchão"
+      }
+    }
+  },
+  "menu-item#moveis-cama-box": {
+    "props": {
+      "id": "moveis-cama-box",
+      "blockClass": "moveis-cama-box",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cama-box",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Cama box"
+      }
+    }
+  },
+  "menu-item#moveis-cozinha": {
+    "props": {
+      "id": "moveis-cozinha",
+      "blockClass": "moveis-cozinha",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cozinha",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Cozinha"
+      }
+    }
+  },
+
+  // departamentos > quarto
+  "menu-item#moveis-beliche": {
+    "props": {
+      "id": "moveis-beliche",
+      "blockClass": "moveis-beliche",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/beliche",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Beliche"
+      }
+    }
+  },
+  "menu-item#moveis-berco": {
+    "props": {
+      "id": "moveis-berco",
+      "blockClass": "moveis-berco",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/berco",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Berço"
+      }
+    }
+  },
+  "menu-item#moveis-bicama": {
+    "props": {
+      "id": "moveis-bicama",
+      "blockClass": "moveis-bicama",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bicama",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Bicama"
+      }
+    }
+  },
+  "menu-item#moveis-base-box": {
+    "props": {
+      "id": "moveis-base-box",
+      "blockClass": "moveis-base-box",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/base-box",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Base Box"
+      }
+    }
+  },
+  "menu-item#moveis-cabeceira": {
+    "props": {
+      "id": "moveis-cabeceira",
+      "blockClass": "moveis-cabeceira",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moveis/Moveis-para-Quarto/Cabeceira",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Cabeceira"
+      }
+    }
+  },
+  "menu-item#moveis-cama": {
+    "props": {
+      "id": "moveis-cama",
+      "blockClass": "moveis-cama",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cama",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Cama"
+      }
+    }
+  },
+  "menu-item#moveis-cama-box-conjugado": {
+    "props": {
+      "id": "moveis-cama-box-conjugado",
+      "blockClass": "moveis-cama-box-conjugado",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cama-box-conjugado",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Cama Box Conjugado"
+      }
+    }
+  },
+  "menu-item#moveis-comoda": {
+    "props": {
+      "id": "moveis-comoda",
+      "blockClass": "moveis-comoda",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/comoda",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Cômoda"
+      }
+    }
+  },
+  "menu-item#moveis-guarda-roupa": {
+    "props": {
+      "id": "moveis-guarda-roupa",
+      "blockClass": "moveis-guarda-roupa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/guarda-roupa",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Guarda-Roupas"
+      }
+    }
+  },
+  "menu-item#moveis-mesa-de-cabeceira": {
+    "props": {
+      "id": "moveis-mesa-de-cabeceira",
+      "blockClass": "moveis-mesa-de-cabeceira",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mesa-de-cabeceira",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Mesa de Cabeceira"
+      }
+    }
+  },
+  "menu-item#moveis-penteadeira": {
+    "props": {
+      "id": "moveis-penteadeira",
+      "blockClass": "moveis-penteadeira",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/penteadeira",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Penteadeira"
+      }
+    }
+  },
+  "menu-item#moveis-sapateira": {
+    "props": {
+      "id": "moveis-sapateira",
+      "blockClass": "moveis-sapateira",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sapateira",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Sapateira"
+      }
+    }
+  },
+  // departamentos > sala de jantar
+  "menu-item#moveis-buffet-e-aparador": {
+    "props": {
+      "id": "moveis-buffet-e-aparador",
+      "blockClass": "moveis-buffet-e-aparador",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/buffet-e-aparador",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Buffet e Aparador"
+      }
+    }
+  },
+  "menu-item#moveis-mesa": {
+    "props": {
+      "id": "moveis-mesa",
+      "blockClass": "moveis-mesa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mesa",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Mesa"
+      }
+    }
+  },
+  "menu-item#moveis-cadeira": {
+    "props": {
+      "id": "moveis-cadeira",
+      "blockClass": "moveis-cadeira",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cadeira",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Cadeira"
+      }
+    }
+  },
+  "menu-item#moveis-cristaleira": {
+    "props": {
+      "id": "moveis-cristaleira",
+      "blockClass": "moveis-cristaleira",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cristaleira",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Cristaleira"
+      }
+    }
+  },
+  // departamentos > sala de estar
+  "menu-item#moveis-poltrona": {
+    "props": {
+      "id": "moveis-poltrona",
+      "blockClass": "moveis-poltrona",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/poltrona",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Poltrona"
+      }
+    }
+  },
+  "menu-item#moveis-estante": {
+    "props": {
+      "id": "moveis-estante",
+      "blockClass": "moveis-estante",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estante",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Estante"
+      }
+    }
+  },
+  "menu-item#moveis-mesa-de-centro": {
+    "props": {
+      "id": "moveis-mesa-de-centro",
+      "blockClass": "moveis-mesa-de-centro",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mesa-de-centro",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Mesa de Centro"
+      }
+    }
+  },
+  "menu-item#moveis-painel": {
+    "props": {
+      "id": "moveis-painel",
+      "blockClass": "moveis-painel",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/painel",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Painel"
+      }
+    }
+  },
+  "menu-item#moveis-rack": {
+    "props": {
+      "id": "moveis-rack",
+      "blockClass": "moveis-rack",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rack",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Rack"
+      }
+    }
+  },
+  "menu-item#moveis-sofa": {
+    "props": {
+      "id": "moveis-sofa",
+      "blockClass": "moveis-sofa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sofa",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Sofá"
+      }
+    }
+  },
+  // departamentos > cozinha
+  "menu-item#moveis-armario": {
+    "props": {
+      "id": "moveis-armario",
+      "blockClass": "moveis-armario",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/armario",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Armário"
+      }
+    }
+  },
+  "menu-item#moveis-paneleiro": {
+    "props": {
+      "id": "moveis-paneleiro",
+      "blockClass": "moveis-paneleiro",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/paneleiro",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Paneleiro"
+      }
+    }
+  },
+  "menu-item#moveis-compacta": {
+    "props": {
+      "id": "moveis-compacta",
+      "blockClass": "moveis-compacta",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compacta",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Compacta"
+      }
+    }
+  },
+  "menu-item#moveis-completa": {
+    "props": {
+      "id": "moveis-completa",
+      "blockClass": "moveis-completa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/completa",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Completa"
+      }
+    }
+  },
+  "menu-item#moveis-modulada": {
+    "props": {
+      "id": "moveis-modulada",
+      "blockClass": "moveis-modulada",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/modulada",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Modulada"
+      }
+    }
+  },
+  // departamentos > escritório
+  "menu-item#moveis-gaveteiro": {
+    "props": {
+      "id": "moveis-gaveteiro",
+      "blockClass": "moveis-gaveteiro",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gaveteiro",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Gaveteiro"
+      }
+    }
+  },
+  "menu-item#moveis-escrivaninha": {
+    "props": {
+      "id": "moveis-escrivaninha",
+      "blockClass": "moveis-escrivaninha",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/escrivaninha",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Escrivaninha"
+      }
+    }
+  },
+  "menu-item#moveis-estante-para-livros": {
+    "props": {
+      "id": "moveis-estante-para-livros",
+      "blockClass": "moveis-estante-para-livros",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estante-para-livros",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Estante para Livros"
+      }
+    }
+  }
+}

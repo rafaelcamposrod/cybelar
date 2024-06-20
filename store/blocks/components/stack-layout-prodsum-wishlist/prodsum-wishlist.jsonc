@@ -1,0 +1,20 @@
+{
+    "stack-layout#prodsum-wishlist": {
+        "props": {
+            "blockClass": ["prodsum-wishlist"]
+        },
+        "children": [
+            "product-summary-image",
+            "flex-layout.row#prodsum-wishlist",
+            "product-highlight",
+            "product-bookmark",
+            "product-summary-specification-badges"
+        ]
+    },
+    "flex-layout.row#prodsum-wishlist": {
+        "children": [
+            "add-to-list-btn",
+            "product-shelf-highlight-percent"
+        ]
+    }
+}

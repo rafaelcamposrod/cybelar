@@ -1,0 +1,146 @@
+{
+  "menu-item#fale-conosco-mobile": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "mobile",
+      "title": "Fale Conosco - Mobile"
+    }
+  },
+  "menu-item#safe-buy-mobile": {
+    "props": {
+      "id": "menu-item-safe-buy-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "mobile",
+      "title": "Compra Segura - Mobile"
+    }
+  },
+  "menu-item#policy-mobile": {
+    "props": {
+      "id": "menu-item-policy-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "policy",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "mobile",
+      "title": "Politica de Privacidade - Mobile"
+    }
+  },
+  "menu-item#about-us-mobile": {
+    "props": {
+      "id": "menu-item-about-us-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "about-us",
+        "text": "Quem Somos"
+      },
+      "blockClass": "mobile",
+      "title": "Quem Somos - Mobile"
+    }
+  },
+  "menu-item#our-store-mobile": {
+    "props": {
+      "id": "menu-item-our-store-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": "mobile",
+      "title": "Nossas Lojas - Mobile"
+    }
+  },
+  "menu-item#exchanges-and-return-mobile": {
+    "props": {
+      "id": "menu-item-exchanges-and-return-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-return",
+        "text": "Trocas e Devoluções"
+      },
+      "blockClass": "mobile",
+      "title": "Trocas e Devoluções - Mobile"
+    }
+  },
+  "menu-item#shipping-and-delivery-mobile": {
+    "props": {
+      "id": "menu-item-shipping-and-delivery-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "mobile",
+      "title": "Envio e Entrega - Mobile"
+    }
+  },
+  "menu-item#browsing-and-buying-mobile": {
+    "props": {
+      "id": "menu-item-browsing-and-buying-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e Comprando"
+      },
+      "blockClass": "mobile",
+      "title": "Navegando e Comprando - Mobile"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-mobile": {
+    "props": {
+      "id": "menu-item-sale-on-cybelar-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "mobile",
+      "title": "Vendas na Cybelar - Mobile"
+    }
+  }
+}

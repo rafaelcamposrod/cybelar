@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#top-info-barv2": {
+        "title": "Barra de informações - Container",
+        "props": {
+            "fullWidth": true,
+            "preserveLayoutOnMobile": true,
+            "blockClass": [
+                "top-info-bar"
+            ]
+        },
+        "children": [
+            "rich-text#top-info-bar-text",
+            "link#top-info-bar-atendimento",
+            "link#top-info-bar-nossas-lojas"
+        ]
+    },
+    "rich-text#top-info-bar-text": {
+        "title": "Barra de informações - Texto",
+        "props": {
+            "text": "[![icon](assets/icon-info-bar-truck.svg) FRETE GRÁTIS EM PRODUTOS ACIMA DE R$ 199,00 *CONFIRA AS REGRAS](https://www.cybelar.com.br/envio-e-entrega/?target=_blank)",
+            "blockClass": [
+                "top-info-bar"
+            ]
+        }
+    },
+    "link#top-info-bar-atendimento": {
+        "title": "Barra de informações - Atendimento",
+        "props": {
+            "label": "atendimento",
+            "href": "https://api.whatsapp.com/send?phone=551532829292&text=Oi%2C%20gostaria%20de%20falar%20com%20atendimento",
+            "blockClass": [
+                "top-info-bar-link",
+                "top-info-bar-link-atendimento"
+            ]
+        }
+    },
+    "link#top-info-bar-nossas-lojas": {
+        "title": "Barra de informações - Nossas lojas",
+        "props": {
+            "label": "nossas lojas",
+            "href": "/nossas-lojas",
+            "blockClass": [
+                "top-info-bar-link",
+                "top-info-bar-link-nossas-lojas"
+            ]
+        }
+    }
+}

@@ -1,0 +1,442 @@
+{
+  "store.custom#institutional-our-store": {
+    "blocks": [
+      "responsive-layout.desktop#our-store",
+      "responsive-layout.mobile#our-store"
+    ]
+  },
+  "responsive-layout.desktop#our-store": {
+    "children": [
+      "flex-layout.row#desktop-our-store"
+    ]
+  },
+  "flex-layout.row#desktop-our-store": {
+    "children": [
+      "flex-layout.col#instituional-col-1-our-store",
+      "flex-layout.col#instituional-col-2-our-store"
+    ],
+    "props": {
+      "blockClass": "institutional-content--our-store"
+    }
+  },
+  "responsive-layout.mobile#our-store": {
+    "children": [
+      "flex-layout.row#mobile-our-store"
+    ]
+  },
+  "flex-layout.row#mobile-our-store": {
+    "children": [
+      "flex-layout.col#mobile-our-store"
+    ],
+    "props": {
+      "blockClass": "mobile-our-store"
+    }
+  },
+  "flex-layout.col#mobile-our-store": {
+    "children": [
+      "store-locator-v2"
+      // "rich-text#title-our-store",
+      // "image#our-store",
+      // "flex-layout.col#mobile-content-our-store"
+    ],
+    "props": {
+      "blockClass": "mobile-our-store"
+    }
+  },
+  "flex-layout.col#mobile-content-our-store": {
+    "children": [
+      "rich-text#paragraph-our-store-text"
+    ],
+    "props": {
+      "blockClass": "mobile-content-our-store"
+    }
+  },
+  "rich-text#title-our-store": {
+    "props": {
+      "text": "### Nossas Lojas",
+      "blockClass": "text-intitutional-title"
+    }
+  },
+  "menu-item#our-store": {
+    "props": {
+      "blockClass": "our-store",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Not Found",
+        "text": "Nossas Lojas"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#sub-menu-mobile-our-store"
+    ]
+  },
+  "submenu.accordion#sub-menu-mobile-our-store": {
+    "children": [
+      "menu-item#fale-conosco-mobile",
+      "menu-item#about-us-mobile",
+      "menu-item#policy-mobile",
+      "menu-item#new-sale-on-cybelar-mobile",
+      "menu-item#safe-buy-mobile",
+      "menu-item#exchanges-and-return-mobile",
+      "menu-item#shipping-and-delivery-mobile",
+      "menu-item#browsing-and-buying-mobile"
+    ],
+    "props": {
+      "blockClass": "institutional-sub-menu-mobile"
+    }
+  },
+  "flex-layout.col#instituional-col-1-our-store": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional-our-store"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container-menu-insitutional"
+    }
+  },
+  "flex-layout.col#instituional-col-2-our-store": {
+    "children": [
+      "flex-layout.col#content-our-store"
+    ],
+    "props": {
+      "blockClass": "container-institutional--our-store"
+    }
+  },
+  "flex-layout.col#content-our-store": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "store-locator-v2"
+      // "rich-text#title-our-store",
+      // "image#our-store"
+      // "rich-text#paragraph-our-store-text"
+    ]
+  },
+  "rich-text#paragraph-our-store-text": {
+    "props": {
+      "blockClass": "text-intitutional-our-store",
+      "text": "### ADAMANTINA / SP\nFone: (18) 3502-2923\nAvenida Rio Branco, 469\n### ÁGUAS DE LINDÓIA / SP\nFone: (19) 3924-9210\nAvenida Nações Unidas, 441\n### AMPARO / SP\nFone: (19) 3817-9898\nRua Comendador Guimarães, 08\n### ANGATUBA / SP\nFone: (15) 3255-9100\nRua Padre de Amadeu, 43\n### ARAÇARIGUAMA / SP\nFone: (11) 4204-2323\nAvenida Nicolau Ferreira de Souza, 77\n### ARAÇATUBA / SP\nFone: (18) 3519-4400\nRua Mal. Deodoro, 46\n### ARARAQUARA / SP\nFone: (16) 3303-4600\nRua 9 de Julho, 499\n### ARARAS / SP\nFone: (19) 3547-2923\nRua Julio Mesquita, 600\n### ARTUR NOGUEIRA / SP\nFone: (19) 3827-9393\nRua Duque de Caxias, 1.490\n### ASSIS / SP\nFone: (18) 3302-1111\nAvenida Rui Barbosa, 525\nAVARÉ / SP\nFone: (14) 3711-1000\nRua Alagoas, 1.488\n### BARRA BONITA / SP\nFone: (14) 3604-2923\nRua Primeiro de Março, 104\n### BASTOS / SP\nFone: (14) 3478-9500\nRua Presidente Vargas, 375\n### BOITUVA / SP\nFone: (15) 3363-9983\nRua Coronel Eugênio Motta, 110\n### BOTUCATU / SP\nFone: (14) 3881-2923\nRua Amando de Barros, 980\n### BRAGANÇA PAULISTA AVENIDA / SP\nFone: (11) 4481-8923\nAvenida Antônio Pires Pimentel, 248\n### CAPÃO BONITO / SP\nFone: (15) 3543-9090\nRua Floriano Peixoto, 777\n### CAPIVARI / SP\nFone: (19) 3492-8080\nPraça Rodrigues de Abreu, 384\n### CERQUEIRA CÉSAR / SP\nFone: (14) 3714-7070\nRua José Joaquim Esteves, 191\n### CERQUILHO / SP\nFone: (15) 3288-4500\nRua Dr. Soares Hungria, 245\n### CESÁRIO LANGE / SP\nFone: (15) 3246-8300\nRua do Comércio, 973\n### CONCHAL / SP\nFone: (19) 3866-7700\nAvenida Mogi Mirim, 803\n### CONCHAS / SP\nFone: (14) 3845-9700\nRua São Paulo, 263\n### CORDEIRÓPOLIS / SP\nFone: (19) 3556-9393\nRua Sete de Setembro, 465\n### DRACENA / SP\nFone: (18) 3821-8333\nAvenida Presidente Vargas, 419\n### DUARTINA / SP\nFone: (14) 3282-9090\nAvenida São Paulo, 537\n### FARTURA / SP\nFone: (14) 3308-9393\nRua Barão Rio Branco, 85\n### GUARARAPES / SP\nFone: (18) 3406-9080\nPraça Nossa Senhora Conceição, 404\n### IBATÉ / SP\nFone: (16) 3343-9090\nAvenida São João, 1089\n### IBIÚNA / SP\nFone: (15) 3248-9898\nRua Monsenhor Cintra, 56\n### IRACEMÁPOLIS / SP\nFone: (19) 3456-9595\nRua José Emídio, 519\n### ITAÍ / SP\nFone: (14) 3761-9191\nPraça Ernesto Odino, 1.100\n### ITAPETININGA / SP\nFone: (15) 3275-9300\nRua Campos Salles, 510\n### ITAPEVA / SP\nFone: (15) 3524-9292\nPraça Anchieta, 142\n### ITAPIRA / SP\nFone: (19) 3813-8923\nPraça Bernardino de Campos, 99 \n### ITU / SP\nFone: (11) 4022-9393\nRua Floriano Peixoto, 995\n### JAGUARIÚNA / SP\nFone: (19) 3847-9393\nRua Candido Bueno, 721\n### JAÚ / SP\nFone: (14) 3601-2923\nRua Major Prado, 474\n### LARANJAL PAULISTA / SP\nFone: (15) 3283-7000\nRua Dr. Oscar Vieira Sampaio, 120\n### LEME / SP\nFone: (19) 3554-9393\nAvenida 29 de Agosto, 310\n### LENÇÓIS PAULISTA / SP\nFone: (14) 3269-1919\nRua XV de Novembro, 564\n### LINS / SP\nFone: (14) 3533-2727\nRua 7 de Setembro, 221\nLUCÉLIA / SP\nFone: (18) 3551-9220\nAvenida Internacional, 1792\n### MACATUBA / SP\nFone: (14) 3298-9923\nRua José Jacinto Soares Macedo, 05-74\n### MAIRINQUE / SP\nFone: (11) 4246-0923\nRua Dr. Júlio Prestes de Albuquerque, 121\n### MARÍLIA / SP\nFone: (14) 3414-8000\nRua São Luiz, 846 858\n### MOGI MIRIM / SP\nFone: (19) 3814-2923\nRua Conde de Parnaíba, 130\n### MONTE MOR / SP\nFone: (19) 3979-7979\nAvenida Jânio Quadros, 112\n### OLÍMPIA / SP\nFone: (17) 3279-1010\nRua São João, 462\n### OSVALDO CRUZ / SP\nFone: (18)3529-9300\nAvenida Pres. Roosevelt, 657\n### PARAGUAÇU PAULISTA / SP\nFone: (18) 3361-8080\nRua Irmã Gomes, 43\n### PAULÍNIA / SP\nFone: (19) 3844-2923\nAvenida José Paulino, 1365\n### PEDERNEIRAS / SP\nFone: (14) 3283-8800\nRua Siqueira Campos, S-138\n### PEDREIRA / SP\nFone: (19) 3852-9090\nRua XV de Novembro, 830\n### PIEDADE / SP\nFone: (15) 3244-8300\nRua Dr. Sebastião Pereira, 126\n### PILAR DO SUL / SP\nFone: (15) 3278-8080\nRua Américo Brasiliense, 397\n### PIRACICABA / SP\nFone: (19) 3447-8000\nRua Gov. Pedro de Toledo, 1293\n### PIRAJU / SP\nFone: (14) 3305-9500\nAvenida Dr. Domingos Teodoro Gallo, 230\n### PIRAJUÍ / SP\nFone: (14) 3584-8840\nRua 7 de setembro, 453\n### PIRAPOZINHO / SP\nFone: (18) 3269-9393\nRua Rui Barbosa, 1107\n### POMPÉIA / SP\nFone: (14) 3405-2923\nRua Senador Rodolfo Miranda, 508\n### PORTO FELIZ / SP\nFone: (15) 3262-8983\nPraça Coronel Esmédio, 29\n### PORTO FERREIRA / SP\nFone: (19) 3589-3434\nRua São Sebastião, 290\n### PRESIDENTE VENCESLAU / SP\nFone: (18) 3272-9191\nAvenida Newton Prado, 107\n### RANCHARIA / SP\nFone: (18) 3265-9400\nAvenida Dom Pedro II, 943\n### RIO DAS PEDRAS / SP\nFone: (19) 3493-9393\nRua Prudente de Moraes, 350\n### SÃO MANUEL / SP\nFone: (14) 3812-2923\nRua Coronel Joaquim Floriano, 335\n### SÃO MIGUEL ARCANJO / SP\nFone: (15) 3279-8181\nRua Manoel Fogaça, 518\n### SÃO PEDRO / SP\nFone: (19) 3481-8100\nRua Veríssimo Prado, 256\n### SÃO ROQUE / SP\nFone: (11) 4784-9299\nRua Sete de Setembro, 60\n### SERRA NEGRA / SP\nFone: (19) 3842-9090\nRua Sete de Setembro, 256\n### SOCORRO / SP\nFone: (19) 3855-9400\nRua Campos Salles, 120\n### SUMARÉ / SP\nFone: (19) 3803-9993\nRua Dom Barreto, 640\n### TAQUARITINGA / SP\nFone: (16) 3253-8181\nRua Prudente de Moraes, 437\n### TAQUARITUBA / SP\nFone: (14) 3762-9090\nRua Dr. Ataliba Leonel, 504\n### TATUÍ / SP\nFone: (15) 3205-8983\nRua XI de Agosto, 129\n### TIETÊ / SP\nFone: (15) 3282-9797\nRua Lara Campos, 400\n### VINHEDO / SP\nFone: (19) 3826-8900\nRua Santos Dumont, 27"
+    },
+    "title": "Nossas lojas - Texto"
+  },
+  "image#our-store": {
+    "props": {
+      "src": "/arquivos/our-store-cybelar.jpg"
+    },
+    "title": "Nossas lojas - Imagem"
+  },
+  "image#our-store-img": {
+    "props": {
+      "src": "/arquivos/ins-our-store-cybelar.jpg"
+    },
+    "title": "Nossas lojas - Imagem"
+  },
+  "vtex.menu@2.x:menu#institutional-our-store": {
+    "children": [
+      "menu-item#fale-conosco-our-store",
+      "menu-item#about-us-our-store",
+      "menu-item#our-store-our-store",
+      "menu-item#policy-our-store",
+      "menu-item#new-sale-on-cybelar-our-store",
+      "menu-item#work-with-us-our-store",
+      "menu-item#exchanges-and-returns-our-store",
+      "menu-item#safe-buy-our-store",
+      "menu-item#shipping-and-delivery-our-store",
+      "menu-item#browsing-and-buying-our-store"
+    ],
+    "props": {
+      "blockClass": "menu-insitucional",
+        "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#fale-conosco-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#about-us-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "about-us-our-store",
+        "text": "Quem Somos"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#our-store-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store-our-store",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": "select"
+    }
+  },
+  "menu-item#policy-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "policy-our-store",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#affiliates-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/afiliados",
+        "noFollow": false,
+        "tagTitle": "affiliates",
+        "text": "Afiliados"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#help-store-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/duvidas-sobre-a-loja",
+        "noFollow": false,
+        "tagTitle": "help-store",
+        "text": "Duvidas sobre a loja?"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#work-with-us-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "work-with-us",
+        "text": "Trabalhe Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#deliveries-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/entregas",
+        "noFollow": false,
+        "tagTitle": "deliveries",
+        "text": "Entregas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#devolution-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/devolucao",
+        "noFollow": false,
+        "tagTitle": "devolution",
+        "text": "Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#payment-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pagamento",
+        "noFollow": false,
+        "tagTitle": "payment",
+        "text": "Pagamento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#security-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seguranca",
+        "noFollow": false,
+        "tagTitle": "security",
+        "text": "Segurança"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#call-center-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/central-de-atendimento",
+        "noFollow": false,
+        "tagTitle": "call-center",
+        "text": "Central de Atendimento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#exchanges-and-returns-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-returns",
+        "text": "Trocas e Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#safe-buy-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#shipping-and-delivery-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#browsing-and-buying-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e comprando"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#contact-us-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "contact-us",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#site-map-our-store": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mapa-do-site",
+        "noFollow": false,
+        "tagTitle": "site-map",
+        "text": "Mapa do Site"
+      },
+      "blockClass": "not-select"
+    }
+  }
+}

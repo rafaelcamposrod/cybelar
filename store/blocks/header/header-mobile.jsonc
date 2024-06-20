@@ -1,0 +1,70 @@
+{
+  "header-layout.mobile#header-mobile": {
+    "title": "Header - Mobile",
+    "children": [
+      "helmet-component",
+      "rich-text#top-info-bar-text",
+      "sticky-layout#header-mobile-sticky",
+      "span-cancel-order",
+      "chat-whatsapp"
+    ]
+  },
+  "sticky-layout#header-mobile-sticky": {
+    "title": "Header - Sticky - Mobile",
+    "props": {
+      "blockClass": [
+        "header-mobile-sticky"
+      ]
+    },
+    "children": [
+      "flex-layout.row#header-mobile-principal-bar"
+    ]
+  },
+  "flex-layout.row#header-mobile-principal-bar": {
+    "title": "Header - Principal - Mobile",
+    "props": {
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": [
+        "header-mobile-principal-bar"
+      ]
+    },
+    "children": [
+      "drawer",
+      "image#header-logo-mobile",
+      "rich-text#wishlistTitle--mobile",
+      "search-mobile",
+      "minicart.v2"
+    ]
+  },
+  "image#header-logo-mobile": {
+    "title": "Header - Logo - Mobile",
+    "props": {
+      "src": "assets/header-logo-mobile.svg",
+      "alt": "Cybelar",
+      "title": "Cybelar",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": [
+        "header-logo-mobile"
+      ]
+    }
+  },
+  "search-mobile": {
+    "children": [
+      "search-bar"
+    ]
+  },
+  "rich-text#wishlistTitle--mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[](/account#/wishlist)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "wishlistTitle--mobile"
+    },
+    "title": "Wish title"
+  }
+}

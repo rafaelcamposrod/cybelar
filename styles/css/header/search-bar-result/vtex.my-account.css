@@ -1,0 +1,52 @@
+:global(.vtex-search-1-x-biggy-autocomplete-wrapper
+    .vtex-search-1-x-itemListItem
+    *) {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Roboto" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 130% !important;
+  color: #727273 !important;
+  background: transparent !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+:global(.vtex-search-1-x-biggy-autocomplete-wrapper
+    .vtex-search-1-x-itemListItem:hover
+    *) {
+  color: #e2211d !important;
+}
+
+:global(.vtex-search-1-x-biggy-autocomplete-wrapper
+    .vtex-search-1-x-tileList
+    > ul) {
+  display: flex;
+  flex-direction: column !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+:global(.vtex-search-1-x-biggy-autocomplete-wrapper
+    .vtex-search-1-x-tileList
+    > ul
+    > .vtex-search-1-x-tileListItem) {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+:global(.vtex-search-1-x-biggy-autocomplete-wrapper
+    .vtex-search-1-x-tileList
+    > ul
+    > .vtex-search-1-x-tileListItem):not(:last-child) {
+  margin-bottom: 10px !important;
+}
+
+:global(.vtex-search-1-x-biggy-autocomplete-wrapper
+    .vtex-search-1-x-tileList
+    > footer) {
+  display: none !important;
+}

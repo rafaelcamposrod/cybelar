@@ -1,0 +1,124 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.row#deals1",
+      "flex-layout.row#deals2",
+      "flex-layout.row#deals3",
+      "flex-layout.row#deals4"
+    ],
+    "props": {
+      "blockClass": "deals-hide",
+      "colGap": 5,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#deals1": {
+    "children": ["flex-layout.col#image-deal1", "rich-text#deal1"],
+    "props": {
+      "blockClass": "deals-item",
+      "colGap": 5,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#image-deal1": {
+    "children": ["image#deal1"],
+    "props": {
+      "horizontalAlign": "right",
+      "blockClass": "dealsImageContainer"
+    }
+  },
+  "image#deal1": {
+    "props": {
+      "src": "assets/vantages_shop.svg",
+      "maxHeight": "42px",
+      "blockClass": "img-banner-home"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "Compre no site \ne retire na loja",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#deals2": {
+    "children": ["flex-layout.col#image-deal2", "rich-text#deal2"],
+    "props": {
+      "blockClass": "deals-item",
+      "colGap": 5,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#image-deal2": {
+    "children": ["image#deal2"],
+    "props": {
+      "horizontalAlign": "right",
+      "blockClass": "dealsImageContainer"
+    }
+  },
+  "image#deal2": {
+    "props": {
+      "src": "assets/outline-pix.svg",
+      "maxHeight": "42px"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "Pagamento \ncom PIX",
+      "blockClass": "deals--badge-new"
+    }
+  },
+  "flex-layout.row#deals3": {
+    "children": ["flex-layout.col#image-deal3", "rich-text#deal3"],
+    "props": {
+      "blockClass": "deals-item",
+      "colGap": 5,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#image-deal3": {
+    "children": ["image#deal3"],
+    "props": {
+      "horizontalAlign": "right",
+      "blockClass": "dealsImageContainer"
+    }
+  },
+  "image#deal3": {
+    "props": {
+      "src": "assets/vantages_box.svg",
+      "maxHeight": "42px"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "Postagem \nTurbinada",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#deals4": {
+    "children": ["flex-layout.col#image-deal4", "rich-text#deal4"],
+    "props": {
+      "blockClass": "deals-item",
+      "colGap": 5,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#image-deal4": {
+    "children": ["image#deal4"],
+    "props": {
+      "horizontalAlign": "right",
+      "blockClass": "dealsImageContainer"
+    }
+  },
+  "image#deal4": {
+    "props": {
+      "src": "assets/map-marker.svg",
+      "maxHeight": "42px"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "<span>+ de 75 \nLojas</span>",
+      "blockClass": "deals"
+    }
+  }
+}

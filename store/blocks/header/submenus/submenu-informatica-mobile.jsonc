@@ -1,0 +1,361 @@
+{
+  // NOTEBOOKS
+  "disclosure-layout#submenu-informatica-notebooks": {
+    "children": [
+      "disclosure-trigger#submenu-informatica-notebooks",
+      "disclosure-content#submenu-informatica-notebooks"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-informatica-notebooks": {
+    "children": [
+      "rich-text#submenu-informatica-notebooks",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-informatica-notebooks": {
+    "props": {
+      "text": "Notebooks",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-informatica-notebooks": {
+    "children": [
+      "rich-text#subcategoria-multilaser",
+      "rich-text#subcategoria-ultra",
+      "rich-text#subcategoria-acer",
+      "rich-text#subcategoria-informatica-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-ultra": {
+    "props": {
+      "text": "[Ultra](/ultra)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-acer": {
+    "props": {
+      "text": "[Acer](/acer)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // DESKTOPS
+  "disclosure-layout#submenu-informatica-desktops": {
+    "children": [
+      "disclosure-trigger#submenu-informatica-desktops",
+      "disclosure-content#submenu-informatica-desktops"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-informatica-desktops": {
+    "children": [
+      "rich-text#submenu-informatica-desktops",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-informatica-desktops": {
+    "props": {
+      "text": "Desktops",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-informatica-desktops": {
+    "children": [
+      "rich-text#subcategoria-multilaser"
+    ]
+  },
+  "rich-text#subcategoria-multilaser": {
+    "props": {
+      "text": "[Multilaser](/multilaser)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // TABLETS
+  "disclosure-layout#submenu-informatica-tablets": {
+    "children": [
+      "disclosure-trigger#submenu-informatica-tablets",
+      "disclosure-content#submenu-informatica-tablets"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-informatica-tablets": {
+    "children": [
+      "rich-text#submenu-informatica-tablets",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-informatica-tablets": {
+    "props": {
+      "text": "Tablets",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-informatica-tablets": {
+    "children": [
+      "rich-text#subcategoria-multilaser",
+      "rich-text#subcategoria-gradiente"
+    ]
+  },
+  "rich-text#subcategoria-gradiente": {
+    "props": {
+      "text": "[Gradiente](/gradiente)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // IMPRESSORAS
+  "disclosure-layout#submenu-informatica-impressoras": {
+    "children": [
+      "disclosure-trigger#submenu-informatica-impressoras",
+      "disclosure-content#submenu-informatica-impressoras"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-informatica-impressoras": {
+    "children": [
+      "rich-text#submenu-informatica-impressoras",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-informatica-impressoras": {
+    "props": {
+      "text": "Impressoras",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-informatica-impressoras": {
+    "children": [
+      "rich-text#subcategoria-multilaser",
+      "rich-text#subcategoria-hp",
+      "rich-text#subcategoria-epson"
+    ]
+  },
+  "rich-text#subcategoria-hp": {
+    "props": {
+      "text": "[HP](/hp)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-epson": {
+    "props": {
+      "text": "[Epson](/epson)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // FONE DE OUVIDO
+  "disclosure-layout#submenu-informatica-fone-de-ouvido": {
+    "children": [
+      "disclosure-trigger#submenu-informatica-fone-de-ouvido",
+      "disclosure-content#submenu-informatica-fone-de-ouvido"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-informatica-fone-de-ouvido": {
+    "children": [
+      "rich-text#submenu-informatica-fone-de-ouvido",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-informatica-fone-de-ouvido": {
+    "props": {
+      "text": "Fone de Ouvido",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-informatica-fone-de-ouvido": {
+    "children": [
+      "rich-text#subcategoria-headphone",
+      "rich-text#subcategoria-headset"
+    ]
+  },
+  "rich-text#subcategoria-headphone": {
+    "props": {
+      "text": "[Headphone](/headphone)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-headset": {
+    "props": {
+      "text": "[Headset](/headset)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // PPERIFÉRICOS
+  "disclosure-layout#submenu-informatica-perifericos": {
+    "children": [
+      "disclosure-trigger#submenu-informatica-perifericos",
+      "disclosure-content#submenu-informatica-perifericos"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-informatica-perifericos": {
+    "children": [
+      "rich-text#submenu-informatica-perifericos",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-informatica-perifericos": {
+    "props": {
+      "text": "Periféricos",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-informatica-perifericos": {
+    "children": [
+      "rich-text#subcategoria-mouse",
+      "rich-text#subcategoria-teclado"
+    ]
+  },
+  "rich-text#subcategoria-mouse": {
+    "props": {
+      "text": "[Mouse](/mouse)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-teclado": {
+    "props": {
+      "text": "[Teclado](/teclado)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // CASA INTELIGENTE
+  "disclosure-layout#submenu-informatica-casa-inteligente": {
+    "children": [
+      "disclosure-trigger#submenu-informatica-casa-inteligente",
+      "disclosure-content#submenu-informatica-casa-inteligente"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-informatica-casa-inteligente": {
+    "children": [
+      "rich-text#submenu-informatica-casa-inteligente",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-informatica-casa-inteligente": {
+    "props": {
+      "text": "Casa Inteligente",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-informatica-casa-inteligente": {
+    "children": [
+      "rich-text#subcategoria-acionador-inteligente",
+      "rich-text#subcategoria-controle-remoto",
+      "rich-text#subcategoria-fechadura-e-cadeado",
+
+      "rich-text#subcategoria-informatica-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-acionador-inteligente": {
+    "props": {
+      "text": "[Acionador Inteligente](/acionador-inteligente)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-controle-remoto": {
+    "props": {
+      "text": "[Controle Remoto](/controle-remoto)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-fechadura-e-cadeado": {
+    "props": {
+      "text": "[Fechadura e Cadeado](/fechadura-e-cadeado)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // DISPOSITIVOS DE REDE
+  "disclosure-layout#submenu-informatica-dispositivos-de-rede": {
+    "children": [
+      "disclosure-trigger#submenu-informatica-dispositivos-de-rede",
+      "disclosure-content#submenu-informatica-dispositivos-de-rede"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-informatica-dispositivos-de-rede": {
+    "children": [
+      "rich-text#submenu-informatica-dispositivos-de-rede",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-informatica-dispositivos-de-rede": {
+    "props": {
+      "text": "Dispositivos de Rede",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-informatica-dispositivos-de-rede": {
+    "children": [
+      "rich-text#subcategoria-roteador",
+      "rich-text#subcategoria-switch"
+    ]
+  },
+  "rich-text#subcategoria-roteador": {
+    "props": {
+      "text": "[Roteador](/roteador)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-switch": {
+    "props": {
+      "text": "[Switch](/switch)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+
+  // VER TUDO
+  "rich-text#subcategoria-informatica-ver-tudo": {
+    "props": {
+      "text": "[+ ver tudo](#)",
+      "blockClass": "subcategory-text-ver-tudo"
+    }
+  }
+}

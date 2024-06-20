@@ -1,0 +1,716 @@
+/* Header */
+.container :global(.vtex-button):hover {
+  background: #fff;
+}
+
+.container :global(.vtex-button) {
+  padding: 0 5px;
+}
+
+
+
+.container :global(.relative) {
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .container :global(.vtex-button__label)::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='30' viewBox='0 0 18 20' fill='none'%3E%3Cpath d='M1.35 18V18.65H2H16H16.65V18V14.5342C16.65 13.6555 16.2246 12.8338 15.4997 12.3442C13.9409 11.291 12.1545 10.6624 10.3241 10.4584C11.043 10.2456 11.7206 9.85549 12.2881 9.28804C14.104 7.47211 14.104 4.5279 12.2881 2.71197C10.4722 0.896009 7.52793 0.896009 5.71201 2.71197C3.89607 4.5279 3.89607 7.47211 5.71201 9.28804C6.27945 9.85548 6.95705 10.2456 7.67598 10.4584C5.8456 10.6624 4.05929 11.2909 2.50056 12.3441C1.77545 12.8336 1.35 13.6554 1.35 14.5342V18Z' stroke='%23666666' stroke-width='1.3'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+    padding: 0;
+    height: 30px;
+    margin-top: 0;
+    margin-bottom: 3px;
+    width: 30px;
+  }
+
+  .container :global(.vtex-button__label) {
+    padding: 0 !important;
+  }
+}
+
+.label {
+  color: #E2211D;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
+  padding: 0 0 0 10px;
+  text-align: left;
+  text-transform: none;
+  font-weight: bold;
+  white-space: nowrap;
+  line-height: 14.4px;
+}
+@media (max-width: 768px) {
+  .label {
+    padding: 0 0 0 0px;
+  }
+}
+
+.label::before {
+  color: #727273;
+  line-height: 15.6px;
+  content: "Seja bem-vindo,";
+  display: block;
+  font-weight: normal;
+}
+
+.profile {
+  color: #000000;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  padding: 0 0 0 12px;
+  text-align: left;
+  text-transform: capitalize;
+  width: 100%;
+  display: flex;
+}
+
+:global(.vtex-store-components-3-x-searchBarInnerContainer) div:nth-child(2) {
+  position: relative;
+}
+
+:global(.vtex-store-components-3-x-searchBarInnerContainer)
+  div:nth-child(2)
+  > div {
+  position: absolute !important;
+}
+
+@media (max-width: 768px) {
+  :global(.vtex-store-components-3-x-searchBarInnerContainer)
+  div:nth-child(2)
+  > div {
+    position: unset !important;
+  }
+
+  .label {
+    color: #fff;
+  }
+}
+
+:global(.vtex-store-components-3-x-searchBarInnerContainer)
+  div:nth-child(2)
+  div
+  div
+  div {
+  left: 0 !important;
+  justify-content: flex-start;
+  top: 0 !important;
+}
+
+@media screen and (min-width: 1025px) {
+  .container :global(.vtex-button__label)::before {
+    background-image: url('assets/icon-header-user.svg');
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+  }
+
+  .container :global(.vtex-button__label) span div div {
+    padding-top: 5px;
+    width: 100%;
+    display: block;
+  }
+
+  .container :global(.vtex-button) {
+    padding: 0;
+  }
+
+  .container :global(.vtex-button):focus {
+    background: transparent;
+  }
+}
+
+@media screen and (min-width: 1366) {
+  .container :global(.vtex-button__label) {
+    margin-left: 10px;
+  }
+}
+
+/* Header - END */
+/* Product Page */
+:global(.vtex-store-components-3-x-productImagesGallerySwiperContainer)
+  :global(.vtex-store-components-3-x-swiperBullet.swiper-pagination-bullet-active) {
+  background: #ff0814;
+}
+
+:global(.vtex-store-components-3-x-specificationsTable--specs-table) tr {
+  background: #ffffff;
+}
+
+:global(.vtex-store-components-3-x-specificationsTable--specs-table)
+  tr:nth-child(even) {
+  background: #dddddd;
+}
+
+/* Product Page - END */
+
+/* LOGIN OPEN */
+.box {
+  right: -150px !important;
+}
+
+.arrowUp {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.6);
+  left: 57%;
+}
+
+.contentContainer {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.15);
+}
+
+.content--emailVerification,
+.content--emailAndPassword,
+.content--codeConfirmation,
+.content--accountOptions {
+  background: #ffffff;
+  padding: 25px 14px 20px;
+}
+
+.contentInitialScreen {
+  background-color: #ffffff;
+  padding: 25px 14px 20px;
+}
+
+.formTitle {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0 0 23px;
+  padding: 0;
+  text-align: center;
+}
+
+.options .formTitle {
+  color: #e2211d;
+}
+
+.emailForm .formTitle {
+  color: #000000;
+  margin: 0 0 16px;
+}
+
+.contentInitialScreen .optionsList {
+  margin: 0;
+}
+
+.contentInitialScreen .optionsList :global(.vtex-button) {
+  border-radius: 0;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contentInitialScreen .optionsList :global(.vtex-button):focus {
+  outline: transparent;
+}
+
+.optionsListItem .accessCodeOptionBtn :global(.vtex-button) {
+  background: #49e87b;
+  color: #000000;
+}
+
+.optionsListItem .emailPasswordOptionBtn :global(.vtex-button) {
+  background: #e2211d;
+  color: #ffffff;
+}
+
+.optionsListItem .emailPasswordOptionBtn :global(.vtex-button__label),
+.optionsListItem .accessCodeOptionBtn :global(.vtex-button__label) {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  text-transform: none;
+}
+
+.optionsListItem .facebookOptionBtn :global(.vtex-button) {
+  background: #405d9a;
+  border: 1px solid #8a9abc;
+  color: #ffffff;
+  text-transform: none;
+}
+
+.optionsListItem .facebookOptionBtn :global(.vtex-button) svg {
+  display: none;
+}
+
+.optionsListItem .facebookOptionBtn :global(.vtex-button__label)::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.9903 0H1.00969C0.452026 0 0 0.452026 0 1.00969V12.9903C0 13.548 0.452026 14 1.00969 14H7.47852V8.58594H5.66016V6.4668H7.47852V4.90724C7.47852 3.09871 8.58263 2.11433 10.1959 2.11433C10.9686 2.11433 11.6326 2.17191 11.8262 2.19765V4.08789H10.7137C9.83595 4.08789 9.66602 4.50499 9.66602 5.11713V6.4668H11.7646L11.4912 8.58594H9.66602V14H12.9903C13.548 14 14 13.548 14 12.9903V1.00969C14 0.452026 13.548 0 12.9903 0V0Z' fill='white'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  content: "";
+  display: block;
+  height: 13px;
+  width: 13px;
+  margin-left: -5px;
+  margin-right: 5px;
+}
+
+.optionsListItem .googleOptionBtn :global(.vtex-button) {
+  background: #ffffff;
+  border: 1px solid #b8b8b8;
+  color: #282828;
+  text-transform: none;
+}
+
+.contentInitialScreen .optionsList :global(.vtex-button__label),
+.optionsListItem .facebookOptionBtn :global(.vtex-button) .oauthLabel,
+.optionsListItem .googleOptionBtn :global(.vtex-button) .oauthLabel {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  text-transform: none;
+}
+
+.contentInitialScreen .optionsList :global(.vtex-button__label) {
+  text-transform: uppercase;
+}
+
+.optionsListItem .facebookOptionBtn :global(.vtex-button) .oauthLabel {
+  margin: 0 0 0 21px;
+}
+
+.contentContainer .contentForm {
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.contentFormVisible {
+  margin-bottom: 25px;
+}
+
+.contentContainer .inputContainerEmail :global(.vtex-input-prefix__group),
+.inputContainerPassword :global(.vtex-input-prefix__group),
+.inputContainerEmail :global(.vtex-input-prefix__group),
+.inputContainerAccessCode :global(.vtex-input-prefix__group) {
+  border-radius: 0;
+}
+
+.contentContainer .inputContainerEmail :global(.vtex-input-prefix__group):hover,
+.inputContainerPassword :global(.vtex-input-prefix__group):hover,
+.inputContainerEmail :global(.vtex-input-prefix__group):hover,
+.inputContainerAccessCode :global(.vtex-input-prefix__group):hover {
+  border: none;
+}
+
+.contentContainer .inputContainerEmail :global(.vtex-styleguide-9-x-input),
+.inputContainerPassword :global(.vtex-styleguide-9-x-input),
+.inputContainerEmail
+  :global(.vtex-input-prefix__group)
+  :global(.vtex-styleguide-9-x-input),
+.inputContainerAccessCode
+  :global(.vtex-input-prefix__group)
+  :global(.vtex-styleguide-9-x-input) {
+  background-color: #ffffff;
+  border: 1px solid #c2c2c2;
+  border-radius: 0;
+  color: #505050;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.contentContainer .emailVerification .formFooter {
+  border-top: 1px solid #c6c6c6;
+  margin-top: 15px;
+  padding-top: 12px;
+}
+
+.contentContainer .formFooter .backButton {
+  border-radius: 0;
+}
+
+.contentContainer .formFooter .backButton:focus,
+.contentContainer .formFooter .backButton :global(.vtex-button):focus,
+.inputContainerEmail :global(.vtex-input-prefix__group):focus {
+  outline: transparent;
+  background: transparent;
+}
+
+.contentContainer .formFooter .backButton :global(.vtex-button) {
+  border-radius: 0;
+}
+
+.contentContainer .formFooter .backButton :global(.vtex-button):hover {
+  background: transparent;
+}
+
+.contentContainer .formFooter .backButton :global(.vtex-button__label) {
+  margin: 0;
+  padding: 12px 0 !important;
+}
+
+.contentContainer .formFooter .backButton :global(.vtex-button__label) svg {
+  display: none;
+}
+
+.contentContainer .formFooter .backButton :global(.vtex-button__label) span {
+  color: #e31f1a;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0;
+}
+
+.contentContainer
+  .formFooter
+  .backButton
+  :global(.vtex-button__label)
+  span::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='9' height='13' viewBox='0 0 9 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.23789 6.65096L6.88992 12.1419C7.04378 12.269 7.24916 12.339 7.46815 12.339C7.68714 12.339 7.89252 12.269 8.04638 12.1419L8.53625 11.7376C8.85502 11.4742 8.85502 11.046 8.53625 10.783L2.95038 6.17205L8.54245 1.556C8.6963 1.4289 8.78125 1.25947 8.78125 1.0788C8.78125 0.89793 8.6963 0.728497 8.54245 0.601295L8.05257 0.197122C7.8986 0.0700206 7.69334 -9.01598e-08 7.47435 -1.08309e-07C7.25536 -1.26457e-07 7.04997 0.0700205 6.89612 0.197121L0.23789 5.69304C0.0836722 5.82054 -0.00103129 5.99078 -0.00054493 6.17175C-0.00103132 6.35342 0.0836721 6.52356 0.23789 6.65096Z' fill='%23E31F1A'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  content: "";
+  height: 12px;
+  margin-right: 10px;
+  width: 9px;
+}
+
+.contentContainer .formFooter .backButton {
+  border-radius: 0;
+}
+
+.formFooter .sendButton:focus,
+.formFooter .sendButton :global(.vtex-button):focus {
+  outline: transparent;
+}
+
+.formFooter .sendButton :global(.vtex-button) {
+  background: #49e87b;
+  border: none;
+  border-radius: 0;
+}
+
+.formFooter .sendButton :global(.vtex-button) span {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 9px 14px;
+}
+
+.inputContainerPassword :global(.vtex-input-prefix__group) > span {
+  background-color: #ffffff;
+  border: 1px solid #c2c2c2;
+  border-left: none;
+  border-radius: 0;
+}
+
+.emailAndPasswordForm .formLinkContainer {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.emailAndPasswordForm .formLinkContainer .forgotPasswordLink,
+.emailAndPasswordForm .formLinkContainer .dontHaveAccount {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.emailAndPasswordForm .formLinkContainer .forgotPasswordLink:hover,
+.emailAndPasswordForm .formLinkContainer .dontHaveAccount:hover {
+  opacity: 1;
+}
+
+.emailAndPasswordForm .formLinkContainer .dontHaveAccount {
+  margin-top: 10px;
+}
+
+.inputContainerEmail :global(.vtex-input-prefix__group):focus,
+.inputContainerPassword :global(.vtex-input-prefix__group):focus,
+.inputContainerAccessCode :global(.vtex-input-prefix__group):focus {
+  border: none;
+  outline: transparent;
+}
+
+.content--accountOptions .button,
+.content--accountOptions :global(.vtex-button) {
+  background: #49e87b;
+  border-radius: 0;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  width: 100%;
+}
+
+.content--accountOptions .button:focus,
+.content--accountOptions :global(.vtex-button):focus {
+  border: none;
+  outline: transparent;
+}
+
+.content--accountOptions .button span,
+.content--accountOptions :global(.vtex-button) span {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
+.sendButton :global(.vtex-button__label) span{
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 640px) {
+  .contentContainer .contentFormVisible {
+    margin-bottom: 0;
+  }
+}
+
+/* ORDER PLACED ADJUST  */
+:global(.vtex-order-placed-2-x-orderOptionsWrapper) div a {
+  text-decoration: none;
+}
+
+:global(.vtex-order-placed-2-x-orderPaymentItem) article > div > p {
+  font-weight: 600;
+}
+
+:global(.vtex-order-placed-2-x-orderPaymentItem) p {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+:global(.vtex-order-placed-2-x-packageAddressWrapper)
+  :global(.address-summary)
+  span {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+:global(.vtex-order-placed-2-x-packageAddressWrapper) > div > p {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+:global(.vtex-order-placed-2-x-orderPaymentItem) article > div a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1025px) {
+  :global(.vtex-order-placed-2-x-orderWrapper) > div:nth-child(2) {
+    width: 100%;
+  }
+
+  :global(.vtex-order-placed-2-x-section--paymentMethods) {
+    width: 50%;
+  }
+}
+
+/* HOME */
+
+@media screen and (min-width: 1025px) {
+  :global(.vtex-shelf-1-x-sliderContainer--shelf-mais-procurados)
+    > div:nth-child(2) {
+    box-sizing: initial;
+    min-height: 430px;
+    height: auto;
+  }
+
+  :global(.vtex-shelf-1-x-slide--shelf-produtos-precisa-conferi){
+    min-height: 430px;
+    height: auto;
+  }
+  :global(.vtex-shelf-1-x-sliderContainer--shelf-os-mais-procurados)
+    > div:nth-child(2) {
+    box-sizing: initial;
+    min-height: 430px;
+    height: auto;
+    overflow: hidden;
+  }
+  :global(.vtex-shelf-1-x-sliderContainer--shelf-related) > div:nth-child(2) {
+    padding: 0 10px 0;
+    box-sizing: initial;
+    margin: 0 -20px 0 -15px;
+    height: 430px;
+  }
+  :global(.vtex-shelf-1-x-sliderContainer--shelf-who-saw-it) > div:nth-child(2) {
+    padding: 10px 10px 0;
+    box-sizing: initial;
+    margin: 0 -20px 0 -15px;
+    height: 430px;
+  }
+}
+
+/*Menu Adjustments*/
+:global(.vtex-menu-2-x-submenuWrapper):global(.dn) {
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.17, 0.04, 0.03, 0.94) 0s;
+  will-change: opacity;
+}
+
+:global(.vtex-menu-2-x-submenuWrapper):global(.flex) {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s cubic-bezier(0.17, 0.04, 0.03, 0.94) 0s;
+}
+
+/*Menu Mobile fix*/
+@media(max-width: 768px) {
+  :global(.vtex-menu-2-x-menuContainerNav)
+  :global(.vtex-menu-2-x-menuContainer)
+  .container
+  > div {
+  margin: 0;
+}
+
+  .buttonLink  :global(.vtex-button) :global(.vtex-button__label) {
+    padding: 0px !important;
+  }
+}
+
+
+/*order placed*/
+:global(.vtex-order-placed-2-x-noticeListItem) > div {
+  padding-top: 0;
+  height: 64px;
+  border-top: 1px solid #c4c4c4;
+  margin: 16px -16px 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) > div {
+  max-width: 311px;
+  width: 100% !important;
+}
+
+:global(.vtex-order-placed-2-x-totalListItem) {
+  padding: 15px 0;
+}
+
+:global(.vtex-order-placed-2-x-packageHeader--delivery) > br {
+  display: none;
+}
+
+:global(.vtex-order-placed-2-x-confirmationMessage:first-child) {
+  display: none;
+}
+
+@media screen and (max-width: 1025px) {
+  :global(.vtex-order-placed-2-x-noticeListItem:nth-child(1)) {
+    padding: 16px 22px;
+  }
+
+  :global(.vtex-order-placed-2-x-noticeListItem:nth-child(2)) {
+    padding: 16px 14px;
+  }
+
+  :global(.vtex-order-placed-2-x-noticeListItem:nth-child(4)) {
+    padding: 16px 12px 0;
+  }
+
+  :global(.vtex-order-placed-2-x-noticeListItem) > div {
+    padding-top: 32px;
+    border-top: 1px solid #c4c4c4;
+    margin: 16px -10px 0;
+  }
+
+  :global(.vtex-order-placed-2-x-noticeListItem) > div > a {
+    margin: 0 auto;
+  }
+
+  :global(.vtex-order-placed-2-x-packageHeader--delivery) > br {
+    display: none;
+  }
+
+  :global(.vtex-order-placed-2-x-totalListItem:nth-child(2)) {
+    margin: 10px 0 10px auto;
+    border-top: 1px solid #c4c4c4;
+    padding-top: 15px;
+  }
+
+  :global(.vtex-order-placed-2-x-totalListItem:nth-child(3)) {
+    padding-top: 15px;
+  }
+
+  :global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel) > span {
+    width: 100%;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) > div {
+  max-width: 311px;
+  width: 100%;
+}
+
+/* venda na cybelar */
+:global(.vtex-rich-text-0-x-paragraph--cadastrar-btn) a {
+  text-decoration: none;
+  color: white;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--motives-container)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth:nth-child(2)),
+:global(.vtex-flex-layout-0-x-flexRowContent--motives-container)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth:nth-child(3)),
+:global(.vtex-flex-layout-0-x-flexRowContent--motives-container)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth:nth-child(4)) {
+  width: 30% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--motives-container)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth:nth-child(1)) {
+  display: flex;
+  justify-content: end;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--motives-container)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth:nth-child(5)) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* minha conta */
+:global(.vtex-dropdown) label > div {
+  border-radius: 0;
+}
+
+:global(#root) :global(.vtex-input-prefix__group) > input,
+:global(#root) :global(.vtex-input-prefix__group),
+:global(#root) :global(.vtex-input-prefix__group:focus),
+:global(#root) :global(.vtex-input-prefix__group:hover) {
+  border-radius: 0 !important;
+}
+
+/*Product page*/
+:global(.vtex-flex-layout-0-x-flexColChild--product-specification-container):not(:empty)
+  ~ :global(.vtex-flex-layout-0-x-flexColChild--product-specification-container)
+  :global(.vtex-flex-layout-0-x-flexCol--product-specification-container) {
+  display: none;
+}
+:global(.vtex-store-components-3-x-infoCardImage--searchBanner)[src=""] {
+  display: none !important;
+}
+
+a{
+  -webkit-tap-highlight-color: transparent;
+  outline: transparent;
+}

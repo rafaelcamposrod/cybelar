@@ -1,0 +1,325 @@
+{
+  // CASA
+  "disclosure-layout#submenu-eletroportateis-casa": {
+    "children": [
+      "disclosure-trigger#submenu-eletroportateis-casa",
+      "disclosure-content#submenu-eletroportateis-casa"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-eletroportateis-casa": {
+    "children": [
+      "rich-text#submenu-eletroportateis-casa",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-eletroportateis-casa": {
+    "props": {
+      "text": "Casa",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-eletroportateis-casa": {
+    "children": [
+      "rich-text#subcategoria-aspirador-de-po",
+      "rich-text#subcategoria-batedeira",
+      "rich-text#subcategoria-bebedouro-e-purificador",
+      "rich-text#subcategoria-eletroportateis-ver-tudo"
+      
+      // "rich-text#subcategoria-cafeteira-e-chaleira",
+      // "rich-text#subcategoria-churrasqueira-eletrica",
+      // "rich-text#subcategoria-espremedor",
+      // "rich-text#subcategoria-ferro-de-passar",
+      // "rich-text#subcategoria-fritadeira-sem-oleo",
+      // "rich-text#subcategoria-grill-e-sanduicheira",
+      // "rich-text#subcategoria-liquidificador",
+      // "rich-text#subcategoria-mixer-e-processador",
+      // "rich-text#subcategoria-panela-eletrica",
+      // "rich-text#subcategoria-torradeira-e-sanduicheira"
+    ]
+  },
+  "rich-text#subcategoria-aspirador-de-po": {
+    "props": {
+      "text": "[Aspirador de Pó](/aspirador-de-po)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-batedeira": {
+    "props": {
+      "text": "[Batedeira](/batedeira)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-bebedouro-e-purificador": {
+    "props": {
+      "text": "[Bebedouro e Purificador](/bebedouro-e-purificador)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-cafeteira-e-chaleira": {
+    "props": {
+      "text": "[Cafeteira e Chaleira](/cafeteira-e-chaleira)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-churrasqueira-eletrica": {
+    "props": {
+      "text": "[Churrasqueira Elétrica](/churrasqueira-eletrica)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-espremedor": {
+    "props": {
+      "text": "[Espremedor](/espremedor)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-ferro-de-passar": {
+    "props": {
+      "text": "[Ferro de Passar](/ferro-de-passar)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-fritadeira-sem-oleo": {
+    "props": {
+      "text": "[Fritadeira sem Óleo](/fritadeira-sem-oleo)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-grill-e-sanduicheira": {
+    "props": {
+      "text": "[Grill e Sanduicheira](/grill-e-sanduicheira)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-liquidificador": {
+    "props": {
+      "text": "[Liquidificador](/liquidificador)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-mixer-e-processador": {
+    "props": {
+      "text": "[Mixer e Processador](/mixer-e-processador)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-panela-eletrica": {
+    "props": {
+      "text": "[Panela Elétrica](/panela-eletrica)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-torradeira-e-sanduicheira": {
+    "props": {
+      "text": "[Torradeira e Sanduicheira](/torradeira-e-sanduicheira)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // FERRAMENTAS
+  "disclosure-layout#submenu-eletroportateis-ferramentas": {
+    "children": [
+      "disclosure-trigger#submenu-eletroportateis-ferramentas",
+      "disclosure-content#submenu-eletroportateis-ferramentas"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-eletroportateis-ferramentas": {
+    "children": [
+      "rich-text#submenu-eletroportateis-ferramentas",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-eletroportateis-ferramentas": {
+    "props": {
+      "text": "Ferramentas",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-eletroportateis-ferramentas": {
+    "children": [
+      "rich-text#subcategoria-esmirilhadeira-e-lixadeira",
+      "rich-text#subcategoria-furadeira-e-parafusadeira",
+      "rich-text#subcategoria-plaina-e-politriz",
+      "rich-text#subcategoria-eletroportateis-ver-tudo"
+      // "rich-text#subcategoria-serras",
+      // "rich-text#subcategoria-conjunto-de-ferramentas"
+    ]
+  },
+  "rich-text#subcategoria-esmirilhadeira-e-lixadeira": {
+    "props": {
+      "text": "[Esmirilhadeira e Lixadeira](/esmirilhadeira-e-lixadeira)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-furadeira-e-parafusadeira": {
+    "props": {
+      "text": "[Furadeira e Parafusadeira](/furadeira-e-parafusadeira)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-plaina-e-politriz": {
+    "props": {
+      "text": "[Plaina e Politriz](/plaina-e-politriz)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-serras": {
+    "props": {
+      "text": "[Serras](/serras)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-conjunto-de-ferramentas": {
+    "props": {
+      "text": "[Conjunto de Ferramentas](/conjunto-de-ferramentas)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // PORTÁTEIS DE BELEZA
+  "disclosure-layout#submenu-eletroportateis-portateis-de-beleza": {
+    "children": [
+      "disclosure-trigger#submenu-eletroportateis-portateis-de-beleza",
+      "disclosure-content#submenu-eletroportateis-portateis-de-beleza"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-eletroportateis-portateis-de-beleza": {
+    "children": [
+      "rich-text#submenu-eletroportateis-portateis-de-beleza",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-eletroportateis-portateis-de-beleza": {
+    "props": {
+      "text": "Portáteis de Beleza",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-eletroportateis-portateis-de-beleza": {
+    "children": [
+      "rich-text#subcategoria-aparador-e-barbeador",
+      "rich-text#subcategoria-chapinha-e-modelador",
+      "rich-text#subcategoria-escova-e-secador",
+      "rich-text#subcategoria-eletroportateis-ver-tudo"
+
+      // "rich-text#subcategoria-maquina-de-cortar-cabelo"
+    ]
+  },
+  "rich-text#subcategoria-aparador-e-barbeador": {
+    "props": {
+      "text": "[Aparador e Barbeador](/aparador-e-barbeador)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-chapinha-e-modelador": {
+    "props": {
+      "text": "[Chapinha e Modelador](/chapinha-e-modelador)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-escova-e-secador": {
+    "props": {
+      "text": "[Escova e Secador](/escova-e-secador)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-maquina-de-cortar-cabelo": {
+    "props": {
+      "text": "[Máquina de Cortar Cabelo](/maquina-de-cortar-cabelo)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // SAÚDE E CUIDADOS
+  "disclosure-layout#submenu-eletroportateis-saude-e-cuidados": {
+    "children": [
+      "disclosure-trigger#submenu-eletroportateis-saude-e-cuidados",
+      "disclosure-content#submenu-eletroportateis-saude-e-cuidados"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-eletroportateis-saude-e-cuidados": {
+    "children": [
+      "rich-text#submenu-eletroportateis-saude-e-cuidados",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-eletroportateis-saude-e-cuidados": {
+    "props": {
+      "text": "Saúde e Cuidados",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-eletroportateis-saude-e-cuidados": {
+    "children": [
+      "rich-text#subcategoria-balanca",
+      "rich-text#subcategoria-inalador-e-compressor",
+      "rich-text#subcategoria-massageadores",
+      "rich-text#subcategoria-eletroportateis-ver-tudo"
+
+      // "rich-text#subcategoria-medidor-e-monitor",
+      // "rich-text#subcategoria-purificador-e-umidificador"
+    ]
+  },
+  "rich-text#subcategoria-balanca": {
+    "props": {
+      "text": "[Balança](/balanca)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-inalador-e-compressor": {
+    "props": {
+      "text": "[Inalador e Compressor](/inalador-e-compressor)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-massageadores": {
+    "props": {
+      "text": "[Massageadores](/massageadores)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-medidor-e-monitor": {
+    "props": {
+      "text": "[Medidor e Monitor](/medidor-e-monitor)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-purificador-e-umidificador": {
+    "props": {
+      "text": "[Purificador e Umidificador](/purificador-e-umidificador)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // VER TUDO
+  "rich-text#subcategoria-eletroportateis-ver-tudo": {
+    "props": {
+      "text": "[+ ver tudo](#)",
+      "blockClass": "subcategory-text-ver-tudo"
+    }
+  }
+}

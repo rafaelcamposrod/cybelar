@@ -1,0 +1,14 @@
+{
+    "vtex.store-components:product-name#product-page-name": {
+        "title": "Nome do produto",
+        "props": {
+            "showBrandName": false,
+            "showProductReference": false,
+            "showSku": true,
+            "tag": "h2",
+            "blockClass": [
+                "product-page-name"
+            ]
+        }
+    }
+}

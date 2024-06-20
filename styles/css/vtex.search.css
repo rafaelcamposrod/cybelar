@@ -1,0 +1,64 @@
+.biggy-autocomplete {
+text-align: left;
+  width: 1000px !important;
+  /* left: 270px;
+  top: 115px; */
+}
+
+/* @media (min-width: 1441px) {
+    .biggy-autocomplete {
+        left: 510px;
+    }   
+} */
+
+.biggy-autocomplete :global(.vtex-search-1-x-itemList--suggestion) {
+    max-width: 200px;
+}
+
+.biggy-autocomplete :global(.vtex-search-1-x-tileList):last-child :global(.vtex-search-1-x-tileListItem) {
+    margin: 0 5px;
+}
+
+.biggy-autocomplete 
+:global(.vtex-search-1-x-tileList):nth-child(even) 
+:global(.vtex-search-1-x-tileListItem):first-child
+.clearLink--shelf-busca-inteligente
+.element--shelf-busca-inteligente
+:global(.vtex-stack-layout-0-x-stackContainer):nth-child(even) 
+{
+    /* position: absolute;
+    right: 0;
+    margin: -2px 0 0 115px; */
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .biggy-autocomplete {
+        width: 355px !important;
+        /* left: 10px;
+        top: 133px; */
+    }
+
+    .biggy-autocomplete :global(.vtex-search-1-x-itemList--suggestion) {
+        max-width: unset;
+    }
+
+    .biggy-autocomplete :global(.vtex-search-1-x-tileList) {
+        padding: 0 5px;
+    }
+
+    :global(.vtex-search-1-x-tileList):nth-child(even)
+    :global(.vtex-search-1-x-tileListItem):first-child 
+    .no-underline, :global(.vtex-search-1-x-tileList):nth-child(even)
+    :global(.vtex-search-1-x-tileListItem) {
+        width: 290px !important;
+    }
+
+}
+
+.biggy-autocomplete :global(.vtex-search-1-x-tileList):nth-child(even) .tileListItem {
+    border: 1px solid #DCDCDC;
+    width: 100% !important;
+    padding: 5px;
+    margin: 2px;
+}

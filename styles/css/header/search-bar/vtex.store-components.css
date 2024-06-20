@@ -1,0 +1,34 @@
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: none !important;
+  display: flex;
+  align-items: center;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  width: 526px;
+  height: 40px;
+  padding: 0 20px;
+  margin: 0;
+  margin-right: 10px;
+  background: #ffffff;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+}
+
+.searchBarContainer :global(.vtex-input__suffix) {
+  width: 58px;
+  height: 40px;
+  background: #e2211d;
+  border-radius: 5px;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBarContainer .suffixWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

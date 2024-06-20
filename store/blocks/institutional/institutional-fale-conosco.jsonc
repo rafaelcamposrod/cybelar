@@ -1,0 +1,402 @@
+{
+  "store.custom#institutional-fale-conosco": {
+    "blocks": [
+      "responsive-layout.desktop#fale-conosco",
+      "responsive-layout.mobile#fale-conosco"
+    ]
+  },
+  "responsive-layout.desktop#fale-conosco": {
+    "children": [
+      "flex-layout.row#banner-fale-conosco-suporte",
+      "flex-layout.row#desktop-fale-conosco"
+    ]
+  },
+
+  "flex-layout.row#banner-fale-conosco-suporte": {
+    "children": [
+
+      "image#banner-content-1-fale-conosco"
+    ],
+    "props": {
+      "blockClass": []
+    }
+  },
+  "image#banner-content-1-fale-conosco":{
+    "props" :{
+        "src": "assets/Institucional-faleconosco.png",
+        "width": "100%",
+        "blockClass": ""
+    }
+  },
+
+  "responsive-layout.mobile#fale-conosco": {
+    "children": [
+      "flex-layout.row#banner-fale-conosco-suporte-mobile",
+      "flex-layout.row#mobile-fale-conosco"
+    ],
+    "props": {
+      "blockClass": "mobile-container"
+    }
+  },
+
+  "flex-layout.row#banner-fale-conosco-suporte-mobile": {
+    "children": [
+
+      "image#banner-content-1-fale-conosco-mobile"
+    ],
+    "props": {
+      "blockClass": []
+    }
+  },
+  "image#banner-content-1-fale-conosco-mobile":{
+    "props" :{
+        "src": "assets/Institucional-faleconosco-mobile.png",
+        "width": "100%",
+        "blockClass": ""
+    }
+  },
+  "flex-layout.row#mobile-fale-conosco": {
+    "children": [
+      "menu-item#fale-conosco",
+      "flex-layout.col#mobile-content-fale-conosco"
+    ],
+    "props": {
+      "blockClass": "mobile-fale-conosco"
+    }
+  },
+  "flex-layout.col#mobile-content-fale-conosco": {
+    "children": [
+      // "rich-text#title-fale-conosco"
+      // "rich-text#footer-title-fale-conosco",
+      "rich-text#mobile-linha-title-fale-conosco",
+      "flex-layout.row#desktop-fale-conosco-contato-contein-1",
+      "flex-layout.row#-fale-conosco-formulario-mobile"
+    ],
+    "props": {
+      "blockClass": "mobile-content-fale-conosco"
+    }
+  },
+  "rich-text#mobile-linha-title-fale-conosco": {
+    "props": {
+      "blockClass": "linha-title-fale-conosco",
+      "text": ""
+    }
+  },
+
+  "menu-item#fale-conosco": {
+    "props": {
+      "blockClass": "fale-conosco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Not Found",
+        "text": "Fale Conosco"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#sub-menu-mobile-fale-conosco"
+    ]
+  },
+  "submenu.accordion#sub-menu-mobile-fale-conosco": {
+    "children": [
+      "menu-item#fale-conosco-mobile",
+      "menu-item#our-store-mobile",
+      "menu-item#policy-mobile",
+      "menu-item#new-sale-on-cybelar-mobile",
+      "menu-item#safe-buy-mobile",
+      "menu-item#exchanges-and-return-mobile",
+      "menu-item#shipping-and-delivery-mobile",
+      "menu-item#browsing-and-buying-mobile"
+    ],
+    "props": {
+      "blockClass": "institutional-sub-menu-mobile"
+    }
+  },
+  "flex-layout.row#desktop-fale-conosco": {
+    "children": [
+
+      "flex-layout.col#instituional-col-1-fale-conosco",
+      "flex-layout.col#instituional-col-2-fale-conosco"
+    ],
+    "props": {
+      "blockClass": "institutional-content"
+    }
+  },
+  "flex-layout.col#instituional-col-1-fale-conosco": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional-fale-conosco"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container-menu-insitutional"
+    }
+  },
+  "flex-layout.col#instituional-col-2-fale-conosco": {
+    "children": [
+      "rich-text#footer-title-fale-conosco",
+      "flex-layout.row#desktop-fale-conosco-contato-contein-1",
+      "flex-layout.row#-fale-conosco-formulario-desktop"
+    ],
+    "props": {
+      "blockClass": "container-institutional"
+    }
+  },
+  "rich-text#footer-title-fale-conosco": {
+    "props": {
+      "blockClass": "title-fale-conosco",
+      "text": "Fale Conosco"
+    }
+  },
+
+  "flex-layout.row#desktop-fale-conosco-contato-contein-1": {
+    "children": [
+      "flex-layout.col#desktop-fale-conosco-contato",
+      "image#image-content-1-fale-conosco"
+
+    ],
+    "props": {
+      "blockClass": "fale-conosco-conteiner-1"
+    }
+  },
+  "image#image-content-1-fale-conosco":{
+    "props" :{
+        "src": "assets/faleconoscoLogo.png",
+        "width": "auto",
+        "blockClass": "bf-image-calendar-content-1"
+    }
+  },
+  "flex-layout.col#desktop-fale-conosco-contato": {
+    "children": [
+      "flex-layout.col#main-atendimento-fale-conosco",
+      "flex-layout.col#main-footer-socials-fale-conosco"
+
+    ],
+    "props": {
+      "blockClass": "institutional-content"
+    }
+  },
+  "flex-layout.col#main-footer-socials-fale-conosco": {
+    "children": [
+      "rich-text#footer-follow-us-fale-conosco",
+      "rich-text#footer-socials-fale-conosco"
+    ],
+    "props": {
+      "blockClass": ["footer-socials", "footer-socials-fale-conosco"]
+    }
+  },
+  "flex-layout.col#main-atendimento-fale-conosco": {
+    "props": {
+      "blockClass": "main-footer1"
+    },
+    "children": [
+      "rich-text#footer-content-heading1-fale-conosco",
+      "rich-text#footer-contact-fale-conosco",
+      "rich-text#footer-opening-fale-conosco"
+    ]
+  },
+  "rich-text#footer-content-heading1-fale-conosco": {
+    "props": {
+      "blockClass": ["footer-heading", "footer-heading-fale-conosco"],
+      "text": "### Atendimento"
+    }
+  },
+  "rich-text#footer-contact-fale-conosco": {
+    "props": {
+      "blockClass": ["footer-links"],
+      "text": "![Logo whatsapp](assets/footer/whatsapp.svg)[+55 (15) 3282-9292](https://api.whatsapp.com/send?phone=551532829292&text=Oi%2C%20gostaria%20de%20falar%20com%20atendimento)![Logo telefone](assets/footer/phone.svg)[0800 545 0610](tel:08005450610)![Logo e-mail](assets/footer/mail.svg)canal@cybelar.com.br"
+    }
+  },
+  "rich-text#footer-opening-fale-conosco": {
+    "props": {
+      "blockClass": ["footer-attendence","footer-attendence-fale-conosco"],
+      "text": "Segunda a Sexta das 09:00 às 17:00\nSábado das 09:00 às 12:00"
+    }
+  },
+  "rich-text#footer-follow-us-fale-conosco": {
+    "props": {
+      "blockClass": ["footer-heading", "footer-heading-fale-conosco"],
+      "text": "\n\n### Redes Sociais"
+    }
+  },
+  "rich-text#footer-socials-fale-conosco": {
+    "props": {
+      "blockClass": ["footer-socials", "footer-socials-desktop", "footer-socials-desktop-fale-conosco"],
+      "text": "[![Logo facebook](assets/footer/facebook-icon-fale.svg)](//fb.com/cybelar.moveiseletrodomesticos/)[![Logo instagram](assets/footer/insta-icon-fale.svg)](//instagram.com/cybelar)[![Logo youtube](assets/footer/yt-icon-fale.svg)](//youtube.com/channel/UCNfHIlA6Unso6sF1ib8ZqNg)"
+    }
+  },
+  "vtex.menu@2.x:menu#institutional-fale-conosco": {
+    "children": [
+      "menu-item#fale-conosco-fale-conosco",
+      "menu-item#our-store-fale-conosco",
+      "menu-item#policy-fale-conosco",
+      "menu-item#new-sale-on-cybelar-fale-conosco",
+      "menu-item#work-with-us-fale-conosco",
+      "menu-item#exchanges-and-returns-fale-conosco",
+      "menu-item#safe-buy-fale-conosco",
+      "menu-item#shipping-and-delivery-fale-conosco",
+      "menu-item#browsing-and-buying-fale-conosco"
+    ],
+    "props": {
+      "blockClass": "menu-insitucional",
+        "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#fale-conosco-fale-conosco": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "select"
+    }
+  },
+  "menu-item#policy-fale-conosco": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "policy-fale-conosco",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#our-store-fale-conosco": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#work-with-us-fale-conosco": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "work-with-us",
+        "text": "Trabalhe Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-fale-conosco": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#exchanges-and-returns-fale-conosco": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-returns",
+        "text": "Trocas e Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#safe-buy-fale-conosco": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#shipping-and-delivery-fale-conosco": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#browsing-and-buying-fale-conosco": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e Comprando"
+      },
+      "blockClass": "not-select"
+    }
+  },
+
+  "flex-layout.row#-fale-conosco-formulario-desktop": {
+		"title": "Formulário",
+        "children": [
+          "forms-news-desk"
+        ],
+    "props": {
+      "blockClass": "fale-conosco-formulario"
+    }
+  },
+  "flex-layout.row#-fale-conosco-formulario-mobile": {
+		"title": "Formulário",
+        "children": [
+          "forms-news-mobile"
+        ],
+    "props": {
+      "blockClass": "fale-conosco-formulario"
+    }
+  }
+
+}

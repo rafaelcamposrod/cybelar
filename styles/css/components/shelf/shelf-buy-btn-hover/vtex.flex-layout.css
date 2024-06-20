@@ -1,0 +1,79 @@
+.flexRow--shelf-buy-btn-hover {
+  width: 100% !important;
+}
+
+.flexRowContent--shelf-buy-btn-hover {
+  width: 100% !important;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexRow--shelf-buy-btn-hover){
+    padding: 0px;
+  }
+
+  .flexRowContent--shelf-buy-btn-hover {
+    padding: 0px;
+  }
+}
+
+.flexRow--shelf-buy-btn-hover
+  .flexRowContent--shelf-buy-btn-hover
+  .stretchChildrenWidth {
+  display: flex !important;
+  width: 100% !important;
+  gap: 10px;
+}
+
+.flexRowContent--shelf-buy-btn-hover :global(.vtex-button) {
+  min-height: 32px;
+  background: rgb(89, 192, 11);
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  padding: 7px 15px;
+  opacity: 0;
+  transition: all 0.15s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .flexRowContent--shelf-buy-btn-hover :global(.vtex-button) {
+    padding: 6px;
+  }
+}
+
+.flexRowContent--shelf-buy-btn-hover :global(.vtex-button):hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), rgb(71, 153, 8);
+}
+
+.flexRowContent--shelf-buy-btn-hover :global(.vtex-button__label) {
+  padding: 0 !important;
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media(max-width: 765px){
+  .flexRowContent--shelf-buy-btn-hover :global(.vtex-button__label) {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .flexRowContent--shelf-buy-btn-hover :global(.vtex-button) {
+    opacity: 1;
+  }
+}

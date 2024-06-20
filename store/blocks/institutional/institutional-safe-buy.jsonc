@@ -1,0 +1,426 @@
+{
+  "store.custom#institutional-safe-buy": {
+    "blocks": [
+      "responsive-layout.desktop#safe-buy",
+      "responsive-layout.mobile#safe-buy"
+    ]
+  },
+  "responsive-layout.desktop#safe-buy": {
+    "children": [
+      "flex-layout.row#desktop-safe-buy"
+    ]
+  },
+  "flex-layout.row#desktop-safe-buy": {
+    "children": [
+      "flex-layout.col#instituional-col-1-safe-buy",
+      "flex-layout.col#instituional-col-2-safe-buy"
+    ],
+    "props": {
+      "blockClass": "institutional-content"
+    }
+  },
+  "responsive-layout.mobile#safe-buy": {
+    "children": [
+      "flex-layout.row#mobile-safe-buy"
+    ]
+  },
+  "flex-layout.row#mobile-safe-buy": {
+    "children": [
+      "menu-item#safe-buy",
+      "flex-layout.col#mobile-content-safe-buy"
+    ],
+    "props": {
+      "blockClass": "mobile-safe-buy"
+    }
+  },
+  "flex-layout.col#mobile-content-safe-buy": {
+    "children": [
+      "rich-text#title-safe-buy",
+      "image#safe-buy",
+      "rich-text#paragraph-safe-buy-text"
+    ],
+    "props": {
+      "blockClass": "mobile-content-safe-buy"
+    }
+  },
+  "menu-item#safe-buy": {
+    "props": {
+      "blockClass": "safe-buy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Not Found",
+        "text": "Compra Segura"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#sub-menu-mobile-safe-buy"
+    ]
+  },
+  "image#safe-buy": {
+    "props": {
+      "src": "/arquivos/safe-buy-cybelar.jpg"
+    },
+    "title": "Compra Segura - Imagem"
+  },
+  "submenu.accordion#sub-menu-mobile-safe-buy": {
+    "children": [
+      "menu-item#fale-conosco-mobile",
+      "menu-item#about-us-mobile",
+      "menu-item#our-store-mobile",
+      "menu-item#policy-mobile",
+      "menu-item#new-sale-on-cybelar-mobile",
+      "menu-item#exchanges-and-return-mobile",
+      "menu-item#shipping-and-delivery-mobile",
+      "menu-item#browsing-and-buying-mobile"
+    ],
+    "props": {
+      "blockClass": "institutional-sub-menu-mobile"
+    }
+  },
+  "flex-layout.col#instituional-col-1-safe-buy": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional-safe-buy"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container-menu-insitutional"
+    }
+  },
+  "flex-layout.col#instituional-col-2-safe-buy": {
+    "children": [
+      "flex-layout.col#content-safe-buy"
+    ],
+    "props": {
+      "blockClass": "container-institutional"
+    }
+  },
+  "flex-layout.col#content-safe-buy": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#title-safe-buy",
+      "image#safe-buy",
+      "rich-text#paragraph-safe-buy-text"
+    ]
+  },
+  "rich-text#title-safe-buy": {
+    "props": {
+      "text": "### Compra Segura",
+      "blockClass": "text-intitutional-title"
+    }
+  },
+  "rich-text#paragraph-safe-buy-text": {
+    "props": {
+      "blockClass": "text-intitutional-safe-buy",
+      "text": "**Compra 100% segura!**\n\nPara garantir uma operação 100% segura, os dados de sua compra são criptografados. A criptografia é um sistema de codificação de informações criado para garantir que ninguém, em nenhuma hipótese, tenha acesso aos seus dados. Nenhuma informação trafega pela rede sem ser criptografada, utilizando os melhores sistemas disponíveis no mercado. A proteção é absoluta.\n\nA segurança da nossa loja é certificada pela Astropay Brasil Ltda Godaddy), a maior autoridade em segurança na Internet."
+    },
+    "title": "Compra segura - Texto"
+  },
+  "vtex.menu@2.x:menu#institutional-safe-buy": {
+    "children": [
+      "menu-item#about-us-safe-buy",
+      "menu-item#our-store-safe-buy",
+      "menu-item#policy-safe-buy",
+      "menu-item#new-sale-on-cybelar-safe-buy",
+      "menu-item#work-with-us-safe-buy",
+      "menu-item#exchanges-and-returns-safe-buy",
+      "menu-item#safe-buy-safe-buy",
+      "menu-item#shipping-and-delivery-safe-buy",
+      "menu-item#browsing-and-buying-safe-buy"
+    ],
+    "props": {
+      "blockClass": "menu-insitucional",
+        "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#fale-conosco-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#about-us-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "about-us-safe-buy",
+        "text": "Quem Somos"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#our-store-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store-safe-buy",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#policy-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "policy-safe-buy",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#affiliates-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/afiliados",
+        "noFollow": false,
+        "tagTitle": "affiliates",
+        "text": "Afiliados"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#help-store-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/duvidas-sobre-a-loja",
+        "noFollow": false,
+        "tagTitle": "help-store",
+        "text": "Duvidas sobre a loja?"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#work-with-us-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "work-with-us",
+        "text": "Trabalhe Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#deliveries-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/entregas",
+        "noFollow": false,
+        "tagTitle": "deliveries",
+        "text": "Entregas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#devolution-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/devolucao",
+        "noFollow": false,
+        "tagTitle": "devolution",
+        "text": "Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#payment-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "payment",
+        "text": "Pagamento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#security-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seguranca",
+        "noFollow": false,
+        "tagTitle": "security",
+        "text": "Segurança"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#call-center-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/central-de-atendimento",
+        "noFollow": false,
+        "tagTitle": "call-center",
+        "text": "Central de Atendimento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#exchanges-and-returns-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-returns",
+        "text": "Trocas e Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#safe-buy-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "select"
+    }
+  },
+  "menu-item#shipping-and-delivery-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#browsing-and-buying-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e Comprando"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#contact-us-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "contact-us",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#site-map-safe-buy": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mapa-do-site",
+        "noFollow": false,
+        "tagTitle": "site-map",
+        "text": "Mapa do Site"
+      },
+      "blockClass": "not-select"
+    }
+  }
+}

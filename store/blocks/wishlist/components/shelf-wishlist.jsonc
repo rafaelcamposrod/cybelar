@@ -1,0 +1,14 @@
+{
+    "product-summary.shelf#wishlist": {
+        "props": {
+            "blockClass": "wishlist-shelf"
+        },
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-space",
+            "product-summary-price",
+            "flex-layout.row#container-btns--wishlist"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+.flexRow--header-mobile-principal-bar{
+    background: #FFFFFF;
+}
+
+.flexRowContent--header-mobile-principal-bar {
+    padding: 15px 20px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.flexRowContent--header-mobile-principal-bar .stretchChildrenWidth   {
+    width: auto !important;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}

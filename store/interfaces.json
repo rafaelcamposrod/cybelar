@@ -1,0 +1,17 @@
+{
+  "store.custom.search": {
+    "allowed": ["search-result-layout"]
+  },
+  "n1-name-category-shelf": {
+    "component": "NameCategoryShelf"
+  },
+  "n1-search-btn": {
+    "component": "SearchBtn"
+  },
+  "n1-add-button": {
+    "component": "AddButtonAndAddList"
+  },
+  "custom-home": {
+    "component": "CustomHome"
+  }
+}

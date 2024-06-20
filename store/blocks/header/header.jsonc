@@ -1,0 +1,654 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile#header-mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile#header-mobile"],
+    "title": "Header"
+  },
+  "header-layout.desktop": {
+    "children": [
+      "helmet-component",
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#top-info-barv2",
+      "sticky-layout#4-desktop",
+      "span-cancel-order"
+    ],
+    "title": "Header - Desktop",
+    "props": {
+      "blockClass": "menu-header"
+    }
+  },
+
+  
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "children": ["rich-text#topBarTitle-top"],
+    "props": {
+      "fullWidth": "false",
+      "blockClass": "top-header-desk",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "topbar-institutional-header",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["rich-text#attendanceLink", "rich-text#ourStoresLink"]
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#4-desktop",
+      "flex-layout.row#category-menu",
+      "chat-whatsapp"
+    ]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "n1-search-btn",
+      "flex-layout.row#iconsHeader"
+    ]
+  },
+  "n1-search-btn": {
+    "props": {
+      "DesktopSearchBtn": "search-bar"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "blockClass": "menu-logo",
+      "verticalAlign": "middle"
+    },
+    "children": ["menu-item#menuDepartamentsFixed", "logo#desktop"]
+  },
+  "flex-layout.row#iconsHeader": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "iconsHeader",
+      "preventHorizontalStretch": false
+    },
+    "children": ["flex-layout.col#wishlist", "login", "minicart.v2"]
+  },
+  "flex-layout.row#category-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "category-menu"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo-cybelar2.svg",
+      "width": "146",
+      "height": "51"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "helmet-component",
+      "sticky-layout#1-mobile",
+      //"flex-layout.row#top-mobile",
+      "list-context.image-list#frete",
+      "span-cancel-order"
+    ],
+    "title": "Header - Mobile"
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile",
+      "chat-whatsapp"
+    ],
+    "props": {
+      "blockClass": "sticky-container"
+    }
+  },
+
+  "list-context.image-list#frete": {
+    "children": ["slider-layout#frete-gratis"],
+    "props": {
+      "height": 700,
+      "images": [
+        {
+          "image": "assets/imagem-frete.png",
+          "description": "Frete Gratis SP",
+          "link": {
+            "url": "/frete-gratis-sp"
+          },
+          "width": "100%"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#frete-gratis": {
+    "props": {
+      "itemsPerPage": {
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "frete-image"
+    }
+  },
+
+  "flex-layout.row#top-mobile": {
+    "children": ["rich-text#top-text-mobile", "rich-text#top-link-mobile"],
+    "props": {
+      "blockClass": "top-header-mobile"
+    }
+  },
+  "flex-layout.row#1-mobile": {
+    "children": ["drawer", "logo#mobile", "flex-layout.row#iconsHeader"],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#2-mobile": {
+    "children": ["search-bar"],
+    "props": {
+      "blockClass": "header-search-mobile",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "props": {
+      "isFullWidth": true,
+      "blockClass": "menu"
+    },
+    "children": ["menu#drawer"]
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo-cybelar2.svg",
+      "width": "105",
+      "blockClass": "logo-mobile"
+    }
+  },
+
+  "login": {
+    "props": {
+      "iconLabel": "Entre ou Cadastre-se"
+    }
+  },
+
+  "flex-layout.row#menu-open-mobile": {
+    "props": {
+      "blockClass": "row-open-mobile"
+    },
+    "children": ["login#mobile", "flex-layout.col#menu-open-mobile"]
+  },
+
+  "flex-layout.col#menu-open-mobile": {
+    "props": {
+      "blockClass": "column-open-mobile"
+    },
+    "children": ["rich-text#stores", "rich-text#orders"]
+  },
+
+  "rich-text#stores": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Meus Dados](/account#/profile)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "store-mobile"
+    }
+  },
+
+  "rich-text#orders": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Meus pedidos](/account#/orders)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "myOrders-mobile"
+    }
+  },
+
+  "flex-layout.row#oferta-frete-mobile": {
+    "props": {
+      "blockClass": "row-oferta-frete-mobile"
+    },
+    "children": [
+      "flex-layout.col#oferta-mobile",
+      "flex-layout.col#frete-mobile"
+    ]
+  },
+
+  "flex-layout.col#oferta-mobile": {
+    "props": {
+      "blockClass": "col-oferta-mobile"
+    },
+    "children": ["rich-text#oferta"]
+  },
+
+  "flex-layout.col#frete-mobile": {
+    "props": {
+      "blockClass": "col-frete-mobile"
+    },
+    "children": ["rich-text#frete"]
+  },
+
+  "rich-text#oferta": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ofertas da](https://www.cybelar.com.br/nossas-lojas)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "ofertas-mobile"
+    }
+  },
+
+  "rich-text#frete": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Seleção](https://www.cybelar.com.br/nossas-lojas)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "frete-mobile"
+    }
+  },
+
+  "login#mobile": {
+    "props": {
+      "iconLabel": "Entrar ou Cadastrar",
+      "logInButtonBehavior": "link",
+      "labelClasses": "login-menu-open"
+    }
+  },
+
+  "menu#drawer": {
+    "children": [
+      "flex-layout.row#menu-open-mobile",
+      // "flex-layout.row#oferta-frete-mobile",
+      "disclosure-layout#drawer-moveis",
+      "disclosure-layout#drawer-eletroportateis",
+      "disclosure-layout#drawer-eletrodomesticos",
+      "disclosure-layout#drawer-telefonia",
+      "disclosure-layout#drawer-audio-e-video",
+      "disclosure-layout#drawer-informatica",
+      "disclosure-layout#drawer-ar-e-ventilacao",
+      "disclosure-layout#drawer-brinquedos",
+      "disclosure-layout#drawer-outros-departamentos",
+      "disclosure-layout#drawer-utilidades-domesticas"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "disclosure-state-indicator#mobile": {
+    "props": {
+      "Show": "image#show-mobile",
+      "Hide": "image#hide-mobile"
+    }
+  },
+  "image#show-mobile": {
+    "props": {
+      "src": "assets/disclosure-plus-icon.svg",
+      "blockClass": "disclosure-mobile-menu"
+    }
+  },
+  "image#hide-mobile": {
+    "props": {
+      "src": "assets/disclosure-minus-icon.svg",
+      "blockClass": "disclosure-mobile-menu"
+    }
+  },
+
+  // menu drawers
+  "disclosure-layout#drawer-moveis": {
+    "children": [
+      "disclosure-trigger#drawer-moveis",
+      "disclosure-content#drawer-moveis"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#drawer-moveis": {
+    "children": [
+      "rich-text#drawer-moveis",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#drawer-moveis": {
+    "props": {
+      "text": "Móveis",
+      "blockClass": "container-rich-text"
+    }
+  },
+
+  "disclosure-layout#drawer-eletroportateis": {
+    "children": [
+      "disclosure-trigger#drawer-eletroportateis",
+      "disclosure-content#drawer-eletroportateis"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#drawer-eletroportateis": {
+    "children": [
+      "rich-text#drawer-eletroportateis",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#drawer-eletroportateis": {
+    "props": {
+      "text": "Eletroportáteis",
+      "blockClass": "container-rich-text"
+    }
+  },
+
+  "disclosure-layout#drawer-eletrodomesticos": {
+    "children": [
+      "disclosure-trigger#drawer-eletrodomesticos",
+      "disclosure-content#drawer-eletrodomesticos"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#drawer-eletrodomesticos": {
+    "children": [
+      "rich-text#drawer-eletrodomesticos",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#drawer-eletrodomesticos": {
+    "props": {
+      "text": "Eletrodomésticos",
+      "blockClass": "container-rich-text"
+    }
+  },
+
+  "disclosure-layout#drawer-telefonia": {
+    "children": [
+      "disclosure-trigger#drawer-telefonia",
+      "disclosure-content#drawer-telefonia"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#drawer-telefonia": {
+    "children": [
+      "rich-text#drawer-telefonia",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#drawer-telefonia": {
+    "props": {
+      "text": "Telefonia",
+      "blockClass": "container-rich-text"
+    }
+  },
+
+  "disclosure-layout#drawer-audio-e-video": {
+    "children": [
+      "disclosure-trigger#drawer-audio-e-video",
+      "disclosure-content#drawer-audio-e-video"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#drawer-audio-e-video": {
+    "children": [
+      "rich-text#drawer-audio-e-video",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#drawer-audio-e-video": {
+    "props": {
+      "text": "Áudio e Vídeo",
+      "blockClass": "container-rich-text"
+    }
+  },
+
+  "disclosure-layout#drawer-informatica": {
+    "children": [
+      "disclosure-trigger#drawer-informatica",
+      "disclosure-content#drawer-informatica"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#drawer-informatica": {
+    "children": [
+      "rich-text#drawer-informatica",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#drawer-informatica": {
+    "props": {
+      "text": "Informática",
+      "blockClass": "container-rich-text"
+    }
+  },
+
+  "disclosure-layout#drawer-ar-e-ventilacao": {
+    "children": [
+      "disclosure-trigger#drawer-ar-e-ventilacao",
+      "disclosure-content#drawer-ar-e-ventilacao"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#drawer-ar-e-ventilacao": {
+    "children": [
+      "rich-text#drawer-ar-e-ventilacao",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#drawer-ar-e-ventilacao": {
+    "props": {
+      "text": "Ar e Ventilação",
+      "blockClass": "container-rich-text"
+    }
+  },
+
+  "disclosure-layout#drawer-brinquedos": {
+    "children": [
+      "disclosure-trigger#drawer-brinquedos",
+      "disclosure-content#drawer-brinquedos"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#drawer-brinquedos": {
+    "children": [
+      "rich-text#drawer-brinquedos",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#drawer-brinquedos": {
+    "props": {
+      "text": "Brinquedos",
+      "blockClass": "container-rich-text"
+    }
+  },
+
+  "disclosure-layout#drawer-outros-departamentos": {
+    "children": [
+      "disclosure-trigger#drawer-outros-departamentos",
+      "disclosure-content#drawer-outros-departamentos"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#drawer-outros-departamentos": {
+    "children": [
+      "rich-text#drawer-outros-departamentos",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#drawer-outros-departamentos": {
+    "props": {
+      "text": "Outros Departamentos",
+      "blockClass": "container-rich-text"
+    }
+  },
+
+  // utilitarios
+  "disclosure-layout#drawer-utilidades-domesticas": {
+    "children": [
+      "disclosure-trigger#drawer-utilidades-domesticas",
+      "disclosure-content#drawer-utilidades-domesticas"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#drawer-utilidades-domesticas": {
+    "children": [
+      "rich-text#drawer-utilidades-domesticas",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#drawer-utilidades-domesticas": {
+    "props": {
+      "text": "Utilidades Domésticas",
+      "blockClass": "container-rich-text"
+    }
+  },
+  // end of drawers
+
+  "rich-text#top-text-mobile": {
+    "props": {
+      "text": "## APP CYBELAR - <a class='vtex-rich-text-0-x-link--top-links-mobile' href='https://play.google.com/store/apps/details?id=br.com.neomode.cybelar' target='_blank'>Google Play</a> e <a class='vtex-rich-text-0-x-link--top-links-mobile' href='https://apps.apple.com/br/app/cybelar/id1507763105' target='_blank'>App Store</a>",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "top-text-mobile"
+    },
+    "title": "Mobile - Texto top bar"
+  },
+  "rich-text#top-link-mobile": {
+    "props": {
+      "text": "[* Confira](/)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "top-link-mobile2"
+    }
+  },
+  "rich-text#topBarTitle-top": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## APP CYBELAR - <a class='vtex-rich-text-0-x-link--top-links' href='https://play.google.com/store/apps/details?id=br.com.neomode.cybelar' target='_blank'>Google Play</a> e <a class='vtex-rich-text-0-x-link--top-links' href='https://apps.apple.com/br/app/cybelar/id1507763105' target='_blank'>App Store</a>",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "topbarTitle"
+    },
+    "title": "Desktop - Texto top bar"
+  },
+  "flex-layout.col#wishlist": {
+    "children": ["rich-text#wishlistTitle"],
+    "props": {
+      "blockClass": "header-wishlist"
+    },
+    "title": "wishlist"
+  },
+  "rich-text#wishlistTitle": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Meus Favoritos](/account#/wishlist)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "wishlistTitle"
+    },
+    "title": "Wish title"
+  },
+  "rich-text#attendanceLink": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Atendimento](https://api.whatsapp.com/send?phone=551532829292&text=Oi%2C%20gostaria%20de%20falar%20com%20atendimento)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "attendanceLink"
+    },
+    "title": "Texto - Atendimento"
+  },
+  "rich-text#ourStoresLink": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Nossas Lojas](/)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "ourStoresLink"
+    },
+    "title": "Texto - Nossas lojas"
+  }
+}

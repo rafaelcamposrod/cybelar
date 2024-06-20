@@ -1,0 +1,187 @@
+{
+  // AR CONDICIONADO
+  "disclosure-layout#submenu-ar-e-ventilacao-ar-condicionado": {
+    "children": [
+      "disclosure-trigger#submenu-ar-e-ventilacao-ar-condicionado",
+      "disclosure-content#submenu-ar-e-ventilacao-ar-condicionado"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-ar-e-ventilacao-ar-condicionado": {
+    "children": [
+      "rich-text#submenu-ar-e-ventilacao-ar-condicionado",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-ar-e-ventilacao-ar-condicionado": {
+    "props": {
+      "text": "Ar Condicionado",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-ar-e-ventilacao-ar-condicionado": {
+    "children": [
+      "rich-text#subcategoria-inverter",
+      "rich-text#subcategoria-split"
+    ]
+  },
+  "rich-text#subcategoria-inverter": {
+    "props": {
+      "text": "[Inverter](/inverter)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-split": {
+    "props": {
+      "text": "[Split](/split)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // VENTILADORES
+  "disclosure-layout#submenu-ar-e-ventilacao-ventiladores": {
+    "children": [
+      "disclosure-trigger#submenu-ar-e-ventilacao-ventiladores",
+      "disclosure-content#submenu-ar-e-ventilacao-ventiladores"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-ar-e-ventilacao-ventiladores": {
+    "children": [
+      "rich-text#submenu-ar-e-ventilacao-ventiladores",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-ar-e-ventilacao-ventiladores": {
+    "props": {
+      "text": "Ventiladores",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-ar-e-ventilacao-ventiladores": {
+    "children": [
+      "rich-text#subcategoria-circulador-de-ar",
+      "rich-text#subcategoria-coluna",
+      "rich-text#subcategoria-mesa",
+
+      "rich-text#subcategoria-ar-e-ventilacao-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-circulador-de-ar": {
+    "props": {
+      "text": "[Circulador de Ar](/circulador-de-ar)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-coluna": {
+    "props": {
+      "text": "[Coluna](/coluna)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  // "rich-text#subcategoria-mesa": {
+  //   "props": {
+  //     "text": "[Mesa](#)",
+  //     "blockClass": "subcategory-text"
+  //   }
+  // },
+
+  // AQUECEDORES
+  "disclosure-layout#submenu-ar-e-ventilacao-aquecedores": {
+    "children": [
+      "disclosure-trigger#submenu-ar-e-ventilacao-aquecedores",
+      "disclosure-content#submenu-ar-e-ventilacao-aquecedores"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-ar-e-ventilacao-aquecedores": {
+    "children": [
+      "rich-text#submenu-ar-e-ventilacao-aquecedores",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-ar-e-ventilacao-aquecedores": {
+    "props": {
+      "text": "Aquecedores",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-ar-e-ventilacao-aquecedores": {
+    "children": [
+      "rich-text#subcategoria-halogeno",
+      "rich-text#subcategoria-resistencia"
+    ]
+  },
+  "rich-text#subcategoria-halogeno": {
+    "props": {
+      "text": "[Halógeno](/halogeno)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-resistencia": {
+    "props": {
+      "text": "[Resistência](/resistencia)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // CLIMATIZADORES
+  "disclosure-layout#submenu-ar-e-ventilacao-climatizadores": {
+    "children": [
+      "disclosure-trigger#submenu-ar-e-ventilacao-climatizadores",
+      "disclosure-content#submenu-ar-e-ventilacao-climatizadores"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-ar-e-ventilacao-climatizadores": {
+    "children": [
+      "rich-text#submenu-ar-e-ventilacao-climatizadores",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-ar-e-ventilacao-climatizadores": {
+    "props": {
+      "text": "Climatizadores",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-ar-e-ventilacao-climatizadores": {
+    "children": [
+      "rich-text#subcategoria-piso"
+    ]
+  },
+  "rich-text#subcategoria-piso": {
+    "props": {
+      "text": "[Piso](/piso)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // VER TUDO
+  "rich-text#subcategoria-ar-e-ventilacao-ver-tudo": {
+    "props": {
+      "text": "[+ ver tudo](#)",
+      "blockClass": "subcategory-text-ver-tudo"
+    }
+  }
+}

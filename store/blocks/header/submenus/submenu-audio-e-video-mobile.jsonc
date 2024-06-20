@@ -1,0 +1,111 @@
+{
+  // ÁUDIO
+  "disclosure-layout#submenu-audio-e-video-audio": {
+    "children": [
+      "disclosure-trigger#submenu-audio-e-video-audio",
+      "disclosure-content#submenu-audio-e-video-audio"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-audio-e-video-audio": {
+    "children": [
+      "rich-text#submenu-audio-e-video-audio",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-audio-e-video-audio": {
+    "props": {
+      "text": "Áudio",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-audio-e-video-audio": {
+    "children": [
+      "rich-text#subcategoria-caixa-de-som",
+      "rich-text#subcategoria-radio-automotivo",
+      "rich-text#subcategoria-fone-de-ouvido"
+    ]
+  },
+  "rich-text#subcategoria-caixa-de-som": {
+    "props": {
+      "text": "[Caixa de Som](/caixa-de-som)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-radio-automotivo": {
+    "props": {
+      "text": "[Rádio Automotivo](/radio-automotivo)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-fone-de-ouvido": {
+    "props": {
+      "text": "[Fones de ouvido](/fone-de-ouvido)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // TELEVISORES
+  "disclosure-layout#submenu-audio-e-video-televisores": {
+    "children": [
+      "disclosure-trigger#submenu-audio-e-video-televisores",
+      "disclosure-content#submenu-audio-e-video-televisores"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-audio-e-video-televisores": {
+    "children": [
+      "rich-text#submenu-audio-e-video-televisores",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-audio-e-video-televisores": {
+    "props": {
+      "text": "Televisores",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-audio-e-video-televisores": {
+    "children": [
+      "rich-text#subcategoria-ate-50",
+      "rich-text#subcategoria-ate-60",
+      "rich-text#subcategoria-ate-70"
+    ]
+  },
+  "rich-text#subcategoria-ate-50": {
+    "props": {
+      "text": "[Até 50\"](/ate-50)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-ate-60": {
+    "props": {
+      "text": "[Até 60\"](/ate-60)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-ate-70": {
+    "props": {
+      "text": "[Até 70\"](/ate-70)",
+      "blockClass": "subcategory-text"
+    }
+  }
+
+  // VER TUDO
+  // "rich-text#subcategoria-audio-e-video-ver-tudo": {
+  //   "props": {
+  //     "text": "[+ ver tudo](#)",
+  //     "blockClass": "subcategory-text-ver-tudo"
+  //   }
+  // }
+}

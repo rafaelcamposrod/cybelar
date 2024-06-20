@@ -1,0 +1,35 @@
+.biggy-autocomplete-wrapper .biggy-autocomplete {
+  width: 526px !important;
+  padding: 30px;
+  padding-top: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.biggy-autocomplete-wrapper .tileList {
+  margin-left: 30px;
+  border: none;
+}
+
+.biggy-autocomplete-wrapper .itemListTitle,
+.biggy-autocomplete-wrapper .tileListTitle {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e2211d;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  color: #e2211d;
+}
+
+.biggy-autocomplete-wrapper .tileListTitle {
+  margin-bottom: 10px;
+}
+
+.biggy-autocomplete-wrapper .itemListPrefix {
+  width: auto;
+  margin-right: 5px !important;
+}

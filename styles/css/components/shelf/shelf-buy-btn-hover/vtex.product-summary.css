@@ -1,0 +1,5 @@
+.element:hover
+  :global(.vtex-flex-layout-0-x-flexRow--shelf-buy-btn-hover)
+  :global(.vtex-button) {
+    opacity: 1;
+}

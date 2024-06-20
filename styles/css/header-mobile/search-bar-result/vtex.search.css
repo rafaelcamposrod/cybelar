@@ -1,0 +1,56 @@
+@media screen and (max-width: 1024px) {
+  .biggy-autocomplete-wrapper .biggy-autocomplete {
+    width: 100vw !important;
+    /* 64px = header-bar height */
+    min-height: calc(100vh - 64px) !important;
+    border-radius: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    top: 14px;
+    left: -20px;
+  }
+
+  .biggy-autocomplete-wrapper .itemListTitle,
+  .biggy-autocomplete-wrapper .tileListTitle {
+    font-size: 12px;
+  }
+
+  .biggy-autocomplete-wrapper .tileList {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: auto;
+  }
+
+  .biggy-autocomplete-wrapper .tileListItem .element {
+    margin: 0;
+    padding: 5px 10px;
+    border: 1px solid #e9e9e9;
+    border-radius: 10px;
+  }
+
+  .biggy-autocomplete-wrapper .imageContainer {
+    width: 54px;
+    height: 54px;
+  }
+
+  .biggy-autocomplete-wrapper .information {
+    width: 100%;
+    margin: 0;
+    margin-left: 20px;
+  }
+
+  .biggy-autocomplete-wrapper .priceContainer {
+    display: none;
+  }
+
+  .biggy-autocomplete-wrapper .productBrand {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 130%;
+    color: #727273;
+  }
+}

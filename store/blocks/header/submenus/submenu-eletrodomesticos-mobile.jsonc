@@ -1,0 +1,113 @@
+{
+  //COZINHA
+  "disclosure-layout#submenu-eletrodomesticos-cozinha": {
+    "children": [
+      "disclosure-trigger#submenu-eletrodomesticos-cozinha",
+      "disclosure-content#submenu-eletrodomesticos-cozinha"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-eletrodomesticos-cozinha": {
+    "children": [
+      "rich-text#submenu-eletrodomesticos-cozinha",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-eletrodomesticos-cozinha": {
+    "props": {
+      "text": "Cozinha",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-eletrodomesticos-cozinha": {
+    "children": [
+      "rich-text#subcategoria-coifa",
+      "rich-text#subcategoria-fogao",
+      "rich-text#subcategoria-cooktop",
+      "rich-text#subcategoria-eletrodomesticos-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-coifa": {
+    "props": {
+      "text": "[Coifa](/coifa)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-fogao": {
+    "props": {
+      "text": "[Fogão](/fogao)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-cooktop": {
+    "props": {
+      "text": "[Cooktop](/cooktop)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  //LAVANDERIA
+  "disclosure-layout#submenu-eletrodomesticos-lavanderia": {
+    "children": [
+      "disclosure-trigger#submenu-eletrodomesticos-lavanderia",
+      "disclosure-content#submenu-eletrodomesticos-lavanderia"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-eletrodomesticos-lavanderia": {
+    "children": [
+      "rich-text#submenu-eletrodomesticos-lavanderia",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-eletrodomesticos-lavanderia": {
+    "props": {
+      "text": "Lavanderia",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-eletrodomesticos-lavanderia": {
+    "children": [
+      "rich-text#subcategoria-maquina-de-lavar",
+      "rich-text#subcategoria-tanquinho",
+      "rich-text#subcategoria-centrifuga",
+      "rich-text#subcategoria-eletrodomesticos-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-maquina-de-lavar": {
+    "props": {
+      "text": "[Máquina de Lavar](/maquina-de-lavar)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-tanquinho": {
+    "props": {
+      "text": "[Tanquinho](/tanquinho)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-centrifuga": {
+    "props": {
+      "text": "[Centrífuga](/centrifuga)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // VER TUDO
+  "rich-text#subcategoria-eletrodomesticos-ver-tudo": {
+    "props": {
+      "text": "[+ ver tudo](#)",
+      "blockClass": "subcategory-text-ver-tudo"
+    }
+  }
+}

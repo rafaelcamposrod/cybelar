@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#container-btns--wishlist": {
+        "children": [
+            "add-to-cart-button#product-page-buy-checkout-wishlist",
+            "add-to-list-btn"
+        ],
+        "props": {
+            "blockClass": "container--line-btns"
+        }
+    },
+    "add-to-cart-button#product-page-buy-checkout-wishlist": {
+        "title": "Comprar direto",
+        "props": {
+            "text": "Comprar Agora",
+            "isOneClickBuy": true
+        }
+    }
+}
