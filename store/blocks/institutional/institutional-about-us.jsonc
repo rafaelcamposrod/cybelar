@@ -1,0 +1,296 @@
+{
+  "store.custom#institutional-about-us": {
+    "blocks": [
+      "responsive-layout.desktop#about-us",
+      "responsive-layout.mobile#about-us"
+    ]
+  },
+  "responsive-layout.desktop#about-us": {
+    "children": [
+      "flex-layout.row#desktop-about-us"
+    ]
+  },
+  "responsive-layout.mobile#about-us": {
+    "children": [
+      "flex-layout.row#mobile-about-us"
+    ],
+    "props": {
+      "blockClass": "mobile-container"
+    }
+  },
+  "flex-layout.row#mobile-about-us": {
+    "children": [
+      "menu-item#about-us",
+      "flex-layout.col#mobile-content-about-us"
+    ],
+    "props": {
+      "blockClass": "mobile-about-us"
+    }
+  },
+  "flex-layout.col#mobile-content-about-us": {
+    "children": [
+      "rich-text#title-quem-somos",
+      "image#about-us",
+      "rich-text#paragraph-quem-somos"
+    ],
+    "props": {
+      "blockClass": "mobile-content-about-us"
+    }
+  },
+  "menu-item#about-us": {
+    "props": {
+      "blockClass": "about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Not Found",
+        "text": "Quem somos"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#sub-menu-mobile-about-us"
+    ]
+  },
+  "submenu.accordion#sub-menu-mobile-about-us": {
+    "children": [
+      "menu-item#fale-conosco-mobile",
+      "menu-item#our-store-mobile",
+      "menu-item#policy-mobile",
+      "menu-item#new-sale-on-cybelar-mobile",
+      "menu-item#safe-buy-mobile",
+      "menu-item#exchanges-and-return-mobile",
+      "menu-item#shipping-and-delivery-mobile",
+      "menu-item#browsing-and-buying-mobile"
+    ],
+    "props": {
+      "blockClass": "institutional-sub-menu-mobile"
+    }
+  },
+  "flex-layout.row#desktop-about-us": {
+    "children": [
+      "flex-layout.col#instituional-col-1-about-us",
+      "flex-layout.col#instituional-col-2-about-us"
+    ],
+    "props": {
+      "blockClass": "institutional-content"
+    }
+  },
+  "flex-layout.col#instituional-col-1-about-us": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional-about-us"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container-menu-insitutional"
+    }
+  },
+  "flex-layout.col#instituional-col-2-about-us": {
+    "children": [
+      "flex-layout.col#content-about-us"
+    ],
+    "props": {
+      "blockClass": "container-institutional"
+    }
+  },
+  "flex-layout.col#content-about-us": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#title-quem-somos",
+      "image#about-us",
+      "rich-text#paragraph-quem-somos"
+    ]
+  },
+  "rich-text#title-quem-somos": {
+    "props": {
+      "text": "### Quem Somos",
+      "blockClass": "text-intitutional-title"
+    },
+    "title": "Quem somos - Titulo"
+  },
+  "image#about-us": {
+    "props": {
+      "src": "https://cybelar.vteximg.com.br/arquivos/about-us-cybelar.png"
+    },
+    "title": "Quem somos - Imagem"
+  },
+  "rich-text#paragraph-quem-somos": {
+    "props": {
+      "text": "### História da Cybelar\nTudo começou na cidade de Tietê, interior do estado de São Paulo, em 1952 com a Marcenaria Sant’ana. Em 1974 criou-se a Cybelar, nome que surge com a união das palavras: CYbernética + BEleza + LAR, nos moldes de loja para comercialização de móveis e eletrodomésticos.\n\nHoje a rede possui cerca de 1.500 funcionários, mais de 100 lojas e um centro de distribuição com 17 mil metros quadrados na cidade de Tietê. Possui uma grande linha de produtos como: móveis, eletrônicos, eletrodomésticos, informática, telefones e celulares, eletroportáteis e brinquedos, enfim a Cybelar comercializa uma gama enorme de produtos para o lar e uso pessoal.\n\nAo longo dos anos, a rede colecionou bons resultados e grandes fabricantes também fazem parte da história da empresa. Há anos, a Cybelar busca promover, entre seus colaboradores e clientes, conceitos de educação ambiental e desenvolvimento sustentável. Implantou o Programa de Reciclagem Interna e Externa que visa utilizar os recursos naturais de forma consciente.\n\nAs práticas sustentáveis desse programa revertem em material escolar para filhos dos colaboradores e estudantes que trabalham na rede.\n\nDesde 1993, tem em seus materiais impressos, interno e externo, a frase: “Economize água: as futuras gerações também terão sede”.\n\nEm novembro de 2007 inova, inaugurando em Vinhedo-SP a primeira loja com conceitos de “construção sustentável” do varejo brasileiro. Uma loja com soluções de sustentabilidade como: aproveitamento de águas pluviais e luz natural (clarabóia zenital), utilização de climatizadores evaporativos, madeira de manejo sustentável, etc. A loja possui ainda um espaço disponível para que entidades e grupos sociais da cidade realizem eventos, promovendo o desenvolvimento da comunidade local.\n\nEm novembro de 2017 surge o e-commerce, com o endereço https://www.lojacybelar.com.br/, atendendo todos os consumidores do Brasil.\n\nA política de crescimento da empresa tem ambiciosos planos de expansão, o treinamento, a informatização e a mídia montam um tripé que faz o crescimento da Cybelar ser seguro e constante.",
+      "blockClass": "text-intitutional-about-us"
+    },
+    "title": "Quem somos - Text"
+  },
+  "vtex.menu@2.x:menu#institutional-about-us": {
+    "children": [
+      "menu-item#fale-conosco-about-us",
+      "menu-item#about-us-about-us",
+      "menu-item#our-store-about-us",
+      "menu-item#policy-about-us",
+      "menu-item#new-sale-on-cybelar-about-us",
+      "menu-item#work-with-us-about-us",
+      "menu-item#exchanges-and-returns-about-us",
+      "menu-item#safe-buy-about-us",
+      "menu-item#shipping-and-delivery-about-us",
+      "menu-item#browsing-and-buying-about-us"
+    ],
+    "props": {
+      "blockClass": "menu-insitucional",
+        "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#fale-conosco-about-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#about-us-about-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "about-us-about-us",
+        "text": "Quem Somos"
+      },
+      "blockClass": "select"
+    }
+  },
+  "menu-item#policy-about-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "policy-about-us",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#our-store-about-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#work-with-us-about-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "work-with-us",
+        "text": "Trabalhe Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-about-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#exchanges-and-returns-about-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-returns",
+        "text": "Trocas e Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#safe-buy-about-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#shipping-and-delivery-about-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#browsing-and-buying-about-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e Comprando"
+      },
+      "blockClass": "not-select"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.link--top-info-bar-link {
+    text-decoration: none !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.link--top-info-bar-link-atendimento {
+    margin-right: 10px;
+}
+
+.link--top-info-bar-link-atendimento::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('assets/icon-info-bar-phone.svg');
+    display: block;
+}
+
+.link--top-info-bar-link-nossas-lojas::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('assets/icon-info-bar-pin.svg');
+    display: block;
+}
+
+.label--top-info-bar-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #727273;
+}

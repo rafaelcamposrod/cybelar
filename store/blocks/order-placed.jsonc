@@ -1,0 +1,111 @@
+{
+  "order-placed": {
+    "blocks": [
+      "op-order"
+    ]
+  },
+  "op-order": {
+    "children": [
+      "responsive-layout.desktop#desktop-order",
+      "responsive-layout.mobile#mobile-order"
+    ]
+  },
+  "responsive-layout.desktop#desktop-order": {
+    "children": [
+      "op-section#confirmation",
+      "op-section#notices",
+      "op-order-split-notice",
+      "flex-layout.row#order-header",
+      "op-section#payments",
+      "op-section#delivery-packages",
+      "op-section#pickup-packages",
+      "op-order-takeaway-packages",
+      "op-order-total"
+    ]
+  },
+  "responsive-layout.mobile#mobile-order": {
+    "children": [
+      "op-section#confirmation",
+      "op-section#notices",
+      "op-order-split-notice",
+      "flex-layout.row#order-header",
+      "op-section#payments",
+      "op-section#delivery-packages",
+      "op-section#pickup-packages",
+      "op-order-takeaway-packages",
+      "op-order-total"
+    ]
+  },
+  "flex-layout.row#order-header": {
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "colGap": 5,
+      "marginBottom": 5,
+      "blockClass": "order-placed-header"
+    },
+    "children": [
+      "flex-layout.col#order-header-info",
+      "flex-layout.col#order-header-options"
+    ]
+  },
+  "flex-layout.col#order-header-info": {
+    "children": ["op-order-number", "op-order-datetime", "op-order-seller"]
+  },
+  "flex-layout.col#order-header-options": {
+    "children": ["responsive-layout.desktop#order-options-desktop"]
+  },
+  "responsive-layout.desktop#order-options-desktop": {
+    "children": ["op-order-options"]
+  },
+  "responsive-layout.mobile#order-options-mobile": {
+    "children": ["op-order-options#mobile"]
+  },
+  "op-section#confirmation": {
+    "props": {
+      "name": "confirmation",
+      "marginBottom": 9,
+      "borderless": true,
+      "blockClass": "topConfirmation"
+    },
+    "children": [
+      "op-confirmation-icon",
+      "op-confirmation-title",
+      "op-confirmation-message"
+    ]
+  },
+  "op-section#notices": {
+    "props": {
+      "name": "notices",
+      "marginBottom": 9,
+      "borderless": true
+    },
+    "children": ["op-notices"]
+  },
+  "op-section#payments": {
+    "props": {
+      "name": "paymentMethods"
+    },
+    "children": [
+      "responsive-layout.mobile#order-options-mobile"
+    ]
+  },
+  "op-section#pickup-packages": {
+    "props": {
+      "name": "pickupPackages"
+    },
+    "children": ["op-order-pickup-packages"]
+  },
+  "op-section#delivery-packages": {
+    "props": {
+      "name": "deliveryPackages"
+    },
+    "children": ["op-order-delivery-packages"]
+  },
+  "op-order-options#mobile": {
+    "props": {
+      "blockClass": "mobile",
+      "fullWidth": true
+    }
+  }
+}

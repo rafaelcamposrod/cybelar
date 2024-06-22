@@ -1,0 +1,267 @@
+{
+  "vtex.menu@2.x:submenu#outros-departamentos-sub-menu": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#outros-departamentos-sub-menu"]
+  },
+  "flex-layout.row#outros-departamentos-sub-menu": {
+    "children": [
+      "flex-layout.col#outros-departamentos-sub-menu-col",
+      "flex-layout.col#outros-departamentos-sub-menu-col-2",
+      "flex-layout.col#outros-departamentos-sub-menu-col-3",
+      "info-card#outros-departamentos-sub-menu-card"
+    ],
+    "props": {
+      "blockClass": "row-submenu"
+    },
+    "title": "Submenu Outros Departamentos"
+  },
+
+  // Colunas
+  "flex-layout.col#outros-departamentos-sub-menu-col": {
+    "children": [
+      "menu-item#outros-departamentos-audio",
+      "menu-item#outros-departamentos-automotivo",
+      "menu-item#outros-departamentos-bicicletas",
+      "menu-item#outros-departamentos-casa-e-construcao",
+      "menu-item#outros-departamentos-esporte-e-lazer",
+      "menu-item#outros-departamentos-informatica",
+      "menu-item#outros-departamentos-saude-e-cuidados-pessoais",
+      "menu-item#outros-departamentos-tv-e-video",
+      "menu-item#outros-departamentos-papelaria",
+      "menu-item#outros-departamentos-decoracao",
+      "menu-item#outros-departamentos-cama-mesa-e-banho",
+      "menu-item#outros-departamentos-bebes",
+      "menu-item#outros-departamentos-pet-shop"
+    ],
+    "props": {
+      "blockClass": "col-submenu",
+      "verticalAlign": "middle"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#outros-departamentos-sub-menu-col-2": {
+    "children": [],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#outros-departamentos-sub-menu-col-3": {
+    "children": [],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "info-card#outros-departamentos-sub-menu-card": {
+    "props": {
+      "id": "outros-departamentos-sub-menu-card",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/outros-departamentos.jpg",
+      "headline": "",
+      "callToActionMode": "none",
+      "blockClass": "sub-menu-card",
+      "textPosition": "center",
+      "textAlignment": "center"
+    }
+  },
+
+  // --------- menu items ----------
+  "menu-item#outros-departamentos-audio": {
+    "props": {
+      "id": "outros-departamentos-audio",
+      "blockClass": "outros-departamentos-audio",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Áudio"
+      }
+    }
+  },
+  "menu-item#outros-departamentos-automotivo": {
+    "props": {
+      "id": "outros-departamentos-automotivo",
+      "blockClass": "outros-departamentos-automotivo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotivo",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Automotivo"
+      }
+    }
+  },
+  "menu-item#outros-departamentos-bicicletas": {
+    "props": {
+      "id": "outros-departamentos-bicicletas",
+      "blockClass": "outros-departamentos-bicicletas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bicicletas",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Bicicletas"
+      }
+    }
+  },
+  "menu-item#outros-departamentos-casa-e-construcao": {
+    "props": {
+      "id": "outros-departamentos-casa-e-construcao",
+      "blockClass": "outros-departamentos-casa-e-construcao",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/casa-e-construcao",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Casa e Construção"
+      }
+    }
+  },
+  "menu-item#outros-departamentos-esporte-e-lazer": {
+    "props": {
+      "id": "outros-departamentos-esporte-e-lazer",
+      "blockClass": "outros-departamentos-esporte-e-lazer",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/esporte-e-lazer",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Esporte e Lazer"
+      }
+    }
+  },
+  "menu-item#outros-departamentos-informatica": {
+    "props": {
+      "id": "outros-departamentos-informatica",
+      "blockClass": "outros-departamentos-informatica",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/informatica",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Informática"
+      }
+    }
+  },
+  "menu-item#outros-departamentos-saude-e-cuidados-pessoais": {
+    "props": {
+      "id": "outros-departamentos-saude-e-cuidados-pessoais",
+      "blockClass": "outros-departamentos-saude-e-cuidados-pessoais",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/saude-e-cuidados-pessoais",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Saúde e Cuidados Pessoais"
+      }
+    }
+  },
+  "menu-item#outros-departamentos-tv-e-video": {
+    "props": {
+      "id": "outros-departamentos-tv-e-video",
+      "blockClass": "outros-departamentos-tv-e-video",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tv-e-video",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "TV e Vídeo"
+      }
+    }
+  },
+  "menu-item#outros-departamentos-papelaria": {
+    "props": {
+      "id": "outros-departamentos-papelaria",
+      "blockClass": "outros-departamentos-papelaria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/papelaria",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Papelaria"
+      }
+    }
+  },
+  "menu-item#outros-departamentos-decoracao": {
+    "props": {
+      "id": "outros-departamentos-decoracao",
+      "blockClass": "outros-departamentos-decoracao",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Decoração"
+      }
+    }
+  },
+  "menu-item#outros-departamentos-cama-mesa-e-banho": {
+    "props": {
+      "id": "outros-departamentos-cama-mesa-e-banho",
+      "blockClass": "outros-departamentos-cama-mesa-e-banho",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cama-mesa-e-banho",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Cama, Mesa e Banho"
+      }
+    }
+  },
+  "menu-item#outros-departamentos-bebes": {
+    "props": {
+      "id": "outros-departamentos-bebes",
+      "blockClass": "outros-departamentos-bebes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Bebês"
+      }
+    }
+  },
+  "menu-item#outros-departamentos-pet-shop": {
+    "props": {
+      "id": "outros-departamentos-pet-shop",
+      "blockClass": "outros-departamentos-pet-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pet-shop",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Pet Shop"
+      }
+    }
+  }
+}

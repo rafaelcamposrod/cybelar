@@ -1,0 +1,292 @@
+{
+  "store.custom#institutional-browsing-and-buying": {
+    "blocks": [
+      "responsive-layout.desktop#browsing-and-buying",
+      "responsive-layout.mobile#browsing-and-buying"
+    ]
+  },
+  "responsive-layout.desktop#browsing-and-buying": {
+    "children": [
+      "flex-layout.row#desktop-browsing-and-buying"
+    ]
+  },
+  "responsive-layout.mobile#browsing-and-buying": {
+    "children": [
+      "flex-layout.row#mobile-browsing-and-buying"
+    ]
+  },
+  "flex-layout.row#mobile-browsing-and-buying": {
+    "children": [
+      "menu-item#browsing-and-buying",
+      "flex-layout.col#mobile-content-browsing-and-buying"
+    ],
+    "props": {
+      "blockClass": "mobile-browsing-and-buying"
+    }
+  },
+  "flex-layout.col#mobile-content-browsing-and-buying": {
+    "children": [
+      "rich-text#title-browsing-and-buying",
+      "image#browsing-and-buying-new",
+      "rich-text#paragraph-browsing-and-buying-text"
+    ],
+    "props": {
+      "blockClass": "mobile-content-browsing-and-buying"
+    }
+  },
+  "menu-item#browsing-and-buying": {
+    "props": {
+      "blockClass": "browsing-and-buying",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Not Found",
+        "text": "Navegando e Comprando"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#sub-menu-mobile-browsing-and-buying"
+    ]
+  },
+  "submenu.accordion#sub-menu-mobile-browsing-and-buying": {
+    "children": [
+      "menu-item#fale-conosco-mobile",
+      "menu-item#about-us-mobile",
+      "menu-item#our-store-mobile",
+      "menu-item#policy-mobile",
+      "menu-item#new-sale-on-cybelar-mobile",
+      "menu-item#exchanges-and-return-mobile",
+      "menu-item#safe-buy-mobile",
+      "menu-item#browsing-and-buying-mobile"
+    ],
+    "props": {
+      "blockClass": "institutional-sub-menu-mobile"
+    }
+  },
+  "flex-layout.row#desktop-browsing-and-buying": {
+    "children": [
+      "flex-layout.col#instituional-col-1-browsing-and-buying",
+      "flex-layout.col#instituional-col-2-browsing-and-buying"
+    ],
+    "props": {
+      "blockClass": "institutional-content"
+    }
+  },
+  "flex-layout.col#instituional-col-1-browsing-and-buying": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional-browsing-and-buying"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container-menu-insitutional"
+    }
+  },
+  "flex-layout.col#instituional-col-2-browsing-and-buying": {
+    "children": [
+      "flex-layout.col#content-browsing-and-buying"
+    ],
+    "props": {
+      "blockClass": "container-institutional"
+    }
+  },
+  "flex-layout.col#content-browsing-and-buying": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#title-browsing-and-buying",
+      "image#browsing-and-buying-new",
+      "rich-text#paragraph-browsing-and-buying-text"
+    ]
+  },
+  "rich-text#title-browsing-and-buying": {
+    "props": {
+      "text": "### Navegando e Comprando",
+      "blockClass": "text-intitutional-title"
+    }
+  },
+  "image#browsing-and-buying-new": {
+    "props": {
+      "src": "/arquivos/navegando-e-comprando.jpg"
+    },
+    "title": "Navegando e comprando - Imagem"
+  },
+  "rich-text#paragraph-browsing-and-buying-text": {
+    "props": {
+      "blockClass": "text-intitutional-browsing-and-buying",
+      "text": "**Home Page**\nEm nossa home page, você encontra sugestões de produtos com preços e condições especiais. Poderão encontrar as melhores ofertas atualizadas todos os dias, além dos produtos em destaque. Você também pode acessar os banners que possibilitam o acesso a promoções exclusivas além de dar acesso às Categorias e a ferramenta de busca.\n\n**Busca**\nCaso você queria procurar por algum produto específico, através das características ou modelo, basta utilizar a barra de busca, localizada no topo e no rodapé do site. Serão listados os produtos mais relevantes como resultado da busca realizada.\n\n**Busca/ Refino de busca**\nAo efetuar a busca com alguma palavra chave, a barra lateral esquerda irá auxiliá-lo com filtros para que você possa ter uma visualização mais completa sobre o resultado de busca. Assim poderá chegar mais rápido ao produto procurado.\n \n**Categorias**\nEm cada categoria de produtos, você irá encontrar os principais produtos e campanhas promocionais.\nVocê pode navegar diretamente pelas CATEGORIAS DE PRODUTOS localizadas na barra de navegação, no alto da página. Ou você pode também ir diretamente a uma subcategoria desejada, pelo menu de navegação esquerdo. Ao acessar uma categoria, o menu pode ser mais detalhado, pelo fabricante, tipo de produto, entre outros filtros.\n\n**Atalhos**\nNo alto da página e no rodapé, você encontra links que permitam agilizar suas compras, acompanhar seus pedidos e facilitar sua navegação pela loja, veja alguns exemplos:\n\n**MEU CADASTRO** – Cadastre-se ou atualize seus dados, inclusive e-mail e endereço de entrega.\n\n**MEUS PEDIDOS** – Consulte seus pedidos e histórico, verifique o andamento de um pedido ou reimprima seu boleto, entre outros serviços.\n\n**CENTRAL DE ATENDIMENTO** – Aqui, você esclarece suas dúvidas, obtém informações sobre o seu pedido e conhece melhor o site.\n\n**CARRINHO** – Aqui, você visualiza os produtos incluídos na sua sacola, o valor total e conclui sua compra."
+    },
+    "title": "Navegando e Comprando - Texto"
+  },
+  "vtex.menu@2.x:menu#institutional-browsing-and-buying": {
+    "children": [
+      "menu-item#fale-conosco-browsing-and-buying",
+      "menu-item#about-us-browsing-and-buying",
+      "menu-item#our-store-browsing-and-buying",
+      "menu-item#policy-browsing-and-buying",
+      "menu-item#new-sale-on-cybelar-browsing-and-buying",
+      "menu-item#work-with-us-browsing-and-buying",
+      "menu-item#exchanges-and-returns-browsing-and-buying",
+      "menu-item#safe-buy-browsing-and-buying",
+      "menu-item#shipping-and-delivery-browsing-and-buying",
+      "menu-item#browsing-and-buying-browsing-and-buying"
+    ],
+    "props": {
+      "blockClass": "menu-insitucional",
+        "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#fale-conosco-browsing-and-buying": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#about-us-browsing-and-buying": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "about-us-browsing-and-buying",
+        "text": "Quem Somos"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#our-store-browsing-and-buying": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store-browsing-and-buying",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#policy-browsing-and-buying": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "policy-browsing-and-buying",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#work-with-us-browsing-and-buying": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "work-with-us",
+        "text": "Trabalhe Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-browsing-and-buying": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#exchanges-and-returns-browsing-and-buying": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-returns",
+        "text": "Trocas e Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#safe-buy-browsing-and-buying": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#shipping-and-delivery-browsing-and-buying": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#browsing-and-buying-browsing-and-buying": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e Comprando"
+      },
+      "blockClass": "select"
+    }
+  }
+}

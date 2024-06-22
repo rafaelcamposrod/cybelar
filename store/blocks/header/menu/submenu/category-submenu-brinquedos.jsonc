@@ -1,0 +1,658 @@
+{
+  "vtex.menu@2.x:submenu#brinquedos-sub-menu": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#brinquedos-sub-menu"]
+  },
+  "flex-layout.row#brinquedos-sub-menu": {
+    "children": [
+      "flex-layout.col#brinquedos-sub-menu-col",
+      "flex-layout.col#brinquedos-sub-menu-col-2",
+      "flex-layout.col#brinquedos-sub-menu-col-3",
+      "info-card#brinquedos-sub-menu-card"
+    ],
+    "props": {
+      "blockClass": "row-submenu"
+    },
+    "title": "Submenu Brinquedos"
+  },
+
+  // Colunas
+  "flex-layout.col#brinquedos-sub-menu-col": {
+    "children": [
+      "flex-layout.row#titleSubmenu-blocos-de-montar",
+      "menu-item#brinquedos-cenarios",
+      "menu-item#brinquedos-infantil",
+      "flex-layout.row#titleSubmenu-faz-de-conta",
+      "menu-item#brinquedos-comidinha",
+      "menu-item#brinquedos-mercadinho",
+      "menu-item#brinquedos-casinha"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#brinquedos-sub-menu-col-2": {
+    "children": [
+      "flex-layout.row#titleSubmenu-bonecas",
+      "menu-item#brinquedos-mini-boneca",
+      "menu-item#brinquedos-bebe-e-reborn",
+      "menu-item#brinquedos-pelucias",
+      "menu-item#brinquedos-personagens-e-diversos",
+      "flex-layout.row#titleSubmenu-jogos",
+      "menu-item#brinquedos-quebra-cabeca",
+      "menu-item#brinquedos-estrategia",
+      "menu-item#brinquedos-diversos"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#brinquedos-sub-menu-col-3": {
+    "children": [
+      "flex-layout.row#titleSubmenu-carrinho",
+      "menu-item#brinquedos-pista-e-acessorios",
+      "menu-item#brinquedos-play-machine",
+      "menu-item#brinquedos-diversos",
+      "menu-item#brinquedos-controle-remoto",
+      "menu-item#brinquedos-miniaturas",
+      "flex-layout.row#titleSubmenu-sobre-rodas",
+      "menu-item#brinquedos-carros",
+      "menu-item#brinquedos-moto-eletrica",
+      "menu-item#brinquedos-patinete-e-patins",
+      "menu-item#brinquedos-skate-e-hoverboard",
+      "menu-item#brinquedos-smart-baby",
+      "menu-item#brinquedos-triciclo-e-velotrol"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "info-card#brinquedos-sub-menu-card": {
+    "props": {
+      "id": "brinquedos-sub-menu-card",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/brinquedos.jpg",
+      "headline": "",
+      "callToActionMode": "none",
+      "blockClass": "sub-menu-card",
+      "textPosition": "center",
+      "textAlignment": "center"
+    }
+  },
+
+  // Coluna 1
+  "flex-layout.row#titleSubmenu-blocos-de-montar": {
+    "children": [
+      "rich-text#titleSubmenu-blocos-de-montar",
+      "rich-text#titleSubmenu-blocos-de-montar-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-blocos-de-montar": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Blocos de Montar",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-blocos-de-montar-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+  "flex-layout.row#titleSubmenu-faz-de-conta": {
+    "children": [
+      "rich-text#titleSubmenu-faz-de-conta",
+      "rich-text#titleSubmenu-faz-de-conta-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-faz-de-conta": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Faz de Conta",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-faz-de-conta-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+  
+  // Coluna 2
+  "flex-layout.row#titleSubmenu-bonecas": {
+    "children": [
+      "rich-text#titleSubmenu-bonecas",
+      "rich-text#titleSubmenu-bonecas-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-bonecas": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Bonecas",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-bonecas-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+  "flex-layout.row#titleSubmenu-jogos": {
+    "children": [
+      "rich-text#titleSubmenu-jogos",
+      "rich-text#titleSubmenu-jogos-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-jogos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Jogos",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-jogos-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // Coluna 3
+  "flex-layout.row#titleSubmenu-carrinho": {
+    "children": [
+      "rich-text#titleSubmenu-carrinho",
+      "rich-text#titleSubmenu-carrinho-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-carrinho": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Carrinho",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-carrinho-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+  "flex-layout.row#titleSubmenu-pelucias": {
+    "children": [
+      "rich-text#titleSubmenu-pelucias",
+      "rich-text#titleSubmenu-pelucias-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-pelucias": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Pelúcias",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-pelucias-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+  "flex-layout.row#titleSubmenu-sobre-rodas": {
+    "children": [
+      "rich-text#titleSubmenu-sobre-rodas",
+      "rich-text#titleSubmenu-sobre-rodas-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-sobre-rodas": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Sobre Rodas",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-sobre-rodas-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // --------- menu items ----------
+  // departamentos > blocos de montar
+  "menu-item#brinquedos-cenarios": {
+    "props": {
+      "id": "brinquedos-cenarios",
+      "blockClass": "brinquedos-cenarios",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cenarios",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Cenários"
+      }
+    }
+  },
+  "menu-item#brinquedos-infantil": {
+    "props": {
+      "id": "brinquedos-infantil",
+      "blockClass": "brinquedos-infantil",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/infantil",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Infantil"
+      }
+    }
+  },
+  // departamentos > faz de conta
+  "menu-item#brinquedos-comidinha": {
+    "props": {
+      "id": "brinquedos-comidinha",
+      "blockClass": "brinquedos-comidinha",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/comidinha",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Comidinha"
+      }
+    }
+  },
+  "menu-item#brinquedos-mercadinho": {
+    "props": {
+      "id": "brinquedos-mercadinho",
+      "blockClass": "brinquedos-mercadinho",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mercadinho",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Mercadinho"
+      }
+    }
+  },
+  "menu-item#brinquedos-casinha": {
+    "props": {
+      "id": "brinquedos-casinha",
+      "blockClass": "brinquedos-casinha",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/casinha",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Casinha"
+      }
+    }
+  },
+  // departamentos > bonecas
+  "menu-item#brinquedos-mini-boneca": {
+    "props": {
+      "id": "brinquedos-mini-boneca",
+      "blockClass": "brinquedos-mini-boneca",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mini-boneca",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Mini Boneca"
+      }
+    }
+  },
+  "menu-item#brinquedos-bebe-e-reborn": {
+    "props": {
+      "id": "brinquedos-bebe-e-reborn",
+      "blockClass": "brinquedos-bebe-e-reborn",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebe-e-reborn",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Bebê e Reborn"
+      }
+    }
+  },
+  "menu-item#brinquedos-pelucias": {
+    "props": {
+      "id": "brinquedos-pelucias",
+      "blockClass": "brinquedos-pelucias",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pelucias",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Pelúcias"
+      }
+    }
+  },
+  "menu-item#brinquedos-personagens-e-diversos": {
+    "props": {
+      "id": "brinquedos-personagens-e-diversos",
+      "blockClass": "brinquedos-personagens-e-diversos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/personagens-e-diversos",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Personagens e Diversos"
+      }
+    }
+  },
+  // departamentos > jogos
+  "menu-item#brinquedos-quebra-cabeca": {
+    "props": {
+      "id": "brinquedos-quebra-cabeca",
+      "blockClass": "brinquedos-quebra-cabeca",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quebra-cabeca",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Quebra Cabeça"
+      }
+    }
+  },
+  "menu-item#brinquedos-estrategia": {
+    "props": {
+      "id": "brinquedos-estrategia",
+      "blockClass": "brinquedos-estrategia",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estrategia",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Estratégia"
+      }
+    }
+  },
+  "menu-item#brinquedos-diversos": {
+    "props": {
+      "id": "brinquedos-diversos",
+      "blockClass": "brinquedos-diversos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/diversos",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Diversos"
+      }
+    }
+  },
+  // departamentos > carrinho
+  "menu-item#brinquedos-pista-e-acessorios": {
+    "props": {
+      "id": "brinquedos-pista-e-acessorios",
+      "blockClass": "brinquedos-pista-e-acessorios",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pista-e-acessorios",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Pista e Acessórios"
+      }
+    }
+  },
+  "menu-item#brinquedos-play-machine": {
+    "props": {
+      "id": "brinquedos-play-machine",
+      "blockClass": "brinquedos-play-machine",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/play-machine",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Play Machine"
+      }
+    }
+  },
+  "menu-item#brinquedos-controle-remoto": {
+    "props": {
+      "id": "brinquedos-controle-remoto",
+      "blockClass": "brinquedos-controle-remoto",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/controle-remoto",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Controle Remoto"
+      }
+    }
+  },
+  "menu-item#brinquedos-miniaturas": {
+    "props": {
+      "id": "brinquedos-miniaturas",
+      "blockClass": "brinquedos-miniaturas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/miniaturas",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Miniaturas"
+      }
+    }
+  },
+  // departamentos > pelúcias
+  "menu-item#brinquedos-personagens": {
+    "props": {
+      "id": "brinquedos-personagens",
+      "blockClass": "brinquedos-personagens",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/personagens",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Personagens"
+      }
+    }
+  },
+  "menu-item#brinquedos-fantoches": {
+    "props": {
+      "id": "brinquedos-fantoches",
+      "blockClass": "brinquedos-fantoches",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fantoches",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Fantoches"
+      }
+    }
+  },
+  // departamentos > sobre rodas
+  "menu-item#brinquedos-carros": {
+    "props": {
+      "id": "brinquedos-carros",
+      "blockClass": "brinquedos-carros",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/carros",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Carros"
+      }
+    }
+  },
+  "menu-item#brinquedos-moto-eletrica": {
+    "props": {
+      "id": "brinquedos-moto-eletrica",
+      "blockClass": "brinquedos-moto-eletrica",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moto-eletrica",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Moto Elétrica"
+      }
+    }
+  },
+  "menu-item#brinquedos-patinete-e-patins": {
+    "props": {
+      "id": "brinquedos-patinete-e-patins",
+      "blockClass": "brinquedos-patinete-e-patins",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/patinete-e-patins",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Patinete e Patins"
+      }
+    }
+  },
+  "menu-item#brinquedos-skate-e-hoverboard": {
+    "props": {
+      "id": "brinquedos-skate-e-hoverboard",
+      "blockClass": "brinquedos-skate-e-hoverboard",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/skate-e-hoverboard",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Skate e Hoverboard"
+      }
+    }
+  },
+  "menu-item#brinquedos-smart-baby": {
+    "props": {
+      "id": "brinquedos-smart-baby",
+      "blockClass": "brinquedos-smart-baby",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/smart-baby",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Smart Baby"
+      }
+    }
+  },
+  "menu-item#brinquedos-triciclo-e-velotrol": {
+    "props": {
+      "id": "brinquedos-triciclo-e-velotrol",
+      "blockClass": "brinquedos-triciclo-e-velotrol",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/triciclo-e-velotrol",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Triciclo e Velotrol"
+      }
+    }
+  }
+}

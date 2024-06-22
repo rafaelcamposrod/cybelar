@@ -1,0 +1,86 @@
+{
+    "flex-layout.row#countdown": {
+        "children": [
+            "rich-text#countdown",
+            "rich-text#ver-todos"
+        ],
+        "props": {
+            "blockClass": [
+                "produtos-precisa-conferir-container",
+                "produtos-precisa-conferir-container-text"
+            ]
+        },
+        "title": "Vitrine - Ofertas do dia."
+    },
+    "rich-text#countdown": {
+        "props": {
+            "text": "### Ofertas do dia",
+            "blockClass": "title-vitrine-countdown"
+        },
+        "title": "Titulo - Oferta do dia"
+    },
+    "rich-text#ver-todos": {
+        "props": {
+            "text": "[Ver todos](/)",
+            "blockClass": "day-offer-see-all"
+        },
+        "title": "ver todos - ofertas do dia"
+    },
+    "flex-layout.row#countdown-shelf": {
+        "children": [
+            "list-context.product-list#cowntdown-conferir"
+        ],
+        "props": {
+            "blockClass": "countdown-container"
+        },
+        "title": "SHELF - Ofertas do dia"
+    },
+    "list-context.product-list#cowntdown-conferir": {
+        "blocks": [
+            "product-summary.shelf#cowntdown-conferir"
+        ],
+        "children": [
+            "slider-layout#cowntdown-conferir"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "hideUnavailableItems": true,
+            "preferredSKU": "FIRST_AVAILABLE",
+            "collection": "503"
+        }
+    },
+    "product-summary.shelf#cowntdown-conferir": {
+        "children": [
+            "stack-layout#prodsum",
+            "vtex.product-highlights@2.x:product-highlights#name-category-area",
+            "n1-name-category-shelf",
+            "product-summary-name",
+            "product-rating-inline",
+            "product-unavailable",
+            "countdown-vitrine"
+        ],
+        "props": {
+            "blockClass": "shelf-produtos-precisa-conferir-summary"
+        }
+    },
+    "slider-layout#cowntdown-conferir": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            },
+            "blockClass": [
+                "shelf-home",
+                "shelf-home-whole"
+            ],
+            "showPaginationDots": "mobileOnly",
+            "showNavigationArrows": "desktopOnly",
+            "centerMode": {
+                "desktop": "disabled",
+                "mobile": "to-the-left",
+                "phone": "to-the-left"
+            }
+        }
+    }
+}

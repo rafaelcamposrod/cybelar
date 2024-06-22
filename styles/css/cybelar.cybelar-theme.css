@@ -1,0 +1,73 @@
+.CustomHighLightContainer {
+  background-color: #49e87b;
+  padding: 3px;
+  font-size: 10px;
+  font-family: Roboto;
+  width: 60px;
+}
+.home{
+  background-color: red;
+}
+.unavailableButton {
+  background: #e3e4e6;
+  width: 100%;
+  max-width: 130px;
+  margin: 0 auto;
+}
+.unavailableButtonLabel {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+
+@media (min-width: 425px) {
+  .CustomHighLightContainer {
+    margin-top: 10px;
+    width: auto;
+  }
+}
+
+@media (max-width: 1366px) {
+  .CustomHighLightContainer {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .CustomHighLightContainer {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    height: 30px;
+    margin-top: 2px;
+  }
+  .unavailableButton {
+    max-width: 208px;
+    margin-bottom: 0;
+  }
+  .unavailableButtonLabel {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .inputContainer {
+    max-width: initial !important;
+  }
+
+  .newsletterCheckboxContainer {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .unavailableButton {
+    max-width: 169px;
+  }
+}

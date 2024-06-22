@@ -1,0 +1,152 @@
+{
+  //SMARTPHONES
+  "disclosure-layout#submenu-telefonia-smartphones": {
+    "children": [
+      "disclosure-trigger#submenu-telefonia-smartphones",
+      "disclosure-content#submenu-telefonia-smartphones"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-telefonia-smartphones": {
+    "children": [
+      "rich-text#submenu-telefonia-smartphones",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-telefonia-smartphones": {
+    "props": {
+      "text": "Smartphones",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-telefonia-smartphones": {
+    "children": [
+      "rich-text#subcategoria-lg",
+      "rich-text#subcategoria-motorola",
+      "rich-text#subcategoria-multilaser",
+      "rich-text#subcategoria-telefonia-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-lg": {
+    "props": {
+      "text": "[LG](/lg)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-motorola": {
+    "props": {
+      "text": "[Motorola](/motorola)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  // "rich-text#subcategoria-multilaser": {
+  //   "props": {
+  //     "text": "[Multilaser](/multilaser)",
+  //     "blockClass": "subcategory-text"
+  //   }
+  // },
+
+  // CELULARES
+  "disclosure-layout#submenu-telefonia-celulares": {
+    "children": [
+      "disclosure-trigger#submenu-telefonia-celulares",
+      "disclosure-content#submenu-telefonia-celulares"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-telefonia-celulares": {
+    "children": [
+      "rich-text#submenu-telefonia-celulares",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-telefonia-celulares": {
+    "props": {
+      "text": "Celulares",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-telefonia-celulares": {
+    "children": [
+      "rich-text#subcategoria-nokia",
+      "rich-text#subcategoria-multilaser",
+      "rich-text#subcategoria-lenoxx",
+      "rich-text#subcategoria-telefonia-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-nokia": {
+    "props": {
+      "text": "[Nokia](/nokia)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-lenoxx": {
+    "props": {
+      "text": "[Lenoxx](/lenoxx)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // FIXA
+  "disclosure-layout#submenu-telefonia-fixa": {
+    "children": [
+      "disclosure-trigger#submenu-telefonia-fixa",
+      "disclosure-content#submenu-telefonia-fixa"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-telefonia-fixa": {
+    "children": [
+      "rich-text#submenu-telefonia-fixa",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-telefonia-fixa": {
+    "props": {
+      "text": "Fixa",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-telefonia-fixa": {
+    "children": [
+      "rich-text#subcategoria-com-fio",
+      "rich-text#subcategoria-sem-fio"
+    ]
+  },
+  "rich-text#subcategoria-com-fio": {
+    "props": {
+      "text": "[Com Fio](/com-fio)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-sem-fio": {
+    "props": {
+      "text": "[Sem Fio](/sem-fio)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  
+
+  // VER TUDO
+  "rich-text#subcategoria-telefonia-ver-tudo": {
+    "props": {
+      "text": "[+ ver tudo](#)",
+      "blockClass": "subcategory-text-ver-tudo"
+    }
+  }
+}

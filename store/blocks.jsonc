@@ -1,0 +1,145 @@
+/* Blocks can be defined both on the store/blocks.json file, and in any number of json
+ * files inside the store/blocks directory, with any arbitrary directory structure.
+ *
+ * Additionally, all blocks files can support comments, such as this one, if given the
+ * .jsonc file extension.
+ *
+ * The store/blocks.json file is intended for backwards compatibility, for miscellaneous
+ * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
+ */
+{
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+
+  "store.account": {
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+
+  "store.login": {
+    "blocks": ["login-content#default"]
+  },
+
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+
+  "product-summary.shelf": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      // "product-unavailable",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image",
+      "product-shelf-highlight-percent",
+      "product-highlight",
+      "product-bookmark",
+      "product-summary-specification-badges"
+    ]
+
+  },
+
+  "product-shelf-highlight-percent":{
+    "props": {
+      "blockClass": "customShelfDiscount"
+    }
+  },
+  "product-summary-image": {
+    "props": {
+      "height": 220,
+      "showBadge": false
+
+    }
+  },
+
+  "product-summary-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+
+  "store.product-review-form": {
+    "blocks": ["product-review-form"]
+  },
+  "store.not-found#product": {
+    "blocks": ["search-not-found-layout"]
+  },
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Sentimos muito, mas não conseguimos localizar a página solicitada...** \nO erro pode ter sido gerado por vários fatores. Busque o produto pelo nome, marca ou categoria.",
+      "font": "t-heading-1",
+      "blockclass": "not-found"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf#search-shelf-list"]
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "displayMode": "search-button",
+      "inputType": "text"
+    }
+  },
+  "stack-layout#prodsum-busca": {
+    "children": [
+      // "product-highlight",
+      "product-summary-image"
+      // "flex-layout.row#high-busca",
+      // "product-bookmark",
+      // "product-summary-specification-badges"
+    ],
+    "props": {
+      "blockClass": "prodsum-busca-inteligente"
+    }
+  },
+
+  "product-summary.shelf#busca-inteligente": {
+    "children": [
+      "stack-layout#prodsum-busca",
+      // "product-summary-sku-selector#color",
+      "product-summary-name",
+      // "product-rating-inline",
+      // "product-unavailable",
+      // "product-price#busca-inteligente",
+      "product-summary-buy-button#busca-inteligente"
+    ],
+    "props": {
+      "blockClass": ["shelf-os-mais-procurados-summary", "shelf-busca-inteligente"]
+    }
+  },
+
+  "product-price#busca-inteligente": {
+    "props": {
+      "blockClass": "price-busca-inteligente"
+    }
+  },
+
+  "product-summary-buy-button#busca-inteligente": {
+    "props": {
+      "isOneClickBuy": false,
+      "buyButtonText": "ver produto",
+      "buyButtonBehavior": "alwaysGoToProduct",
+      "blockClass": "btn-comprar-busca-inteligente"
+    }
+  }
+}

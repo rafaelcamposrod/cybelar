@@ -1,0 +1,293 @@
+/* ------ Product Page ------- */
+
+.element--product-shelf {
+  background: #ffffff;
+}
+/*------ Product Card - START -------*/
+.brandName {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+  text-align: center;
+}
+.SKUSelectorContainer {
+  height: 45px;
+}
+.nameContainer {
+  padding: 5px 10px 10px;
+}
+@media(max-width: 765px){
+  .nameContainer {
+    padding: 0px;
+  }
+  .nameWrapper {
+    margin: 0px !important;
+  }
+}
+.nameWrapper {
+  display: block;
+  height: 35px;
+  margin: 0 5px;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: unset;
+  color: #828282;
+}
+@media(max-width: 768px){
+  .element {
+    padding: 2px 8px;
+  }
+}
+.priceContainer {
+  height: 70px;
+  padding: 0 10px 0;
+}
+@media(max-width: 765px) {
+  .priceContainer {
+    height: auto;
+    padding: 0px;
+  }
+
+  .price_className {
+    margin: 0px !important;
+  }
+}
+.price_className {
+  align-self: start;
+  margin-left: 5px;
+  position: relative;
+  width: 100%;
+}
+.sellingPriceContainer {
+  padding: 0;
+}
+.price_sellingPriceContainer,
+.price_listPriceContainer {
+  text-align: left;
+  padding: 0;
+}
+.price_sellingPrice {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  padding-left: 0;
+}
+
+@media (max-width: 768px) {
+  .price_sellingPrice {
+    font-size: 14px !important;
+  }
+}
+
+.price_listPrice {
+  color: #828282;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 0;
+  text-decoration-line: line-through;
+}
+
+@media (max-width: 768px) {
+  .price_listPrice {  
+    margin-top: 10px;
+  }
+}
+
+.price_installmentContainer {
+  color: #828282;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 0;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .price_installmentContainer {
+    margin-bottom: 10px;
+  }
+}
+
+.price_listPriceLabel,
+.price_sellingPriceLabel {
+  display: none;
+}
+/*------ Product Card - END -------*/
+/*------ Department Product Card -------*/
+.container--search-shelf {
+  background: #ffffff;
+  border-radius: 0;
+  border-radius: 10px;
+}
+.container--search-shelf .nameWrapper {
+  height: 35px;
+}
+.element--search-shelf {
+  padding: 0 5px;
+}
+.element--search-shelf .nameContainer {
+  padding: 0;
+}
+.element--search-shelf .priceContainer {
+  height: auto;
+  padding: 0 5px;
+  margin-bottom: 10px;
+}
+.element--search-shelf .brandName {
+  font-size: 12px;
+}
+.element--search-shelf .price_className {
+  margin: 0;
+}
+.element--search-shelf .price_listPrice {
+  font-size: 10px;
+}
+.element--search-shelf .price_sellingPrice {
+  font-size: 16px;
+}
+.element--search-shelf .price_installmentContainer {
+  color: #828282;
+  font-family: "Roboto", sans-serif;
+  font-size: 9px;
+  line-height: normal;
+}
+.element--search-shelf .price_installment:first-child {
+  margin-left: 0;
+}
+.element--search-shelf .price_installment {
+  font-size: 9px;
+  margin-left: 0;
+}
+.element--search-shelf .imageContainer .imageNormal {
+  height: auto !important;
+}
+
+@media(max-width: 765px){
+  :global(.vtex-product-summary-2-x-imageNormal) {
+    height: 200px !important;
+    width: 200px !important;
+  }
+}
+
+.element--search-shelf .priceContainer .installmentsPrice .interestRatePrice {
+  display: inline-block;
+  padding: 0;
+  width: auto;
+}
+.element--search-shelf
+  .imageContainer
+  :global(.vtex-store-components-3-x-discountInsideContainer) {
+  top: 0;
+}
+@media screen and (min-width: 1025px) {
+  .element--search-shelf {
+    height: auto;
+    padding: 8px 0 12px;
+  }
+  .element--search-shelf .nameWrapper {
+    text-align: left;
+    width: 100%;
+  }
+  .element--search-shelf .nameContainer {
+    padding: 0px 10px 10px;
+  }
+  .element--search-shelf .priceContainer {
+    height: 70px;
+    padding: 0 10px 10px;
+    margin-bottom: 0;
+  }
+  .element--search-shelf .brandName {
+    font-size: 14px;
+  }
+  .element--search-shelf .price_className {
+    margin: 0 0 0 5px;
+  }
+  .element--search-shelf .price_listPrice {
+    font-size: 13px;
+  }
+  .element--search-shelf .price_sellingPrice {
+    font-size: 20px;
+  }
+  .element--search-shelf .price_installmentContainer {
+    font-size: 13px;
+  }
+  .element--search-shelf .price_installment {
+    font-size: 13px;
+    margin: 0;
+  }
+  .element--search-shelf .imageContainer .imageNormal {
+    height: auto !important;
+  }
+  .element--search-shelf
+    .imageContainer
+    :global(.vtex-store-components-3-x-discountInsideContainer) {
+    top: 2px;
+  }
+}
+/*------ Department Product Card - END -------*/
+
+.buyButton--btn-comprar-busca-inteligente :global(.vtex-button) {
+  background-color: #49E87B;
+  border: 0;
+  color: #000;
+  border-radius: 0;
+}
+
+.buyButton--btn-comprar-busca-inteligente :global(.vtex-button) :global(.vtex-button__label) .buyButtonText--btn-comprar-busca-inteligente {
+  display: none;
+}
+
+.buyButton--btn-comprar-busca-inteligente :global(.vtex-button) :global(.vtex-button__label) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buyButton--btn-comprar-busca-inteligente :global(.vtex-button) :global(.vtex-button__label)::before {
+  content: "ver produto";
+  font-family: San Francisco,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* .element--shelf-busca-inteligente
+:global(.vtex-stack-layout-0-x-stackContainer):nth-child(even) {
+    position: absolute !important;
+    right: 0 !important;
+    margin: -2px 0 0 115px !important;
+} */
+
+.element--shelf-busca-inteligente
+.stackContainer--prodsum-busca-inteligente:nth-child(even) {
+  position: absolute !important;
+  right: 0 !important;
+  margin: -2px 0 0 115px !important;
+}
+
+/* .container--shelf-precisa-conferir-summary {
+  max-width: 240px !important;
+} */
+
+@media (max-width: 768px) {
+  .containerNormal--shelf-home-summary {
+    width: 220px !important;
+  }
+}

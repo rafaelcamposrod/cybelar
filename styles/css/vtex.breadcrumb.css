@@ -1,0 +1,37 @@
+.homeLink {
+  display: none;
+}
+.homeIcon,
+.termArrow,
+.arrow .caretIcon,
+.homeLink::before {
+  display: none;
+}
+.link:hover {
+  color: #9b9b9b;
+}
+.link {
+  color: #aaa;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+}
+.term {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+}
+.arrow::after {
+  content: "";
+  background: #E2211D;
+  width: 6px;
+  height: 6px;
+  border-radius: 2px 0px;
+  display: inline-block;
+  margin: auto 6px;
+}
+.arrow {
+  padding: 0;
+}
+

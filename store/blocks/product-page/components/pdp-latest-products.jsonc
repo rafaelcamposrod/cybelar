@@ -1,0 +1,11 @@
+{
+  "product-availability#pdp-latest-products": {
+    "props": {
+      "threshold": 10,
+      "lowStockMessage": "últimas unidades",
+      "blockClass": [
+        "pdp-latest-products"
+      ]
+    }
+  }
+}

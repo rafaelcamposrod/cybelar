@@ -1,0 +1,427 @@
+{
+  "store.custom#institutional-shipping-and-delivery": {
+    "blocks": [
+      "responsive-layout.desktop#shipping-and-delivery",
+      "responsive-layout.mobile#shipping-and-delivery"
+    ]
+  },
+  "responsive-layout.desktop#shipping-and-delivery": {
+    "children": [
+      "flex-layout.row#desktop-shipping-and-delivery"
+    ]
+  },
+  "responsive-layout.mobile#shipping-and-delivery": {
+    "children": [
+      "flex-layout.row#mobile-shipping-and-delivery"
+    ]
+  },
+  "flex-layout.row#mobile-shipping-and-delivery": {
+    "children": [
+      "menu-item#shipping-and-delivery",
+      "flex-layout.col#mobile-content-shipping-and-delivery"
+    ],
+    "props": {
+      "blockClass": "mobile-shipping-and-delivery"
+    }
+  },
+  "flex-layout.col#mobile-content-shipping-and-delivery": {
+    "children": [
+      "rich-text#title-shipping-and-delivery",
+      "image#shipping-and-delivery",
+      "rich-text#paragraph-shipping-and-delivery-text"
+    ],
+    "props": {
+      "blockClass": "mobile-content-shipping-and-delivery"
+    }
+  },
+  "menu-item#shipping-and-delivery": {
+    "props": {
+      "blockClass": "shipping-and-delivery",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Not Found",
+        "text": "Envio e Entrega"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#sub-menu-mobile-shipping-and-delivery"
+    ]
+  },
+  "submenu.accordion#sub-menu-mobile-shipping-and-delivery": {
+    "children": [
+      "menu-item#fale-conosco-mobile",
+      "menu-item#about-us-mobile",
+      "menu-item#our-store-mobile",
+      "menu-item#policy-mobile",
+      "menu-item#new-sale-on-cybelar-mobile",
+      "menu-item#exchanges-and-return-mobile",
+      "menu-item#safe-buy-mobile",
+      "menu-item#browsing-and-buying-mobile"
+    ],
+    "props": {
+      "blockClass": "institutional-sub-menu-mobile"
+    }
+  },
+  "flex-layout.row#desktop-shipping-and-delivery": {
+    "children": [
+      "flex-layout.col#instituional-col-1-shipping-and-delivery",
+      "flex-layout.col#instituional-col-2-shipping-and-delivery"
+    ],
+    "props": {
+      "blockClass": "institutional-content"
+    }
+  },
+  "flex-layout.col#instituional-col-1-shipping-and-delivery": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional-shipping-and-delivery"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container-menu-insitutional"
+    }
+  },
+  "flex-layout.col#instituional-col-2-shipping-and-delivery": {
+    "children": [
+      "flex-layout.col#content-shipping-and-delivery"
+    ],
+    "props": {
+      "blockClass": "container-institutional"
+    }
+  },
+  "flex-layout.col#content-shipping-and-delivery": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#title-shipping-and-delivery",
+      "image#shipping-and-delivery",
+      "rich-text#paragraph-shipping-and-delivery-text"
+    ]
+  },
+  "rich-text#title-shipping-and-delivery": {
+    "props": {
+      "text": "### Envio e entregas",
+      "blockClass": "text-intitutional-title"
+    }
+  },
+  "image#shipping-and-delivery": {
+    "props": {
+      "src": "/arquivos/shipping-and-delivery-cybelar.jpg"
+    },
+    "title": "Serviço de entrega - Imagem"
+  },
+  "rich-text#paragraph-shipping-and-delivery-text": {
+    "props": {
+      "blockClass": "text-intitutional-shipping-and-delivery",
+      "text": "**Regras para o serviço de Entrega.**\n\nRealizamos nossas entregas por transportadoras contratadas, dependendo do local. Entregamos na maior parte do estado de São Paulo todos os produtos disponíveis à venda no site.\n\nNão é possível agendar data e horário para entregas. Também por medidas de segurança, não fornecemos o nome da transportadora que fará a entrega. \n\nO recebimento da mercadoria pode ser realizado por terceiros, como porteiros de condomínios e familiares, desde que assinem o comprovante de recebimento da mercadoria. \n\nPara as entregas feitas pelos Correios são realizadas três tentativas de entrega do produto em dias úteis consecutivos. Ocorrendo três tentativas de entrega sem sucesso o produto será devolvido ao nosso Centro de Distribuição. Para um novo envio fica válido novamente o primeiro prazo de entrega informado.\n\nTransportadoras realizam apenas uma tentativa, e caso não obtenha sucesso, entraremos em contato para confirmação dos dados de entrega informados, podendo assim realizar nova tentativa. Se não obtivermos sucesso no contato e confirmação dos dados o produto será devolvido ao nosso Centro de Distribuição.\n\nAs entregas são realizadas de segunda à sexta-feira em horário comercial.\n\n\n\nRegras para o serviço de Retira em Loja.\n\n•A modalidade Retira em Loja só está disponível para um grupo específico de produtos comercializados diretamente pelo site escolhido (os produtos podem estar disponíveis apenas para determinada Cidade)\n          \n•Após aprovação do pedido pela instituição financeira, o pedido estará disponível para retirada no ponto de retirada escolhido, conforme prazo estabelecido no ato da compra.\n\n•Caso a aprovação do pagamento ocorra após as 16:00 horas, o prazo para retirada do pedido poderá ser estendido em 1 (um) dia útil.\n\n•Poderá haver diferença entre os preços dos   sites em que a compra foi realizada e os preços praticados nas lojas físicas, caso for optado por retirar numa loja. Os preços praticados no site não são válidos para as lojas físicas e os preços praticados nas lojas físicas não são válidos para o site.\n\n•É imprescindível que as informações de contato do cadastro estejam atualizadas. Isso garantirá sucesso em possíveis contatos que se façam necessários.\n\n\n\n\n\n**Sobre a retirada**\n\n•A retirada do pedido só deverá acontecer após o recebimento do e-mail com confirmação de disponibilidade do produto no ponto de retirada.\n\n•O pedido ficará disponível para retirar no ponto de retirada no prazo máximo de 5 (cinco) dias corridos, a contar da data de recebimento do e-mail de disponibilidade para retirada. Caso o pedido não seja retirado neste prazo, será automaticamente cancelado.\n\n•Caso ocorra o cancelamento do pedido, o cliente poderá optar entre receber um vale com o valor da compra, que deverá ser utilizado em produtos vendidos e entregues pelo mesmo site em que a compra foi realizada ou receber o estorno do valor pago de acordo com o meio de pagamento utilizado.\n\n•O horário de retirada de pedido será de acordo com horário de funcionamento do ponto de retirada escolhido.\n\n•Ao comparecer ao local de retirada, o cliente deverá apresentar documento de identificação e informar que a compra foi realizada através do serviço Retira em Loja.\n\n•A entrega do pedido será realizada até o local de retirada escolhido pelo cliente, sendo que será de exclusiva responsabilidade do cliente a retirada do produto na área de atendimento do local, o carregamento e o transporte até seu destino final.\n\n•Não entregamos para terceiros.\n\n•Não disponibilizamos o serviço de Retira em Loja para Pessoa Jurídica.\n\n\n\n\nPara retirada do pedido, o cliente deverá apresentar:\n- Documento de identidade original com foto.\n\n\n\nSobre a troca ou cancelamento\n\n•Caso ocorra o cancelamento do pedido, o cliente poderá optar entre receber um vale com o valor da compra, que deverá ser utilizado em produtos vendidos e entregues pelo mesmo site em que a compra foi realizada ou receber o estorno do valor pago de acordo com o meio de pagamento utilizado.\n\n•Solicitações de cancelamento por arrependimento, nos termos do artigo 49 do Código de Defesa do Consumidor, deverão ser feitas através dos canais de atendimento ao consumidor, em até 7 (sete) dias corridos a contar da data da retirada.\n\n•Dentro do prazo de até 90 (noventa) dias corridos contados do recebimento do produto com defeito, o procedimento de troca/devolução seguirá o disposto no Código de Defesa do Consumidor.\n\n\n\n•Caso o produto não seja reparado no prazo de 30 (trinta) dias, ficará a critério do cliente escolher dentre as seguintes alternativas:\n\na) substituição do produto por outro igual;\n\nb) restituição dos valores pagos.\n\nEventuais trocas de produto estão sujeitas à disponibilidade de estoque.\n\nOs sites que oferecem o Retira em Loja se isentam da responsabilidade de aceitar a troca ou a devolução de qualquer produto em que o defeito tenha ocorrido por mau uso por parte do cliente ou em casos de reclamações efetuadas fora dos prazos estabelecidos na lei."
+    },
+    "title": "Serviço de Entrega - Texto"
+  },
+  "vtex.menu@2.x:menu#institutional-shipping-and-delivery": {
+    "children": [
+      "menu-item#fale-conosco-shipping-and-delivery",
+      "menu-item#about-us-shipping-and-delivery",
+      "menu-item#our-store-shipping-and-delivery",
+      "menu-item#policy-shipping-and-delivery",
+      "menu-item#new-sale-on-cybelar-shipping-and-delivery",
+      "menu-item#work-with-us-shipping-and-delivery",
+      "menu-item#exchanges-and-returns-shipping-and-delivery",
+      "menu-item#safe-buy-shipping-and-delivery",
+      "menu-item#shipping-and-delivery-shipping-and-delivery",
+      "menu-item#browsing-and-buying-shipping-and-delivery"
+    ],
+    "props": {
+      "blockClass": "menu-insitucional",
+        "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#fale-conosco-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#about-us-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "about-us-shipping-and-delivery",
+        "text": "Quem Somos"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#our-store-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store-shipping-and-delivery",
+        "text": "Nossas lojas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#policy-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "policy-shipping-and-delivery",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#affiliates-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/afiliados",
+        "noFollow": false,
+        "tagTitle": "affiliates",
+        "text": "Afiliados"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#help-store-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/duvidas-sobre-a-loja",
+        "noFollow": false,
+        "tagTitle": "help-store",
+        "text": "Duvidas sobre a loja?"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#work-with-us-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "work-with-us",
+        "text": "Trabalhe Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#deliveries-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/entregas",
+        "noFollow": false,
+        "tagTitle": "deliveries",
+        "text": "Entregas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#devolution-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/devolucao",
+        "noFollow": false,
+        "tagTitle": "devolution",
+        "text": "Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#payment-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pagamento",
+        "noFollow": false,
+        "tagTitle": "payment",
+        "text": "Pagamento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#security-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seguranca",
+        "noFollow": false,
+        "tagTitle": "security",
+        "text": "Segurança"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#call-center-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/central-de-atendimento",
+        "noFollow": false,
+        "tagTitle": "call-center",
+        "text": "Central de Atendimento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#exchanges-and-returns-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-returns",
+        "text": "Trocas e Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#safe-buy-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#shipping-and-delivery-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "select"
+    }
+  },
+  "menu-item#browsing-and-buying-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e Comprando"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#contact-us-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "contact-us",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#site-map-shipping-and-delivery": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mapa-do-site",
+        "noFollow": false,
+        "tagTitle": "site-map",
+        "text": "Mapa do Site"
+      },
+      "blockClass": "not-select"
+    }
+  }
+}

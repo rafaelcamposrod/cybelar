@@ -1,0 +1,56 @@
+.wrapper
+  :global(.vtex-menu-2-x-styledLinkContent--menu-item-departments-fixed) {
+  font-size: 0;
+}
+.wrapper :global(.vtex-flex-layout-0-x-flexColChild--menu-logo):first-child {
+  pointer-events: none;
+  transition: width 0.5s cubic-bezier(0.17, 0.04, 0.03, 0.94) 0s;
+  will-change: width;
+  width: 0%;
+  margin-left: 0px !important;
+}
+.wrapper :global(.vtex-flex-layout-0-x-flexColChild--menu-logo):last-child {
+  max-height: 73px;
+  max-width: 146px;
+  transition: width 0.5s cubic-bezier(0.17, 0.04, 0.03, 0.94) 0s;
+  width: 100%;
+}
+.wrapper :global(.vtex-menu-2-x-menuItem--menu-item-departments-fixed)::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23' height='16' viewBox='0 0 23 16' fill='none'%3E%3Cpath d='M22.0709 7.06817H0.929074C0.415976 7.06817 0 7.48534 0 8C0 8.51466 0.415976 8.93183 0.929074 8.93183H22.0709C22.5841 8.93183 23 8.51466 23 8C23 7.48538 22.5841 7.06817 22.0709 7.06817Z' fill='black'/%3E%3Cpath d='M22.0709 0H0.929074C0.415976 0 0 0.417209 0 0.931826C0 1.44644 0.415976 1.86365 0.929074 1.86365H22.0709C22.5841 1.86365 23 1.44644 23 0.931826C23 0.417209 22.5841 0 22.0709 0Z' fill='black'/%3E%3Cpath d='M22.0709 14.1363H0.929074C0.415976 14.1363 0 14.5535 0 15.0682C0 15.5828 0.415976 16 0.929074 16H22.0709C22.5841 16 23 15.5828 23 15.0682C23 14.5535 22.5841 14.1363 22.0709 14.1363Z' fill='black'/%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: flex;
+  height: 50px;
+  margin: 0 auto;
+  opacity: 0;
+  transition: opacity 0.3s cubic-bezier(0.17, 0.04, 0.03, 0.94) 0s;
+  width: 23px;
+  will-change: opacity;
+  padding-top: 12px;
+}
+.wrapper :global(.vtex-flex-layout-0-x-flexRow--category-menu) {
+  box-shadow: none;
+  margin: 0;
+  opacity: 1;
+  transition: -webkit-transform 0.5s cubic-bezier(0.17, 0.04, 0.03, 0.94) 0s;
+  transition: transform 0.5s cubic-bezier(0.17, 0.04, 0.03, 0.94) 0s;
+  transition: transform 0.5s cubic-bezier(0.17, 0.04, 0.03, 0.94) 0s,
+    -webkit-transform 0.5s cubic-bezier(0.17, 0.04, 0.03, 0.94) 0s;
+  visibility: visible;
+  will-change: transform;
+  width: 100%;
+  z-index: 1;
+}
+@media screen and (min-width: 1025px) {
+  .wrapper :global(.vtex-rich-text-0-x-container--wishlistTitle),
+  .wrapper :global(.vtex-login-2-x-label) {
+    will-change: font-size;
+    transition: font-size 0.3s cubic-bezier(0.17, 0.04, 0.03, 0.94) 0s;
+  }
+  .wrapper :global(.vtex-rich-text-0-x-container--wishlistTitle),
+  .wrapper :global(.vtex-login-2-x-container) {
+    border-right: 1px solid transparent;
+  }
+}

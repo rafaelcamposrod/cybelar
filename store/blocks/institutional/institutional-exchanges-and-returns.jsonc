@@ -1,0 +1,300 @@
+{
+  "store.custom#institutional-exchanges-and-returns": {
+    "blocks": [
+      "responsive-layout.desktop#exchanges-and-returns",
+      "responsive-layout.mobile#exchange-and-returns"
+    ]
+  },
+  "responsive-layout.desktop#exchanges-and-returns": {
+    "children": [
+      "flex-layout.row#desktop-exchanges-and-returns"
+    ]
+  },
+  "responsive-layout.mobile#exchange-and-returns": {
+    "children": [
+      "flex-layout.row#mobile-exchange-and-returns"
+    ]
+  },
+  "flex-layout.row#mobile-exchange-and-returns": {
+    "children": [
+      "menu-item#exchange-and-returns",
+      "flex-layout.col#mobile-content-exchange-and-returns"
+    ],
+    "props": {
+      "blockClass": "mobile-exchange-and-returns"
+    }
+  },
+  "flex-layout.col#mobile-content-exchange-and-returns": {
+    "children": [
+      "rich-text#title-exchanges-and-returns",
+      "image#exchanges-and-returns",
+      "rich-text#paragraph-exchanges-and-returns-text"
+      // "rich-text#btn-exhanges-and-returns"
+    ],
+    "props": {
+      "blockClass": "mobile-content-exchange-and-returns"
+    }
+  },
+  "menu-item#exchange-and-returns": {
+    "props": {
+      "blockClass": "exchange-and-returns",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Not Found",
+        "text": "Trocas e Devoluções"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#sub-menu-mobile-exchange-and-returns"
+    ]
+  },
+  "submenu.accordion#sub-menu-mobile-exchange-and-returns": {
+    "children": [
+      "menu-item#fale-conosco-mobile",
+      "menu-item#about-us-mobile",
+      "menu-item#our-store-mobile",
+      "menu-item#policy-mobile",
+      "menu-item#new-sale-on-cybelar-mobile",
+      "menu-item#shipping-and-delivery-mobile",
+      "menu-item#safe-buy-mobile",
+      "menu-item#browsing-and-buying-mobile"
+    ],
+    "props": {
+      "blockClass": "institutional-sub-menu-mobile"
+    }
+  },
+  "flex-layout.row#desktop-exchanges-and-returns": {
+    "children": [
+      "flex-layout.col#instituional-col-1-exchanges-and-returns",
+      "flex-layout.col#instituional-col-2-exchanges-and-returns"
+    ],
+    "props": {
+      "blockClass": "institutional-content"
+    }
+  },
+  "flex-layout.col#instituional-col-1-exchanges-and-returns": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional-exchanges-and-returns"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container-menu-insitutional"
+    }
+  },
+  "flex-layout.col#instituional-col-2-exchanges-and-returns": {
+    "children": [
+      "flex-layout.col#content-exchanges-and-returns"
+    ],
+    "props": {
+      "blockClass": "container-institutional"
+    }
+  },
+  "flex-layout.col#content-exchanges-and-returns": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#title-exchanges-and-returns",
+      "image#exchanges-and-returns",
+      "rich-text#paragraph-exchanges-and-returns-text"
+      // "rich-text#btn-exhanges-and-returns"
+    ]
+  },
+  "image#exchanges-and-returns": {
+    "props": {
+      "src": "/arquivos/exchanges-and-returns-cybelar.jpg"
+    },
+    "title": "Trocas e devolução - Imagem"
+  },
+  "rich-text#title-exchanges-and-returns": {
+    "props": {
+      "text": "### Trocas e Devoluções",
+      "blockClass": "text-intitutional-title"
+    }
+  },
+  "rich-text#paragraph-exchanges-and-returns-text": {
+    "props": {
+      "blockClass": "text-intitutional-exchanges-and-returns",
+      "text": "Oferecemos aos nossos clientes produtos de qualidade, buscando parcerias com os melhores fornecedores nas diversas categorias que comercializamos. Mas pode ser que a mercadoria adquirida não atenda às suas expectativas por algum motivo como insatisfação ou um defeito de fabricação apresentado.\n \n Para garantir a satisfação e manter a transparência e respeito com nossos clientes, criamos nossa política de troca e devolução tendo como base o Código de Defesa do Consumidor.\n \n As ocorrências que envolvam troca ou devolução devem ser comunicadas à Central de Atendimento ao Cliente [+55 (15) 3282-9292](https://api.whatsapp.com/send?phone=551532829292&text=Oi%2C%20gostaria%20de%20falar%20com%20atendimento). Produto devolvido sem essa comunicação, fora do prazo ou com ausência de itens/acessórios que o acompanhem, será reenviado sem consulta prévia.\n \n Nossos produtos não sofrem qualquer alteração em nosso Centro de Distribuição. Eles são enviados ao cliente exatamente como nos foram entregues pelo fabricante.\n \n É importante que você confira sempre sua mercadoria no ato da entrega realizada pelo transportador.\n \n Em qualquer das hipóteses abaixo recuse o produto:\n- Embalagem aberta ou avariada;\n- Produto avariado;\n- Produto em desacordo com o pedido; \n- Falta de acessórios.\nSe, ainda assim, você receber o produto, por favor, entre em contato com a nossa Central de Atendimento ao Cliente [+55 (15) 3282-9292](https://api.whatsapp.com/send?phone=551532829292&text=Oi%2C%20gostaria%20de%20falar%20com%20atendimento) em até 72h.\n\nOBS: Na primeira troca não cobramos frete, a partir da segunda troca será cobrado frete normalmente de acordo com nossa tabela vigente.\n\n\nRessaltamos que:\n\n- O prazo para desistir da compra do produto é de até sete dias corridos, a contar da data do recebimento;\n- O produto deverá ser encaminhado na embalagem original, sem indícios de uso, sem violação do lacre original do fabricante, acompanhado de nota fiscal, manual e todos os seus acessórios;\n- Se o produto adquirido em nossa loja apresentar defeito após sete dias, a contar da data do recebimento, mas dentro do prazo de garantia do fabricante, você poderá entrar em contato com o fabricante para comunicar a ocorrência e obter esclarecimentos, ou dirigir-se a uma das assistências técnicas credenciadas pelo próprio fabricante, indicadas no manual. Caso não consiga contato com o fabricante, avise a nossa Central de Atendimento ao Cliente.\n- A garantia contratual é de inteira responsabilidade do fabricante e seu prazo e forma de utilização constam do Termo de Garantia que acompanha o produto.\n- Todos os produtos recebidos em nosso Centro de Distribuição são analisados para constatação do defeito informado pelo cliente. Eles serão reenviados ao cliente sempre que não for constatado qualquer defeito ou se tiver sido descumprida uma das condições descritas.\n- O prazo para que finalize a solicitação de troca de mercadoria comunicada à nossa Central de Atendimento é de 30 (trinta) dias corridos, contados a partir da data de recebimento da mercadoria em nosso Centro de Distribuição.\n- O reembolso será realizado no valor total do(s) produto(s) devolvido(s) /cancelado(s), somando-se o valor do frete.\n- Reservamo-nos o direito de não atender a obrigação de cancelar ou consertar qualquer produto que apresente claramente indícios de mau uso.\n- Restituímos os valores pagos utilizando a mesma forma de pagamento escolhida no processo de compras.\n\n\nReferente a Moveis:\n\nA Cybelar.com não se responsabiliza pela montagem, reparos ou instalação dos produtos.\n\nImportante!\n\nSobre a montagem/instalação de móveis Nós não montamos os produtos. O serviço de montagem deve ser contratado pelo cliente. O atendimento sobre trocas e devoluções, ou a solicitação de peças após a montagem, será válida apenas para produtos que apresentarem problemas de fabricação. Para os produtos que apresentarem problemas de fabricação, você poderá pedir a Troca ou Devolução e ainda solicitar peças depois da montagem. O prazo para solicitações é de até 07 dias corridos, após a entrega do produto. "
+    },
+    "title": "Trocas e Devolução - Texto"
+  },
+  "rich-text#btn-exhanges-and-returns": {
+    "props": {
+      "text": "<a class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--btn-trocas' href='https://cybelar.minhatroca.com.br/' target='_blank'>Solicitar Troca ou Devolução</a>",
+      "blockClass": "btn-trocas"
+    }
+  },
+  "vtex.menu@2.x:menu#institutional-exchanges-and-returns": {
+    "children": [
+      "menu-item#fale-conosco-exchanges-and-returns",
+      "menu-item#about-us-exchanges-and-returns",
+      "menu-item#our-store-exchanges-and-returns",
+      "menu-item#policy-exchanges-and-returns",
+      "menu-item#new-sale-on-cybelar-exchanges-and-returns",
+      "menu-item#work-with-us-exchanges-and-returns",
+      "menu-item#exchanges-and-returns-exchanges-and-returns",
+      "menu-item#safe-buy-exchanges-and-returns",
+      "menu-item#shipping-and-delivery-exchanges-and-returns",
+      "menu-item#browsing-and-buying-exchanges-and-returns"
+    ],
+    "props": {
+      "blockClass": "menu-insitucional",
+      "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#fale-conosco-exchanges-and-returns": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#about-us-exchanges-and-returns": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "about-us-exchanges-and-returns",
+        "text": "Quem Somos"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#our-store-exchanges-and-returns": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store-exchanges-and-returns",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#policy-exchanges-and-returns": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "policy-exchanges-and-returns",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#work-with-us-exchanges-and-returns": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "work-with-us",
+        "text": "Trabalhe Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-exchanges-and-returns": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#exchanges-and-returns-exchanges-and-returns": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-returns",
+        "text": "Trocas e Devolução"
+      },
+      "blockClass": "select"
+    }
+  },
+  "menu-item#safe-buy-exchanges-and-returns": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#shipping-and-delivery-exchanges-and-returns": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#browsing-and-buying-exchanges-and-returns": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e Comprando"
+      },
+      "blockClass": "not-select"
+    }
+  }
+}

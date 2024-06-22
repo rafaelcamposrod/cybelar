@@ -1,0 +1,28 @@
+{
+    "flex-layout.row#shelf-buy-btn-hover": {
+        "props": {
+            "fullWidth": true,
+            "preserveLayoutOnMobile": true,
+            "blockClass": [
+                "shelf-buy-btn-hover"
+            ]
+        },
+        "children": [
+            "n1-add-button"
+        ]
+    },
+    "n1-add-button": {
+        "props": {
+            "AddButton": "add-to-cart-button#shelf-buy-btn-hover",
+            "AddList": "add-to-list-btn"
+        }
+    },
+    "add-to-cart-button#shelf-buy-btn-hover": {
+        "props": {
+            "text": "Adicionar ao carrinho",
+            "blockClass": [
+                "shelf-buy-btn-hover"
+            ]
+        }
+    }
+}

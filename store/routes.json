@@ -1,0 +1,51 @@
+{
+  "store.custom#institutional-about-us": {
+    "path": "/quem-somos"
+  },
+  "store.custom#institutional-our-store": {
+    "path": "/nossas-lojas"
+  },
+  "store.custom#institutional-policy": {
+    "path": "/politica-de-privacidade"
+  },
+  "store.custom#institutional-work-with-us": {
+    "path": "/trabalhe-conosco"
+  },
+  "store.custom#institutional-sale-on-cybelar": {
+    "path": "/venda-na-cybelar"
+  },
+  "store.custom#institutional-deliveries": {
+    "path": "/entregas"
+  },
+
+  "store.custom#institutional-devolution": {
+    "path": "/devolucao"
+  },
+
+  "store.custom#institutional-call-center": {
+    "path": "/central-de-atendimento"
+  },
+
+  "store.custom#institutional-exchanges-and-returns": {
+    "path": "/trocas-e-devolucoes"
+  },
+
+  "store.custom#institutional-safe-buy": {
+    "path": "/compra-segura"
+  },
+
+  "store.custom#institutional-browsing-and-buying": {
+    "path": "/navegando-e-comprando"
+  },
+
+  "store.custom#institutional-shipping-and-delivery": {
+    "path": "/envio-e-entrega"
+  },
+  "store.custom#institutional-fale-conosco": {
+    "path": "/fale-conosco"
+  },
+
+  "store.custom#lp-black-friday-2021": {
+    "path": "/black-friday-cybelar"
+  }
+}

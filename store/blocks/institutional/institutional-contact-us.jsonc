@@ -1,0 +1,349 @@
+{
+  "store.custom#institutional-contact-us": {
+    "blocks": [
+      "responsive-layout.desktop#contact-us"
+    ]
+  },
+  "responsive-layout.desktop#contact-us": {
+    "children": [
+      "flex-layout.row#desktop-contact-us"
+    ]
+  },
+  "flex-layout.row#desktop-contact-us": {
+    "children": [
+      "flex-layout.col#instituional-col-1-contact-us",
+      "flex-layout.col#instituional-col-2-contact-us"
+    ],
+    "props": {
+      "blockClass": "institutional-content"
+    }
+  },
+  "flex-layout.col#instituional-col-1-contact-us": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional-contact-us"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container-menu-insitutional"
+    }
+  },
+  "flex-layout.col#instituional-col-2-contact-us": {
+    "children": [
+      "flex-layout.col#content-contact-us"
+    ],
+    "props": {
+      "blockClass": "container-institutional"
+    }
+  },
+  "flex-layout.col#content-contact-us": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#paragrahp-contact-us"
+    ]
+  },
+  "rich-text#paragrahp-contact-us": {
+    "props": {
+      "text": "Nossa loja respeita o sigilo de suas informações e garante que seus dados não serão disponibilizados, cedidos ou comercializados para terceiros.\n\nTodas as informações fornecidas em nosso site são de uso exclusivo para o procedimento de compra, personalização, facilitação e não são disponibilizadas a terceiros. Os dados fornecidos são registrados em nosso banco de dados de forma automatizada e armazenados com total segurança sem a intervenção humana.\n\nOs e-mails e tele\nfones disponibilizados são utilizados apenas para contatos referentes às compras realizadas em nosso site. Com prévia autorização dos clientes, enviamos e-mails informando as promoções vigentes em nossa loja, porém nossos clientes podem solicitar o não recebimento das ofertas.\n\nNão há o armazenamento de informações que não sejam necessárias para a efetivação da compra. O uso do CPF é exigido por lei para a emissão de notas fiscais e para o envio de mercadorias.\n\nAs senhas fornecidas em nosso banco de dados são arquivadas de maneira criptografada, permitindo que apenas o dono do cadastro tenha conhecimento.\n\nOs números de cartões de crédito fornecidos são registrados diretamente no banco de dados das administradoras de cartão, não permitindo o acesso a essas informações por parte do lojista. Ao informar os dados para a administradora, essa realiza a verificação da transação on-line e retorna apenas se a compra está liberada ou não.\n\nA nossa loja é munida com o Certificado de Segurança Astropay Brasil Ltda(Godaddy), um dos certificados digitais mais modernos. Através dele, todas as informações transitadas pela internet são criptografadas.\n\n### Cookies\nEsta é uma loja 100% segura e utiliza a tecnologia de Cookies apenas para proporcionar mais facilidade no momento de sua compra. O objetivo do Cookie é customizar ao máximo sua navegação no site, permitindo maior facilidade e agilidade no processo de compras."
+    }
+  },
+  "vtex.menu@2.x:menu#institutional-contact-us": {
+    "children": [
+      "menu-item#fale-conosco-contact-us",
+      "menu-item#about-us-contact-us",
+      "menu-item#policy-contact-us"
+
+
+    ],
+    "props": {
+      "blockClass": "menu-insitucional",
+        "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#fale-conosco-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#about-us-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "about-us-contact-us",
+        "text": "Quem Somos"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#our-store-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store-contact-us",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#policy-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "policy-contact-us",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#affiliates-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/afiliados",
+        "noFollow": false,
+        "tagTitle": "affiliates",
+        "text": "Afiliados"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#help-store-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/duvidas-sobre-a-loja",
+        "noFollow": false,
+        "tagTitle": "help-store",
+        "text": "Duvidas sobre a loja?"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#work-with-us-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "work-with-us",
+        "text": "Trabalhe Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#deliveries-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/entregas",
+        "noFollow": false,
+        "tagTitle": "deliveries",
+        "text": "Entregas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#devolution-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/devolucao",
+        "noFollow": false,
+        "tagTitle": "devolution",
+        "text": "Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#payment-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pagamento",
+        "noFollow": false,
+        "tagTitle": "payment",
+        "text": "Pagamento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#security-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seguranca",
+        "noFollow": false,
+        "tagTitle": "security",
+        "text": "Segurança"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#call-center-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/central-de-atendimento",
+        "noFollow": false,
+        "tagTitle": "call-center",
+        "text": "Central de Atendimento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#exchanges-and-returns-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-returns",
+        "text": "Trocas e Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#safe-buy-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#shipping-and-delivery-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#browsing-and-buying-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e comprando"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#contact-us-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "contact-us",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "select"
+    }
+  },
+  "menu-item#site-map-contact-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mapa-do-site",
+        "noFollow": false,
+        "tagTitle": "site-map",
+        "text": "Mapa do Site"
+      },
+      "blockClass": "not-select"
+    }
+  }
+}

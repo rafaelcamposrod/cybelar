@@ -1,0 +1,157 @@
+{
+  "menu-item#category-menu1": {
+    "props": {
+      "blockClass": "menu-moveis",
+      "id": "menu-item-moveis",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moveis",
+        "noFollow": false,
+        "tagTitle": "Movéis",
+        "text": "Movéis"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#moveis-sub-menu"]
+  },
+  "menu-item#category-menu2": {
+    "props": {
+      "id": "menu-item-eletroportateis",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletroportáteis",
+        "noFollow": false,
+        "tagTitle": "Eletroportáteis",
+        "text": "Eletroportáteis"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#eletroportateis-sub-menu"]
+  },
+  "menu-item#category-menu3": {
+    "props": {
+      "blockClass": "menu-eletro",
+      "id": "menu-item-eletrodomésticos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletrodomesticos",
+        "noFollow": false,
+        "tagTitle": "Eletrodomésticos",
+        "text": "Eletrodomésticos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#eletrodomesticos-sub-menu"]
+  },
+  "menu-item#category-menu4": {
+    "props": {
+      "blockClass": "menu-telefonia",
+      "id": "menu-item-telefonia",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia",
+        "noFollow": false,
+        "tagTitle": "Telefonia",
+        "text": "Telefonia"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#telefonia-sub-menu"]
+  },
+  "menu-item#category-menu5": {
+    "props": {
+      "id": "menu-item-audio-e-video",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-e-video",
+        "noFollow": false,
+        "tagTitle": "Áudio e Vídeo",
+        "text": "Áudio e Vídeo"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#audio-e-video-sub-menu"]
+  },
+  "menu-item#category-menu6": {
+    "props": {
+      "id": "menu-item-informatica",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/informatica",
+        "noFollow": false,
+        "tagTitle": "Informática",
+        "text": "Informática"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#informatica-sub-menu"]
+  },
+  "menu-item#category-menu7": {
+    "props": {
+      "id": "menu-item-ar-e-ventilacao",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ar-e-ventilacao",
+        "noFollow": false,
+        "tagTitle": "Ar e Ventilação",
+        "text": "Ar e Ventilação"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ar-ventilacao-sub-menu"]
+  },
+  "menu-item#category-menu8": {
+    "props": {
+      "id": "menu-item-brinquedos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brinquedos",
+        "noFollow": false,
+        "tagTitle": "Brinquedos",
+        "text": "Brinquedos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#brinquedos-sub-menu"]
+  },
+  "menu-item#menuAllDepartments": {
+    "props": {
+      "blockClass": "menu-all-departments",
+      "id": "menu-all-departments",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Outros Departamentos",
+        "text": "Outros Departamentos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#outros-departamentos-sub-menu"]
+  },
+  "menu-item#menuUtilidades": {
+    "props": {
+      "blockClass": "menu-utilidades-domesticas",
+      "id": "menu-utilidades-domesticas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Utilidades Domésticas",
+        "text": "Utilidades Domésticas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#utilidades-domesticas-sub-menu"]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "store.custom.search": {
+    "blocks": [
+      "search-result-layout.customQuery#custom-products"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 45,
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "search-result-layout.customQuery#custom-products": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 45,
+        "facetsBehavior": "Dynamic",
+        "query": "140",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department"
+    ]
+  }
+}

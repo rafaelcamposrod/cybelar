@@ -1,0 +1,346 @@
+{
+  "vtex.menu@2.x:submenu#ar-ventilacao-sub-menu": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#ar-ventilacao-sub-menu"]
+  },
+  "flex-layout.row#ar-ventilacao-sub-menu": {
+    "children": [
+      "flex-layout.col#ar-ventilacao-sub-menu-col",
+      "flex-layout.col#ar-ventilacao-sub-menu-col-2",
+      "flex-layout.col#ar-ventilacao-sub-menu-col-3",
+      "info-card#ar-e-ventilacao-sub-menu-card"
+    ],
+    "props": {
+      "blockClass": "row-submenu"
+    },
+    "title": "Submenu Brinquedos"
+  },
+
+  // Colunas
+  "flex-layout.col#ar-ventilacao-sub-menu-col": {
+    "children": [
+      "flex-layout.row#titleSubmenu-ar-e-ventilacao-ar-condicionado",
+      "menu-item#ar-e-ventilacao-inverter",
+      "menu-item#ar-e-ventilacao-split"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#ar-ventilacao-sub-menu-col-2": {
+    "children": [
+      "flex-layout.row#titleSubmenu-ar-e-ventilacao-ventiladores",
+      "menu-item#ar-e-ventilacao-circulador-de-ar",
+      "menu-item#ar-e-ventilacao-coluna",
+      "menu-item#ar-e-ventilacao-mesa",
+      "menu-item#ar-e-ventilacao-parede",
+      "menu-item#ar-e-ventilacao-teto"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#ar-ventilacao-sub-menu-col-3": {
+    "children": [
+      "flex-layout.row#titleSubmenu-ar-e-ventilacao-aquecedores",
+      "menu-item#ar-e-ventilacao-halogeno",
+      "menu-item#ar-e-ventilacao-resistencia",
+      "flex-layout.row#titleSubmenu-ar-e-ventilacao-climatizadores",
+      "menu-item#ar-e-ventilacao-piso"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "info-card#ar-e-ventilacao-sub-menu-card": {
+    "props": {
+      "id": "ar-e-ventilacao-sub-menu-card",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/ar-e-ventilacao.jpg",
+      "headline": "",
+      "callToActionMode": "none",
+      "blockClass": "sub-menu-card",
+      "textPosition": "center",
+      "textAlignment": "center"
+    }
+  },
+
+  // Coluna 1
+  "flex-layout.row#titleSubmenu-ar-e-ventilacao-ar-condicionado": {
+    "children": [
+      "rich-text#titleSubmenu-ar-e-ventilacao-ar-condicionado",
+      "rich-text#titleSubmenu-ar-e-ventilacao-ar-condicionado-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-ar-e-ventilacao-ar-condicionado": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Ar Condicionado",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-ar-e-ventilacao-ar-condicionado-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // Coluna 2
+  "flex-layout.row#titleSubmenu-ar-e-ventilacao-ventiladores": {
+    "children": [
+      "rich-text#titleSubmenu-ar-e-ventilacao-ventiladores",
+      "rich-text#titleSubmenu-ar-e-ventilacao-ventiladores-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-ar-e-ventilacao-ventiladores": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Ventiladores",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-ar-e-ventilacao-ventiladores-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // Coluna 3
+  "flex-layout.row#titleSubmenu-ar-e-ventilacao-aquecedores": {
+    "children": [
+      "rich-text#titleSubmenu-ar-e-ventilacao-aquecedores",
+      "rich-text#titleSubmenu-ar-e-ventilacao-aquecedores-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-ar-e-ventilacao-aquecedores": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Aquecedores",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-ar-e-ventilacao-aquecedores-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+  "flex-layout.row#titleSubmenu-ar-e-ventilacao-climatizadores": {
+    "children": [
+      "rich-text#titleSubmenu-ar-e-ventilacao-climatizadores",
+      "rich-text#titleSubmenu-ar-e-ventilacao-climatizadores-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-ar-e-ventilacao-climatizadores": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Climatizadores",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-ar-e-ventilacao-climatizadores-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // --------- menu items ----------
+  // departamentos > ar condicionado
+  "menu-item#ar-e-ventilacao-inverter": {
+    "props": {
+      "id": "ar-e-ventilacao-inverter",
+      "blockClass": "ar-e-ventilacao-inverter",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/inverter",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Inverter"
+      }
+    }
+  },
+  "menu-item#ar-e-ventilacao-split": {
+    "props": {
+      "id": "ar-e-ventilacao-split",
+      "blockClass": "ar-e-ventilacao-split",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/split",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Split"
+      }
+    }
+  },
+  // departamentos > ventiladores
+  "menu-item#ar-e-ventilacao-circulador-de-ar": {
+    "props": {
+      "id": "ar-e-ventilacao-circulador-de-ar",
+      "blockClass": "ar-e-ventilacao-circulador-de-ar",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/circulador-de-ar",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Circulador de Ar"
+      }
+    }
+  },
+  "menu-item#ar-e-ventilacao-coluna": {
+    "props": {
+      "id": "ar-e-ventilacao-coluna",
+      "blockClass": "ar-e-ventilacao-coluna",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/coluna",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Coluna"
+      }
+    }
+  },
+  "menu-item#ar-e-ventilacao-mesa": {
+    "props": {
+      "id": "ar-e-ventilacao-mesa",
+      "blockClass": "ar-e-ventilacao-mesa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mesa",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Mesa"
+      }
+    }
+  },
+  "menu-item#ar-e-ventilacao-parede": {
+    "props": {
+      "id": "ar-e-ventilacao-parede",
+      "blockClass": "ar-e-ventilacao-parede",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/parede",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Parede"
+      }
+    }
+  },
+  "menu-item#ar-e-ventilacao-teto": {
+    "props": {
+      "id": "ar-e-ventilacao-teto",
+      "blockClass": "ar-e-ventilacao-teto",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/teto",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Teto"
+      }
+    }
+  },
+  // departamentos > aquecedores
+  "menu-item#ar-e-ventilacao-halogeno": {
+    "props": {
+      "id": "ar-e-ventilacao-halogeno",
+      "blockClass": "ar-e-ventilacao-halogeno",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/halogeno",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Halógeno"
+      }
+    }
+  },
+  "menu-item#ar-e-ventilacao-resistencia": {
+    "props": {
+      "id": "ar-e-ventilacao-resistencia",
+      "blockClass": "ar-e-ventilacao-resistencia",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/resistencia",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Resistência"
+      }
+    }
+  },
+  // departamentos > climatizadores
+  "menu-item#ar-e-ventilacao-piso": {
+    "props": {
+      "id": "ar-e-ventilacao-piso",
+      "blockClass": "ar-e-ventilacao-piso",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/piso",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Piso"
+      }
+    }
+  }
+}

@@ -1,0 +1,394 @@
+{
+    // CHA E CAFE
+    "disclosure-layout#submenu-utilidades-domesticas-cha-e-cafe": {
+      "children": [
+        "disclosure-trigger#submenu-utilidades-domesticas-cha-e-cafe",
+        "disclosure-content#submenu-utilidades-domesticas-cha-e-cafe"
+      ],
+      "props": {
+        "blockClass": "container-layout"
+      }
+    },
+    "disclosure-trigger#submenu-utilidades-domesticas-cha-e-cafe": {
+      "children": [
+        "rich-text#submenu-utilidades-domesticas-cha-e-cafe",
+        "disclosure-state-indicator#mobile"
+      ],
+      "props": {
+        "blockClass": "container-trigger"
+      }
+    },
+    "rich-text#submenu-utilidades-domesticas-cha-e-cafe": {
+      "props": {
+        "text": "Chá e Café",
+        "blockClass": "container-rich-text"
+      }
+    },
+    "disclosure-content#submenu-utilidades-domesticas-cha-e-cafe": {
+      "children": [
+        "rich-text#subcategoria-acessorios",
+        "rich-text#subcategoria-bule",
+        "rich-text#subcategoria-bules",
+        "rich-text#subcategoria-utilidades-domesticas-ver-tudo"
+      ]
+    },
+    "rich-text#subcategoria-acessorios": {
+      "props": {
+        "text": "[Acessórios](/utilidades-domesticas/cha-e-cafe/acessorios)",
+        "blockClass": "subcategory-text"
+      }
+    },
+    "rich-text#subcategoria-bule": {
+      "props": {
+        "text": "[Bule](/utilidades-domesticas/cha-e-cafe/bule)",
+        "blockClass": "subcategory-text"
+      }
+    },
+    "rich-text#subcategoria-bules": {
+        "props": {
+          "text": "[ Bules e Garrafas Termicas](/utilidades-domesticas/cha-e-cafe/bules-e-garrafas-termicas)",
+          "blockClass": "subcategory-text"
+        }
+      },
+
+      // MATERIAL DE LIMPEZA
+    "disclosure-layout#submenu-utilidades-domesticas-material-limpeza": {
+        "children": [
+          "disclosure-trigger#submenu-utilidades-domesticas-material-limpeza",
+          "disclosure-content#submenu-utilidades-domesticas-material-limpeza"
+        ],
+        "props": {
+          "blockClass": "container-layout"
+        }
+      },
+      "disclosure-trigger#submenu-utilidades-domesticas-material-limpeza": {
+        "children": [
+          "rich-text#submenu-utilidades-domesticas-material-limpeza",
+          "disclosure-state-indicator#mobile"
+        ],
+        "props": {
+          "blockClass": "container-trigger"
+        }
+      },
+      "rich-text#submenu-utilidades-domesticas-material-limpeza": {
+        "props": {
+          "text": "Sala de jantar",
+          "blockClass": "container-rich-text"
+        }
+      },
+      "disclosure-content#submenu-utilidades-domesticas-material-limpeza": {
+        "children": [
+          "rich-text#subcategoria-limpeza-acessorios",
+          "rich-text#subcategoria-dispenser-automatico",
+          "rich-text#subcategoria-lixeira-cesta",
+          "rich-text#subcategoria-utilidades-domesticas-ver-tudo"
+        ]
+      },
+      "rich-text#subcategoria-limpeza-acessorios": {
+        "props": {
+          "text": "[Acessórios](/utilidades-domesticas/material-de-limpeza/acessorios)",
+          "blockClass": "subcategory-text"
+        }
+      },
+      "rich-text#subcategoria-dispenser-automatico": {
+        "props": {
+          "text": "[Dispenser Automatico](/utilidades-domesticas/material-de-limpeza/dispenser-automatico)",
+          "blockClass": "subcategory-text"
+        }
+      },
+      "rich-text#subcategoria-lixeira-cesta": {
+          "props": {
+            "text": "[Lixeira e Cesto de Lixo](/utilidades-domesticas/material-de-limpeza/lixeira-e-cesto-de-lixo)",
+            "blockClass": "subcategory-text"
+          }
+        },
+
+        // PANELAS
+    "disclosure-layout#submenu-utilidades-domesticas-panelas": {
+        "children": [
+          "disclosure-trigger#submenu-utilidades-domesticas-panelas",
+          "disclosure-content#submenu-utilidades-domesticas-panelas"
+        ],
+        "props": {
+          "blockClass": "container-layout"
+        }
+      },
+      "disclosure-trigger#submenu-utilidades-domesticas-panelas": {
+        "children": [
+          "rich-text#submenu-utilidades-domesticas-panelas",
+          "disclosure-state-indicator#mobile"
+        ],
+        "props": {
+          "blockClass": "container-trigger"
+        }
+      },
+      "rich-text#submenu-utilidades-domesticas-panelas": {
+        "props": {
+          "text": "Panelas",
+          "blockClass": "container-rich-text"
+        }
+      },
+      "disclosure-content#submenu-utilidades-domesticas-panelas": {
+        "children": [
+          "rich-text#subcategoria-cacarola",
+          "rich-text#subcategoria-dispenser-automatico",
+          "rich-text#subcategoria-lixeira-cesta",
+          "rich-text#subcategoria-utilidades-domesticas-ver-tudo"
+        ]
+      },
+      "rich-text#subcategoria-cacarola": {
+        "props": {
+          "text": "[Caçarola](/utilidades-domesticas/panelas/cacarola)",
+          "blockClass": "subcategory-text"
+        }
+      },
+      "rich-text#subcategoria-caldeirao": {
+        "props": {
+          "text": "[Caldeirao](/utilidades-domesticas/panelas/caldeirao)",
+          "blockClass": "subcategory-text"
+        }
+      },
+      "rich-text#subcategoria-Chaleira": {
+          "props": {
+            "text": "[Chaleira](/utilidades-domesticas/panelas/chaleira)",
+            "blockClass": "subcategory-text"
+          }
+        },
+
+        // Tabua de Passar Roupa
+    "disclosure-layout#submenu-utilidades-domesticas-passa-roupa": {
+        "children": [
+          "disclosure-trigger#submenu-utilidades-domesticas-passa-roupa",
+          "disclosure-content#submenu-utilidades-domesticas-passa-roupa"
+        ],
+        "props": {
+          "blockClass": "container-layout"
+        }
+      },
+      "disclosure-trigger#submenu-utilidades-domesticas-passa-roupa": {
+        "children": [
+          "rich-text#submenu-utilidades-domesticas-passa-roupa",
+          "disclosure-state-indicator#mobile"
+        ],
+        "props": {
+          "blockClass": "container-trigger"
+        }
+      },
+      "rich-text#submenu-utilidades-domesticas-passa-roupa": {
+        "props": {
+          "text": "Tabua de Passar Roupa",
+          "blockClass": "container-rich-text"
+        }
+      },
+      "disclosure-content#submenu-utilidades-domesticas-passa-roupa": {
+        "children": [
+          "rich-text#subcategoria-tabua-de-passar"
+        ]
+      },
+      "rich-text#subcategoria-tabua-de-passar": {
+        "props": {
+          "text": "[Caçarola](/utilidades-domesticas/tabua-de-passar-roupa/tabua-de-passar)",
+          "blockClass": "subcategory-text"
+        }
+      },
+
+      // Utensilios de Mesa e Cozinha
+    "disclosure-layout#submenu-utilidades-domesticas-mesa-cozinha": {
+        "children": [
+          "disclosure-trigger#submenu-utilidades-domesticas-mesa-cozinha",
+          "disclosure-content#submenu-utilidades-domesticas-mesa-cozinha"
+        ],
+        "props": {
+          "blockClass": "container-layout"
+        }
+      },
+      "disclosure-trigger#submenu-utilidades-domesticas-mesa-cozinha": {
+        "children": [
+          "rich-text#submenu-utilidades-domesticas-mesa-cozinha",
+          "disclosure-state-indicator#mobile"
+        ],
+        "props": {
+          "blockClass": "container-trigger"
+        }
+      },
+      "rich-text#submenu-utilidades-domesticas-mesa-cozinha": {
+        "props": {
+          "text": "Utensilios de Mesa e Cozinha",
+          "blockClass": "container-rich-text"
+        }
+      },
+      "disclosure-content#submenu-utilidades-domesticas-mesa-cozinha": {
+        "children": [
+          "rich-text#subcategoria-aparelhos-de-jantar",
+          "rich-text#subcategoria-assadeiras",
+          "rich-text#subcategoria-balanca-de-cozinha",
+          "rich-text#subcategoria-utilidades-domesticas-ver-tudo"
+        ]
+      },
+      "rich-text#subcategoria-aparelhos-de-jantar": {
+        "props": {
+          "text": "[Aparelhos de Jantar](/utilidades-domesticas/utensilios-de-mesa-e-cozinha/aparelhos-de-jantar)",
+          "blockClass": "subcategory-text"
+        }
+      },
+      "rich-text#subcategoria-assadeiras": {
+        "props": {
+          "text": "[Assadeiras](/utilidades-domesticas/utensilios-de-mesa-e-cozinha/assadeiras)",
+          "blockClass": "subcategory-text"
+        }
+      },
+      "rich-text#subcategoria-balanca-de-cozinha": {
+        "props": {
+          "text": "[Balança de Cozinha](/utilidades-domesticas/utensilios-de-mesa-e-cozinha/balanca-de-cozinha)",
+          "blockClass": "subcategory-text"
+        }
+      },
+
+      //  Utensílios para Bar
+    "disclosure-layout#submenu-utilidades-domesticas-bar": {
+        "children": [
+          "disclosure-trigger#submenu-utilidades-domesticas-bar",
+          "disclosure-content#submenu-utilidades-domesticas-bar"
+        ],
+        "props": {
+          "blockClass": "container-layout"
+        }
+      },
+      "disclosure-trigger#submenu-utilidades-domesticas-bar": {
+        "children": [
+          "rich-text#submenu-utilidades-domesticas-bar",
+          "disclosure-state-indicator#mobile"
+        ],
+        "props": {
+          "blockClass": "container-trigger"
+        }
+      },
+      "rich-text#submenu-utilidades-domesticas-bar": {
+        "props": {
+          "text": "Utensílios para Bar",
+          "blockClass": "container-rich-text"
+        }
+      },
+      "disclosure-content#submenu-utilidades-domesticas-bar": {
+        "children": [
+          "rich-text#subcategoria-bar-acessorios",
+          "rich-text#subcategoria-baldes-de-gelo",
+          "rich-text#subcategoria-bar-conjuntos",
+          "rich-text#subcategoria-utilidades-domesticas-ver-tudo"
+        ]
+      },
+      "rich-text#subcategoria-bar-acessorios": {
+        "props": {
+          "text": "[Acessorios](/utilidades-domesticas/utensilios-para-bar/acessorios)",
+          "blockClass": "subcategory-text"
+        }
+      },
+      "rich-text#subcategoria-baldes-de-gelo": {
+        "props": {
+          "text": "[Baldes de Gelo](/utilidades-domesticas/utensilios-para-bar/baldes-de-gelo)",
+          "blockClass": "subcategory-text"
+        }
+      },
+      "rich-text#subcategoria-bar-conjuntos": {
+        "props": {
+          "text": "[Conjuntos](/utilidades-domesticas/utensilios-para-bar/conjuntos)",
+          "blockClass": "subcategory-text"
+        }
+      },
+
+      //  Utensílios para Lavanderia
+    "disclosure-layout#submenu-utilidades-domesticas-lavanderia": {
+        "children": [
+          "disclosure-trigger#submenu-utilidades-domesticas-lavanderia",
+          "disclosure-content#submenu-utilidades-domesticas-lavanderia"
+        ],
+        "props": {
+          "blockClass": "container-layout"
+        }
+      },
+      "disclosure-trigger#submenu-utilidades-domesticas-lavanderia": {
+        "children": [
+          "rich-text#submenu-utilidades-domesticas-lavanderia",
+          "disclosure-state-indicator#mobile"
+        ],
+        "props": {
+          "blockClass": "container-trigger"
+        }
+      },
+      "rich-text#submenu-utilidades-domesticas-lavanderia": {
+        "props": {
+          "text": "Utensílios para Lavanderia",
+          "blockClass": "container-rich-text"
+        }
+      },
+      "disclosure-content#submenu-utilidades-domesticas-lavanderia": {
+        "children": [
+          "rich-text#subcategoria-varal"
+        ]
+      },
+      "rich-text#subcategoria-varal": {
+        "props": {
+          "text": "[Varal](/utilidades-domesticas/utensilio-para-lavanderia/varal)",
+          "blockClass": "subcategory-text"
+        }
+      },
+
+       //  Utensílios para Quarto
+    "disclosure-layout#submenu-utilidades-domesticas-quarto": {
+        "children": [
+          "disclosure-trigger#submenu-utilidades-domesticas-quarto",
+          "disclosure-content#submenu-utilidades-domesticas-quarto"
+        ],
+        "props": {
+          "blockClass": "container-layout"
+        }
+      },
+      "disclosure-trigger#submenu-utilidades-domesticas-quarto": {
+        "children": [
+          "rich-text#submenu-utilidades-domesticas-quarto",
+          "disclosure-state-indicator#mobile"
+        ],
+        "props": {
+          "blockClass": "container-trigger"
+        }
+      },
+      "rich-text#submenu-utilidades-domesticas-quarto": {
+        "props": {
+          "text": "Utensílios para Quarto",
+          "blockClass": "container-rich-text"
+        }
+      },
+      "disclosure-content#submenu-utilidades-domesticas-quarto": {
+        "children": [
+          "rich-text#subcategoria-espelhos",
+          "rich-text#subcategoria-sapateira"
+        ]
+      },
+      "rich-text#subcategoria-espelhos": {
+        "props": {
+          "text": "[Espelhos](/utilidades-domesticas/utensilios-para-quarto/espelhos)",
+          "blockClass": "subcategory-text"
+        }
+       
+      },
+      "rich-text#subcategoria-sapateira": {
+        "props": {
+            "text": "[Sapateira](/utilidades-domesticas/utensilios-para-quarto/sapateira)",
+            "blockClass": "subcategory-text"
+          }
+       
+      },
+
+      
+      
+      // VER TUDO
+        "rich-text#subcategoria-utilidades-domesticas-ver-tudo": {
+            "props": {
+            "text": "[+ ver tudo](#)",
+            "blockClass": "subcategory-text-ver-tudo"
+            }
+        }
+   
+   
+  }
+  

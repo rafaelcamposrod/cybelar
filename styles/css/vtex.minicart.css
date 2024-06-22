@@ -1,0 +1,198 @@
+/* Header */
+.openIconContainer {
+  padding: 0;
+}
+.openIconContainer :global(.vtex-button):hover {
+  background: #ffffff;
+}
+.openIconContainer :global(.vtex-button__label) {
+  padding: 0 11px 0 12px;
+}
+.minicartQuantityBadge {
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.minicartIconContainer {
+  background-image: url('assets/icon-header-minicart.svg');
+  height: 30px;
+  width: 30px;
+  margin-bottom: 0;
+}
+.minicartIconContainer .cartIcon {
+  display: none;
+}
+@media (min-width: 1025px) {
+  .openIconContainer :global(.vtex-button__label) {
+    padding: 0;
+  }
+  .openIconContainer :global(.vtex-button):focus {
+    background: transparent;
+  }
+}
+/* Header - END */
+
+/* MINICART CONTENT */
+
+.drawer {
+  background: #fff !important;
+}
+
+.minicartTitle {
+  font-size: 0px;
+  margin-top: -45px;
+}
+
+.minicartTitle::after {
+  content: "Minha Sacola";
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px !important;
+  line-height: 23px;
+  color: #e31f1a;
+}
+
+.drawerContent {
+  overflow-y: hidden;
+  height: 100%;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productName) {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #828282;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productBrandName),
+.minicartProductListContainer
+  :global(.vtex-product-list-0-x-productVariationsItem) {
+  display: none;
+}
+
+.minicartProductListContainer :global(.vtex-dropdown__arrow) {
+  color: #e31f1a;
+}
+
+.minicartProductListContainer
+  :global(.vtex-product-list-0-x-productPriceCurrency) {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-price) {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productImage) {
+  border: 1px solid #e3e4e6;
+  height: 96px;
+}
+
+.minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRowContent) {
+  margin: 2px;
+}
+
+.closeIconButton {
+  margin: auto;
+  margin-right: 0;
+  z-index: 1;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+  background: rgb(89, 192, 11);
+  border: none;
+  border-radius: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover {
+  background: rgb(71, 153, 8);
+}
+
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label) {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* .minicartContentContainer {
+  position: relative;
+  bottom: 45px;
+} */
+
+.minicartProductListContainer
+  :global(.vtex-product-list-0-x-removeButtonContainer)
+  :global(.vtex-product-list-0-x-removeButton) {
+  visibility: hidden;
+}
+.minicartProductListContainer
+  :global(.vtex-product-list-0-x-removeButtonContainer)
+  :global(.vtex-product-list-0-x-removeButton)::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='17' viewBox='0 0 14 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.85956 5.32586C1.85956 5.18952 1.74898 5.0789 1.61264 5.0789C1.47629 5.0789 1.36565 5.19001 1.36565 5.32586V14.7998C1.36565 15.2181 1.53751 15.5988 1.81328 15.8751C2.08902 16.1509 2.4703 16.3227 2.88856 16.3227H10.5443C10.9625 16.3227 11.3443 16.1509 11.6196 15.8751C11.8953 15.5993 12.0672 15.2186 12.0672 14.7998V5.32586C12.0672 5.18952 11.9565 5.0789 11.8202 5.0789C11.6839 5.0789 11.5733 5.19001 11.5733 5.32586V14.7998C11.5733 15.0818 11.457 15.3395 11.2707 15.5257C11.0845 15.712 10.8267 15.8288 10.5448 15.8288H2.88903C2.6071 15.8288 2.34989 15.712 2.1636 15.5257C1.97684 15.339 1.86059 15.0817 1.86059 14.8003V5.32586H1.85956Z' fill='black'/%3E%3Cpath d='M8.55849 14.1617C8.55849 14.2981 8.6691 14.4087 8.80545 14.4087C8.9418 14.4087 9.05241 14.2981 9.05241 14.1617V5.38956C9.05241 5.25321 8.9418 5.14259 8.80545 5.14259C8.6691 5.14259 8.55849 5.25321 8.55849 5.38956V14.1617Z' fill='black'/%3E%3Cpath d='M6.46958 14.1617C6.46958 14.2981 6.58018 14.4087 6.71652 14.4087C6.85287 14.4087 6.96349 14.2981 6.96349 14.1617V5.38956C6.96349 5.25321 6.85287 5.14259 6.71652 5.14259C6.58018 5.14259 6.46958 5.25321 6.46958 5.38956V14.1617Z' fill='black'/%3E%3Cpath d='M4.38023 14.1617C4.38023 14.2981 4.49081 14.4087 4.62715 14.4087C4.76352 14.4087 4.87412 14.2981 4.87412 14.1617V5.38956C4.87412 5.25321 4.76352 5.14259 4.62715 5.14259C4.49081 5.14259 4.38023 5.25321 4.38023 5.38956V14.1617Z' fill='black'/%3E%3Cpath d='M8.70251 2.04024C8.70251 2.17659 8.81313 2.28721 8.94947 2.28721C9.0858 2.28721 9.19642 2.17659 9.19642 2.04024C9.19642 1.62092 9.0251 1.24021 8.74931 0.964442C8.47354 0.688654 8.09281 0.517334 7.67351 0.517334H5.75958C5.34077 0.517334 4.96004 0.689174 4.68432 0.96494C4.40855 1.24071 4.23669 1.62246 4.23669 2.04024C4.23669 2.17659 4.34728 2.28721 4.48363 2.28721C4.61998 2.28721 4.73057 2.17659 4.73057 2.04024C4.73057 1.75831 4.84684 1.50054 5.03311 1.31429C5.21939 1.12803 5.47712 1.01124 5.75906 1.01124H7.67297C7.95542 1.01124 8.21267 1.12751 8.39944 1.31377C8.58624 1.50054 8.70251 1.75779 8.70251 2.04024Z' fill='black'/%3E%3Cpath d='M12.4583 2.75015H0.974771C0.732463 2.75015 0.511226 2.84944 0.35069 3.00998L0.349673 3.01102C0.189137 3.17153 0.0898438 3.39277 0.0898438 3.6351V4.27308C0.0898438 4.40941 0.200463 4.52003 0.336809 4.52003H13.0963C13.2326 4.52003 13.3433 4.40941 13.3433 4.27308V3.6351C13.3433 3.39329 13.244 3.17153 13.0834 3.01102L13.0824 3.00998C12.9219 2.84947 12.7001 2.75015 12.4583 2.75015ZM0.974748 3.24408H12.4583C12.5658 3.24408 12.6641 3.28783 12.7341 3.35829L12.7351 3.35933C12.8056 3.42928 12.8493 3.52706 12.8493 3.6351V4.02612H0.584272V3.6351C0.584272 3.52758 0.628015 3.4293 0.698462 3.35933L0.699524 3.35829C0.769451 3.28783 0.867227 3.24408 0.974748 3.24408Z' fill='black'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  height: 17px;
+  width: 15px;
+  visibility: visible;
+}
+
+.minicartProductListContainer :global(.vtex-styleguide-9-x-container) {
+  background: #fff;
+}
+
+.minicartEmptyStateContainer {
+  justify-content: flex-start;
+}
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-wrapper--cart-empty),
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-wrapper--cart-emptybtn) {
+  width: 100%;
+}
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph--cart-empty),
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph--cart-emptybtn) {
+  color: #828282;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph--cart-empty) {
+  margin-top: 79px;
+}
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph--cart-emptybtn) {
+  margin-top: 49px;
+}
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-link--cart-emptybtn) {
+  background-color: rgb(89, 192, 11);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  padding: 10px 36px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-link--cart-emptybtn):hover {
+  background-color: rgb(71, 153, 8) !important;
+}

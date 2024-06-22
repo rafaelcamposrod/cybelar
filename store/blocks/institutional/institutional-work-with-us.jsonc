@@ -1,0 +1,411 @@
+{
+  "store.custom#institutional-work-with-us": {
+    "blocks": [
+      "responsive-layout.desktop#-work-with-us",
+      "responsive-layout.mobile#-work-with-us"
+    ]
+  },
+  "responsive-layout.desktop#-work-with-us": {
+    "children": [
+      "flex-layout.row#desktop-work-with-us"
+    ]
+  },
+  "responsive-layout.mobile#-work-with-us": {
+    "children": [
+      "flex-layout.row#mobile-work-with-us"
+    ]
+  },
+  "flex-layout.row#desktop-work-with-us": {
+    "children": [
+      "flex-layout.col#instituional-col-1-work-with-us",
+      "flex-layout.col#instituional-col-2-work-with-us"
+    ]
+  },
+  "flex-layout.row#mobile-work-with-us": {
+    "children": [
+      "menu-item#work-with-us",
+      "flex-layout.col#content-work-with-us"
+    ]
+  },
+  "flex-layout.col#instituional-col-1-work-with-us": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional-work-with-us"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container-menu-insitutional"
+    }
+  },
+  "flex-layout.col#instituional-col-2-work-with-us": {
+    "children": [
+      "flex-layout.col#content-work-with-us"
+    ],
+    "props": {
+      "blockClass": "container-institutional"
+    }
+  },
+  "menu-item#work-with-us": {
+    "props": {
+      "blockClass": "our-store",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Not Found",
+        "text": "Trabalhe Conosco"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#sub-menu-mobile-work-with-us"
+    ]
+  },
+  "submenu.accordion#sub-menu-mobile-work-with-us": {
+    "children": [
+      "menu-item#about-us-mobile",
+      "menu-item#policy-mobile",
+      "menu-item#new-sale-on-cybelar-mobile",
+      "menu-item#safe-buy-mobile",
+      "menu-item#exchanges-and-return-mobile",
+      "menu-item#shipping-and-delivery-mobile",
+      "menu-item#browsing-and-buying-mobile"
+    ],
+    "props": {
+      "blockClass": "institutional-sub-menu-mobile"
+    }
+  },
+  "flex-layout.col#content-work-with-us": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#title-work-with-us",
+      "image#work-with-us",
+      "rich-text#paragraph-work-with-us"
+    ]
+  },
+  "rich-text#title-work-with-us": {
+    "props": {
+      "text": "### Trabalhe Conosco",
+      "blockClass": "text-intitutional-title"
+    },
+    "title": "Trabalhe Conosco - Titulo"
+  },
+  "image#work-with-us": {
+    "props": {
+      "src": "https://cybelar.vteximg.com.br/arquivos/trabalhe_conosco.png"
+    },
+    "title": "Trabalhe Conosco - Imagem"
+  },
+  "rich-text#paragraph-work-with-us": {
+    "props": {
+      "text": "Nossa missão é ajudar nossos clientes a realizar seus sonhos. Para isso contamos com uma equipe muito dedicada que gosta de gente e não mede esforços para que o cliente esteja sempre no centro das nossas atenções.\nTemos mais de 70 lojas e também estamos presentes online, através do nosso Site, Aplicativo e Redes Sociais para atender nossos clientes da melhor forma possível. Buscamos estar em constante evolução com as novas Tecnologias.\n\nNossa história é construída através da soma de todos colaboradores. Valorizamos e respeitamos as diversidades. \nVenha fazer parte do nosso time! \n\nEnvie seu currículo para: recrutamento@cybelar.com.br \nFormato de envio do currículo: Preferencialmente em PDF",
+      "blockClass": "text-intitutional-work-with-us"
+    },
+    "title": "Trabalhe Conosco - Texto"
+  },
+  "vtex.menu@2.x:menu#institutional-work-with-us": {
+    "children": [
+      "menu-item#fale-conosco-work-with-us",
+      "menu-item#about-us-work-with-us",
+      "menu-item#our-store-work-with-us",
+      "menu-item#policy-work-with-us",
+      "menu-item#new-sale-on-cybelar-work-with-us",
+      "menu-item#work-with-us-work-with-us",
+      "menu-item#exchanges-and-returns-work-with-us",
+      "menu-item#safe-buy-work-with-us",
+      "menu-item#shipping-and-delivery-work-with-us",
+      "menu-item#browsing-and-buying-work-with-us"
+    ],
+    "props": {
+      "blockClass": "menu-insitucional",
+        "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#fale-conosco-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#about-us-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "about-us-work-with-us",
+        "text": "Quem Somos"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#our-store-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store-work-with-us",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#policy-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "policy-work-with-us",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#affiliates-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/afiliados",
+        "noFollow": false,
+        "tagTitle": "affiliates-work-with-us",
+        "text": "Afiliados"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#help-store-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/duvidas-sobre-a-loja",
+        "noFollow": false,
+        "tagTitle": "help-store-work-with-us",
+        "text": "Duvidas sobre a loja?"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#work-with-us-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "work-with-us-work-with-us",
+        "text": "Trabalhe Conosco"
+      },
+      "blockClass": "select"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#deliveries-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/entregas",
+        "noFollow": false,
+        "tagTitle": "deliveries",
+        "text": "Entregas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#devolution-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/devolucao",
+        "noFollow": false,
+        "tagTitle": "devolution",
+        "text": "Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#payment-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pagamento",
+        "noFollow": false,
+        "tagTitle": "payment",
+        "text": "Pagamento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#security-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seguranca",
+        "noFollow": false,
+        "tagTitle": "security",
+        "text": "Segurança"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#call-center-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/central-de-atendimento",
+        "noFollow": false,
+        "tagTitle": "call-center",
+        "text": "Central de Atendimento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#exchanges-and-returns-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-returns",
+        "text": "Trocas e Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#safe-buy-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#shipping-and-delivery-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#browsing-and-buying-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e comprando"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#contact-us-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "contact-us",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#site-map-work-with-us": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mapa-do-site",
+        "noFollow": false,
+        "tagTitle": "site-map",
+        "text": "Mapa do Site"
+      },
+      "blockClass": "not-select"
+    }
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "responsive-layout.mobile#pdp": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#price-button",
+      // "flex-layout.row#topbar-product-mobile",
+      "product-highlight-percent",
+      "flex-layout.row#product-images-mobile",
+      // "flex-layout.row#availability-mobile",
+      "flex-layout.row#product-details-mobile",
+      "share#default",
+      "flex-layout.row#accordion-mobile",
+      "flex-layout.row#shelf-related-row",
+      "flex-layout.row#shelf-who-saw-it-row"
+      // "modal-sku-pdp-custom"
+    ],
+    "props": {
+      "blockClass": "responsive-mobile"
+    }
+  },
+  "flex-layout.row#availability-mobile": {
+    "children": [
+      "availability-subscriber"
+    ],
+    "props": {
+      "blockClass": [
+        "availability-mobile"
+      ]
+    }
+  },
+  "flex-layout.row#product-details-mobile": {
+    "children": [
+      // "flex-layout.row#modal-container",
+      "flex-layout.row#row-price-mobile",
+      "shipping-seller"
+    ],
+    "props": {
+      "blockClass": "main-product"
+    }
+  },
+  "flex-layout.row#price-button": {
+    "children": [
+      "vtex.store-components:product-name#product-page-name",
+      "product-identifier.product",
+      "product-availability#pdp-latest-products"
+    ],
+    "props": {
+      "blockClass": "product-price-button"
+    }
+  },
+  "flex-layout.row#row-price-mobile": {
+    "children": ["countdown-pdp"],
+      "props": {
+        "blockClass": ["countdown-area"]
+      }
+  },
+  "flex-layout.row#product-images-mobile": {
+    "children": [
+      "video-first-pdp",
+      "product-images#mobile"
+    ],
+    "props": {
+      "blockClass": "product-images"
+    }
+  },
+  "product-images#mobile": {
+    "props": {
+      // "contentOrder": "videos-first",
+      "showPaginationDots": true
+    }
+  },
+  // "flex-layout.row#topbar-product-mobile": {
+  //   "children": [
+  //     "modal-trigger#shareBtndPdp"
+  //   ],
+  //   "props": {
+  //     "blockClass": "topbar-product"
+  //   }
+  // },
+  "modal-trigger#shareBtndPdp": {
+    "children": [
+      "rich-text#shareBtndPdp",
+      "modal-layout#shareBtndPdp"
+    ]
+  },
+  "rich-text#shareBtndPdp": {
+    "props": {
+      "blockClass": "shareBtndPdp",
+      "text": "Click"
+    },
+    "title": "Share"
+  },
+  "modal-layout#shareBtndPdp": {
+    "children": [
+      "modal-header#shareHeader",
+      "rich-text#shareTexto",
+      "share#default"
+    ]
+  },
+  "modal-header#shareHeader": {
+    "children": [
+      "rich-text#shareTitle"
+    ],
+    "props": {
+      "blockClass": "shareHeader"
+    }
+  },
+  "rich-text#shareTitle": {
+    "props": {
+      "blockClass": "shareTitle",
+      "text": "Compartilhe com a família e amigos"
+    },
+    "title": "Title"
+  },
+  "rich-text#shareTexto": {
+    "props": {
+      "blockClass": "shareText",
+      "text": "Redes Sociais"
+    },
+    "title": "Text description"
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Pinterest": true,
+        "Twitter": true
+      }
+    }
+  },
+  "flex-layout.row#description-mobile": {
+    "props": {
+      "blockClass": "description-container"
+    },
+    "children": [
+      "product-description#mobile"
+    ]
+  },
+  "product-description#mobile": {
+    "props": {
+      "collapseContent": false
+    }
+  },
+  "flex-layout.row#data-sheet-mobile": {
+    "children": [
+      "menu-item#data-sheet-mobile"
+    ],
+    "props": {
+      "blockClass": "data-sheet-mobile"
+    }
+  },
+  "menu-item#data-sheet-mobile": {
+    "props": {
+      "blockClass": "data-sheet-menu",
+      "itemProps": {
+        "tagTitle": "data-sheet-mobile",
+        "text": "Ficha técnica"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#data-sheet-mobile"
+    ],
+    "title": "Menu - Ficha Tecnica"
+  },
+  "vtex.menu@2.x:submenu.accordion#data-sheet-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#data-sheet-mobile"
+    ],
+    "title": "Submenu - Ficha Tecnica"
+  },
+  "vtex.menu@2.x:menu#data-sheet-mobile": {
+    "props": {
+      "orientation": "vertical",
+        "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "flex-layout.row#data-sheet"
+    ]
+  },
+  "rich-text#data-sheet-mobile": {
+    "props": {
+      "text": "Ficha técnica",
+      "blockClass": "data-sheet-title"
+    }
+  },
+  "rich-text#pdp-datasheet-text-mobile": {
+    "props": {
+      "blockClass": "pdp-datasheet-text-mobile",
+      "text": "A Cybelar.com não se responsabiliza pela montagem, reparos ou instalação dos produtos. Importante! Sobre a montagem/instalação de móveis Nós não montamos os produtos. O serviço de montagem deve ser contratado pelo cliente. O atendimento sobre trocas e devoluções, ou a solicitação de peças após a montagem, será válida apenas para produtos que apresentarem problemas de fabricação. Para os produtos que apresentarem problemas de fabricação, você poderá pedir a Troca ou Devolução e ainda solicitar peças depois da montagem. O prazo para solicitações é de até 07 dias corridos, após a entrega do produto. Fotos ilustrativas. As escalas de redução não são proporcionais. Os objetos de decoração que aparecem nos produtos em oferta, não estão incluídos nos preços dos mesmos. Reservamos o direito de corrigirmos erros gráficos."
+    },
+    "title": "A cybelar.com não se responsabiliza pela montagem."
+  },
+  // "product-specification#conteudoEspecial-mobile": {
+  //   "children": [
+  //       "product-specification-values#conteudoEspecial-mobile"
+  //   ]
+  // },
+  // "product-specification-values#conteudoEspecial-mobile": {
+  //     "children": ["product-specification-text#conteudoEspecial-mobile"]
+  // },
+  // "product-specification-text#conteudoEspecial-mobile": {
+  //     "props": {
+  //         "message": "{specificationValue}",
+  //         "blockClass": "conteudoEspecial"
+  //     }
+  // },
+  // "product-specification-group#conteudoEspecial-mobile" : {
+  //   "children": ["product-specification#conteudoEspecial-mobile"],
+  //   "props": {
+  //     "filter": {
+  //       "specificationGroups": "Especificação especial",
+  //       "type": "show"
+  //     }
+  //   }
+  // },
+  "flex-layout.row#conteudo-especial-mobile": {
+    "props": {
+      "blockClass": "iframe-container"
+    }
+  },
+  "flex-layout.row#accordion-mobile": {
+    "props": {
+      "blockClass": "accordion-pdp-desktop"
+    },
+    "children": ["disclosure-layout#accordion-product-mobile"]
+  },
+  "disclosure-layout#accordion-product-mobile": {
+    "children": [
+      "disclosure-layout#conteudo-especial-mobile",
+      "disclosure-layout#description-mobile",
+      "disclosure-layout#ficha-tecnica-mobile"
+    ]
+  },
+
+  "disclosure-layout#description-mobile": {
+    "children": ["disclosure-trigger#description-mobile", "disclosure-content#description-mobile"],
+    "props": {
+      "initialVisibility": "visible"
+    }
+  },
+  "disclosure-trigger#description-mobile": {
+    "children": ["rich-text#description-mobile-accordion-text", "disclosure-state-indicator#a"],
+    "props": {
+      "blockClass": "accordion-pdp-desktop-trigger"
+    }
+  },
+  "disclosure-content#description-mobile": {
+    "children": ["flex-layout.row#description-mobile"]
+  },
+  "rich-text#description-mobile-accordion-text": {
+    "props": {
+      "text": "Descrição",
+      "blockClass": "accordion-pdp-desktop-trigger-text"
+    }
+  },
+
+  "disclosure-layout#ficha-tecnica-mobile": {
+    "children": ["disclosure-trigger#ficha-tecnica-mobile", "disclosure-content#ficha-tecnica-mobile"],
+    "props": {
+      "initialVisibility": "visible"
+    }
+  },
+  "disclosure-trigger#ficha-tecnica-mobile": {
+    "children": ["rich-text#ficha-tecnica-mobile-accordion-text", "disclosure-state-indicator#a"],
+    "props": {
+      "blockClass": "accordion-pdp-desktop-trigger"
+    }
+  },
+  "disclosure-content#ficha-tecnica-mobile": {
+    "children": [
+      "rich-text#data-sheet-mobile",
+      "flex-layout.row#data-sheet",
+      "rich-text#pdp-datasheet-text-mobile"
+    ]
+  },
+  "rich-text#ficha-tecnica-mobile-accordion-text": {
+    "props": {
+      "text": "Ficha técnica",
+      "blockClass": "accordion-pdp-desktop-trigger-text"
+    }
+  },
+
+  "disclosure-layout#conteudo-especial-mobile": {
+    "children": ["disclosure-trigger#conteudo-especial-mobile", "disclosure-content#conteudo-especial-mobile"],
+    "props": {
+      "initialVisibility": "visible"
+    }
+  },
+  "disclosure-trigger#conteudo-especial-mobile": {
+    "children": ["rich-text#conteudo-especial-mobile-accordion-text", "disclosure-state-indicator#a"],
+    "props": {
+      "blockClass": "accordion-pdp-desktop-trigger--conteudo-especial"
+    }
+  },
+  "disclosure-content#conteudo-especial-mobile": {
+    "children": ["flex-layout.row#conteudo-especial-mobile"],
+    "props": {
+      "blockClass": "conteudo-especial"
+    }
+  },
+  "rich-text#conteudo-especial-mobile-accordion-text": {
+    "props": {
+      "text": "Detalhes do produto",
+      "blockClass": "accordion-pdp-desktop-trigger-text"
+    }
+  },
+
+  "disclosure-state-indicator#a": {
+    "props": {
+      "Show": "rich-text#trigger-open",
+      "Hide": "rich-text#trigger-close"
+    }
+  }
+}

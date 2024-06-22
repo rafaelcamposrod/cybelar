@@ -1,0 +1,1403 @@
+{
+    "vtex.menu@2.x:submenu#utilidades-domesticas-sub-menu": {
+      "props": {
+        "width": "100%"
+      },
+      "children": ["flex-layout.row#utilidades-domesticas-sub-menu"]
+    },
+    "flex-layout.row#utilidades-domesticas-sub-menu": {
+      "children": [
+        "flex-layout.col#utilidades-domesticas-sub-menu-col",
+        "flex-layout.col#utilidades-domesticas-sub-menu-col-2",
+        "flex-layout.col#utilidades-domesticas-sub-menu-col-3",
+        "info-card#utilidades-domesticas-sub-menu-card"
+      ],
+      "props": {
+        "blockClass": "row-submenu"
+      },
+      "title": "Submenu utilidades-domesticas"
+    },
+  
+    // Colunas
+    "flex-layout.col#utilidades-domesticas-sub-menu-col": {
+      "children": [
+        "flex-layout.row#titleSubmenu-cha-e-cafe",
+        // "menu-item#utilidades-domesticas-acessorios",
+        // "menu-item#utilidades-domesticas-bule",
+        "menu-item#utilidades-domesticas-bules-garrafas",
+        // "menu-item#utilidades-domesticas-cafeteria",
+        "menu-item#utilidades-domesticas-chaleira",
+        "menu-item#utilidades-domesticas-conjuntos",
+        // "menu-item#utilidades-domesticas-copos",
+        // "menu-item#utilidades-domesticas-jarra",
+        // "menu-item#utilidades-domesticas-tacas",
+        // "menu-item#utilidades-domesticas-xicaras",
+        // "flex-layout.row#titleSubmenu-material-de-limpeza",
+        // "menu-item#utilidades-domesticas-acessorios",
+        // "menu-item#utilidades-domesticas-dispenser",
+        // "menu-item#utilidades-domesticas-lixeira",
+        // "menu-item#utilidades-domesticas-mop",
+        "flex-layout.row#titleSubmenu-panelas",
+        "menu-item#utilidades-domesticas-cacarola",
+        // "menu-item#utilidades-domesticas-caldeirao",
+        // "menu-item#utilidades-domesticas-chaleira",
+        // "menu-item#utilidades-domesticas-churrasqueira",
+        "menu-item#utilidades-domesticas-conjunto",
+        // "menu-item#utilidades-domesticas-espagueteira",
+        "menu-item#utilidades-domesticas-fondue",
+        "menu-item#utilidades-domesticas-frigideiras",
+        // "menu-item#utilidades-domesticas-leteira",
+        // "menu-item#utilidades-domesticas-omeleteira",
+        // "menu-item#utilidades-domesticas-panela",
+        "menu-item#utilidades-domesticas-panela-pressao",
+        "menu-item#utilidades-domesticas-pipoqueira",
+        "menu-item#utilidades-domesticas-wok"
+      ],
+      "props": {
+        "blockClass": "col-submenu"
+      },
+      "title": "Coluna Submenu"
+    },
+    "flex-layout.col#utilidades-domesticas-sub-menu-col-2": {
+      "children": [
+        "flex-layout.row#titleSubmenu-tabua-passa-roupa",
+        "menu-item#utilidades-domesticas-tabua-passar",
+        "flex-layout.row#titleSubmenu-mesa-cozinha",
+        // "menu-item#utilidades-domesticas-aparelho-jantar",
+        // "menu-item#utilidades-domesticas-assadeiras",
+        // "menu-item#utilidades-domesticas-balanca-cozinha",
+        "menu-item#utilidades-domesticas-bandejas",
+        // "menu-item#utilidades-domesticas-boleiras",
+        // "menu-item#utilidades-domesticas-centrifuga",
+        // "menu-item#utilidades-domesticas-copos",
+        // "menu-item#utilidades-domesticas-contador-alimentos",
+        // "menu-item#utilidades-domesticas-escorredor",
+        "menu-item#utilidades-domesticas-faqueiros",
+        // "menu-item#utilidades-domesticas-formas",
+        // "menu-item#utilidades-domesticas-fruteira",
+        "menu-item#utilidades-domesticas-jarras",
+        // "menu-item#utilidades-domesticas-moedor",
+        // "menu-item#utilidades-domesticas-petisqueiras",
+        // "menu-item#utilidades-domesticas-porta-frios",
+        // "menu-item#utilidades-domesticas-porta-utensilios",
+        "menu-item#utilidades-domesticas-potes",
+        // "menu-item#utilidades-domesticas-pratos",
+        // "menu-item#utilidades-domesticas-processadores",
+        // "menu-item#utilidades-domesticas-squeezes",
+        // "menu-item#utilidades-domesticas-tabuas",
+        // "menu-item#utilidades-domesticas-tacas",
+        "menu-item#utilidades-domesticas-talheres"
+        // "menu-item#utilidades-domesticas-utensilios",
+        // "menu-item#utilidades-domesticas-xicaras"
+      ],
+      "props": {
+        "blockClass": "col-submenu"
+      },
+      "title": "Coluna Submenu"
+    },
+    "flex-layout.col#utilidades-domesticas-sub-menu-col-3": {
+      "children": [
+        // "flex-layout.row#titleSubmenu-banheiro",
+        // "menu-item#utilidades-domesticas-porta-papel",
+        // "flex-layout.row#titleSubmenu-bar",
+        // "menu-item#utilidades-domesticas-bar-acessorios",
+        // "menu-item#utilidades-domesticas-baldes-gelo",
+        // "menu-item#utilidades-domesticas-bar-conjuntos",
+        // "menu-item#utilidades-domesticas-coqueteleiras",
+        // "menu-item#utilidades-domesticas-porta-garrafa",
+        // "flex-layout.row#titleSubmenu-lavanderia",
+        // "menu-item#utilidades-domesticas-varal",
+        // "flex-layout.row#titleSubmenu-quarto",
+        // "menu-item#utilidades-domesticas-espelhos",
+        // "menu-item#utilidades-domesticas-sapateira"
+      ],
+      "props": {
+        "blockClass": "col-submenu"
+      },
+      "title": "Coluna Submenu"
+    },
+    "info-card#utilidades-domesticas-sub-menu-card": {
+      "props": {
+        "id": "utilidades-domesticas-sub-menu-card",
+        "isFullModeStyle": false,
+        "imageUrl": "assets/telefonia.jpg",
+        "headline": "",
+        "callToActionMode": "none",
+        "blockClass": "sub-menu-card",
+        "textPosition": "center",
+        "textAlignment": "center"
+      }
+    },
+  
+    // Coluna 1
+    "flex-layout.row#titleSubmenu-cha-e-cafe": {
+      "children": [
+        "rich-text#titleSubmenu-cha-e-cafe",
+        "rich-text#titleSubmenu-cha-e-cafe-mais"
+      ],
+      "props": {
+        "blockClass": "submenu-title-row"
+      }
+    },
+    "rich-text#titleSubmenu-cha-e-cafe": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Chá e Café",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "titleSubmenu"
+      }
+    },
+    "rich-text#titleSubmenu-cha-e-cafe-mais": {
+      "props": {
+        "textPosition": "RIGHT",
+        "text": "[+ ver tudo](#)",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "titleSubmenu-mais"
+      }
+    },
+
+    //lavandeiria
+
+    "flex-layout.row#titleSubmenu-lavanderia": {
+      "children": [
+        "rich-text#titleSubmenu-lavanderia",
+        "rich-text#titleSubmenu-lavanderia-mais"
+      ],
+      "props": {
+        "blockClass": "submenu-title-row"
+      }
+    },
+    "rich-text#titleSubmenu-lavanderia": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Lavanderia",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "titleSubmenu"
+      }
+    },
+    "rich-text#titleSubmenu-lavanderia-mais": {
+      "props": {
+        "textPosition": "RIGHT",
+        "text": "[+ ver tudo](#)",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "titleSubmenu-mais"
+      }
+    },
+
+    //quarto
+
+    "flex-layout.row#titleSubmenu-quarto": {
+        "children": [
+          "rich-text#titleSubmenu-quarto",
+          "rich-text#titleSubmenu-quarto-mais"
+        ],
+        "props": {
+          "blockClass": "submenu-title-row"
+        }
+      },
+      "rich-text#titleSubmenu-quarto": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Quarto",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "titleSubmenu"
+        }
+      },
+      "rich-text#titleSubmenu-quarto-mais": {
+        "props": {
+          "textPosition": "RIGHT",
+          "text": "[+ ver tudo](#)",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "titleSubmenu-mais"
+        }
+      },
+
+    //bar
+
+    "flex-layout.row#titleSubmenu-bar": {
+        "children": [
+          "rich-text#titleSubmenu-bar",
+          "rich-text#titleSubmenu-bar-mais"
+        ],
+        "props": {
+          "blockClass": "submenu-title-row"
+        }
+      },
+      "rich-text#titleSubmenu-bar": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Bar",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "titleSubmenu"
+        }
+      },
+      "rich-text#titleSubmenu-bar-mais": {
+        "props": {
+          "textPosition": "RIGHT",
+          "text": "[+ ver tudo](#)",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "titleSubmenu-mais"
+        }
+      },
+
+    //bar
+
+    "flex-layout.row#titleSubmenu-bar": {
+        "children": [
+          "rich-text#titleSubmenu-bar",
+          "rich-text#titleSubmenu-bar-mais"
+        ],
+        "props": {
+          "blockClass": "submenu-title-row"
+        }
+      },
+      "rich-text#titleSubmenu-bar": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Bar",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "titleSubmenu"
+        }
+      },
+      "rich-text#titleSubmenu-bar-mais": {
+        "props": {
+          "textPosition": "RIGHT",
+          "text": "[+ ver tudo](#)",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "titleSubmenu-mais"
+        }
+      },
+
+    //banheiro  
+
+    "flex-layout.row#titleSubmenu-banheiro": {
+        "children": [
+          "rich-text#titleSubmenu-banheiro",
+          "rich-text#titleSubmenu-banheiro-mais"
+        ],
+        "props": {
+          "blockClass": "submenu-title-row"
+        }
+      },
+      "rich-text#titleSubmenu-banheiro": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Banheiro",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "titleSubmenu"
+        }
+      },
+      "rich-text#titleSubmenu-banheiro-mais": {
+        "props": {
+          "textPosition": "RIGHT",
+          "text": "[+ ver tudo](#)",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "titleSubmenu-mais"
+        }
+      },
+  
+    // Coluna 2
+    "flex-layout.row#titleSubmenu-material-de-limpeza": {
+      "children": [
+        "rich-text#titleSubmenu-material-de-limpeza",
+        "rich-text#titleSubmenu-material-de-limpeza-mais"
+      ],
+      "props": {
+        "blockClass": "submenu-title-row"
+      }
+    },
+    "rich-text#titleSubmenu-material-de-limpeza": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Sala de Jantar",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "titleSubmenu"
+      }
+    },
+    "rich-text#titleSubmenu-material-de-limpeza-mais": {
+      "props": {
+        "textPosition": "RIGHT",
+        "text": "[+ ver tudo](#)",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "titleSubmenu-mais"
+      }
+    },
+    "flex-layout.row#titleSubmenu-panelas": {
+      "children": [
+        "rich-text#titleSubmenu-panelas",
+        "rich-text#titleSubmenu-panelas-mais"
+      ],
+      "props": {
+        "blockClass": "submenu-title-row"
+      }
+    },
+    "rich-text#titleSubmenu-panelas": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Panelas",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "titleSubmenu"
+      }
+    },
+    "rich-text#titleSubmenu-panelas-mais": {
+      "props": {
+        "textPosition": "RIGHT",
+        "text": "[+ ver tudo](#)",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "titleSubmenu-mais"
+      }
+    },
+  
+    // Coluna 3
+    "flex-layout.row#titleSubmenu-tabua-passa-roupa": {
+      "children": [
+        "rich-text#titleSubmenu-tabua-passa-roupa",
+        "rich-text#titleSubmenu-tabua-passa-roupa-mais"
+      ],
+      "props": {
+        "blockClass": "submenu-title-row"
+      }
+    },
+    "rich-text#titleSubmenu-tabua-passa-roupa": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Tabua de Passar",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "titleSubmenu"
+      }
+    },
+    "rich-text#titleSubmenu-tabua-passa-roupa-mais": {
+      "props": {
+        "textPosition": "RIGHT",
+        "text": "[+ ver tudo](#)",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "titleSubmenu-mais"
+      }
+    },
+    "flex-layout.row#titleSubmenu-mesa-cozinha": {
+      "children": [
+        "rich-text#titleSubmenu-mesa-cozinha",
+        "rich-text#titleSubmenu-mesa-cozinha-mais"
+      ],
+      "props": {
+        "blockClass": "submenu-title-row"
+      }
+    },
+    "rich-text#titleSubmenu-mesa-cozinha": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Mesa e Cozinha",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "titleSubmenu"
+      }
+    },
+    "rich-text#titleSubmenu-mesa-cozinha-mais": {
+      "props": {
+        "textPosition": "RIGHT",
+        "text": "[+ ver tudo](#)",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "titleSubmenu-mais"
+      }
+    },
+  
+    // --------- menu items ----------
+    "menu-item#utilidades-domesticas-acessorios": {
+      "props": {
+        "id": "utilidades-domesticas-acessorios",
+        "blockClass": "utilidades-domesticas-acessorios",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/cha-e-cafe/acessorios",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Acessórios"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-bule": {
+      "props": {
+        "id": "utilidades-domesticas-bule",
+        "blockClass": "utilidades-domesticas-bule",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/cha-e-cafe/bule",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Bule"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-bules-garrafas": {
+      "props": {
+        "id": "utilidades-domesticas-bules-garrafas",
+        "blockClass": "utilidades-domesticas-bules-garrafas",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/cha-e-cafe/bules-e-garrafas-termicas",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Bules e Garrafas Termicas"
+        }
+      }
+    },
+  
+    // departamentos > quarto
+    "menu-item#utilidades-domesticas-cafeteria": {
+      "props": {
+        "id": "utilidades-domesticas-cafeteria",
+        "blockClass": "utilidades-domesticas-cafeteria",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/cha-e-cafe/cafeteiras-italianas",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Cafeteiras Italianas"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-chaleira": {
+      "props": {
+        "id": "utilidades-domesticas-chaleira",
+        "blockClass": "utilidades-domesticas-chaleira",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/cha-e-cafe/chaleira",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "chaleira"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-conjuntos": {
+      "props": {
+        "id": "utilidades-domesticas-conjuntos",
+        "blockClass": "utilidades-domesticas-conjuntos",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/cha-e-cafe/conjuntos",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "conjuntos"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-copos": {
+      "props": {
+        "id": "utilidades-domesticas-copos",
+        "blockClass": "utilidades-domesticas-copos",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/cha-e-cafe/copos",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Copos"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-jarra": {
+      "props": {
+        "id": "utilidades-domesticas-jarra",
+        "blockClass": "utilidades-domesticas-jarra",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/cha-e-cafe/jarra",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Jarra"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-tacas": {
+        "props": {
+          "id": "utilidades-domesticas-tacas",
+          "blockClass": "utilidades-domesticas-tacas",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/cha-e-cafe/tacas",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Taças"
+          }
+        }
+      },
+    "menu-item#utilidades-domesticas-xicaras": {
+      "props": {
+        "id": "utilidades-domesticas-xicaras",
+        "blockClass": "utilidades-domesticas-xicaras",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/cha-e-cafe/xicaras",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Xícaras"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-acessorios": {
+      "props": {
+        "id": "utilidades-domesticas-acessorios",
+        "blockClass": "utilidades-domesticas-acessorios",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/material-de-limpeza/acessorios",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Acessórios"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-dispenser": {
+      "props": {
+        "id": "utilidades-domesticas-dispenser",
+        "blockClass": "utilidades-domesticas-dispenser",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/material-de-limpeza/dispenser",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Dispenser Automatico"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-lixeira": {
+      "props": {
+        "id": "utilidades-domesticas-lixeira",
+        "blockClass": "utilidades-domesticas-lixeira",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/material-de-limpeza/lixeira",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Lixeira e Cesto de Lixo"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-mop": {
+      "props": {
+        "id": "utilidades-domesticas-mop",
+        "blockClass": "utilidades-domesticas-mop",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/material-de-limpeza/mop",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "MOP"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-cacarola": {
+      "props": {
+        "id": "utilidades-domesticas-cacarola",
+        "blockClass": "utilidades-domesticas-cacarola",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/cacarola",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Caçarola"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-caldeirao": {
+      "props": {
+        "id": "utilidades-domesticas-caldeirao",
+        "blockClass": "utilidades-domesticas-caldeirao",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/caldeirao",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Caldeirão"
+        }
+      }
+    },
+    // departamentos > sala de jantar
+    "menu-item#utilidades-domesticas-chaleira": {
+      "props": {
+        "id": "utilidades-domesticas-chaleira",
+        "blockClass": "utilidades-domesticas-chaleira",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/chaleira",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Chaleira"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-churrasqueira": {
+      "props": {
+        "id": "utilidades-domesticas-churrasqueira",
+        "blockClass": "utilidades-domesticas-churrasqueira",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/churrasqueira-de-fogao",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Churrasqueira de Fogão"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-conjunto": {
+      "props": {
+        "id": "utilidades-domesticas-conjunto",
+        "blockClass": "utilidades-domesticas-conjunto",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/conjunto-de-panelas",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Conjunto de Panelas"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-espagueteira": {
+      "props": {
+        "id": "utilidades-domesticas-espagueteira",
+        "blockClass": "utilidades-domesticas-espagueteira",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/espagueteira",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Espagueteira"
+        }
+      }
+    },
+    // departamentos > sala de estar
+    "menu-item#utilidades-domesticas-fondue": {
+      "props": {
+        "id": "utilidades-domesticas-fondue",
+        "blockClass": "utilidades-domesticas-fondue",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/fondue",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Fondue"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-frigideiras": {
+      "props": {
+        "id": "utilidades-domesticas-frigideiras",
+        "blockClass": "utilidades-domesticas-frigideiras",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/frigideiras",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Frigideiras"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-leteira": {
+      "props": {
+        "id": "utilidades-domesticas-leteira",
+        "blockClass": "utilidades-domesticas-leteira",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/leteira",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Leteira"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-omeleteira": {
+      "props": {
+        "id": "utilidades-domesticas-omeleteira",
+        "blockClass": "utilidades-domesticas-omeleteira",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/omeleteira",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Omeleteira"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-panela": {
+      "props": {
+        "id": "utilidades-domesticas-panela",
+        "blockClass": "utilidades-domesticas-panela",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/panela",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Panela"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-panela-pressao": {
+      "props": {
+        "id": "utilidades-domesticas-panela-pressao",
+        "blockClass": "utilidades-domesticas-panela-pressao",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/panela-de-pressao",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Panela de Pressão"
+        }
+      }
+    },
+    // departamentos > cozinha
+    "menu-item#utilidades-domesticas-pipoqueira": {
+      "props": {
+        "id": "utilidades-domesticas-pipoqueira",
+        "blockClass": "utilidades-domesticas-pipoqueira",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/pipoqueira",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Pipoqueira"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-wok": {
+      "props": {
+        "id": "utilidades-domesticas-wok",
+        "blockClass": "utilidades-domesticas-wok",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/panelas/wok",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Wok"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-tabua-passar": {
+      "props": {
+        "id": "utilidades-domesticas-tabua-passar",
+        "blockClass": "utilidades-domesticas-tabua-passar",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/moveis/moveis-para-lavanderia/mesa-de-passar",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Tabua de Passar"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-aparelho-jantar": {
+      "props": {
+        "id": "utilidades-domesticas-aparelho-jantar",
+        "blockClass": "utilidades-domesticas-aparelho-jantar",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/aparelhos-de-jantar",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Aparelhos de Jantar"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-assadeiras": {
+      "props": {
+        "id": "utilidades-domesticas-assadeiras",
+        "blockClass": "utilidades-domesticas-assadeiras",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/assadeiras",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Assadeiras"
+        }
+      }
+    },
+    // departamentos > escritório
+    "menu-item#utilidades-domesticas-balanca-cozinha": {
+      "props": {
+        "id": "utilidades-domesticas-gaveteiro",
+        "blockClass": "utilidades-domesticas-balanca-cozinha",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/balanca-de-cozinha",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Balança de Cozinha"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-bandejas": {
+      "props": {
+        "id": "utilidades-domesticas-bandejas",
+        "blockClass": "utilidades-domesticas-bandejas",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/bandejas",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Bandejas"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-boleiras": {
+      "props": {
+        "id": "utilidades-domesticas-boleiras",
+        "blockClass": "utilidades-domesticas-boleiras",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/boleiras",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Boleiras"
+        }
+      }
+    },
+    "menu-item#utilidades-domesticas-centrifuga": {
+        "props": {
+          "id": "utilidades-domesticas-centrifuga",
+          "blockClass": "utilidades-domesticas-centrifuga",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/centrifuga-de-alimentos",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Centrifuga de Alimentos"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-copos": {
+        "props": {
+          "id": "utilidades-domesticas-copos",
+          "blockClass": "utilidades-domesticas-copos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/copos",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Copos"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-contador-alimentos": {
+        "props": {
+          "id": "utilidades-domesticas-contador-alimentos",
+          "blockClass": "utilidades-domesticas-contador-alimentos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/cortador-de-alimentos",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Cortador de Alimentos"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-escorredor": {
+        "props": {
+          "id": "utilidades-domesticas-escorredor",
+          "blockClass": "utilidades-domesticas-escorredor",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/escorredor-para-loucas",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Escorredor para Louças"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-faqueiros": {
+        "props": {
+          "id": "utilidades-domesticas-faqueiros",
+          "blockClass": "utilidades-domesticas-faqueiros",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/faqueiros",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Faqueiros"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-formas": {
+        "props": {
+          "id": "utilidades-domesticas-formas",
+          "blockClass": "utilidades-domesticas-formas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/formas",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Formas"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-fruteira": {
+        "props": {
+          "id": "utilidades-domesticas-fruteira",
+          "blockClass": "utilidades-domesticas-fruteira",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/fruteira",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Fruteira"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-jarras": {
+        "props": {
+          "id": "utilidades-domesticas-jarras",
+          "blockClass": "utilidades-domesticas-jarras",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/jarras-garrafas-e-suqueiras",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Jarras, Garrafas e Suqueiras"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-moedor": {
+        "props": {
+          "id": "utilidades-domesticas-moedor",
+          "blockClass": "utilidades-domesticas-moedor",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/moedor-de-alimentos",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Moedor de Alimentos"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-petisqueiras": {
+        "props": {
+          "id": "utilidades-domesticas-petisqueiras",
+          "blockClass": "utilidades-domesticas-petisqueiras",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/petisqueiras",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Petisqueiras"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-porta-frios": {
+        "props": {
+          "id": "utilidades-domesticas-porta-frios",
+          "blockClass": "utilidades-domesticas-porta-frios",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/porta-frios",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Porta Frios"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-porta-utensilios": {
+        "props": {
+          "id": "utilidades-domesticas-porta-utensilios",
+          "blockClass": "utilidades-domesticas-porta-utensilios",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/porta-utensilios",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Porta Utensilios"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-potes": {
+        "props": {
+          "id": "utilidades-domesticas-potes",
+          "blockClass": "utilidades-domesticas-potes",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/potes",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Potes"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-pratos": {
+        "props": {
+          "id": "utilidades-domesticas-pratos",
+          "blockClass": "utilidades-domesticas-pratos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/pratos",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Pratos"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-processadores": {
+        "props": {
+          "id": "utilidades-domesticas-processadores",
+          "blockClass": "utilidades-domesticas-processadores",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/processadores-e-trituradores",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Processadores e Trituradores"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-squeezes": {
+        "props": {
+          "id": "utilidades-domesticas-squeezes",
+          "blockClass": "utilidades-domesticas-squeezes",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/squeezes-e-garrafas-individuais",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Squeezes e Garrafas Individuais"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-tabuas": {
+        "props": {
+          "id": "utilidades-domesticas-tabuas",
+          "blockClass": "utilidades-domesticas-tabuas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/tabuas",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Tabuas"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-tacas": {
+        "props": {
+          "id": "utilidades-domesticas-tacas",
+          "blockClass": "utilidades-domesticas-tacas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/tacas",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Taças"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-talheres": {
+        "props": {
+          "id": "utilidades-domesticas-talheres",
+          "blockClass": "utilidades-domesticas-talheres",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/faqueiros",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Talheres"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-utensilios": {
+        "props": {
+          "id": "utilidades-domesticas-utensilios",
+          "blockClass": "utilidades-domesticas-utensilios",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/utensilios",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Utensilios"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-xicaras-e-canecas": {
+        "props": {
+          "id": "utilidades-domesticas-xicaras-e-canecas",
+          "blockClass": "utilidades-domesticas-xicaras-e-canecas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-de-mesa-e-cozinha/xicaras-e-canecas",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Xícaras e Canecas"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-porta-papel": {
+        "props": {
+          "id": "utilidades-domesticas-porta-papel",
+          "blockClass": "utilidades-domesticas-porta-papel",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-para-banheiro/porta-papel-higienico",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Porta Papel Higienico"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-bar-acessorios": {
+        "props": {
+          "id": "utilidades-domesticas-bar-acessorios",
+          "blockClass": "utilidades-domesticas-bar-acessorios",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-para-bar/acessorios",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Acessorios"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-baldes-gelo": {
+        "props": {
+          "id": "utilidades-domesticas-baldes-gelo",
+          "blockClass": "utilidades-domesticas-baldes-gelo",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-para-bar/baldes-de-gelo",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Baldes de Gelo"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-bar-conjuntos": {
+        "props": {
+          "id": "utilidades-domesticas-bar-conjuntos",
+          "blockClass": "utilidades-domesticas-bar-conjuntos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-para-bar/conjuntos",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "conjuntos"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-coqueteleiras": {
+        "props": {
+          "id": "utilidades-domesticas-coqueteleiras",
+          "blockClass": "utilidades-domesticas-coqueteleiras",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-para-bar/coqueteleiras",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "coqueteleiras"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-porta-garrafa": {
+        "props": {
+          "id": "utilidades-domesticas-porta-garrafa",
+          "blockClass": "utilidades-domesticas-porta-garrafa",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-para-bar/porta-garrafa",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Porta Garrafa"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-varal": {
+        "props": {
+          "id": "utilidades-domesticas-varal",
+          "blockClass": "utilidades-domesticas-varal",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-para-bar/varal",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Varal"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-espelhos": {
+        "props": {
+          "id": "utilidades-domesticas-espelhos",
+          "blockClass": "utilidades-domesticas-espelhos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-para-bar/espelhos",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Espelhos"
+          }
+        }
+      },
+      "menu-item#utilidades-domesticas-sapateira": {
+        "props": {
+          "id": "utilidades-domesticas-sapateira",
+          "blockClass": "utilidades-domesticas-sapateira",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/utilidades-domesticas/utensilios-para-bar/sapateira",
+            "noFollow": true,
+            "tagTitle": "",
+            "text": "Sapateira"
+          }
+        }
+      }
+  }
+  

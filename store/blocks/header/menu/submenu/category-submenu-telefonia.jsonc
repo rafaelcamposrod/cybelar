@@ -1,0 +1,364 @@
+{
+  "vtex.menu@2.x:submenu#telefonia-sub-menu": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#telefonia-sub-menu"]
+  },
+  "flex-layout.row#telefonia-sub-menu": {
+    "children": [
+      "flex-layout.col#telefonia-sub-menu-col",
+      "flex-layout.col#telefonia-sub-menu-col-2",
+      "flex-layout.col#telefonia-sub-menu-col-3",
+      "info-card#telefonia-sub-menu-card"
+    ],
+    "props": {
+      "blockClass": "row-submenu"
+    },
+    "title": "Submenu Smartphones"
+  },
+
+  // Colunas
+  "flex-layout.col#telefonia-sub-menu-col": {
+    "children": [
+      "flex-layout.row#titleSubmenu-telefonia-smartphone",
+      "menu-item#telefonia-lg",
+      "menu-item#telefonia-motorola",
+      "menu-item#telefonia-multilaser",
+      "menu-item#telefonia-nokia",
+      "menu-item#telefonia-samsung",
+      "menu-item#telefonia-semp-tcl",
+      "menu-item#telefonia-xiaomi"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#telefonia-sub-menu-col-2": {
+    "children": [
+      "flex-layout.row#titleSubmenu-telefonia-celulares",
+      "menu-item#telefonia-nokia",
+      "menu-item#telefonia-multilaser",
+      "menu-item#telefonia-lenoxx"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#telefonia-sub-menu-col-3": {
+    "children": [
+      "flex-layout.row#titleSubmenu-telefonia-fixa",
+      "menu-item#telefonia-com-fio",
+      "menu-item#telefonia-sem-fio"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "info-card#telefonia-sub-menu-card": {
+    "props": {
+      "id": "telefonia-sub-menu-card",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/telefonia.jpg",
+      "headline": "",
+      "callToActionMode": "none",
+      "blockClass": "sub-menu-card",
+      "textPosition": "center",
+      "textAlignment": "center"
+    }
+  },
+
+  // Coluna 1
+  "flex-layout.row#titleSubmenu-telefonia-smartphone": {
+    "children": [
+      "rich-text#titleSubmenu-telefonia-smartphone",
+      "rich-text#titleSubmenu-telefonia-smartphone-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-telefonia-smartphone": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Smartphone",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-telefonia-smartphone-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // Coluna 2
+  "flex-layout.row#titleSubmenu-telefonia-celulares": {
+    "children": [
+      "rich-text#titleSubmenu-telefonia-celulares",
+      "rich-text#titleSubmenu-telefonia-celulares-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-telefonia-celulares": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Celulares",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-telefonia-celulares-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // Coluna 3
+  "flex-layout.row#titleSubmenu-telefonia-fixa": {
+    "children": [
+      "rich-text#titleSubmenu-telefonia-fixa",
+      "rich-text#titleSubmenu-telefonia-fixa-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-telefonia-fixa": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Fixa",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-telefonia-fixa-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // --------- menu items ----------
+  "menu-item#telefonia-smartphone": {
+    "props": {
+      "id": "telefonia-smartphone",
+      "blockClass": "telefonia-smartphone",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/smartphone",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Smartphone"
+      }
+    }
+  },
+  "menu-item#telefonia-celular": {
+    "props": {
+      "id": "telefonia-celular",
+      "blockClass": "telefonia-celular",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/celular",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Celular"
+      }
+    }
+  },
+  "menu-item#telefonia-telefone-fixo": {
+    "props": {
+      "id": "telefonia-telefone-fixo",
+      "blockClass": "telefonia-telefone-fixo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefone-fixo",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Telefone Fixo"
+      }
+    }
+  },
+
+  // departamentos > smartphones
+  "menu-item#telefonia-lg": {
+    "props": {
+      "id": "telefonia-lg",
+      "blockClass": "telefonia-lg",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lg",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "LG"
+      }
+    }
+  },
+  "menu-item#telefonia-motorola": {
+    "props": {
+      "id": "telefonia-motorola",
+      "blockClass": "telefonia-motorola",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motorola",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Motorola"
+      }
+    }
+  },
+  "menu-item#telefonia-multilaser": {
+    "props": {
+      "id": "telefonia-multilaser",
+      "blockClass": "telefonia-multilaser",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/multilaser",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Multilaser"
+      }
+    }
+  },
+  "menu-item#telefonia-nokia": {
+    "props": {
+      "id": "telefonia-nokia",
+      "blockClass": "telefonia-nokia",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nokia",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Nokia"
+      }
+    }
+  },
+  "menu-item#telefonia-samsung": {
+    "props": {
+      "id": "telefonia-samsung",
+      "blockClass": "telefonia-samsung",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/samsung",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Samsung"
+      }
+    }
+  },
+  "menu-item#telefonia-semp-tcl": {
+    "props": {
+      "id": "telefonia-semp-tcl",
+      "blockClass": "telefonia-semp-tcl",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/semp-tcl",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Semp TCL"
+      }
+    }
+  },
+  "menu-item#telefonia-xiaomi": {
+    "props": {
+      "id": "telefonia-xiaomi",
+      "blockClass": "telefonia-xiaomi",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/xiaomi",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Xiaomi"
+      }
+    }
+  },
+  // departamentos > celulares
+  "menu-item#telefonia-lenoxx": {
+    "props": {
+      "id": "telefonia-lenoxx",
+      "blockClass": "telefonia-lenoxx",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lenoxx",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Lenoxx"
+      }
+    }
+  },
+  // departamentos > fixa
+  "menu-item#telefonia-com-fio": {
+    "props": {
+      "id": "telefonia-com-fio",
+      "blockClass": "telefonia-com-fio",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/com-fio",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Com Fio"
+      }
+    }
+  },
+  "menu-item#telefonia-sem-fio": {
+    "props": {
+      "id": "telefonia-sem-fio",
+      "blockClass": "telefonia-sem-fio",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sem-fio",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Sem Fio"
+      }
+    }
+  }
+}

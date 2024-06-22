@@ -1,0 +1,56 @@
+.flexRowContent--header-mobile-principal-bar
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.flexRowContent--header-mobile-principal-bar
+  :global(.vtex-store-components-3-x-searchBarInnerContainer) {
+  margin: 0 !important;
+  margin-right: 10px !important;
+}
+
+.flexRowContent--header-mobile-principal-bar
+  :global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+  :global(.vtex-input-prefix__group) {
+  width: 100%;
+  height: auto;
+  border: 1px solid #cecece !important;
+  border-radius: 5px;
+}
+
+.flexRowContent--header-mobile-principal-bar
+  :global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+  :global(.vtex-styleguide-9-x-input) {
+  width: 100%;
+  height: 32px;
+  border: none !important;
+}
+
+.flexRowContent--header-mobile-principal-bar
+  :global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+  :global(.vtex-input__suffix) {
+    width: auto;
+    height: auto;
+    background: none;
+}
+
+.flexRowContent--header-mobile-principal-bar
+  :global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+  :global(.vtex-store-components-3-x-searchBarIcon) {
+    background: none !important;
+    background-position: center !important;
+    background-size: 16px !important;
+    background-repeat: no-repeat !important;
+    background-image: url('assets/icon-search-bar-input.svg') !important;
+}
+
+.flexRowContent--header-mobile-principal-bar
+  :global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+  :global(.vtex-store-components-3-x-searchBarIcon)
+  :global(.vtex-store-components-3-x-searchIcon) {
+    display: none !important;
+}

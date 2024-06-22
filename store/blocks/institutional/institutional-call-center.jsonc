@@ -1,0 +1,344 @@
+{
+  "store.custom#institutional-call-center": {
+    "blocks": [
+      "responsive-layout.desktop#call-center"
+    ]
+  },
+  "responsive-layout.desktop#call-center": {
+    "children": [
+      "flex-layout.row#desktop-call-center"
+    ]
+  },
+  "flex-layout.row#desktop-call-center": {
+    "children": [
+      "flex-layout.col#instituional-col-1-call-center",
+      "flex-layout.col#instituional-col-2-call-center"
+    ]
+  },
+  "flex-layout.col#instituional-col-1-call-center": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional-call-center"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "container-menu-insitutional"
+    }
+  },
+  "flex-layout.col#instituional-col-2-call-center": {
+    "children": [
+      "flex-layout.col#content-call-center"
+    ],
+    "props": {
+      "blockClass": "container-institutional"
+    }
+  },
+  "flex-layout.col#content-call-center": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#paragrahp-call-center"
+    ]
+  },
+  "rich-text#paragrahp-call-center": {
+    "props": {
+      "text": "Central de atendimento"
+    }
+  },
+  "vtex.menu@2.x:menu#institutional-call-center": {
+    "children": [
+      "menu-item#fale-conosco-call-center",
+      "menu-item#about-us-call-center",
+      "menu-item#policy-call-center"
+    ],
+    "props": {
+      "blockClass": "menu-insitucional",
+        "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#fale-conosco-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "fale-conosco-fale-conosco",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#about-us-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "about-us-call-center",
+        "text": "Quem Somos"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#our-store-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "our-store-call-center",
+        "text": "Nossas Lojas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#policy-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/central-de-atendimento",
+        "noFollow": false,
+        "tagTitle": "policy-call-center",
+        "text": "Politica de Privacidade"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#affiliates-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/afiliados",
+        "noFollow": false,
+        "tagTitle": "affiliates",
+        "text": "Afiliados"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#help-store-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/duvidas-sobre-a-loja",
+        "noFollow": false,
+        "tagTitle": "help-store",
+        "text": "Duvidas sobre a loja?"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#work-with-us-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "work-with-us",
+        "text": "Trabalhe Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#new-sale-on-cybelar-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/venda-na-cybelar",
+        "noFollow": false,
+        "tagTitle": "sale-on-cybelar",
+        "text": "Venda na Cybelar"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#deliveries-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/entregas",
+        "noFollow": false,
+        "tagTitle": "deliveries",
+        "text": "Entregas"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#devolution-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/devolucao",
+        "noFollow": false,
+        "tagTitle": "devolution",
+        "text": "Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#payment-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pagamento",
+        "noFollow": false,
+        "tagTitle": "payment",
+        "text": "Pagamento"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#security-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seguranca",
+        "noFollow": false,
+        "tagTitle": "security",
+        "text": "Segurança"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#call-center-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/central-de-atendimento",
+        "noFollow": false,
+        "tagTitle": "call-center",
+        "text": "Central de Atendimento"
+      },
+      "blockClass": "select"
+    }
+  },
+  "menu-item#exchanges-and-returns-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "exchanges-and-returns",
+        "text": "Trocas e Devolução"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#safe-buy-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "safe-buy",
+        "text": "Compra Segura"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#shipping-and-delivery-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/envio-e-entrega",
+        "noFollow": false,
+        "tagTitle": "shipping-and-delivery",
+        "text": "Envio e Entrega"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#browsing-and-buying-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/navegando-e-comprando",
+        "noFollow": false,
+        "tagTitle": "browsing-and-buying",
+        "text": "Navegando e Comprando"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#contact-us-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "contact-us",
+        "text": "Fale Conosco"
+      },
+      "blockClass": "not-select"
+    }
+  },
+  "menu-item#site-map-call-center": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mapa-do-site",
+        "noFollow": false,
+        "tagTitle": "site-map",
+        "text": "Mapa do Site"
+      },
+      "blockClass": "not-select"
+    }
+  }
+}

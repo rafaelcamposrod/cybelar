@@ -1,0 +1,770 @@
+{
+  "vtex.menu@2.x:submenu#informatica-sub-menu": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#informatica-sub-menu"]
+  },
+  "flex-layout.row#informatica-sub-menu": {
+    "children": [
+      "flex-layout.col#informatica-sub-menu-col",
+      "flex-layout.col#informatica-sub-menu-col-2",
+      "flex-layout.col#informatica-sub-menu-col-3",
+      "info-card#informatica-sub-menu-card"
+    ],
+    "props": {
+      "blockClass": "row-submenu"
+    },
+    "title": "Submenu Informática"
+  },
+
+  // Colunas
+  "flex-layout.col#informatica-sub-menu-col": {
+    "children": [
+      "flex-layout.row#titleSubmenu-informatica-notebooks",
+      "menu-item#informatica-multilaser",
+      "menu-item#informatica-ultra",
+      "menu-item#informatica-acer",
+      "menu-item#informatica-lenovo",
+      "menu-item#informatica-samsung",
+      "flex-layout.row#titleSubmenu-informatica-desktops",
+      "menu-item#informatica-multilaser",
+      "flex-layout.row#titleSubmenu-informatica-tablets",
+      "menu-item#informatica-multilaser",
+      "menu-item#informatica-gradiente"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#informatica-sub-menu-col-2": {
+    "children": [
+      "flex-layout.row#titleSubmenu-informatica-impressoras",
+      "menu-item#informatica-multilaser",
+      "menu-item#informatica-hp",
+      "menu-item#informatica-epson",
+      "flex-layout.row#titleSubmenu-informatica-fone-de-ouvido",
+      "menu-item#informatica-headphone",
+      "menu-item#informatica-headset",
+      "flex-layout.row#titleSubmenu-informatica-perifericos",
+      "menu-item#informatica-mouse",
+      "menu-item#informatica-teclado"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "flex-layout.col#informatica-sub-menu-col-3": {
+    "children": [
+      "flex-layout.row#titleSubmenu-informatica-casa-inteligente",
+      "menu-item#informatica-acionador-inteligente",
+      "menu-item#informatica-controle-remoto",
+      "menu-item#informatica-fechadura-e-cadeado",
+      "menu-item#informatica-lampada-e-luminaria",
+      "menu-item#informatica-alarme-e-sirene",
+      "menu-item#informatica-camera-e-sensor",
+      "menu-item#informatica-olho-magico",
+      "menu-item#informatica-porteiro-eletronico",
+      "flex-layout.row#titleSubmenu-informatica-dispositivos-de-rede",
+      "menu-item#informatica-roteador",
+      "menu-item#informatica-switch"
+    ],
+    "props": {
+      "blockClass": "col-submenu"
+    },
+    "title": "Coluna Submenu"
+  },
+  "info-card#informatica-sub-menu-card": {
+    "props": {
+      "id": "informatica-sub-menu-card",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/informatica.jpg",
+      "headline": "",
+      "callToActionMode": "none",
+      "blockClass": "sub-menu-card",
+      "textPosition": "center",
+      "textAlignment": "center"
+    }
+  },
+
+  // Coluna 1
+  "flex-layout.row#titleSubmenu-informatica-notebooks": {
+    "children": [
+      "rich-text#titleSubmenu-informatica-notebooks",
+      "rich-text#titleSubmenu-informatica-notebooks-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-notebooks": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Notebooks",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-notebooks-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+  "flex-layout.row#titleSubmenu-informatica-desktops": {
+    "children": [
+      "rich-text#titleSubmenu-informatica-desktops",
+      "rich-text#titleSubmenu-informatica-desktops-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-desktops": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Desktops",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-desktops-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+  "flex-layout.row#titleSubmenu-informatica-tablets": {
+    "children": [
+      "rich-text#titleSubmenu-informatica-tablets",
+      "rich-text#titleSubmenu-informatica-tablets-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-tablets": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Tablets",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-tablets-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // Coluna 2
+  "flex-layout.row#titleSubmenu-informatica-impressoras": {
+    "children": [
+      "rich-text#titleSubmenu-informatica-impressoras",
+      "rich-text#titleSubmenu-informatica-impressoras-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-impressoras": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Impressoras",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-impressoras-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+  "flex-layout.row#titleSubmenu-informatica-fone-de-ouvido": {
+    "children": [
+      "rich-text#titleSubmenu-informatica-fone-de-ouvido",
+      "rich-text#titleSubmenu-informatica-fone-de-ouvido-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-fone-de-ouvido": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Fone de Ouvido",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-fone-de-ouvido-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+  "flex-layout.row#titleSubmenu-informatica-perifericos": {
+    "children": [
+      "rich-text#titleSubmenu-informatica-perifericos",
+      "rich-text#titleSubmenu-informatica-perifericos-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-perifericos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Periféricos",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-perifericos-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // Coluna 3
+  "flex-layout.row#titleSubmenu-informatica-casa-inteligente": {
+    "children": [
+      "rich-text#titleSubmenu-informatica-casa-inteligente",
+      "rich-text#titleSubmenu-informatica-casa-inteligente-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-casa-inteligente": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Casa Inteligente",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-casa-inteligente-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+  "flex-layout.row#titleSubmenu-informatica-dispositivos-de-rede": {
+    "children": [
+      "rich-text#titleSubmenu-informatica-dispositivos-de-rede",
+      "rich-text#titleSubmenu-informatica-dispositivos-de-rede-mais"
+    ],
+    "props": {
+      "blockClass": "submenu-title-row"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-dispositivos-de-rede": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Dispositivos de Rede",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu"
+    }
+  },
+  "rich-text#titleSubmenu-informatica-dispositivos-de-rede-mais": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "[+ ver tudo](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "titleSubmenu-mais"
+    }
+  },
+
+  // --------- menu items ----------
+  "menu-item#informatica-notebook": {
+    "props": {
+      "id": "informatica-notebook",
+      "blockClass": "informatica-notebook",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/notebook",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Notebook"
+      }
+    }
+  },
+  "menu-item#informatica-impressora": {
+    "props": {
+      "id": "informatica-impressora",
+      "blockClass": "informatica-impressora",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/impressora",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Impressora"
+      }
+    }
+  },
+  "menu-item#informatica-fone-de-ouvido": {
+    "props": {
+      "id": "informatica-fone-de-ouvido",
+      "blockClass": "informatica-fone-de-ouvido",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fone-de-ouvido",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Fono de Ouvido"
+      }
+    }
+  },
+
+  "menu-item#informatica-desktop": {
+    "props": {
+      "id": "informatica-desktop",
+      "blockClass": "informatica-desktop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/desktop",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Desktop"
+      }
+    }
+  },
+
+  "menu-item#informatica-mouse-teclado": {
+    "props": {
+      "id": "informatica-mouse-teclado",
+      "blockClass": "informatica-mouse-teclado",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mouse-e-teclado",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Mouse e Teclado"
+      }
+    }
+  },
+
+  "menu-item#informatica-roteadores-switch": {
+    "props": {
+      "id": "informatica-roteadores-switch",
+      "blockClass": "informatica-roteadores-switch",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/roteadores-e-switch",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Roteadores e Switch"
+      }
+    }
+  },
+
+  "menu-item#informatica-tablet": {
+    "props": {
+      "id": "informatica-tablet",
+      "blockClass": "informatica-tablet",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tablet",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Tablet"
+      }
+    }
+  },
+
+  // departamentos > notebooks
+  "menu-item#informatica-multilaser": {
+    "props": {
+      "id": "informatica-multilaser",
+      "blockClass": "informatica-multilaser",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/multilaser",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Multilaser"
+      }
+    }
+  },
+  "menu-item#informatica-ultra": {
+    "props": {
+      "id": "informatica-ultra",
+      "blockClass": "informatica-ultra",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ultra",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Ultra"
+      }
+    }
+  },
+  "menu-item#informatica-acer": {
+    "props": {
+      "id": "informatica-acer",
+      "blockClass": "informatica-acer",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acer",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Acer"
+      }
+    }
+  },
+  "menu-item#informatica-lenovo": {
+    "props": {
+      "id": "informatica-lenovo",
+      "blockClass": "informatica-lenovo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lenovo",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Lenovo"
+      }
+    }
+  },
+  "menu-item#informatica-samsung": {
+    "props": {
+      "id": "informatica-samsung",
+      "blockClass": "informatica-samsung",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/samsung",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Samsung"
+      }
+    }
+  },
+  // departamentos > impressoras
+  "menu-item#informatica-hp": {
+    "props": {
+      "id": "informatica-hp",
+      "blockClass": "informatica-hp",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hp",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "HP"
+      }
+    }
+  },
+  "menu-item#informatica-epson": {
+    "props": {
+      "id": "informatica-epson",
+      "blockClass": "informatica-epson",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/epson",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Epson"
+      }
+    }
+  },
+  // departamentos > perifericos
+  "menu-item#informatica-mouse": {
+    "props": {
+      "id": "informatica-mouse",
+      "blockClass": "informatica-mouse",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mouse",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Mouse"
+      }
+    }
+  },
+  "menu-item#informatica-teclado": {
+    "props": {
+      "id": "informatica-teclado",
+      "blockClass": "informatica-teclado",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/teclado",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Teclado"
+      }
+    }
+  },
+  // departamentos > fone de ouvido
+  "menu-item#informatica-headphone": {
+    "props": {
+      "id": "informatica-headphone",
+      "blockClass": "informatica-headphone",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/headphone",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Headphone"
+      }
+    }
+  },
+  "menu-item#informatica-headset": {
+    "props": {
+      "id": "informatica-headset",
+      "blockClass": "informatica-headset",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/headset",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Headset"
+      }
+    }
+  },
+  // departamentos > casa inteligente
+  "menu-item#informatica-acionador-inteligente": {
+    "props": {
+      "id": "informatica-acionador-inteligente",
+      "blockClass": "informatica-acionador-inteligente",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acionador-inteligente",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Acionador Inteligente"
+      }
+    }
+  },
+  "menu-item#informatica-controle-remoto": {
+    "props": {
+      "id": "informatica-controle-remoto",
+      "blockClass": "informatica-controle-remoto",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/controle-remoto",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Controle Remoto"
+      }
+    }
+  },
+  "menu-item#informatica-fechadura-e-cadeado": {
+    "props": {
+      "id": "informatica-fechadura-e-cadeado",
+      "blockClass": "informatica-fechadura-e-cadeado",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fechadura-e-cadeado",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Fechadura e Cadeado"
+      }
+    }
+  },
+  "menu-item#informatica-lampada-e-luminaria": {
+    "props": {
+      "id": "informatica-lampada-e-luminaria",
+      "blockClass": "informatica-lampada-e-luminaria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lampada-e-luminaria",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Lâmpada e Luminária"
+      }
+    }
+  },
+  "menu-item#informatica-alarme-e-sirene": {
+    "props": {
+      "id": "informatica-alarme-e-sirene",
+      "blockClass": "informatica-alarme-e-sirene",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alarme-e-sirene",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Alarme e Sirene"
+      }
+    }
+  },
+  "menu-item#informatica-camera-e-sensor": {
+    "props": {
+      "id": "informatica-camera-e-sensor",
+      "blockClass": "informatica-camera-e-sensor",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/camera-e-sensor",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Câmera e Sensor"
+      }
+    }
+  },
+  "menu-item#informatica-olho-magico": {
+    "props": {
+      "id": "informatica-olho-magico",
+      "blockClass": "informatica-olho-magico",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/olho-magico",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Olho Mágico"
+      }
+    }
+  },
+  "menu-item#informatica-porteiro-eletronico": {
+    "props": {
+      "id": "informatica-porteiro-eletronico",
+      "blockClass": "informatica-porteiro-eletronico",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/porteiro-eletronico",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Porteiro Eletrônico"
+      }
+    }
+  },
+  // departamentos > tablets
+  "menu-item#informatica-gradiente": {
+    "props": {
+      "id": "informatica-gradiente",
+      "blockClass": "informatica-gradiente",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gradiente",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Gradiente"
+      }
+    }
+  },
+  // departamentos > dispositivos de redes
+  "menu-item#informatica-roteador": {
+    "props": {
+      "id": "informatica-roteador",
+      "blockClass": "informatica-roteador",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/roteador",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Roteador"
+      }
+    }
+  },
+  "menu-item#informatica-switch": {
+    "props": {
+      "id": "informatica-switch",
+      "blockClass": "informatica-switch",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/switch",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Switch"
+      }
+    }
+  }
+}

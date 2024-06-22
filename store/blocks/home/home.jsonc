@@ -1,0 +1,911 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop#home-counter",
+
+      "responsive-layout.mobile#home-counter",
+      "list-context.image-list#home-slider",
+     
+      "show-countdown",
+      "responsive-layout.desktop#home-top",
+      "responsive-layout.mobile#home-top",
+     
+
+      "list-shelf-countdown",
+
+      "flex-layout.row#precisa-conferir-shelf",
+
+      "flex-layout.row#produtos-precisa-conferir",
+      "flex-layout.row#produtos-precisa-conferir-shelf",
+
+      "flex-layout.row#mais-procurados",
+      "flex-layout.row#mais-procurados-shelf",
+  
+      "list-context.image-list#banner-duplo",
+      "flex-layout.row#produtos-precisa-conferir-lower",
+      "flex-layout.row#produtos-precisa-conferir-shelf-lower",
+
+       "flex-layout.row#produtos-precisa-conferir-lower-1",
+      "flex-layout.row#produtos-precisa-conferir-shelf-lower-1",
+
+      // "__fold__",
+
+      "flex-layout.row#precisa-conferir-lower",
+      "flex-layout.row#precisa-conferir-shelf-lower",
+
+      "flex-layout.row#mais-procurados-lower",
+      "flex-layout.row#mais-procurados-shelf-lower",
+      // "flex-layout.row#brand-slider-container"
+      "flex-layout.row#banner-nossas-lojas"
+    ],
+    "props": {
+      "blockClass": "home"
+    }
+  },
+  "image#bf2023": {
+    "props": {
+      "src": "assets/categorias/moveis.webp",
+      "link": {
+        "url": "#"
+      },
+      "blockClass":"image-bf2023"
+    }
+  },
+  "list-shelf-countdown": {
+    "props": {
+      "TitleShelf": "flex-layout.row#countdown",
+      "ListShelf": "flex-layout.row#countdown-shelf"
+    }
+  },
+  "responsive-layout.desktop#home-counter": {
+    "children": ["flex-layout.row#counter"]
+  },
+  "responsive-layout.mobile#home-counter": {
+    "children": ["flex-layout.row#counter-mobile"]
+  },
+  "responsive-layout.desktop#home-top": {
+    "children": ["flex-layout.row#deals", "flex-layout.row#offers-mobile"],
+    "title": "Home Top - Desktop"
+  },
+  "responsive-layout.mobile#home-top": {
+    "children": ["flex-layout.row#deals", "flex-layout.row#offers-mobile"],
+    "title": "Home Top - Mobile"
+  },
+  "flex-layout.row#counter": {
+    "props": {
+      "blockClass": ["counter", "top-cronometro-vitrine-ativo"]
+    },
+    "children": ["countdown-home-banner"],
+    "title": "Cybelar Cronometro"
+  },
+  "flex-layout.row#counter-mobile": {
+    "props": {
+      "blockClass": ["counter", "top-cronometro-vitrine-ativo"]
+    },
+    "children": ["countdown-home-banner"],
+    "title": "Cybelar Cronometro"
+  },
+  "flex-layout.row#offers-mobile": {
+    "children": ["rich-text#Title", "flex-layout.row#departments-mobile"],
+    "props": {
+      "blockClass": "departments-container"
+    }
+  },
+  "flex-layout.row#departments-mobile": {
+    "children": [
+      "flex-layout.col#dp-mobile-col-1",
+      "flex-layout.col#dp-mobile-col-2",
+      "flex-layout.col#dp-mobile-col-3",
+      "flex-layout.col#dp-mobile-col-4"
+      // "flex-layout.col#dp-mobile-col-5",
+      // "flex-layout.col#dp-mobile-col-6",
+      // "flex-layout.col#dp-mobile-col-7",
+      // "flex-layout.col#dp-mobile-col-8"
+    ],
+    "props": {
+      "blockClass": "departments-mobile",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "width": "100%",
+      "itemsPerPage": {
+        "phone": 2
+      },
+      "infinite": false,
+      "scroll": "BY_PAGE"
+    },
+    "title": "Card Mobile"
+  },
+  "flex-layout.col#ofertas": {
+    "children": ["image#ofertas-icon", "rich-text#ofertas-icon"],
+    "props": {
+      "blockClass": "dp-mobile-container"
+    }
+  },
+  "flex-layout.col#dp-mobile-col-1": {
+    "children": ["image#colchoes", "rich-text#colchoes"],
+    "props": {
+      "blockClass": "dp-mobile-container"
+    }
+  },
+  "flex-layout.col#dp-mobile-col-2": {
+    "children": ["image#fogoes", "rich-text#fogoes"],
+    "props": {
+      "blockClass": "dp-mobile-container"
+    }
+  },
+  "flex-layout.col#dp-mobile-col-3": {
+    "children": ["image#guarda-roupas", "rich-text#guarda-roupas"],
+    "props": {
+      "blockClass": "dp-mobile-container"
+    }
+  },
+  "flex-layout.col#dp-mobile-col-4": {
+    "children": ["image#liquidificador", "rich-text#liquidificador"],
+    "props": {
+      "blockClass": "dp-mobile-container"
+    }
+  },
+  "flex-layout.col#dp-mobile-col-5": {
+    "children": ["image#panelas", "rich-text#panelas"],
+    "props": {
+      "blockClass": "dp-mobile-container"
+    }
+  },
+  "flex-layout.col#dp-mobile-col-6": {
+    "children": ["image#sofas", "rich-text#sofas"],
+    "props": {
+      "blockClass": "dp-mobile-container"
+    }
+  },
+  "flex-layout.col#dp-mobile-col-7": {
+    "children": ["image#tanquinhos", "rich-text#tanquinhos"],
+    "props": {
+      "blockClass": "dp-mobile-container"
+    }
+  },
+  "flex-layout.col#dp-mobile-col-8": {
+    "children": ["image#televisores", "rich-text#televisores"],
+    "props": {
+      "blockClass": "dp-mobile-container"
+    }
+  },
+  "list-context.image-list#home-slider": {
+    "title": "Carrossel Principal - HOME",
+    "children": ["slider-layout#home-slider"],
+    "props": {
+      "images": [
+        // {
+        //   "image": "/arquivos/Banners-Site-Brinquedos_1920x580.jpg",
+        //   "mobileImage": "/arquivos/Banners-Site-Brinquedos_640x640.jpg",
+        //   "link": {
+        //     "url": "/ofertas-vou-de-cybelar"
+        //   }
+        // }
+        // {
+        //   "image": "/arquivos/Banner-Site-Home-Office-desk-1920x580px.jpg",
+        //   "mobileImage": "/arquivos/Banner-Site-Home-Office-mobile640x640px-.jpg",
+        //   "link": {
+        //     "url": "/home-moveis-para-sua-sala"
+        //   }
+        // },
+        // {
+        //   "image": "/arquivos/Banner-Site-Eletrodomésticos-desk-1920x580px.jpg",
+        //   "mobileImage": "/arquivos/Banner-Site-Eletrodomésticos-mobile-640x640px.jpg",
+        //   "link": {
+        //     "url": "/renove-a-cozinha"
+        //   }
+        // },
+        // {
+        //   "image": "/arquivos/Banner-Site-banner-site-desk-1920x580px.jpg",
+        //   "mobileImage": "/arquivos/Banner-Site-banner-mobile-640x640px-.jpg",
+        //   "link": {
+        //     "url": "#"
+        //   }
+        // }
+      ]
+    }
+  },
+
+  "flex-layout.row#banner-nossas-lojas": {
+    "props": {
+      "blockClass": "banner-nossas-lojas"
+    },
+    "children": [
+      "info-card#nossasLojasBanner"
+    ],
+    "title": "Banner Nossas Lojas Full"
+  },
+
+  "rich-text#nossasLojasTitle": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## Visite Nossas Lojas",
+      "textColor": "c-on-emphasis",
+      "blockClass": "row-texto-nossas-lojas"
+    },
+    "title": "Nossas Lojas - Title"
+  },
+  "rich-text#nossasLojasTexto": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## Visite Nossas Lojas",
+      "textColor": "c-on-emphasis",
+      "blockClass": "row-texto-nossas-lojas"
+    },
+    "title": "Nossas Lojas - Texto"
+  },
+  "rich-text#nossasLojasLink": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## Visite Nossas Lojas",
+      "textColor": "c-on-emphasis",
+      "blockClass": "row-texto-nossas-lojas"
+    },
+    "title": "Nossas Lojas - Link"
+  },
+  "info-card#nossasLojasBanner": {
+    "props": {
+      "id": "nossasLojasBanner",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://via.placeholder.com/1200x218",
+      "headline": "## Visite Nossas Lojas",
+      "callToActionText": "Pesquisar",
+      "callToActionUrl": "/nossas-lojas",
+      "blockClass": "nossasLojasBanner",
+      "textAlignment": "center"
+    },
+    "title": "Nossas Lojas - Banner"
+  },
+
+
+  "slider-layout#home-slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 10000,
+        "stopOnHover": true
+      },
+      "blockClass": "homeCarousel"
+    }
+  },
+  "flex-layout.row#brand-slider-container": {
+    "props": {
+      "blockClass": "brand-slider-container"
+    },
+    "children": ["flex-layout.col#brand-slider-col"],
+    "title": "Slider de Marcas - Container"
+  },
+
+  "flex-layout.col#brand-slider-col": {
+    "children": [
+      "flex-layout.row#brand-slider-row",
+      "flex-layout.row#brand-slider"
+    ]
+  },
+  "flex-layout.row#brand-slider-row": {
+    "props": {
+      "blockClass": "brand-slider-title-row"
+    },
+    "children": [
+      "rich-text#brandRowTitle"
+      // "rich-text#brandRowLink"
+    ],
+    "title": "Slider de Marcas - Row"
+  },
+  "flex-layout.row#brand-slider": {
+    "props": {
+      "blockClass": "brand-slider-row"
+    },
+    "children": ["slider-layout#brandsNavigator"],
+    "title": "Slider de Marcas - Row"
+  },
+  "slider-layout#brandsNavigator": {
+    "children": [
+      "image#moveis",
+      "image#eletrodomesticos",
+      "image#eletroportateis",
+      "image#telefonia",
+      "image#utensilios-domesticos"
+    ],
+    "props": {
+      "blockClass": "brand-slider",
+      "showNavigationArrows": "desktopOnly"
+    },
+    "title": "Slider de Marcas - Slider"
+  },
+  "image#moveis": {
+    "props": {
+      "src": "assets/categorias/moveis.webp",
+      "link": {
+        "url": "/menu-moveis"
+      }
+    }
+  },
+  "image#eletrodomesticos": {
+    "props": {
+      "src": "assets/categorias/eletrodomesticos.webp",
+      "link": {
+        "url": "/menu-eletrodomesticos"
+      }
+    }
+  },
+  "image#eletroportateis": {
+    "props": {
+      "src": "assets/categorias/eletroportateis.webp",
+      "link": {
+        "url": "/menu-eletroportateis"
+      }
+    }
+  },
+  "image#telefonia": {
+    "props": {
+      "src": "assets/categorias/telefonia.webp",
+      "link": {
+        "url": "/smartphones-e-celulares"
+      }
+    }
+  },
+  "image#utensilios-domesticos": {
+    "props": {
+      "src": "assets/categorias/utensilios-domesticos.webp",
+      "link": {
+        "url": "/utensilios-domesticos"
+      }
+    }
+  },
+  "rich-text#brandRowTitle": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "## Compre por Marca",
+      "textColor": "c-on-emphasis",
+      "blockClass": "row-title"
+    },
+    "title": "Slider de Marcas - Title"
+  },
+  "image#ofertas-icon": {
+    "props": {
+      "src": "assets/categorias/ofertas-icon.svg",
+      "link": {
+        "url": "/ofertas"
+      }
+    }
+  },
+  "rich-text#ofertas-icon": {
+    "props": {
+      "text": "#### Ofertas"
+    }
+  },
+  "image#colchoes": {
+    "props": {
+      "src": "assets/home/Colcho.svg",
+      "link": {
+        "url": "/colchoes"
+      }
+    }
+  },
+  "rich-text#colchoes": {
+    "props": {
+      "text": "#### Colchões"
+    }
+  },
+  "image#fogoes": {
+    "props": {
+      "src": "assets/home/Fogo.svg",
+      "link": {
+        "url": "/Eletrodomesticos/Fogao/Fogao-de-piso"
+      }
+    }
+  },
+  "rich-text#fogoes": {
+    "props": {
+      "text": "#### Eletrodomésticos"
+    }
+  },
+  "image#guarda-roupas": {
+    "props": {
+      "src": "assets/home/Guarda.svg",
+      "link": {
+        "url": "/guarda-roupas"
+      }
+    }
+  },
+  "rich-text#guarda-roupas": {
+    "props": {
+      "text": "#### Guarda-roupas"
+    }
+  },
+  "image#liquidificador": {
+    "props": {
+      "src": "assets/home/Liquid.svg",
+      "link": {
+        "url": "/liquidificador-e-mixer"
+      }
+    }
+  },
+  "rich-text#liquidificador": {
+    "props": {
+      "text": "#### Eletroportáteis"
+    }
+  },
+  "image#panelas": {
+    "props": {
+      "src": "assets/home/Panelas.svg",
+      "link": {
+        "url": "/eletroportateis/panelas-eletricas"
+      }
+    }
+  },
+  "rich-text#panelas": {
+    "props": {
+      "text": "#### Utilidades"
+    }
+  },
+  "image#sofas": {
+    "props": {
+      "src": "assets/home/Sofa.svg",
+      "link": {
+        "url": "/moveis/moveis-para-sala-de-estar/sofa"
+      }
+    }
+  },
+  "rich-text#sofas": {
+    "props": {
+      "text": "#### Estofados"
+    }
+  },
+  "image#tanquinhos": {
+    "props": {
+      "src": "assets/home/Tanqui.svg",
+      "link": {
+        "url": "/maquina-e-tanquinho"
+      }
+    }
+  },
+  "rich-text#tanquinhos": {
+    "props": {
+      "text": "#### Lavadoras"
+    }
+  },
+  "image#televisores": {
+    "props": {
+      "src": "assets/home/Telev.svg",
+      "link": {
+        "url": "/tv-e-video/tvs"
+      }
+    }
+  },
+  "rich-text#televisores": {
+    "props": {
+      "text": "#### Televisores"
+    }
+  },
+  "rich-text#Title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Categorias",
+      "textColor": "c-on-emphasis",
+      "blockClass": "category-title"
+    },
+    "title": "Department Navigator Title"
+  },
+  "flex-layout.row#precisa-conferir-shelf": {
+    "children": [
+      // "list-context.image-list#ofertas-home",
+      // "list-context.product-list#precisa-conferir-half"
+    ],
+    "props": {
+      "blockClass": "precisa-conferir-container"
+    },
+    "title": "SHELF - Ofertas que você precisa conferir"
+  },
+  "flex-layout.row#precisa-conferir-lower": {
+    "children": ["rich-text#precisa-conferir", "rich-text#ver-todos"],
+    "props": {
+      "blockClass": ["precisa-conferir-container-text", "precisa-conferir-container-text-top"]
+    },
+    "title": "desativada"
+  },
+  "flex-layout.row#precisa-conferir-shelf-lower": {
+    "children": [
+      "list-context.image-list#ofertas-home",
+      "list-context.product-list#precisa-conferir-half-second"
+    ],
+    "props": {
+      "blockClass": "precisa-conferir-container"
+    },
+    "title": "Vitrine 10 com banner"
+  },
+  "rich-text#precisa-conferir": {
+    "props": {
+      "text": "### Ofertas que você precisa conferir",
+      "blockClass": "title-vitrine-precisa-conferir"
+    },
+    "title": "Titulo - Ofertas que você precisa conferir"
+  },
+  "rich-text#ver-todos": {
+    "props": {
+      "text": "[Ver todos](/)",
+      "blockClass": "day-offer-see-all"
+    },
+    "title": "ver todos - ofertas que você precisa conferir"
+  },
+  "list-context.image-list#ofertas-home": {
+    "title": "Ofertas - HOME",
+    "children": ["slider-layout#ofertas-home"],
+    "props": {
+      "height": 480,
+      "images": []
+    }
+  },
+  "slider-layout#ofertas-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showPaginationDots": "mobileOnly",
+      "blockClass": "ofertaCarousel"
+    }
+  },
+  "list-context.product-list#precisa-conferir-half": {
+    "blocks": ["product-summary.shelf#precisa-conferir"],
+    "children": ["slider-layout#precisa-conferir-half"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true,
+      "preferredSKU": "FIRST_AVAILABLE",
+      "collection": "381"
+    }
+  },
+  "list-context.product-list#precisa-conferir-half-second": {
+    "blocks": ["product-summary.shelf#precisa-conferir"],
+    "children": ["slider-layout#precisa-conferir-half-second"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true,
+      "preferredSKU": "FIRST_AVAILABLE",
+      "collection": "381"
+    }
+  },
+  "slider-layout#precisa-conferir-half": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 3,
+        "phone": 1
+      },
+      "blockClass": ["shelf-home", "shelf-home-half"],
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "desktopOnly",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "to-the-left",
+        "phone": "to-the-left"
+      }
+    }
+  },
+  "slider-layout#precisa-conferir-half-second": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 3,
+        "phone": 1
+      },
+      "blockClass": ["shelf-home", "shelf-home-half", "shelf-home-half-second"],
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "desktopOnly",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "to-the-left",
+        "phone": "to-the-left"
+      }
+    }
+  },
+  "product-summary-sku-selector#color": {
+    "props": {
+      "visibility": "more-than-one",
+      "initialSelection": "empty",
+      "visibleVariations": ["Cor"],
+      "displayMode": "slider",
+      "sliderItemsPerPage": {
+        "desktop": 3,
+        "phone": 3
+      },
+      "imageHeight": 35,
+      "imageWidth": 35
+    }
+  },
+  "product-summary.shelf#precisa-conferir": {
+    "children": [
+      "stack-layout#prodsum",
+      "vtex.product-highlights@2.x:product-highlights#name-category-area",
+      "n1-name-category-shelf",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-unavailable"
+    ],
+    "props": {
+      "blockClass": ["shelf-precisa-conferir-summary", "shelf-home-summary"]
+    }
+  },
+  "flex-layout.row#mais-procurados": {
+    "children": ["rich-text#mais-procurados", "rich-text#ver-todos"],
+    "props": {
+      "blockClass": ["mais-procurados-container", "mais-procurados-container-top"]
+    },
+    "title": "Vitrine 2 - Titulo"
+  },
+  "flex-layout.row#mais-procurados-lower": {
+    "children": ["rich-text#mais-procurados", "rich-text#ver-todos"],
+    "props": {
+      "blockClass": ["mais-procurados-container", "mais-procurados-container-text"]
+    },
+    "title": "Vitrine 5 - Titulo"
+  },
+  "flex-layout.row#produtos-precisa-conferir": {
+    "children": ["rich-text#produtos-precisa-conferir", "rich-text#ver-todos"],
+    "props": {
+      "blockClass": ["produtos-precisa-conferir-container", "produtos-precisa-conferir-container-text"]
+    },
+    "title": "Vitrine 1 - Titulo"
+  },
+  "flex-layout.row#produtos-precisa-conferir-shelf": {
+    "children": ["list-context.product-list#produtos-precisa-conferir"],
+    "props": {
+      "blockClass": "produtos-precisa-conferir-container"
+    },
+    "title": "Vitrine 1 - Lista de produtos"
+  },
+  "list-context.product-list#produtos-precisa-conferir": {
+    "blocks": ["product-summary.shelf#produtos-precisa-conferir"],
+    "children": ["slider-layout#produtos-precisa-conferir"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true,
+      "preferredSKU": "FIRST_AVAILABLE",
+      "collection": "186"
+    }
+  },
+  "slider-layout#produtos-precisa-conferir": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "blockClass": ["shelf-home-1", "shelf-home-whole", "shelf-home-first"],
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "desktopOnly",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "to-the-left",
+        "phone": "to-the-left"
+      }
+    }
+  },
+  "flex-layout.row#produtos-precisa-conferir-lower": {
+    "children": ["rich-text#produtos-precisa-conferir", "rich-text#ver-todos"],
+    "props": {
+      "blockClass": ["produtos-precisa-conferir-container", "produtos-precisa-conferir-container-text"]
+    },
+    "title": "Vitrine 3 - Titulo"
+  },
+  "flex-layout.row#produtos-precisa-conferir-shelf-lower": {
+    "children": ["list-context.product-list#produtos-precisa-conferir-lower"],
+    "props": {
+      "blockClass": "produtos-precisa-conferir-container"
+    },
+    "title": "Vitrine 3 - Lista de produtos"
+  },
+  "flex-layout.row#produtos-precisa-conferir-lower-1": {
+    "children": ["rich-text#produtos-precisa-conferir", "rich-text#ver-todos"],
+    "props": {
+      "blockClass": ["produtos-precisa-conferir-container", "produtos-precisa-conferir-container-text"]
+    },
+    "title": "Vitrine 4 - Titulo"
+  },
+  "flex-layout.row#produtos-precisa-conferir-shelf-lower-1": {
+    "children": ["list-context.product-list#produtos-precisa-conferir-lower"],
+    "props": {
+      "blockClass": "produtos-precisa-conferir-container"
+    },
+    "title": "Vitrine 4 - Lista de produtos"
+  },
+  "list-context.product-list#produtos-precisa-conferir-lower": {
+    "blocks": ["product-summary.shelf#mais-procurados"],
+    "children": ["slider-layout#produtos-precisa-conferir-lower"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true,
+      "preferredSKU": "FIRST_AVAILABLE",
+      "collection": "382"
+    }
+  },
+  "slider-layout#produtos-precisa-conferir-lower": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "blockClass": ["shelf-home", "shelf-home-whole", "shelf-home-second"],
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "desktopOnly",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "to-the-left",
+        "phone": "to-the-left"
+      }
+    }
+  },
+  "flex-layout.row#mais-procurados-shelf": {
+    "children": ["list-context.product-list#mais-procurados"],
+    "props": {
+      "blockClass": "mais-procurados-container"
+    },
+    "title": "Vitrine 2 - Lista de Produtos"
+  },
+  "list-context.product-list#mais-procurados": {
+    "blocks": ["product-summary.shelf#mais-procurados"],
+    "children": ["slider-layout#mais-procurados"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true,
+      "preferredSKU": "FIRST_AVAILABLE",
+      "collection": "315"
+    }
+  },
+  "slider-layout#mais-procurados": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "blockClass": ["shelf-home", "shelf-home-whole", "shelf-home-third"],
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "desktopOnly",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "to-the-left",
+        "phone": "to-the-left"
+      }
+    }
+  },
+  "flex-layout.row#mais-procurados-shelf-lower": {
+    "children": ["list-context.product-list#mais-procurados-lower"],
+    "props": {
+      "blockClass": ["mais-procurados-container", "mais-procurados-container-top2"]
+    },
+    "title": "Vitrine 5 - Lista de produtos"
+  },
+  "list-context.product-list#mais-procurados-lower": {
+    "blocks": ["product-summary.shelf#mais-procurados"],
+    "children": ["slider-layout#mais-procurados-lower"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true,
+      "preferredSKU": "FIRST_AVAILABLE",
+      "collection": "383"
+    }
+  },
+  "slider-layout#mais-procurados-lower": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "blockClass": ["shelf-home", "shelf-home-whole", "shelf-home-fourth"],
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "desktopOnly",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "to-the-left",
+        "phone": "to-the-left"
+      }
+    }
+  },
+  "rich-text#mais-procurados": {
+    "props": {
+      "text": "### Os mais procurados",
+      "blockClass": "title-vitrine-mais-procurados"
+    },
+    "title": "Titulo - Os mais procurados"
+  },
+  "product-summary.shelf#mais-procurados": {
+    "children": [
+      "stack-layout#prodsum",
+      "vtex.product-highlights@2.x:product-highlights#name-category-area",
+      "n1-name-category-shelf",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-unavailable"
+    ],
+    "props": {
+      "blockClass": ["shelf-os-mais-procurados-summary", "shelf-home-summary"]
+    }
+  },
+  "product-unavailable": {
+    "blocks": ["product-summary-price"]
+  },
+  "rich-text#produtos-precisa-conferir": {
+    "props": {
+      "text": "### Produtos que você precisa conferir",
+      "blockClass": "title-vitrine-mais-procurados"
+    },
+    "title": "Titulo - Os mais procurados"
+  },
+  "product-summary.shelf#produtos-precisa-conferir": {
+    "children": [
+      "stack-layout#prodsum",
+      "vtex.product-highlights@2.x:product-highlights#name-category-area",
+      "n1-name-category-shelf",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-unavailable"
+    ],
+    "props": {
+      "blockClass": ["shelf-produtos-precisa-conferir-summary", "shelf-home-summary"]
+    }
+  },
+  "list-context.image-list#banner-duplo": {
+    "children": ["slider-layout#banner-duplo-images"],
+    "props": {
+      "height": 650,
+      "preload": true,
+      "images": [
+        // {
+        //   "image": "https://cybelar.vteximg.com.br/arquivos/banner-duplo-1.png",
+        //   "description": "something something"
+        // },
+        // {
+        //   "image": "https://cybelar.vteximg.com.br/arquivos/banner-duplo-1.png",
+        //   "description": "something something"
+        // },
+        // {
+        //   "image": "https://cybelar.vteximg.com.br/arquivos/banner-duplo-1.png",
+        //   "description": "something something"
+        // }
+       
+      ]
+    },
+    "title": "Banner Duplo"
+  },
+  "slider-layout#banner-duplo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "banner-duplo-images"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#name-category-area": {
+    "props": {
+      "type": "collection"
+    },
+    "children": [
+      "product-highlight-text#name-category"
+    ]
+  },
+  "product-highlight-text#name-category": {
+    "props": {
+      "message": "{highlightName}?"
+    }
+  }
+}

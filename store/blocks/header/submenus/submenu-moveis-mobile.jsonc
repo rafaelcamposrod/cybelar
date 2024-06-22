@@ -1,0 +1,260 @@
+{
+  // QUARTO
+  "disclosure-layout#submenu-moveis-quarto": {
+    "children": [
+      "disclosure-trigger#submenu-moveis-quarto",
+      "disclosure-content#submenu-moveis-quarto"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-moveis-quarto": {
+    "children": [
+      "rich-text#submenu-moveis-quarto",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-moveis-quarto": {
+    "props": {
+      "text": "Quarto",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-moveis-quarto": {
+    "children": [
+      "rich-text#subcategoria-beliche",
+      "rich-text#subcategoria-berco",
+      "rich-text#subcategoria-bicama",
+      "rich-text#subcategoria-moveis-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-beliche": {
+    "props": {
+      "text": "[Beliche](/beliche)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-berco": {
+    "props": {
+      "text": "[Berço](/berco)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-bicama": {
+    "props": {
+      "text": "[Bicama](/bicama)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // SALA DE JANTAR
+  "disclosure-layout#submenu-moveis-sala-de-jantar": {
+    "children": [
+      "disclosure-trigger#submenu-moveis-sala-de-jantar",
+      "disclosure-content#submenu-moveis-sala-de-jantar"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-moveis-sala-de-jantar": {
+    "children": [
+      "rich-text#submenu-moveis-sala-de-jantar",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-moveis-sala-de-jantar": {
+    "props": {
+      "text": "Sala de Jantar",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-moveis-sala-de-jantar": {
+    "children": [
+      "rich-text#subcategoria-buffet-e-aparador",
+      "rich-text#subcategoria-mesa",
+      "rich-text#subcategoria-cadeira",
+      "rich-text#subcategoria-moveis-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-buffet-e-aparador": {
+    "props": {
+      "text": "[Buffet e Aparador](/buffet-e-aparador)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-mesa": {
+    "props": {
+      "text": "[Mesa](/mesa)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-cadeira": {
+    "props": {
+      "text": "[Cadeira](/cadeira)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // SALA DE ESTAR
+  "disclosure-layout#submenu-moveis-sala-de-estar": {
+    "children": [
+      "disclosure-trigger#submenu-moveis-sala-de-estar",
+      "disclosure-content#submenu-moveis-sala-de-estar"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-moveis-sala-de-estar": {
+    "children": [
+      "rich-text#submenu-moveis-sala-de-estar",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-moveis-sala-de-estar": {
+    "props": {
+      "text": "Sala de Estar",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-moveis-sala-de-estar": {
+    "children": [
+      "rich-text#subcategoria-poltrona",
+      "rich-text#subcategoria-mesa",
+      "rich-text#subcategoria-estante",
+      "rich-text#subcategoria-moveis-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-poltrona": {
+    "props": {
+      "text": "[Poltrona](/poltrona)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-estante": {
+    "props": {
+      "text": "[Estante](/estante)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // COZINHA
+  "disclosure-layout#submenu-moveis-cozinha": {
+    "children": [
+      "disclosure-trigger#submenu-moveis-cozinha",
+      "disclosure-content#submenu-moveis-cozinha"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-moveis-cozinha": {
+    "children": [
+      "rich-text#submenu-moveis-cozinha",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-moveis-cozinha": {
+    "props": {
+      "text": "Cozinha",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-moveis-cozinha": {
+    "children": [
+      "rich-text#subcategoria-armario",
+      "rich-text#subcategoria-paneleiro",
+      "rich-text#subcategoria-compacta",
+      "rich-text#subcategoria-moveis-ver-tudo"
+
+      // "rich-text#subcategoria-completa",
+      // "rich-text#subcategoria-modulada"
+    ]
+  },
+  "rich-text#subcategoria-armario": {
+    "props": {
+      "text": "[Armário](/armario)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-paneleiro": {
+    "props": {
+      "text": "[Paneleiro](/paneleiro)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-compacta": {
+    "props": {
+      "text": "[Compacta](/compacta)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // ESCRITÓRIO
+  "disclosure-layout#submenu-moveis-escritorio": {
+    "children": [
+      "disclosure-trigger#submenu-moveis-escritorio",
+      "disclosure-content#submenu-moveis-escritorio"
+    ],
+    "props": {
+      "blockClass": "container-layout"
+    }
+  },
+  "disclosure-trigger#submenu-moveis-escritorio": {
+    "children": [
+      "rich-text#submenu-moveis-escritorio",
+      "disclosure-state-indicator#mobile"
+    ],
+    "props": {
+      "blockClass": "container-trigger"
+    }
+  },
+  "rich-text#submenu-moveis-escritorio": {
+    "props": {
+      "text": "Escritório",
+      "blockClass": "container-rich-text"
+    }
+  },
+  "disclosure-content#submenu-moveis-escritorio": {
+    "children": [
+      "rich-text#subcategoria-gaveteiro",
+      "rich-text#subcategoria-escrivaninha",
+      "rich-text#subcategoria-cadeira",
+      "rich-text#subcategoria-moveis-ver-tudo"
+    ]
+  },
+  "rich-text#subcategoria-gaveteiro": {
+    "props": {
+      "text": "[Gaveteiro](/gaveteiro)",
+      "blockClass": "subcategory-text"
+    }
+  },
+  "rich-text#subcategoria-escrivaninha": {
+    "props": {
+      "text": "[Escrivaninha](/escrivaninha)",
+      "blockClass": "subcategory-text"
+    }
+  },
+
+  // VER TUDO
+  "rich-text#subcategoria-moveis-ver-tudo": {
+    "props": {
+      "text": "[+ ver tudo](#)",
+      "blockClass": "subcategory-text-ver-tudo"
+    }
+  }
+}

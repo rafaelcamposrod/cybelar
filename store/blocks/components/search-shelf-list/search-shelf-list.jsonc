@@ -1,0 +1,31 @@
+{
+    "product-summary.shelf#search-shelf-list": {
+        "props": {
+            "blockClass": [
+                "search-shelf-list"
+            ]
+        },
+        "children": [
+            "product-summary-image#search-shelf-list",
+            "product-summary-name#search-shelf-list"
+        ]
+    },
+    "product-summary-image#search-shelf-list": {
+        "props": {
+            "showBadge": false,
+            "height": 70,
+            "width": 70,
+            "aspectRatio": "1:1",
+            "blockClass": [
+                "search-shelf-list"
+            ]
+        }
+    },
+    "product-summary-name#search-shelf-list": {
+        "props": {
+            "blockClass": [
+                "search-shelf-list"
+            ]
+        }
+    }
+}

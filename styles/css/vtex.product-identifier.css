@@ -1,0 +1,27 @@
+.product-identifier--productReference {
+  border-bottom: 1px solid #dadada;
+  color: #383838;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  padding: 0 0 10px;
+}
+@media (max-width: 1025px){
+  .product-identifier--productReference {
+    border: none;
+    color: #878787;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    padding: 0 0 10px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .product-identifier--productReference {
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #9B9B9E;
+  }
+}
