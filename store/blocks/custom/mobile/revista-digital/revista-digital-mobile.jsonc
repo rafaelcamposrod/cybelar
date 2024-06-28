@@ -1,0 +1,13 @@
+{
+  "responsive-layout.phone": {
+    "children": [
+      "rich-text#revista-digital-phone"
+    ]
+  },
+  "rich-text#revista-digital-phone": {
+    "props": {
+      "blockClass": "wrapper-revista",
+      "text": "Cole a revista aqui - mobile"
+    }
+  }
+}

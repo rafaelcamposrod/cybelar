@@ -1,4 +1,7 @@
 {
+  "store.custom#revista-digital": {
+    "path": "/revista-digital"
+  },
   "store.custom#institutional-about-us": {
     "path": "/quem-somos"
   },

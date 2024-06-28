@@ -1,0 +1,9 @@
+{
+  "store.custom#revista-digital": {
+    "children": [
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"
+    ]
+  }
+}

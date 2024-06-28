@@ -1,48 +1,84 @@
 {
     "flex-layout.row#top-info-barv2": {
-        "title": "Barra de informações - Container",
-        "props": {
-            "fullWidth": true,
-            "preserveLayoutOnMobile": true,
-            "blockClass": [
-                "top-info-bar"
-            ]
+      "title": "Barra de informações - Container",
+      "props": {
+        "fullWidth": true,
+        "preserveLayoutOnMobile": true,
+        "blockClass": ["top-info-bar"]
+      },
+      "children": [
+        "slider-layout#top-info-bar-slider",
+        "link#top-info-bar-atendimento",
+        "link#top-info-bar-nossas-lojas"
+      ]
+    },
+    "slider-layout#top-info-bar-slider": {
+      "title": "Barra de informações - Slider",
+      "props": { 
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1          
         },
-        "children": [
-            "rich-text#top-info-bar-text",
-            "link#top-info-bar-atendimento",
-            "link#top-info-bar-nossas-lojas"
-        ]
+
+        "autoplay": {
+            "timeout": 3000
+          },
+        "infinite": true,
+        "showPaginationDots": "never",
+        "arrowSize": 14,
+        "showNavigationArrows": "always",
+    
+        "blockClass": ["top-info-bar-slider"]
+      },
+      "children": [
+        "rich-text#top-info-bar-text",
+        "rich-text#top-info-bar-text-2",
+        "rich-text#top-info-bar-text-3"
+      ]
     },
     "rich-text#top-info-bar-text": {
-        "title": "Barra de informações - Texto",
-        "props": {
-            "text": "[![icon](assets/icon-info-bar-truck.svg) FRETE GRÁTIS EM PRODUTOS ACIMA DE R$ 199,00 *CONFIRA AS REGRAS](https://www.cybelar.com.br/envio-e-entrega/?target=_blank)",
-            "blockClass": [
-                "top-info-bar"
-            ]
-        }
+      "title": "Barra de informações - Texto 1",
+      "props": {
+        "text": "[![icon](assets/icon-info-bar-truck.svg) FRETE GRÁTIS EM PRODUTOS ACIMA DE R$ 199,00 *CONFIRA AS REGRAS](https://www.cybelar.com.br/envio-e-entrega/?target=_blank)",
+        "blockClass": ["top-info-bar"]
+      }
+    },
+    "rich-text#top-info-bar-text-2": {
+      "title": "Barra de informações - Texto 2",
+      "props": {
+        "text": "[![icon](assets/icon-info-bar-truck.svg) Parcele em até 10x](https://www.cybelar.com.br/envio-e-entrega/?target=_blank)",
+        "blockClass": ["top-info-bar"]
+      }
+    },
+    "rich-text#top-info-bar-text-3": {
+      "title": "Barra de informações - Texto 3",
+      "props": {
+        "text": "[![icon](assets/icon-info-bar-truck.svg) 60 lojas](https://www.cybelar.com.br/envio-e-entrega/?target=_blank)",
+        "blockClass": ["top-info-bar"]
+      }
     },
     "link#top-info-bar-atendimento": {
-        "title": "Barra de informações - Atendimento",
-        "props": {
-            "label": "atendimento",
-            "href": "https://api.whatsapp.com/send?phone=551532829292&text=Oi%2C%20gostaria%20de%20falar%20com%20atendimento",
-            "blockClass": [
-                "top-info-bar-link",
-                "top-info-bar-link-atendimento"
-            ]
-        }
+      "title": "Barra de informações - Atendimento",
+      "props": {
+        "label": "atendimento",
+        "href": "https://api.whatsapp.com/send?phone=551532829292&text=Oi%2C%20gostaria%20de%20falar%20com%20atendimento",
+        "blockClass": [
+          "top-info-bar-link",
+          "top-info-bar-link-atendimento"
+        ]
+      }
     },
     "link#top-info-bar-nossas-lojas": {
-        "title": "Barra de informações - Nossas lojas",
-        "props": {
-            "label": "nossas lojas",
-            "href": "/nossas-lojas",
-            "blockClass": [
-                "top-info-bar-link",
-                "top-info-bar-link-nossas-lojas"
-            ]
-        }
+      "title": "Barra de informações - Nossas lojas",
+      "props": {
+        "label": "nossas lojas",
+        "href": "/nossas-lojas",
+        "blockClass": [
+          "top-info-bar-link",
+          "top-info-bar-link-nossas-lojas"
+        ]
+      }
     }
-}
+  }
+  

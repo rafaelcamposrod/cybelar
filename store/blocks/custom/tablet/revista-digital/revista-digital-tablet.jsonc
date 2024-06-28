@@ -1,0 +1,13 @@
+{
+  "responsive-layout.tablet": {
+    "children": [
+      "rich-text#revista-digital-tablet"
+    ]
+  },
+  "rich-text#revista-digital-tablet": {
+    "props": {
+      "blockClass": "wrapper-revista",
+      "text": "Cole a revista aqui - tablet"
+    }
+  }
+}
