@@ -286,9 +286,12 @@
   max-width: 240px !important;
 } */
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> origin/main
 @media (max-width: 768px) {
   .containerNormal--shelf-home-summary {
     width: 220px !important;

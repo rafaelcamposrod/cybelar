@@ -21,10 +21,18 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto';
+<<<<<<< HEAD
     letter-spacing: .02rem;
     font-weight: 600;
     font-size: 14px;
     line-height: 130%;
+=======
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    text-transform: uppercase;
+>>>>>>> origin/main
     color: #E2211D;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -39,8 +47,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     text-decoration: none;
 
+=======
+>>>>>>> origin/main
 }
 
 .image--top-info-bar {
