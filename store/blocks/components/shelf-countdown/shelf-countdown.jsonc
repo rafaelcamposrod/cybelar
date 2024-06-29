@@ -15,7 +15,7 @@
     "rich-text#countdown": {
         "props": {
             "text": "### Ofertas do dia",
-            "blockClass": "title-vitrine-countdown"
+            "blockClass": "title-vitrine-mais-procurados"
         },
         "title": "Titulo - Oferta do dia"
     },
