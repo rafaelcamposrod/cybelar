@@ -1,10 +1,7 @@
 {
-<<<<<<< HEAD
   "store.custom#revista-digital": {
     "path": "/revista-digital"
   },
-=======
->>>>>>> origin/main
   "store.custom#institutional-about-us": {
     "path": "/quem-somos"
   },
