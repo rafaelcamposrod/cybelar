@@ -37,16 +37,7 @@ csstype@^3.0.2:
 
 "cybelar.cybelar-theme@http://cybelar.vtexassets.com/_v/public/typings/v1/cybelar.cybelar-theme@1.21.17/public/@types/cybelar.cybelar-theme":
   version "1.21.17"
-  resolved "http://cybelar.vtexassets.com/_v/public/typings/v1/cybelar.cybelar-theme@1.21.17/public/@types/cybelar.cybelar-theme#21107e8de0d33eee27c33624408f58eb4d6a1c93"
-
-<<<<<<< HEAD
-=======
-"cybelar.store-theme@https://devbob--cybelar.myvtex.com/_v/private/typings/linked/v1/cybelar.store-theme@3.0.18+build1698352395/public/@types/cybelar.store-theme":
-  version "3.0.18"
-  resolved "https://devbob--cybelar.myvtex.com/_v/private/typings/linked/v1/cybelar.store-theme@3.0.18+build1698352395/public/@types/cybelar.store-theme#b4590036d3c25cfefaca7c9d83700da848bda6b8"
-
->>>>>>> origin/main
-"js-tokens@^3.0.0 || ^4.0.0":
+  resolved "http://cybelar.vtexassets.com/_v/public/typings/v1/cybelar.cybelar-theme@1.21.17/public/@types/cybelar.cybelar-theme#21107e8de0d33eee27c33624408f58eb4d6a1c93""js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
