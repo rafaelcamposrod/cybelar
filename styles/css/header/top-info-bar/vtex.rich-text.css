@@ -39,7 +39,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    text-decoration: none
+    text-decoration: none!important
 }
 .image--top-info-bar {
     width: 22px;
