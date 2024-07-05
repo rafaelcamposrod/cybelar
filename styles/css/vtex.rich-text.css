@@ -2729,13 +2729,8 @@ display: flex !important;
     line-height: 1.5;
   }
 
-  .link--footer-links {
-    /* font-weight: 400 !important; */
-  }
 }
 .paragraph--title-fale-conosco {
-
-
   font-family: 'Roboto';
   font-style: normal;
   margin-bottom: 15px;
@@ -2759,4 +2754,6 @@ display: flex !important;
   border-bottom: 2px solid #e9e7e7;
   width: 97%;
 }
+
+
 

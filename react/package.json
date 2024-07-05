@@ -12,7 +12,6 @@
     "@types/react": "^18.0.27",
     "cybelar.buybox": "http://cybelar.vtexassets.com/_v/public/typings/v1/cybelar.buybox@0.6.3/public/@types/cybelar.buybox",
     "cybelar.cybelar-theme": "http://cybelar.vtexassets.com/_v/public/typings/v1/cybelar.cybelar-theme@1.21.17/public/@types/cybelar.cybelar-theme",
-    "cybelar.store-theme": "https://devbob--cybelar.myvtex.com/_v/private/typings/linked/v1/cybelar.store-theme@3.0.18+build1698352395/public/@types/cybelar.store-theme",
     "vtex.add-to-cart-button": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.add-to-cart-button@0.30.2/public/@types/vtex.add-to-cart-button",
     "vtex.breadcrumb": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.breadcrumb@1.9.4/public/@types/vtex.breadcrumb",
     "vtex.carousel": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.carousel@2.12.1/public/@types/vtex.carousel",

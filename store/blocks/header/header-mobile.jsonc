@@ -3,7 +3,7 @@
     "title": "Header - Mobile",
     "children": [
       "helmet-component",
-      "rich-text#top-info-bar-text",
+      "flex-layout.row#top-info-barv-mobile",
       "sticky-layout#header-mobile-sticky",
       "span-cancel-order",
       "chat-whatsapp"
