@@ -2944,7 +2944,7 @@
 }
 
 .flexColChild--dp-mobile-container:hover:first-child :global(.vtex-store-components-3-x-imageElement) {
-  transform: scale(1.1);
+ 
   transition: all 0.5s ease-in-out;
 }
 

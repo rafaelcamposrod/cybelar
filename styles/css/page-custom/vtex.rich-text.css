@@ -2,11 +2,5 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  background: red;
-}
-
-.paragraph--wrapper-revista {
-  background: rebeccapurple;
-  text-align: center;
-  width: 50px;
+  padding: 30px 0;
 }

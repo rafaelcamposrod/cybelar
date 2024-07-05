@@ -661,9 +661,9 @@
   color: #434343;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2rem;
 }
 :global(.vtex-product-context-provider) {
   background-color: #fff;
@@ -780,6 +780,7 @@
   color: #555555;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
+  line-height: 1.2rem;
 }
 
 .specificationItemSpecifications {
